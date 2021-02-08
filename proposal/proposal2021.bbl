@@ -1,0 +1,43 @@
+\begin{thebibliography}{1}
+
+\bibitem{noauthor_eclemma_nodate}
+{EclEmma} - {JaCoCo} {Java} {Code} {Coverage} {Library}.
+
+\bibitem{antinyan2018mythical}
+Vard Antinyan, Jesper Derehag, Anna Sandberg, and Miroslaw Staron.
+\newblock Mythical unit test coverage.
+\newblock {\em IEEE Software}, 35(3):73--79, 2018.
+
+\bibitem{chen2019sequencer}
+Zimin Chen, Steve~James Kommrusch, Michele Tufano, Louis-No{\"e}l Pouchet,
+  Denys Poshyvanyk, and Martin Monperrus.
+\newblock Sequencer: Sequence-to-sequence learning for end-to-end program
+  repair.
+\newblock {\em IEEE Transactions on Software Engineering}, 2019.
+
+\bibitem{Gousi13}
+Georgios Gousios.
+\newblock The ghtorrent dataset and tool suite.
+\newblock In {\em Proceedings of the 10th Working Conference on Mining Software
+  Repositories}, MSR '13, pages 233--236, Piscataway, NJ, USA, 2013. IEEE
+  Press.
+
+\bibitem{gren2017relation}
+Lucas Gren and Vard Antinyan.
+\newblock On the relation between unit testing and code quality.
+\newblock In {\em 2017 43rd Euromicro Conference on Software Engineering and
+  Advanced Applications (SEAA)}, pages 52--56. IEEE, 2017.
+
+\bibitem{inozemtseva2014coverage}
+Laura Inozemtseva and Reid Holmes.
+\newblock Coverage is not strongly correlated with test suite effectiveness.
+\newblock In {\em Proceedings of the 36th international conference on software
+  engineering}, pages 435--445, 2014.
+
+\bibitem{karampatsis2020often}
+Rafael-Michael Karampatsis and Charles Sutton.
+\newblock How often do single-statement bugs occur? the manysstubs4j dataset.
+\newblock In {\em Proceedings of the 17th International Conference on Mining
+  Software Repositories}, pages 573--577, 2020.
+
+\end{thebibliography}
