@@ -1,0 +1,110 @@
+\documentclass[12pt]{article}
+
+% This first part of the file is called the PREAMBLE. It includes
+% customizations and command definitions. The preamble is everything
+% between \documentclass and \begin{document}.
+
+\usepackage[margin=1in]{geometry}  % set the margins to 1in on all sides
+\usepackage{graphicx}              % to include figures
+\usepackage{epstopdf}
+\usepackage{amsmath}               % great math stuff
+\usepackage{amsfonts}              % for blackboard bold, etc
+\usepackage{amsthm}                % better theorem environments
+\usepackage{natbib}
+
+
+
+\begin{document}
+
+\begin{center}
+{\bf \Large Automatic Construction of WordNets}  \\
+\vspace{.1in}
+{\em Bradley Hauer and Grzegorz Kondrak}
+\end{center}
+
+
+\paragraph{Problem}
+
+The problem we seek to address is the automatic construction of WordNets. 
+A WordNet is a rich semantic and lexicographic resource 
+which groups words into synonym sets, or synsets, 
+and which records relations between synsets, such as hypernymy and hyponymy. 
+WordNets have proven to be extremely useful 
+in natural language processing (NLP), machine learning, 
+and computational linguistics.
+
+Construction of a WordNet typically involves 
+a large amount of manual work by language experts, 
+which often results in limited coverage and accuracy, 
+especially for lower-resourced languages. 
+Maintaining or expanding a WordNet 
+requires a further investment of time and resources. 
+This poses a problem 
+for the development and application of WordNet-based methods. 
+We intend to address this problem by developing and applying methods 
+to automatically construct a WordNet 
+for a given language from multilingual corpora and thesauri.
+As part of our research, 
+we will also develop methods to automatically validate existing WordNets.
+
+
+\paragraph{Related Work}
+
+Our goal of constructing a WordNet using multilingual data
+builds upon prior work, beginning with \cite{dyvik2004},
+who used translations as a ``semantic mirrors'' to construct synsets.
+\cite{sagot2008} construct a French WordNet
+using multilingual resources,
+but show that there is substantial room for improvement 
+in the process, as precision and recall compared to a manually constructed
+WordNet are less than 80\%.
+\cite{lohk2018}, inspired by Dyvik's method,
+use a neural machine translation system to induce synsets.
+
+
+\paragraph{Importance of the Problem}
+
+WordNets have been applied to a variety of semantics tasks, including
+sentiment analysis, relation extraction, and word sense disambiguation (WSD).
+State-of-the-art systems for these tasks 
+often depend on a WordNet as a resource,
+especially in unsupervised settings.
+However, WordNets are language-specific,
+precluding the application of many state-of-the-art methods
+to languages with fewer available resources.
+A language-independent method
+for WordNet construction
+would therefore greatly increase the number of languages
+covered by modern NLP systems.
+
+WordNets may be of greater use to language learners than traditional
+dictionaries.
+There is a substantial body of prior work on cross-lingual
+alignment of WordNets % for example, \cite{rudnicka2012},
+which could naturally be extended to align the WordNets produced
+using our method.
+To goal of such alignment is to produce a mapping which,
+to the extent possible, maps synsets from a WordNet in one language
+to a semantically equivalent synset for a WordNet in another language.
+Such alignment creates a sense-level bilingual lexicon;
+since different senses of a word are 
+often lexicalized differently in other languages.
+
+
+
+% \vspace{.1in}
+% \paragraph{Conclusion}
+
+
+\newpage
+\noindent
+\paragraph{Acknowledgements}
+This proposal was prepared through discussions 
+with Prof. \ldots and PhD student \ldots. 
+
+\bibliographystyle{plainnat}
+
+\bibliography{proposal2021}
+
+
+\end{document}
