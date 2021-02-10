@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex proposal2021"] 1612931383 "proposal2021.aux" "proposal2021.bbl" "proposal2021" 1612937595
+["bibtex proposal2021"] 1612931383 "proposal2021.aux" "proposal2021.bbl" "proposal2021" 1612938264
   "/usr/local/texlive/2020/texmf-dist/bibtex/bst/base/abbrv.bst" 1292289607 20329 b5fed53e10044d0f8112183785c759b1 ""
-  "proposal2021.aux" 1612937593 943 002661fb3dbb4b1baffc9f63357f0391 "pdflatex"
+  "proposal2021.aux" 1612938264 943 002661fb3dbb4b1baffc9f63357f0391 "pdflatex"
   "proposal2021.bib" 1612771676 2128 ea7f63c93a55495b998cf3766f7f56d8 ""
   (generated)
-  "proposal2021.bbl"
   "proposal2021.blg"
-["pdflatex"] 1612937593 "/Users/saqib/code/masters/501-graduate-project/proposal/proposal2021.tex" "/Users/saqib/code/masters/501-graduate-project/proposal/proposal2021.pdf" "proposal2021" 1612937595
-  "/Users/saqib/code/masters/501-graduate-project/proposal/proposal2021.aux" 1612937593 943 002661fb3dbb4b1baffc9f63357f0391 ""
-  "/Users/saqib/code/masters/501-graduate-project/proposal/proposal2021.tex" 1612937593 4259 9210312b2f01e5aa7273f089b3431c11 ""
+  "proposal2021.bbl"
+["pdflatex"] 1612938264 "/Users/saqib/code/masters/501-graduate-project/proposal/proposal2021.tex" "/Users/saqib/code/masters/501-graduate-project/proposal/proposal2021.pdf" "proposal2021" 1612938264
+  "/Users/saqib/code/masters/501-graduate-project/proposal/proposal2021.aux" 1612938264 943 002661fb3dbb4b1baffc9f63357f0391 ""
+  "/Users/saqib/code/masters/501-graduate-project/proposal/proposal2021.tex" 1612938263 4289 72d26c5cc2b1a3f526984a9579813c4d ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -53,12 +53,12 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1586288259 2432462 fd0fa20e9a3cb5f8169fd0ba1c955158 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "proposal2021.aux" 1612937593 943 002661fb3dbb4b1baffc9f63357f0391 "pdflatex"
+  "proposal2021.aux" 1612938264 943 002661fb3dbb4b1baffc9f63357f0391 "pdflatex"
   "proposal2021.bbl" 1612931383 1513 2d1101210dc260cf0d79c1e869b5d249 "bibtex proposal2021"
-  "proposal2021.tex" 1612937593 4259 9210312b2f01e5aa7273f089b3431c11 ""
+  "proposal2021.tex" 1612938263 4289 72d26c5cc2b1a3f526984a9579813c4d ""
   (generated)
   "proposal2021.log"
-  "/Users/saqib/code/masters/501-graduate-project/proposal/proposal2021.pdf"
+  "proposal2021.aux"
   "proposal2021.pdf"
   "/Users/saqib/code/masters/501-graduate-project/proposal/proposal2021.log"
-  "proposal2021.aux"
+  "/Users/saqib/code/masters/501-graduate-project/proposal/proposal2021.pdf"

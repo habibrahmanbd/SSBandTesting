@@ -25,7 +25,7 @@
 
 \section{Introduction}
 
-Writing unit tests is a common practice in the industry to ensure software quality. Usually meeting a certain criteria of test coverage serves as a segway to the product release. Despite all efforts, the software remains prone to bugs. Among them, single statement bugs are one of the common types of bugs found. Bugs that appear in just a single statement and can be fixed by modifying that line are called single statement. The very nature makes it difficult to identify. Remember the Apple return bug?
+Writing unit tests is a common practice in the industry to ensure software quality. Usually meeting a certain criteria of test coverage serves as a segway to the product release. Despite all efforts, the software remains prone to bugs. Among them, single statement bugs are one of the common types of bugs found. Bugs that appear in just a single statement and can be fixed by modifying that line are called single statement bugs. The very nature makes it difficult to identify. Remember the Apple return bug?
 
 This study aims at analyzing the relation of single statement bugs with test coverage and unit test types. The results could be helpful in the future to direct the testing efforts during the software development life cycle. Further, they can also be used in automatic bug detection and program repair.
 
@@ -35,19 +35,19 @@ The goal of this project is to answer the following questions: \textit{1. Is the
 
 \section{Related Work}
 
-Empirical studies \cite{gren2017relation, antinyan2018mythical, inozemtseva2014coverage} at different scales and under different settings have found a no, weak or moderate correlation between coverage and test case. These studies examined all types of bugs that were found in the systems. A part of the literature focuses on a subset of bugs such as easy to fix one-line bugs, mostly in the context of program repair. However, there is a gap in literature related to the effectiveness of test suites for single statement bugs. Previously there was no large dataset available to conduct such studies. The recent studies in automatic program fixing have produced large classified \cite{karampatsis2020often} and unclassified \cite{chen2019sequencer} datasets of one-line bugs.
+Empirical studies \cite{gren2017relation, antinyan2018mythical, inozemtseva2014coverage} at different scales and under different settings have found a no, weak or moderate correlation between coverage and test case. These studies examined all types of bugs that were found in the systems. A part of the literature focuses on a subset of bugs such as easy to fix one-line bugs, mostly in the context of program repair. However, there is a gap in the literature related to the effectiveness of test suites for single statement bugs. Previously there was no large dataset available to conduct such studies. The recent studies in automatic program fixing have produced large classified \cite{karampatsis2020often} and unclassified \cite{chen2019sequencer} datasets of one-line bugs.
 
-In our study, we aim to contribute to this part of literature by studying the relationship between unit testing and single statement bugs.
+In our study, we aim to contribute to this part of the literature by studying the relationship between unit testing and single statement bugs.
 
 
 
 \section{Methodology}
 
-To address our research questions, we will use ManySStuBs4J\cite{karampatsis2020often} dataset which is a corpus of one-line bugs in open source Java projects. In the dataset, it has divided the single line bugs into 16 different categories like Change Identifier names, Same Function Swap Args, Change Operand and so on. We will use GHTorrent \cite{Gousi13} to search for respective projects and then clone them for our study. For measuring the code coverage for each project, based on the collected test cases, we will use JaCoCo — a free code coverage library for Java. Furthermore, we will write our own python scripts, as needed, to mine data.
+To address our research questions, we will use the ManySStuBs4J\cite{karampatsis2020often} dataset which is a corpus of one-line bugs in open source Java projects. In the dataset, it has divided the single line bugs into 16 different categories like Change Identifier names, Same Function Swap Args, Change Operand, and so on. We will use GHTorrent \cite{Gousi13} to search for respective projects and then clone them for our study. For measuring the code coverage for each project, based on the collected test cases, we will use JaCoCo — a free code coverage library for Java. Furthermore, we will write our own python scripts, as needed, to mine data.
 
-We will rely on the test coverage of the projects and number of bugs present to establish the relationship between single line bugs and test coverage. Further, we will check the quality of the test suits (code smells) present to see if they effect the relation.
+We will rely on the test coverage of the projects and the number of bugs present to establish the relationship between single line bugs and test coverage. Further, we will check the quality of the test suits (code smells) present to see if they affect the relationship.
 
-To investigate the effectiveness of certain type of test cases, e.g., unit, statement, and functional, on different types of SStuBs, we will use the coverage report to identify the coverage of each test type.
+To investigate the effectiveness of the certain type of test cases, e.g., unit, statement, and functional, on different types of SStuBs, we will use the coverage report to identify the coverage of each test type.
 
 \bibliographystyle{abbrv}
 
