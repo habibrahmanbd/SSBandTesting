@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  9 FEB 2021 21:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  9 FEB 2021 23:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -243,9 +243,9 @@ Here is how much of TeX's memory you used:
  19057 multiletter control sequences out of 15000+600000
  533897 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,4n,34p,858b,207s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,4n,34p,875b,207s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /Users/saqib/code/masters/501-graduate-project/proposal/proposal2021.pdf (2 pages, 61473 bytes).
+Output written on /Users/saqib/code/masters/501-graduate-project/proposal/proposal2021.pdf (2 pages, 61640 bytes).
 PDF statistics:
  23 PDF objects out of 1000 (max. 8388607)
  15 compressed objects within 1 object stream
