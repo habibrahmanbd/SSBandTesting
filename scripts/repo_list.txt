@@ -1,0 +1,3 @@
+git@github.com:gabrielf/maven-samples.git
+git@github.com:web3j/sample-project-maven.git
+git@github.com:jglick/simple-maven-project-with-tests.git
