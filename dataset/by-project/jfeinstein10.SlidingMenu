@@ -1,1 +1,66 @@
-[{"bugType": "CHANGE_IDENTIFIER", "fixCommitSHA1": "f4fc27fb0ef1d23230c1f1c55a1234fba1c0acf7", "fixCommitParentSHA1": "89bd7f1f82c7f01fe7e33a797c26780e9d764c9b", "bugFilePath": "library/src/com/slidingmenu/lib/SlidingMenu.java", "fixPatch": "diff --git a/library/src/com/slidingmenu/lib/SlidingMenu.java b/library/src/com/slidingmenu/lib/SlidingMenu.java\nindex 67d5dd8..ec6e279 100644\n--- a/library/src/com/slidingmenu/lib/SlidingMenu.java\n+++ b/library/src/com/slidingmenu/lib/SlidingMenu.java\n@@ -241,7 +241,7 @@\n \t\tTypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.SlidingMenu);\n \t\t// set the above and behind views if defined in xml\n \t\tint mode = ta.getInt(R.styleable.SlidingMenu_mode, LEFT);\n-\t\tsetMode(mode);\n+\t\tsetMode(RIGHT);\n \t\tint viewAbove = ta.getResourceId(R.styleable.SlidingMenu_viewAbove, -1);\n \t\tif (viewAbove != -1)\n \t\t\tsetContent(viewAbove);\n@@ -379,7 +379,7 @@\n \t * @param animate true to animate the transition, false to ignore animation\n \t */\n \tpublic void showBehind(boolean animate) {\n-\t\tmViewAbove.setCurrentItem(2, animate);\n+\t\tmViewAbove.setCurrentItem(0, animate);\n \t}\n \n \t/**\n@@ -424,7 +424,7 @@\n \t * @return Whether or not the behind view is showing\n \t */\n \tpublic boolean isBehindShowing() {\n-\t\treturn mViewAbove.getCurrentItem() == 0;\n+\t\treturn mViewAbove.getCurrentItem() == 0 || mViewAbove.getCurrentItem() == 2;\n \t}\n \n \t/**\n", "projectName": "jfeinstein10.SlidingMenu", "bugLineNum": 244, "bugNodeStartChar": 7468, "bugNodeLength": 13, "fixLineNum": 244, "fixNodeStartChar": 7468, "fixNodeLength": 14, "sourceBeforeFix": "setMode(mode)", "sourceAfterFix": "setMode(RIGHT)"}, {"bugType": "CHANGE_NUMERAL", "fixCommitSHA1": "f4fc27fb0ef1d23230c1f1c55a1234fba1c0acf7", "fixCommitParentSHA1": "89bd7f1f82c7f01fe7e33a797c26780e9d764c9b", "bugFilePath": "library/src/com/slidingmenu/lib/SlidingMenu.java", "fixPatch": "diff --git a/library/src/com/slidingmenu/lib/SlidingMenu.java b/library/src/com/slidingmenu/lib/SlidingMenu.java\nindex 67d5dd8..ec6e279 100644\n--- a/library/src/com/slidingmenu/lib/SlidingMenu.java\n+++ b/library/src/com/slidingmenu/lib/SlidingMenu.java\n@@ -241,7 +241,7 @@\n \t\tTypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.SlidingMenu);\n \t\t// set the above and behind views if defined in xml\n \t\tint mode = ta.getInt(R.styleable.SlidingMenu_mode, LEFT);\n-\t\tsetMode(mode);\n+\t\tsetMode(RIGHT);\n \t\tint viewAbove = ta.getResourceId(R.styleable.SlidingMenu_viewAbove, -1);\n \t\tif (viewAbove != -1)\n \t\t\tsetContent(viewAbove);\n@@ -379,7 +379,7 @@\n \t * @param animate true to animate the transition, false to ignore animation\n \t */\n \tpublic void showBehind(boolean animate) {\n-\t\tmViewAbove.setCurrentItem(2, animate);\n+\t\tmViewAbove.setCurrentItem(0, animate);\n \t}\n \n \t/**\n@@ -424,7 +424,7 @@\n \t * @return Whether or not the behind view is showing\n \t */\n \tpublic boolean isBehindShowing() {\n-\t\treturn mViewAbove.getCurrentItem() == 0;\n+\t\treturn mViewAbove.getCurrentItem() == 0 || mViewAbove.getCurrentItem() == 2;\n \t}\n \n \t/**\n", "projectName": "jfeinstein10.SlidingMenu", "bugLineNum": 382, "bugNodeStartChar": 11642, "bugNodeLength": 37, "fixLineNum": 382, "fixNodeStartChar": 11642, "fixNodeLength": 37, "sourceBeforeFix": "mViewAbove.setCurrentItem(2,animate)", "sourceAfterFix": "mViewAbove.setCurrentItem(0,animate)"}, {"bugType": "DIFFERENT_METHOD_SAME_ARGS", "fixCommitSHA1": "a9484cbace5d9e98c344b6d0d5e6754deb59a658", "fixCommitParentSHA1": "39cdff50d74ce3dff168d3f265618521c2331d2c", "bugFilePath": "example/src/com/slidingmenu/example/ExampleActivity.java", "fixPatch": "diff --git a/example/src/com/slidingmenu/example/ExampleActivity.java b/example/src/com/slidingmenu/example/ExampleActivity.java\nindex 8329f10..cadbc7b 100644\n--- a/example/src/com/slidingmenu/example/ExampleActivity.java\n+++ b/example/src/com/slidingmenu/example/ExampleActivity.java\n@@ -35,7 +35,7 @@\n \t\t// set the Behind View\n \t\tsetBehindContentView(R.layout.frame);\n \t\tFragmentTransaction t = this.getFragmentManager().beginTransaction();\n-\t\tt.add(R.id.frame, new SampleListFragment());\n+\t\tt.replace(R.id.frame, new SampleListFragment());\n \t\tt.commit();\n \n \t\t// customize the SlidingMenu\n", "projectName": "jfeinstein10.SlidingMenu", "bugLineNum": 38, "bugNodeStartChar": 1163, "bugNodeLength": 43, "fixLineNum": 38, "fixNodeStartChar": 1163, "fixNodeLength": 47, "sourceBeforeFix": "t.add(R.id.frame,new SampleListFragment())", "sourceAfterFix": "t.replace(R.id.frame,new SampleListFragment())"}, {"bugType": "CHANGE_IDENTIFIER", "fixCommitSHA1": "a9484cbace5d9e98c344b6d0d5e6754deb59a658", "fixCommitParentSHA1": "39cdff50d74ce3dff168d3f265618521c2331d2c", "bugFilePath": "example/src/com/slidingmenu/example/ExampleActivity.java", "fixPatch": "diff --git a/example/src/com/slidingmenu/example/ExampleActivity.java b/example/src/com/slidingmenu/example/ExampleActivity.java\nindex 8329f10..cadbc7b 100644\n--- a/example/src/com/slidingmenu/example/ExampleActivity.java\n+++ b/example/src/com/slidingmenu/example/ExampleActivity.java\n@@ -35,7 +35,7 @@\n \t\t// set the Behind View\n \t\tsetBehindContentView(R.layout.frame);\n \t\tFragmentTransaction t = this.getFragmentManager().beginTransaction();\n-\t\tt.add(R.id.frame, new SampleListFragment());\n+\t\tt.replace(R.id.frame, new SampleListFragment());\n \t\tt.commit();\n \n \t\t// customize the SlidingMenu\n", "projectName": "jfeinstein10.SlidingMenu", "bugLineNum": 38, "bugNodeStartChar": 1163, "bugNodeLength": 43, "fixLineNum": 38, "fixNodeStartChar": 1163, "fixNodeLength": 47, "sourceBeforeFix": "t.add(R.id.frame,new SampleListFragment())", "sourceAfterFix": "t.replace(R.id.frame,new SampleListFragment())"}]
+[
+  {
+    "bugType": "CHANGE_IDENTIFIER",
+    "fixCommitSHA1": "f4fc27fb0ef1d23230c1f1c55a1234fba1c0acf7",
+    "fixCommitParentSHA1": "89bd7f1f82c7f01fe7e33a797c26780e9d764c9b",
+    "bugFilePath": "library/src/com/slidingmenu/lib/SlidingMenu.java",
+    "fixPatch": "diff --git a/library/src/com/slidingmenu/lib/SlidingMenu.java b/library/src/com/slidingmenu/lib/SlidingMenu.java\nindex 67d5dd8..ec6e279 100644\n--- a/library/src/com/slidingmenu/lib/SlidingMenu.java\n+++ b/library/src/com/slidingmenu/lib/SlidingMenu.java\n@@ -241,7 +241,7 @@\n \t\tTypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.SlidingMenu);\n \t\t// set the above and behind views if defined in xml\n \t\tint mode = ta.getInt(R.styleable.SlidingMenu_mode, LEFT);\n-\t\tsetMode(mode);\n+\t\tsetMode(RIGHT);\n \t\tint viewAbove = ta.getResourceId(R.styleable.SlidingMenu_viewAbove, -1);\n \t\tif (viewAbove != -1)\n \t\t\tsetContent(viewAbove);\n@@ -379,7 +379,7 @@\n \t * @param animate true to animate the transition, false to ignore animation\n \t */\n \tpublic void showBehind(boolean animate) {\n-\t\tmViewAbove.setCurrentItem(2, animate);\n+\t\tmViewAbove.setCurrentItem(0, animate);\n \t}\n \n \t/**\n@@ -424,7 +424,7 @@\n \t * @return Whether or not the behind view is showing\n \t */\n \tpublic boolean isBehindShowing() {\n-\t\treturn mViewAbove.getCurrentItem() == 0;\n+\t\treturn mViewAbove.getCurrentItem() == 0 || mViewAbove.getCurrentItem() == 2;\n \t}\n \n \t/**\n",
+    "projectName": "jfeinstein10.SlidingMenu",
+    "bugLineNum": 244,
+    "bugNodeStartChar": 7468,
+    "bugNodeLength": 13,
+    "fixLineNum": 244,
+    "fixNodeStartChar": 7468,
+    "fixNodeLength": 14,
+    "sourceBeforeFix": "setMode(mode)",
+    "sourceAfterFix": "setMode(RIGHT)"
+  },
+  {
+    "bugType": "CHANGE_NUMERAL",
+    "fixCommitSHA1": "f4fc27fb0ef1d23230c1f1c55a1234fba1c0acf7",
+    "fixCommitParentSHA1": "89bd7f1f82c7f01fe7e33a797c26780e9d764c9b",
+    "bugFilePath": "library/src/com/slidingmenu/lib/SlidingMenu.java",
+    "fixPatch": "diff --git a/library/src/com/slidingmenu/lib/SlidingMenu.java b/library/src/com/slidingmenu/lib/SlidingMenu.java\nindex 67d5dd8..ec6e279 100644\n--- a/library/src/com/slidingmenu/lib/SlidingMenu.java\n+++ b/library/src/com/slidingmenu/lib/SlidingMenu.java\n@@ -241,7 +241,7 @@\n \t\tTypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.SlidingMenu);\n \t\t// set the above and behind views if defined in xml\n \t\tint mode = ta.getInt(R.styleable.SlidingMenu_mode, LEFT);\n-\t\tsetMode(mode);\n+\t\tsetMode(RIGHT);\n \t\tint viewAbove = ta.getResourceId(R.styleable.SlidingMenu_viewAbove, -1);\n \t\tif (viewAbove != -1)\n \t\t\tsetContent(viewAbove);\n@@ -379,7 +379,7 @@\n \t * @param animate true to animate the transition, false to ignore animation\n \t */\n \tpublic void showBehind(boolean animate) {\n-\t\tmViewAbove.setCurrentItem(2, animate);\n+\t\tmViewAbove.setCurrentItem(0, animate);\n \t}\n \n \t/**\n@@ -424,7 +424,7 @@\n \t * @return Whether or not the behind view is showing\n \t */\n \tpublic boolean isBehindShowing() {\n-\t\treturn mViewAbove.getCurrentItem() == 0;\n+\t\treturn mViewAbove.getCurrentItem() == 0 || mViewAbove.getCurrentItem() == 2;\n \t}\n \n \t/**\n",
+    "projectName": "jfeinstein10.SlidingMenu",
+    "bugLineNum": 382,
+    "bugNodeStartChar": 11642,
+    "bugNodeLength": 37,
+    "fixLineNum": 382,
+    "fixNodeStartChar": 11642,
+    "fixNodeLength": 37,
+    "sourceBeforeFix": "mViewAbove.setCurrentItem(2,animate)",
+    "sourceAfterFix": "mViewAbove.setCurrentItem(0,animate)"
+  },
+  {
+    "bugType": "DIFFERENT_METHOD_SAME_ARGS",
+    "fixCommitSHA1": "a9484cbace5d9e98c344b6d0d5e6754deb59a658",
+    "fixCommitParentSHA1": "39cdff50d74ce3dff168d3f265618521c2331d2c",
+    "bugFilePath": "example/src/com/slidingmenu/example/ExampleActivity.java",
+    "fixPatch": "diff --git a/example/src/com/slidingmenu/example/ExampleActivity.java b/example/src/com/slidingmenu/example/ExampleActivity.java\nindex 8329f10..cadbc7b 100644\n--- a/example/src/com/slidingmenu/example/ExampleActivity.java\n+++ b/example/src/com/slidingmenu/example/ExampleActivity.java\n@@ -35,7 +35,7 @@\n \t\t// set the Behind View\n \t\tsetBehindContentView(R.layout.frame);\n \t\tFragmentTransaction t = this.getFragmentManager().beginTransaction();\n-\t\tt.add(R.id.frame, new SampleListFragment());\n+\t\tt.replace(R.id.frame, new SampleListFragment());\n \t\tt.commit();\n \n \t\t// customize the SlidingMenu\n",
+    "projectName": "jfeinstein10.SlidingMenu",
+    "bugLineNum": 38,
+    "bugNodeStartChar": 1163,
+    "bugNodeLength": 43,
+    "fixLineNum": 38,
+    "fixNodeStartChar": 1163,
+    "fixNodeLength": 47,
+    "sourceBeforeFix": "t.add(R.id.frame,new SampleListFragment())",
+    "sourceAfterFix": "t.replace(R.id.frame,new SampleListFragment())"
+  },
+  {
+    "bugType": "CHANGE_IDENTIFIER",
+    "fixCommitSHA1": "a9484cbace5d9e98c344b6d0d5e6754deb59a658",
+    "fixCommitParentSHA1": "39cdff50d74ce3dff168d3f265618521c2331d2c",
+    "bugFilePath": "example/src/com/slidingmenu/example/ExampleActivity.java",
+    "fixPatch": "diff --git a/example/src/com/slidingmenu/example/ExampleActivity.java b/example/src/com/slidingmenu/example/ExampleActivity.java\nindex 8329f10..cadbc7b 100644\n--- a/example/src/com/slidingmenu/example/ExampleActivity.java\n+++ b/example/src/com/slidingmenu/example/ExampleActivity.java\n@@ -35,7 +35,7 @@\n \t\t// set the Behind View\n \t\tsetBehindContentView(R.layout.frame);\n \t\tFragmentTransaction t = this.getFragmentManager().beginTransaction();\n-\t\tt.add(R.id.frame, new SampleListFragment());\n+\t\tt.replace(R.id.frame, new SampleListFragment());\n \t\tt.commit();\n \n \t\t// customize the SlidingMenu\n",
+    "projectName": "jfeinstein10.SlidingMenu",
+    "bugLineNum": 38,
+    "bugNodeStartChar": 1163,
+    "bugNodeLength": 43,
+    "fixLineNum": 38,
+    "fixNodeStartChar": 1163,
+    "fixNodeLength": 47,
+    "sourceBeforeFix": "t.add(R.id.frame,new SampleListFragment())",
+    "sourceAfterFix": "t.replace(R.id.frame,new SampleListFragment())"
+  }
+]

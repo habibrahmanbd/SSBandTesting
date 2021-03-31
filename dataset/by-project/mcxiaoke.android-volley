@@ -1,1 +1,34 @@
-[{"bugType": "DIFFERENT_METHOD_SAME_ARGS", "fixCommitSHA1": "0aa7873db1048c41b279e4f216e4cf2ee35d0802", "fixCommitParentSHA1": "e41584426dc156d45d5aa64667d411aad5277727", "bugFilePath": "src/main/java/com/android/volley/Request.java", "fixPatch": "diff --git a/src/main/java/com/android/volley/Request.java b/src/main/java/com/android/volley/Request.java\nindex 0db074b..6234aa5 100644\n--- a/src/main/java/com/android/volley/Request.java\n+++ b/src/main/java/com/android/volley/Request.java\n@@ -306,7 +306,7 @@\n      * Returns the cache key for this request.  By default, this is the URL.\n      */\n     public String getCacheKey() {\n-        return getUrl();\n+        return getOriginUrl();\n     }\n \n     /**\n", "projectName": "mcxiaoke.android-volley", "bugLineNum": 309, "bugNodeStartChar": 9385, "bugNodeLength": 8, "fixLineNum": 309, "fixNodeStartChar": 9385, "fixNodeLength": 14, "sourceBeforeFix": "getUrl()", "sourceAfterFix": "getOriginUrl()"}, {"bugType": "CHANGE_IDENTIFIER", "fixCommitSHA1": "0aa7873db1048c41b279e4f216e4cf2ee35d0802", "fixCommitParentSHA1": "e41584426dc156d45d5aa64667d411aad5277727", "bugFilePath": "src/main/java/com/android/volley/Request.java", "fixPatch": "diff --git a/src/main/java/com/android/volley/Request.java b/src/main/java/com/android/volley/Request.java\nindex 0db074b..6234aa5 100644\n--- a/src/main/java/com/android/volley/Request.java\n+++ b/src/main/java/com/android/volley/Request.java\n@@ -306,7 +306,7 @@\n      * Returns the cache key for this request.  By default, this is the URL.\n      */\n     public String getCacheKey() {\n-        return getUrl();\n+        return getOriginUrl();\n     }\n \n     /**\n", "projectName": "mcxiaoke.android-volley", "bugLineNum": 309, "bugNodeStartChar": 9385, "bugNodeLength": 8, "fixLineNum": 309, "fixNodeStartChar": 9385, "fixNodeLength": 14, "sourceBeforeFix": "getUrl()", "sourceAfterFix": "getOriginUrl()"}]
+[
+  {
+    "bugType": "DIFFERENT_METHOD_SAME_ARGS",
+    "fixCommitSHA1": "0aa7873db1048c41b279e4f216e4cf2ee35d0802",
+    "fixCommitParentSHA1": "e41584426dc156d45d5aa64667d411aad5277727",
+    "bugFilePath": "src/main/java/com/android/volley/Request.java",
+    "fixPatch": "diff --git a/src/main/java/com/android/volley/Request.java b/src/main/java/com/android/volley/Request.java\nindex 0db074b..6234aa5 100644\n--- a/src/main/java/com/android/volley/Request.java\n+++ b/src/main/java/com/android/volley/Request.java\n@@ -306,7 +306,7 @@\n      * Returns the cache key for this request.  By default, this is the URL.\n      */\n     public String getCacheKey() {\n-        return getUrl();\n+        return getOriginUrl();\n     }\n \n     /**\n",
+    "projectName": "mcxiaoke.android-volley",
+    "bugLineNum": 309,
+    "bugNodeStartChar": 9385,
+    "bugNodeLength": 8,
+    "fixLineNum": 309,
+    "fixNodeStartChar": 9385,
+    "fixNodeLength": 14,
+    "sourceBeforeFix": "getUrl()",
+    "sourceAfterFix": "getOriginUrl()"
+  },
+  {
+    "bugType": "CHANGE_IDENTIFIER",
+    "fixCommitSHA1": "0aa7873db1048c41b279e4f216e4cf2ee35d0802",
+    "fixCommitParentSHA1": "e41584426dc156d45d5aa64667d411aad5277727",
+    "bugFilePath": "src/main/java/com/android/volley/Request.java",
+    "fixPatch": "diff --git a/src/main/java/com/android/volley/Request.java b/src/main/java/com/android/volley/Request.java\nindex 0db074b..6234aa5 100644\n--- a/src/main/java/com/android/volley/Request.java\n+++ b/src/main/java/com/android/volley/Request.java\n@@ -306,7 +306,7 @@\n      * Returns the cache key for this request.  By default, this is the URL.\n      */\n     public String getCacheKey() {\n-        return getUrl();\n+        return getOriginUrl();\n     }\n \n     /**\n",
+    "projectName": "mcxiaoke.android-volley",
+    "bugLineNum": 309,
+    "bugNodeStartChar": 9385,
+    "bugNodeLength": 8,
+    "fixLineNum": 309,
+    "fixNodeStartChar": 9385,
+    "fixNodeLength": 14,
+    "sourceBeforeFix": "getUrl()",
+    "sourceAfterFix": "getOriginUrl()"
+  }
+]

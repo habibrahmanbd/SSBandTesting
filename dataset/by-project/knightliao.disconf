@@ -1,1 +1,18 @@
-[{"bugType": "OVERLOAD_METHOD_DELETED_ARGS", "fixCommitSHA1": "83650b3d0184b1ed2bba23ba464cf08ee4693cb7", "fixCommitParentSHA1": "50a8ced6c585859126fcc800dee84d33ed8df324", "bugFilePath": "disconf-client/src/main/java/com/baidu/disconf/client/support/registry/impl/SimpleRegistry.java", "fixPatch": "diff --git a/disconf-client/src/main/java/com/baidu/disconf/client/support/registry/impl/SimpleRegistry.java b/disconf-client/src/main/java/com/baidu/disconf/client/support/registry/impl/SimpleRegistry.java\nindex 949fe3f..73effad 100644\n--- a/disconf-client/src/main/java/com/baidu/disconf/client/support/registry/impl/SimpleRegistry.java\n+++ b/disconf-client/src/main/java/com/baidu/disconf/client/support/registry/impl/SimpleRegistry.java\n@@ -47,6 +47,6 @@\n \n     @Override\n     public <T> T getFirstByType(Class<T> type, boolean withProxy) {\n-        return getFirstByType(type, withProxy);\n+        return getFirstByType(type);\n     }\n }\n", "projectName": "knightliao.disconf", "bugLineNum": 50, "bugNodeStartChar": 1219, "bugNodeLength": 31, "fixLineNum": 50, "fixNodeStartChar": 1219, "fixNodeLength": 20, "sourceBeforeFix": "getFirstByType(type,withProxy)", "sourceAfterFix": "getFirstByType(type)"}]
+[
+  {
+    "bugType": "OVERLOAD_METHOD_DELETED_ARGS",
+    "fixCommitSHA1": "83650b3d0184b1ed2bba23ba464cf08ee4693cb7",
+    "fixCommitParentSHA1": "50a8ced6c585859126fcc800dee84d33ed8df324",
+    "bugFilePath": "disconf-client/src/main/java/com/baidu/disconf/client/support/registry/impl/SimpleRegistry.java",
+    "fixPatch": "diff --git a/disconf-client/src/main/java/com/baidu/disconf/client/support/registry/impl/SimpleRegistry.java b/disconf-client/src/main/java/com/baidu/disconf/client/support/registry/impl/SimpleRegistry.java\nindex 949fe3f..73effad 100644\n--- a/disconf-client/src/main/java/com/baidu/disconf/client/support/registry/impl/SimpleRegistry.java\n+++ b/disconf-client/src/main/java/com/baidu/disconf/client/support/registry/impl/SimpleRegistry.java\n@@ -47,6 +47,6 @@\n \n     @Override\n     public <T> T getFirstByType(Class<T> type, boolean withProxy) {\n-        return getFirstByType(type, withProxy);\n+        return getFirstByType(type);\n     }\n }\n",
+    "projectName": "knightliao.disconf",
+    "bugLineNum": 50,
+    "bugNodeStartChar": 1219,
+    "bugNodeLength": 31,
+    "fixLineNum": 50,
+    "fixNodeStartChar": 1219,
+    "fixNodeLength": 20,
+    "sourceBeforeFix": "getFirstByType(type,withProxy)",
+    "sourceAfterFix": "getFirstByType(type)"
+  }
+]

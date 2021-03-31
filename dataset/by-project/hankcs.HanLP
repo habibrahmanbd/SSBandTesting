@@ -1,1 +1,66 @@
-[{"bugType": "MORE_SPECIFIC_IF", "fixCommitSHA1": "80f6215ed3e0c1fe902342b2cd9a55f460dc08be", "fixCommitParentSHA1": "9c34ed16ff762ea4170b9449ee7da89247afdb5c", "bugFilePath": "src/main/java/com/hankcs/hanlp/corpus/dictionary/NSDictionaryMaker.java", "fixPatch": "diff --git a/src/main/java/com/hankcs/hanlp/corpus/dictionary/NSDictionaryMaker.java b/src/main/java/com/hankcs/hanlp/corpus/dictionary/NSDictionaryMaker.java\nindex e404bd8..3f7be8d 100644\n--- a/src/main/java/com/hankcs/hanlp/corpus/dictionary/NSDictionaryMaker.java\n+++ b/src/main/java/com/hankcs/hanlp/corpus/dictionary/NSDictionaryMaker.java\n@@ -91,7 +91,7 @@\n             while (iterator.hasNext())\n             {\n                 IWord current = iterator.next();\n-                if (current.getLabel().startsWith(\"ns\") && !pre.getLabel().startsWith(\"ns\"))\n+                if (current.getLabel().startsWith(\"ns\") && !pre.getLabel().startsWith(\"ns\") && !pre.getValue().equals(Predefine.TAG_BIGIN))\n                 {\n                     pre.setLabel(NS.A.toString());\n                 }\n", "projectName": "hankcs.HanLP", "bugLineNum": 94, "bugNodeStartChar": 3021, "bugNodeLength": 71, "fixLineNum": 94, "fixNodeStartChar": 3021, "fixNodeLength": 118, "sourceBeforeFix": "current.getLabel().startsWith(\"ns\") && !pre.getLabel().startsWith(\"ns\")", "sourceAfterFix": "current.getLabel().startsWith(\"ns\") && !pre.getLabel().startsWith(\"ns\") && !pre.getValue().equals(Predefine.TAG_BIGIN)"}, {"bugType": "MORE_SPECIFIC_IF", "fixCommitSHA1": "80f6215ed3e0c1fe902342b2cd9a55f460dc08be", "fixCommitParentSHA1": "9c34ed16ff762ea4170b9449ee7da89247afdb5c", "bugFilePath": "src/main/java/com/hankcs/hanlp/corpus/dictionary/NTDictionaryMaker.java", "fixPatch": "diff --git a/src/main/java/com/hankcs/hanlp/corpus/dictionary/NTDictionaryMaker.java b/src/main/java/com/hankcs/hanlp/corpus/dictionary/NTDictionaryMaker.java\nindex c0eb52e..ce814b2 100644\n--- a/src/main/java/com/hankcs/hanlp/corpus/dictionary/NTDictionaryMaker.java\n+++ b/src/main/java/com/hankcs/hanlp/corpus/dictionary/NTDictionaryMaker.java\n@@ -89,7 +89,7 @@\n             while (iterator.hasNext())\n             {\n                 IWord current = iterator.next();\n-                if (current.getLabel().startsWith(\"nt\") && !pre.getLabel().startsWith(\"nt\"))\n+                if (current.getLabel().startsWith(\"nt\") && !pre.getLabel().startsWith(\"nt\") && !pre.getValue().equals(Predefine.TAG_BIGIN))\n                 {\n                     pre.setLabel(NT.A.toString());\n                 }\n", "projectName": "hankcs.HanLP", "bugLineNum": 92, "bugNodeStartChar": 2954, "bugNodeLength": 71, "fixLineNum": 92, "fixNodeStartChar": 2954, "fixNodeLength": 118, "sourceBeforeFix": "current.getLabel().startsWith(\"nt\") && !pre.getLabel().startsWith(\"nt\")", "sourceAfterFix": "current.getLabel().startsWith(\"nt\") && !pre.getLabel().startsWith(\"nt\") && !pre.getValue().equals(Predefine.TAG_BIGIN)"}, {"bugType": "DIFFERENT_METHOD_SAME_ARGS", "fixCommitSHA1": "a538d0722ab2e4980a9dcd9ea40324fc3ddba7ce", "fixCommitParentSHA1": "c74ef77c685d0f2fb6600d8e73139f4482610e1f", "bugFilePath": "src/main/java/com/hankcs/hanlp/classification/utilities/CollectionUtility.java", "fixPatch": "diff --git a/src/main/java/com/hankcs/hanlp/classification/utilities/CollectionUtility.java b/src/main/java/com/hankcs/hanlp/classification/utilities/CollectionUtility.java\nindex c731ebc..f0ebbef 100644\n--- a/src/main/java/com/hankcs/hanlp/classification/utilities/CollectionUtility.java\n+++ b/src/main/java/com/hankcs/hanlp/classification/utilities/CollectionUtility.java\n@@ -21,7 +21,7 @@\n     public static <K, V extends Comparable<V>> Map<K, V> sortMapByValue(Map<K, V> input, final boolean desc)\n     {\n         LinkedHashMap<K, V> output = new LinkedHashMap<K, V>(input.size());\n-        ArrayList<Map.Entry<K, V>> entryList = new ArrayList<Map.Entry<K, V>>(input.size());\n+        ArrayList<Map.Entry<K, V>> entryList = new ArrayList<Map.Entry<K, V>>(input.entrySet());\n         Collections.sort(entryList, new Comparator<Map.Entry<K, V>>()\n         {\n             public int compare(Map.Entry<K, V> o1, Map.Entry<K, V> o2)\n", "projectName": "hankcs.HanLP", "bugLineNum": 24, "bugNodeStartChar": 766, "bugNodeLength": 12, "fixLineNum": 24, "fixNodeStartChar": 766, "fixNodeLength": 16, "sourceBeforeFix": "input.size()", "sourceAfterFix": "input.entrySet()"}, {"bugType": "CHANGE_IDENTIFIER", "fixCommitSHA1": "a538d0722ab2e4980a9dcd9ea40324fc3ddba7ce", "fixCommitParentSHA1": "c74ef77c685d0f2fb6600d8e73139f4482610e1f", "bugFilePath": "src/main/java/com/hankcs/hanlp/classification/utilities/CollectionUtility.java", "fixPatch": "diff --git a/src/main/java/com/hankcs/hanlp/classification/utilities/CollectionUtility.java b/src/main/java/com/hankcs/hanlp/classification/utilities/CollectionUtility.java\nindex c731ebc..f0ebbef 100644\n--- a/src/main/java/com/hankcs/hanlp/classification/utilities/CollectionUtility.java\n+++ b/src/main/java/com/hankcs/hanlp/classification/utilities/CollectionUtility.java\n@@ -21,7 +21,7 @@\n     public static <K, V extends Comparable<V>> Map<K, V> sortMapByValue(Map<K, V> input, final boolean desc)\n     {\n         LinkedHashMap<K, V> output = new LinkedHashMap<K, V>(input.size());\n-        ArrayList<Map.Entry<K, V>> entryList = new ArrayList<Map.Entry<K, V>>(input.size());\n+        ArrayList<Map.Entry<K, V>> entryList = new ArrayList<Map.Entry<K, V>>(input.entrySet());\n         Collections.sort(entryList, new Comparator<Map.Entry<K, V>>()\n         {\n             public int compare(Map.Entry<K, V> o1, Map.Entry<K, V> o2)\n", "projectName": "hankcs.HanLP", "bugLineNum": 24, "bugNodeStartChar": 766, "bugNodeLength": 12, "fixLineNum": 24, "fixNodeStartChar": 766, "fixNodeLength": 16, "sourceBeforeFix": "input.size()", "sourceAfterFix": "input.entrySet()"}]
+[
+  {
+    "bugType": "MORE_SPECIFIC_IF",
+    "fixCommitSHA1": "80f6215ed3e0c1fe902342b2cd9a55f460dc08be",
+    "fixCommitParentSHA1": "9c34ed16ff762ea4170b9449ee7da89247afdb5c",
+    "bugFilePath": "src/main/java/com/hankcs/hanlp/corpus/dictionary/NSDictionaryMaker.java",
+    "fixPatch": "diff --git a/src/main/java/com/hankcs/hanlp/corpus/dictionary/NSDictionaryMaker.java b/src/main/java/com/hankcs/hanlp/corpus/dictionary/NSDictionaryMaker.java\nindex e404bd8..3f7be8d 100644\n--- a/src/main/java/com/hankcs/hanlp/corpus/dictionary/NSDictionaryMaker.java\n+++ b/src/main/java/com/hankcs/hanlp/corpus/dictionary/NSDictionaryMaker.java\n@@ -91,7 +91,7 @@\n             while (iterator.hasNext())\n             {\n                 IWord current = iterator.next();\n-                if (current.getLabel().startsWith(\"ns\") && !pre.getLabel().startsWith(\"ns\"))\n+                if (current.getLabel().startsWith(\"ns\") && !pre.getLabel().startsWith(\"ns\") && !pre.getValue().equals(Predefine.TAG_BIGIN))\n                 {\n                     pre.setLabel(NS.A.toString());\n                 }\n",
+    "projectName": "hankcs.HanLP",
+    "bugLineNum": 94,
+    "bugNodeStartChar": 3021,
+    "bugNodeLength": 71,
+    "fixLineNum": 94,
+    "fixNodeStartChar": 3021,
+    "fixNodeLength": 118,
+    "sourceBeforeFix": "current.getLabel().startsWith(\"ns\") && !pre.getLabel().startsWith(\"ns\")",
+    "sourceAfterFix": "current.getLabel().startsWith(\"ns\") && !pre.getLabel().startsWith(\"ns\") && !pre.getValue().equals(Predefine.TAG_BIGIN)"
+  },
+  {
+    "bugType": "MORE_SPECIFIC_IF",
+    "fixCommitSHA1": "80f6215ed3e0c1fe902342b2cd9a55f460dc08be",
+    "fixCommitParentSHA1": "9c34ed16ff762ea4170b9449ee7da89247afdb5c",
+    "bugFilePath": "src/main/java/com/hankcs/hanlp/corpus/dictionary/NTDictionaryMaker.java",
+    "fixPatch": "diff --git a/src/main/java/com/hankcs/hanlp/corpus/dictionary/NTDictionaryMaker.java b/src/main/java/com/hankcs/hanlp/corpus/dictionary/NTDictionaryMaker.java\nindex c0eb52e..ce814b2 100644\n--- a/src/main/java/com/hankcs/hanlp/corpus/dictionary/NTDictionaryMaker.java\n+++ b/src/main/java/com/hankcs/hanlp/corpus/dictionary/NTDictionaryMaker.java\n@@ -89,7 +89,7 @@\n             while (iterator.hasNext())\n             {\n                 IWord current = iterator.next();\n-                if (current.getLabel().startsWith(\"nt\") && !pre.getLabel().startsWith(\"nt\"))\n+                if (current.getLabel().startsWith(\"nt\") && !pre.getLabel().startsWith(\"nt\") && !pre.getValue().equals(Predefine.TAG_BIGIN))\n                 {\n                     pre.setLabel(NT.A.toString());\n                 }\n",
+    "projectName": "hankcs.HanLP",
+    "bugLineNum": 92,
+    "bugNodeStartChar": 2954,
+    "bugNodeLength": 71,
+    "fixLineNum": 92,
+    "fixNodeStartChar": 2954,
+    "fixNodeLength": 118,
+    "sourceBeforeFix": "current.getLabel().startsWith(\"nt\") && !pre.getLabel().startsWith(\"nt\")",
+    "sourceAfterFix": "current.getLabel().startsWith(\"nt\") && !pre.getLabel().startsWith(\"nt\") && !pre.getValue().equals(Predefine.TAG_BIGIN)"
+  },
+  {
+    "bugType": "DIFFERENT_METHOD_SAME_ARGS",
+    "fixCommitSHA1": "a538d0722ab2e4980a9dcd9ea40324fc3ddba7ce",
+    "fixCommitParentSHA1": "c74ef77c685d0f2fb6600d8e73139f4482610e1f",
+    "bugFilePath": "src/main/java/com/hankcs/hanlp/classification/utilities/CollectionUtility.java",
+    "fixPatch": "diff --git a/src/main/java/com/hankcs/hanlp/classification/utilities/CollectionUtility.java b/src/main/java/com/hankcs/hanlp/classification/utilities/CollectionUtility.java\nindex c731ebc..f0ebbef 100644\n--- a/src/main/java/com/hankcs/hanlp/classification/utilities/CollectionUtility.java\n+++ b/src/main/java/com/hankcs/hanlp/classification/utilities/CollectionUtility.java\n@@ -21,7 +21,7 @@\n     public static <K, V extends Comparable<V>> Map<K, V> sortMapByValue(Map<K, V> input, final boolean desc)\n     {\n         LinkedHashMap<K, V> output = new LinkedHashMap<K, V>(input.size());\n-        ArrayList<Map.Entry<K, V>> entryList = new ArrayList<Map.Entry<K, V>>(input.size());\n+        ArrayList<Map.Entry<K, V>> entryList = new ArrayList<Map.Entry<K, V>>(input.entrySet());\n         Collections.sort(entryList, new Comparator<Map.Entry<K, V>>()\n         {\n             public int compare(Map.Entry<K, V> o1, Map.Entry<K, V> o2)\n",
+    "projectName": "hankcs.HanLP",
+    "bugLineNum": 24,
+    "bugNodeStartChar": 766,
+    "bugNodeLength": 12,
+    "fixLineNum": 24,
+    "fixNodeStartChar": 766,
+    "fixNodeLength": 16,
+    "sourceBeforeFix": "input.size()",
+    "sourceAfterFix": "input.entrySet()"
+  },
+  {
+    "bugType": "CHANGE_IDENTIFIER",
+    "fixCommitSHA1": "a538d0722ab2e4980a9dcd9ea40324fc3ddba7ce",
+    "fixCommitParentSHA1": "c74ef77c685d0f2fb6600d8e73139f4482610e1f",
+    "bugFilePath": "src/main/java/com/hankcs/hanlp/classification/utilities/CollectionUtility.java",
+    "fixPatch": "diff --git a/src/main/java/com/hankcs/hanlp/classification/utilities/CollectionUtility.java b/src/main/java/com/hankcs/hanlp/classification/utilities/CollectionUtility.java\nindex c731ebc..f0ebbef 100644\n--- a/src/main/java/com/hankcs/hanlp/classification/utilities/CollectionUtility.java\n+++ b/src/main/java/com/hankcs/hanlp/classification/utilities/CollectionUtility.java\n@@ -21,7 +21,7 @@\n     public static <K, V extends Comparable<V>> Map<K, V> sortMapByValue(Map<K, V> input, final boolean desc)\n     {\n         LinkedHashMap<K, V> output = new LinkedHashMap<K, V>(input.size());\n-        ArrayList<Map.Entry<K, V>> entryList = new ArrayList<Map.Entry<K, V>>(input.size());\n+        ArrayList<Map.Entry<K, V>> entryList = new ArrayList<Map.Entry<K, V>>(input.entrySet());\n         Collections.sort(entryList, new Comparator<Map.Entry<K, V>>()\n         {\n             public int compare(Map.Entry<K, V> o1, Map.Entry<K, V> o2)\n",
+    "projectName": "hankcs.HanLP",
+    "bugLineNum": 24,
+    "bugNodeStartChar": 766,
+    "bugNodeLength": 12,
+    "fixLineNum": 24,
+    "fixNodeStartChar": 766,
+    "fixNodeLength": 16,
+    "sourceBeforeFix": "input.size()",
+    "sourceAfterFix": "input.entrySet()"
+  }
+]
