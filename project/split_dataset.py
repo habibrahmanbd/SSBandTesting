@@ -13,9 +13,9 @@ project_names = list(set(entry[PROJECT_NAME] for entry in dataset))
 
 group_by_project = {}
 for project in project_names:
-    data_for_project = filter(lambda bug: bug[PROJECT_NAME] == project, dataset)
+    data_for_project = list(filter(lambda bug: bug[PROJECT_NAME] == project, dataset))
     group_by_project[project] = data_for_project
-    project_file = open(ROOT_DIRECTORY + DATASET_BY_PROJECT_ABS_PATH + project + TXT_EXTENSION, 'w')
+    project_file = open(ROOT_DIRECTORY + DATASET_BY_PROJECT_ABS_PATH + project, 'w')
     data = json.dumps(data_for_project)
     project_file.write(data)
     project_file.close()
