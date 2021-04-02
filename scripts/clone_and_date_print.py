@@ -42,6 +42,21 @@ def release_tag_list(target_dir): #target_dir = cur_dir + 'repos/' + $repo_name
 	print(returned_output)
 	return returned_output
 
+def clean_number(num):
+	ret = ''
+	for i in num:
+		if i >= '0' and i<='9':
+			ret+=i
+	return int(ret)
+
+def git_time_in_ms(target_dir, tag_name_or_sha):
+	os.chdir(target_dir)
+	cmd = 'git log -1 --format="%at" '+str(tag_name_or_sha)
+	returned_output = subprocess.check_output(cmd, shell=True)
+	returned_output = clean_number(str(returned_output))
+	print(str(tag_name_or_sha) + ' : ' + str(returned_output))
+	return int(returned_output)
+
 #def checkout_last_commit_date(repo_name, date):
 #	os.chdir('repos/'+str(repo_name))
 
@@ -51,6 +66,13 @@ def print_months_by_commit(target_dir, repo_name, last_commit_time): #target_dir
 		sys.stdout = f
 		for i in range(0, 5):
 			print((today - relativedelta(months=i)).strftime("%b %d %Y"))
+	return
+
+def print_taglist_by_dates(target_dir, repo_name, tag_dict): #target_dir = cur_dir + 'repo    s/'
+	with open(str(target_dir)+str(repo_name)+'_taglist.csv', 'w') as f:
+		sys.stdout = f
+		for key, value in tag_dict.items():
+			print(str(key)+','+str(value))
 	return
 
 def run_build(target_dir): #target_dir = cur_dir + 'repos/' + $repo_name
@@ -89,6 +111,24 @@ def checkout_by_tags(target_dir, desired_tag):
 		print('-------------Checkout Failed for '+str(desired_tag)+' -------------')
 	return
 
+def binary_search_in_dictory(data_dictionary, to_find):
+	low = 0
+	high = len(data_dictionary) - 1
+	mid = 0
+
+	while low < high:
+		mid = (high + low ) //2
+
+		if data_dictionary.key()[mid] >= to_find:
+			high = mid
+		else:
+			low = mid
+
+	if low == high:
+		return data_dictionary.value()[mid]
+	else:
+		return null
+
 
 if __name__=="__main__":
 	args = sys.argv[1:]
@@ -105,7 +145,12 @@ if __name__=="__main__":
 #	print_months_by_commit(cur_dir+'/repos/', repo_name, _last_commit_date)
 
 	taglist = release_tag_list(cur_dir + '/repos/' + str(repo_name))
-	for i in range(0, min(4, len(taglist))): #run at most 5
-		checkout_by_tags(cur_dir + '/repos/' + str(repo_name), taglist[i])
-		run_build(cur_dir + '/repos/' + str(repo_name))
-		run_test(cur_dir + '/repos/' + str(repo_name))
+	tag_date = {}
+	for i in range(len(taglist)):
+		_datetime = git_time_in_ms(cur_dir + '/repos/' + str(repo_name), taglist[i])
+		tag_date[int(_datetime)] = taglist[i]
+		#checkout_by_tags(cur_dir + '/repos/' + str(repo_name), taglist[i])
+		#run_build(cur_dir + '/repos/' + str(repo_name))
+		#run_test(cur_dir + '/repos/' + str(repo_name))
+
+	print_taglist_by_dates(cur_dir+'/repos/', repo_name, tag_date)
