@@ -1,0 +1,35 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+atmosphere-jersey,org.atmosphere.jersey,BroadcasterInjector,2,13,2,2,0,2,2,2,0,2
+atmosphere-jersey,org.atmosphere.jersey,JerseyBroadcaster,5,3,0,0,2,1,1,1,1,1
+atmosphere-jersey,org.atmosphere.jersey,Broadcastable,78,0,2,0,25,0,9,0,8,0
+atmosphere-jersey,org.atmosphere.jersey,BroadcasterFactoryInjector.Singleton.new Injectable() {...},12,0,0,0,2,0,2,0,2,0
+atmosphere-jersey,org.atmosphere.jersey,BroadcasterFactoryInjector.PerRequest.new Injectable() {...},0,14,0,0,0,2,0,2,0,2
+atmosphere-jersey,org.atmosphere.jersey,AtmosphereFilter,340,203,27,17,55,37,22,7,0,4
+atmosphere-jersey,org.atmosphere.jersey,AtmosphereResourceInjector.Singleton.1.new InvocationHandler() {...},16,0,0,0,2,0,2,0,2,0
+atmosphere-jersey,org.atmosphere.jersey,AtmosphereProviders,3,4,0,0,1,1,1,1,1,1
+atmosphere-jersey,org.atmosphere.jersey,AtmosphereFilter.Filter.new AtmosphereResourceEventListenerAdapter.OnSuspend() {...},46,0,4,0,8,0,4,0,2,0
+atmosphere-jersey,org.atmosphere.jersey,AtmosphereResourceInjector.Singleton,5,11,1,1,1,4,1,3,0,3
+atmosphere-jersey,org.atmosphere.jersey,AtmosphereResourceInjector,34,13,9,3,6,4,5,3,0,2
+atmosphere-jersey,org.atmosphere.jersey,BroadcasterFactoryInjector,0,15,1,3,0,3,1,3,0,2
+atmosphere-jersey,org.atmosphere.jersey,AtmosphereResourceConfigurator,0,43,0,0,0,4,0,2,0,2
+atmosphere-jersey,org.atmosphere.jersey,AtmosphereProviders.BroadcasterProvider.BroadcasterStringReader,13,45,0,0,4,11,0,2,0,2
+atmosphere-jersey,org.atmosphere.jersey,AtmosphereResourceInjector.Singleton.new Injectable() {...},22,0,0,0,2,0,2,0,2,0
+atmosphere-jersey,org.atmosphere.jersey,BroadcasterInjector.Singleton.new Injectable() {...},22,0,0,0,2,0,2,0,2,0
+atmosphere-jersey,org.atmosphere.jersey,SuspendResponse.SuspendResponseBuilder,105,0,0,0,27,0,10,0,10,0
+atmosphere-jersey,org.atmosphere.jersey,AtmosphereFilter.Action,0,124,0,0,0,4,0,1,0,1
+atmosphere-jersey,org.atmosphere.jersey,BroadcasterInjector.Singleton,5,11,1,1,1,4,1,3,0,3
+atmosphere-jersey,org.atmosphere.jersey,SuspendResponse,54,0,0,0,16,0,8,0,8,0
+atmosphere-jersey,org.atmosphere.jersey,BroadcasterInjector.Singleton.1.new InvocationHandler() {...},17,0,0,0,2,0,2,0,2,0
+atmosphere-jersey,org.atmosphere.jersey,SuspendResponse.TimeSpan,15,0,0,0,6,0,3,0,3,0
+atmosphere-jersey,org.atmosphere.jersey,AtmosphereProviders.BroadcasterProvider,2,12,1,1,1,3,1,2,0,2
+atmosphere-jersey,org.atmosphere.jersey,AtmosphereResourceInjector.PerRequest.new Injectable() {...},0,12,0,0,0,2,0,2,0,2
+atmosphere-jersey,org.atmosphere.jersey,BroadcasterFactoryInjector.Singleton.BroadcasterFactoryProxy,108,0,0,0,24,0,19,0,19,0
+atmosphere-jersey,org.atmosphere.jersey,BroadcasterInjector.PerRequest,5,11,1,1,1,4,1,3,0,3
+atmosphere-jersey,org.atmosphere.jersey,BroadcasterFactoryInjector.Singleton,5,11,1,1,1,4,1,3,0,3
+atmosphere-jersey,org.atmosphere.jersey,AtmosphereResourceInjector.PerRequest,0,16,0,2,0,5,0,4,0,3
+atmosphere-jersey,org.atmosphere.jersey,BroadcasterInjector.PerRequest.new Injectable() {...},13,0,0,0,2,0,2,0,2,0
+atmosphere-jersey,org.atmosphere.jersey,BaseInjectableProvider,17,11,0,0,2,4,0,2,0,2
+atmosphere-jersey,org.atmosphere.jersey,AtmosphereFilter.Filter,1127,461,172,47,246,110,116,18,7,15
+atmosphere-jersey,org.atmosphere.jersey,BroadcasterFactoryInjector.PerRequest,0,16,0,2,0,5,0,4,0,3
+atmosphere-jersey,org.atmosphere.jersey.util,JerseySimpleBroadcaster,8,0,0,0,3,0,2,0,2,0
+atmosphere-jersey,org.atmosphere.jersey.util,JerseyBroadcasterUtil,346,0,56,0,87,0,33,0,5,0
