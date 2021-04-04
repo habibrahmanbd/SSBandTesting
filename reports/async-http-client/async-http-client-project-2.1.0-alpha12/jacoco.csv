@@ -1,0 +1,224 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Asynchronous Http Client,org.asynchttpclient.netty.handler.intercept,Redirect30xInterceptor,47,310,12,40,12,67,8,22,0,4
+Asynchronous Http Client,org.asynchttpclient.netty.handler.intercept,ProxyUnauthorized407Interceptor,147,200,16,17,47,52,14,9,1,4
+Asynchronous Http Client,org.asynchttpclient.netty.handler.intercept,ResponseFiltersInterceptor,7,62,0,4,2,16,0,4,0,2
+Asynchronous Http Client,org.asynchttpclient.netty.handler.intercept,Interceptors,0,168,1,19,0,28,1,11,0,2
+Asynchronous Http Client,org.asynchttpclient.netty.handler.intercept,ConnectSuccessInterceptor,0,54,1,1,0,14,1,3,0,3
+Asynchronous Http Client,org.asynchttpclient.netty.handler.intercept,Continue100Interceptor.new OnLastHttpContentCallback() {...},0,24,0,0,0,4,0,2,0,2
+Asynchronous Http Client,org.asynchttpclient.netty.handler.intercept,Unauthorized401Interceptor,121,217,12,19,35,60,11,11,1,4
+Asynchronous Http Client,org.asynchttpclient.netty.handler.intercept,Continue100Interceptor,0,22,0,0,0,7,0,2,0,2
+Asynchronous Http Client,org.asynchttpclient.ntlm,NtlmEngine.CipherGen,367,160,36,6,81,47,35,8,15,7
+Asynchronous Http Client,org.asynchttpclient.ntlm,NtlmEngine,444,638,22,14,89,102,24,24,9,21
+Asynchronous Http Client,org.asynchttpclient.ntlm,NtlmEngine.Type3Message,101,293,23,11,23,63,17,2,0,2
+Asynchronous Http Client,org.asynchttpclient.ntlm,NtlmEngine.Type1Message,0,39,0,0,0,13,0,1,0,1
+Asynchronous Http Client,org.asynchttpclient.ntlm,NtlmEngine.HMACMD5,119,0,6,0,30,0,6,0,3,0
+Asynchronous Http Client,org.asynchttpclient.ntlm,NtlmEngine.MD4,3,1207,1,9,0,103,1,11,0,7
+Asynchronous Http Client,org.asynchttpclient.ntlm,NtlmEngineException,5,4,0,0,2,2,1,1,1,1
+Asynchronous Http Client,org.asynchttpclient.ntlm,NtlmEngine.NTLMMessage,48,231,5,13,11,49,7,17,3,12
+Asynchronous Http Client,org.asynchttpclient.ntlm,NtlmEngine.Type2Message,26,71,5,5,7,17,4,6,0,5
+Asynchronous Http Client,org.asynchttpclient.netty.handler,AsyncHttpClientHandler,149,257,23,33,36,77,18,18,0,8
+Asynchronous Http Client,org.asynchttpclient.netty.handler,WebSocketHandler,92,209,15,19,24,43,15,10,2,6
+Asynchronous Http Client,org.asynchttpclient.netty.handler,HttpHandler,49,270,18,44,10,57,16,25,1,9
+Asynchronous Http Client,org.asynchttpclient.netty.handler,StreamedResponsePublisher,7,44,0,0,2,13,0,3,0,3
+Asynchronous Http Client,org.asynchttpclient.netty.request.body,NettyInputStreamBody.new WriteProgressListener() {...},0,19,0,0,0,4,0,2,0,2
+Asynchronous Http Client,org.asynchttpclient.netty.request.body,NettyReactiveStreamsBody,4,44,1,1,1,13,1,5,0,5
+Asynchronous Http Client,org.asynchttpclient.netty.request.body,BodyChunkedInput,31,71,4,4,6,20,5,7,1,6
+Asynchronous Http Client,org.asynchttpclient.netty.request.body,NettyCompositeByteArrayBody,53,0,2,0,14,0,6,0,5,0
+Asynchronous Http Client,org.asynchttpclient.netty.request.body,NettyByteArrayBody,0,26,0,0,0,9,0,5,0,5
+Asynchronous Http Client,org.asynchttpclient.netty.request.body,NettyBodyBody.new WriteProgressListener() {...},0,17,0,0,0,4,0,2,0,2
+Asynchronous Http Client,org.asynchttpclient.netty.request.body,NettyBodyBody.new FeedListener() {...},5,9,0,0,3,1,2,1,2,1
+Asynchronous Http Client,org.asynchttpclient.netty.request.body,NettyMultipartBody,0,19,0,0,0,6,0,3,0,3
+Asynchronous Http Client,org.asynchttpclient.netty.request.body,NettyFileBody,19,89,2,4,3,18,4,6,2,5
+Asynchronous Http Client,org.asynchttpclient.netty.request.body,NettyReactiveStreamsBody.NettySubscriber,14,63,1,1,3,16,1,7,0,7
+Asynchronous Http Client,org.asynchttpclient.netty.request.body,NettyInputStreamBody,7,64,1,3,3,18,2,7,1,6
+Asynchronous Http Client,org.asynchttpclient.netty.request.body,BodyFileRegion,13,44,1,1,5,14,5,7,4,7
+Asynchronous Http Client,org.asynchttpclient.netty.request.body,NettyBodyBody,3,89,4,6,1,17,5,5,1,4
+Asynchronous Http Client,org.asynchttpclient.netty.request.body,NettyDirectBody,5,3,0,0,1,1,1,1,1,1
+Asynchronous Http Client,org.asynchttpclient.netty.request.body,NettyReactiveStreamsBody.SubscriberAdapter,0,34,0,0,0,13,0,5,0,5
+Asynchronous Http Client,org.asynchttpclient.netty.request.body,NettyByteBufferBody,0,36,0,0,0,12,0,5,0,5
+Asynchronous Http Client,org.asynchttpclient.netty.request,NettyRequestSender.new OnLastHttpContentCallback() {...},0,18,0,0,0,3,0,2,0,2
+Asynchronous Http Client,org.asynchttpclient.netty.request,NettyRequestSender.new SimpleFutureListener() {...},0,72,1,1,0,8,1,3,0,3
+Asynchronous Http Client,org.asynchttpclient.netty.request,NettyRequestFactory,38,513,11,79,5,103,10,43,0,8
+Asynchronous Http Client,org.asynchttpclient.netty.request,NettyRequestSender,195,821,31,105,47,197,27,66,1,24
+Asynchronous Http Client,org.asynchttpclient.netty.request,WriteProgressListener,0,54,0,8,0,15,0,7,0,3
+Asynchronous Http Client,org.asynchttpclient.netty.request,WriteListener,24,71,8,16,6,17,5,11,0,4
+Asynchronous Http Client,org.asynchttpclient.netty.request,NettyChannelConnector.new SimpleChannelFutureListener() {...},22,66,0,6,8,14,0,6,0,3
+Asynchronous Http Client,org.asynchttpclient.netty.request,NettyChannelConnector,29,78,3,5,8,20,2,7,0,5
+Asynchronous Http Client,org.asynchttpclient.netty.request,WriteCompleteListener,0,12,0,0,0,4,0,2,0,2
+Asynchronous Http Client,org.asynchttpclient.netty.request,NettyRequest,0,15,0,0,0,6,0,3,0,3
+Asynchronous Http Client,io.netty.handler.ssl,NettySslPackageAccessor,0,2,0,0,0,1,0,1,0,1
+Asynchronous Http Client,org.asynchttpclient.netty.channel,DefaultChannelPool.ChannelCreation,9,0,0,0,4,0,1,0,1,0
+Asynchronous Http Client,org.asynchttpclient.netty.channel,DefaultChannelPool.IdleChannel,4,46,2,4,1,8,3,5,1,4
+Asynchronous Http Client,org.asynchttpclient.netty.channel,DefaultChannelPool.PoolLeaseStrategy,0,24,0,0,0,3,0,1,0,1
+Asynchronous Http Client,org.asynchttpclient.netty.channel,ChannelState,0,44,0,0,0,2,0,1,0,1
+Asynchronous Http Client,org.asynchttpclient.netty.channel,EpollSocketChannelFactory,7,0,0,0,2,0,2,0,2,0
+Asynchronous Http Client,org.asynchttpclient.netty.channel,ChannelManager.new HttpContentDecompressor() {...},8,0,0,0,2,0,2,0,2,0
+Asynchronous Http Client,org.asynchttpclient.netty.channel,ChannelManager.new ChannelInitializer() {...},6,45,2,2,1,9,2,2,0,2
+Asynchronous Http Client,org.asynchttpclient.netty.channel,ChannelManager.new OnLastHttpContentCallback() {...},0,29,0,0,0,3,0,2,0,2
+Asynchronous Http Client,org.asynchttpclient.netty.channel,ChannelManager.new ChannelInitializer() {...},7,56,1,3,1,11,1,3,0,2
+Asynchronous Http Client,org.asynchttpclient.netty.channel,ChannelManager,188,607,28,38,38,122,29,36,4,28
+Asynchronous Http Client,org.asynchttpclient.netty.channel,NoopHandler,0,3,0,0,0,1,0,1,0,1
+Asynchronous Http Client,org.asynchttpclient.netty.channel,NettyConnectListener,27,222,8,22,11,54,8,13,0,6
+Asynchronous Http Client,org.asynchttpclient.netty.channel,NonBlockingSemaphore,16,32,1,3,2,10,2,4,1,3
+Asynchronous Http Client,org.asynchttpclient.netty.channel,DefaultChannelPool,148,279,38,34,25,68,32,26,3,19
+Asynchronous Http Client,org.asynchttpclient.netty.channel,NettyConnectListener.new SimpleFutureListener() {...},29,35,1,3,10,9,1,4,0,3
+Asynchronous Http Client,org.asynchttpclient.netty.channel,NettyConnectListener.new GenericFutureListener() {...},0,16,0,0,0,3,0,2,0,2
+Asynchronous Http Client,org.asynchttpclient.netty.channel,Channels.Inactive,0,14,0,0,0,1,0,1,0,1
+Asynchronous Http Client,org.asynchttpclient.netty.channel,ConnectionSemaphore,6,97,1,7,2,20,1,10,0,7
+Asynchronous Http Client,org.asynchttpclient.netty.channel,NioSocketChannelFactory,0,18,0,0,0,3,0,2,0,2
+Asynchronous Http Client,org.asynchttpclient.netty.channel,NonBlockingSemaphoreInfinite,3,17,0,0,1,4,1,3,1,3
+Asynchronous Http Client,org.asynchttpclient.netty.channel,Channels,10,66,4,10,3,17,5,11,1,8
+Asynchronous Http Client,org.asynchttpclient.netty.channel,DefaultChannelPool.PoolLeaseStrategy.new DefaultChannelPool.PoolLeaseStrategy() {...},3,6,0,0,1,1,1,1,1,1
+Asynchronous Http Client,org.asynchttpclient.netty.channel,DefaultChannelPool.PoolLeaseStrategy.new DefaultChannelPool.PoolLeaseStrategy() {...},0,9,0,0,0,2,0,2,0,2
+Asynchronous Http Client,org.asynchttpclient.netty.channel,DefaultChannelPool.IdleChannelDetector,48,260,17,33,8,47,14,16,0,5
+Asynchronous Http Client,org.asynchttpclient.util,StringUtils,0,129,0,8,0,23,0,9,0,5
+Asynchronous Http Client,org.asynchttpclient.util,Utf8UrlEncoder,141,372,15,27,24,92,12,22,2,11
+Asynchronous Http Client,org.asynchttpclient.util,MiscUtils,31,48,13,15,5,10,11,12,3,6
+Asynchronous Http Client,org.asynchttpclient.util,ProxyUtils.new ProxyServerSelector() {...},41,49,4,5,8,10,4,3,0,2
+Asynchronous Http Client,org.asynchttpclient.util,HttpConstants.ResponseStatusCodes,0,31,0,0,0,10,0,1,0,1
+Asynchronous Http Client,org.asynchttpclient.util,UriEncoder.new UriEncoder() {...},76,6,4,0,19,1,8,1,6,1
+Asynchronous Http Client,org.asynchttpclient.util,HttpConstants.Methods,0,28,0,0,0,9,0,1,0,1
+Asynchronous Http Client,org.asynchttpclient.util,Base64,0,398,0,28,0,58,0,17,0,3
+Asynchronous Http Client,org.asynchttpclient.util,ProxyUtils,7,94,4,10,2,22,4,9,0,6
+Asynchronous Http Client,org.asynchttpclient.util,HttpUtils,17,230,5,31,2,36,6,25,1,12
+Asynchronous Http Client,org.asynchttpclient.util,UriEncoder.new UriEncoder() {...},0,97,1,3,0,24,1,8,0,7
+Asynchronous Http Client,org.asynchttpclient.util,AuthenticatorUtils,139,297,28,37,27,62,23,24,1,11
+Asynchronous Http Client,org.asynchttpclient.util,UriEncoder,2,86,1,7,0,13,1,9,0,6
+Asynchronous Http Client,org.asynchttpclient.util,StringBuilderPool,0,27,0,0,0,6,0,4,0,4
+Asynchronous Http Client,org.asynchttpclient.util,DateUtils,0,2,0,0,0,1,0,1,0,1
+Asynchronous Http Client,org.asynchttpclient.util,Assertions,17,9,2,2,3,3,2,2,1,1
+Asynchronous Http Client,org.asynchttpclient.netty.timeout,TimeoutsHolder,3,177,5,21,1,40,5,15,0,7
+Asynchronous Http Client,org.asynchttpclient.netty.timeout,ReadTimeoutTimerTask,13,73,4,4,5,15,4,2,0,2
+Asynchronous Http Client,org.asynchttpclient.netty.timeout,TimeoutTimerTask,0,63,0,2,0,13,0,5,0,4
+Asynchronous Http Client,org.asynchttpclient.netty.timeout,RequestTimeoutTimerTask,2,55,3,3,2,10,3,2,0,2
+Asynchronous Http Client,org.asynchttpclient.handler.resumable,ResumableAsyncHandler.ResumableIndexThread,0,33,0,2,0,10,0,4,0,3
+Asynchronous Http Client,org.asynchttpclient.handler.resumable,ResumableIOExceptionFilter,31,0,4,0,5,0,4,0,2,0
+Asynchronous Http Client,org.asynchttpclient.handler.resumable,ResumableAsyncHandler.NULLResumableListener,1,18,0,0,1,5,1,3,1,3
+Asynchronous Http Client,org.asynchttpclient.handler.resumable,PropertiesBasedResumableProcessor,53,152,9,9,9,34,7,9,0,7
+Asynchronous Http Client,org.asynchttpclient.handler.resumable,ResumableAsyncHandler,81,235,11,23,19,56,14,19,6,10
+Asynchronous Http Client,org.asynchttpclient.handler.resumable,ResumableAsyncHandler.NULLResumableHandler,1,6,0,0,1,3,1,3,1,3
+Asynchronous Http Client,org.asynchttpclient.handler.resumable,ResumableRandomAccessFileListener,11,48,0,2,5,12,2,3,2,2
+Asynchronous Http Client,org.asynchttpclient.resolver,RequestHostnameResolver.new SimpleFutureListener() {...},29,69,1,5,10,13,1,5,0,3
+Asynchronous Http Client,org.asynchttpclient.resolver,RequestHostnameResolver,25,83,3,9,6,18,3,5,0,2
+Asynchronous Http Client,org.asynchttpclient.netty.future,StackTraceInspector,70,59,22,12,14,10,15,7,2,3
+Asynchronous Http Client,org.asynchttpclient.request.body.multipart,FilePart,28,67,3,3,2,17,3,7,0,7
+Asynchronous Http Client,org.asynchttpclient.request.body.multipart,FileUploadStalledException,3,0,0,0,1,0,1,0,1,0
+Asynchronous Http Client,org.asynchttpclient.request.body.multipart,FileLikePart,19,41,0,2,6,10,1,5,1,4
+Asynchronous Http Client,org.asynchttpclient.request.body.multipart,Part,0,37,0,0,0,9,0,1,0,1
+Asynchronous Http Client,org.asynchttpclient.request.body.multipart,PartBase,47,58,1,1,13,18,4,9,3,9
+Asynchronous Http Client,org.asynchttpclient.request.body.multipart,MultipartBody,14,183,3,27,6,47,4,20,1,8
+Asynchronous Http Client,org.asynchttpclient.request.body.multipart,StringPart,5,62,1,1,1,16,1,8,0,8
+Asynchronous Http Client,org.asynchttpclient.request.body.multipart,ByteArrayPart,21,37,0,0,6,8,3,4,3,4
+Asynchronous Http Client,org.asynchttpclient.request.body.multipart,MultipartUtils,42,157,6,12,9,28,6,9,1,5
+Asynchronous Http Client,org.asynchttpclient.request.body.generator,InputStreamBodyGenerator.InputStreamBody,59,0,4,0,18,0,6,0,4,0
+Asynchronous Http Client,org.asynchttpclient.request.body.generator,ByteArrayBodyGenerator.ByteBody,13,61,0,4,4,13,2,4,2,2
+Asynchronous Http Client,org.asynchttpclient.request.body.generator,FileBodyGenerator,5,31,0,0,1,10,1,5,1,5
+Asynchronous Http Client,org.asynchttpclient.request.body.generator,BodyChunk,0,9,0,0,0,4,0,1,0,1
+Asynchronous Http Client,org.asynchttpclient.request.body.generator,ReactiveStreamsBodyGenerator.SimpleSubscriber,88,0,10,0,32,0,10,0,5,0
+Asynchronous Http Client,org.asynchttpclient.request.body.generator,ReactiveStreamsBodyGenerator,25,25,0,0,5,8,3,4,3,4
+Asynchronous Http Client,org.asynchttpclient.request.body.generator,ByteArrayBodyGenerator,0,11,0,0,0,4,0,2,0,2
+Asynchronous Http Client,org.asynchttpclient.request.body.generator,PushBody,10,105,3,16,2,32,3,14,0,7
+Asynchronous Http Client,org.asynchttpclient.request.body.generator,UnboundedQueueFeedableBodyGenerator,0,12,0,0,0,3,0,2,0,2
+Asynchronous Http Client,org.asynchttpclient.request.body.generator,BoundedQueueFeedableBodyGenerator,14,0,0,0,3,0,2,0,2,0
+Asynchronous Http Client,org.asynchttpclient.request.body.generator,QueueBasedFeedableBodyGenerator,0,34,1,3,0,10,1,5,0,4
+Asynchronous Http Client,org.asynchttpclient.request.body.generator,ReactiveStreamsBodyGenerator.StreamedBody,50,0,2,0,12,0,5,0,4,0
+Asynchronous Http Client,org.asynchttpclient.request.body.generator,InputStreamBodyGenerator,10,24,0,0,1,9,1,5,1,5
+Asynchronous Http Client,org.asynchttpclient.uri,Uri,127,358,36,44,27,74,28,34,1,21
+Asynchronous Http Client,org.asynchttpclient.uri,UriParser,146,760,51,97,21,158,45,60,1,30
+Asynchronous Http Client,org.asynchttpclient.ws,WebSocketUtils,22,58,0,2,7,12,2,6,2,5
+Asynchronous Http Client,org.asynchttpclient.ws,WebSocketListener,4,0,0,0,4,0,4,0,4,0
+Asynchronous Http Client,org.asynchttpclient.ws,WebSocketUpgradeHandler,7,71,1,7,2,20,2,11,1,8
+Asynchronous Http Client,org.asynchttpclient.ws,WebSocketUpgradeHandler.Builder,7,22,0,0,2,5,1,3,1,3
+Asynchronous Http Client,org.asynchttpclient.request.body,Body.BodyState,0,34,0,0,0,4,0,1,0,1
+Asynchronous Http Client,org.asynchttpclient.proxy,ProxyServerSelector,0,5,0,0,0,1,0,2,0,2
+Asynchronous Http Client,org.asynchttpclient.proxy,ProxyServer,3,108,1,11,1,24,2,12,1,7
+Asynchronous Http Client,org.asynchttpclient.proxy,ProxyServer.Builder,5,66,1,3,2,17,2,7,1,6
+Asynchronous Http Client,org.asynchttpclient.filter,ThrottleRequestFilter,19,77,1,3,3,18,1,6,0,5
+Asynchronous Http Client,org.asynchttpclient.filter,ReleasePermitOnComplete,3,43,0,2,1,8,1,3,1,2
+Asynchronous Http Client,org.asynchttpclient.filter,FilterException,5,4,0,0,2,2,1,1,1,1
+Asynchronous Http Client,org.asynchttpclient.filter,ReleasePermitOnComplete.new InvocationHandler() {...},0,29,0,2,0,4,0,3,0,2
+Asynchronous Http Client,org.asynchttpclient.filter,FilterContext.FilterContextBuilder,11,87,0,0,4,25,3,8,3,8
+Asynchronous Http Client,org.asynchttpclient.filter,FilterContext,0,30,0,0,0,9,0,7,0,7
+Asynchronous Http Client,org.asynchttpclient.exception,PoolAlreadyClosedException,13,0,0,0,3,0,2,0,2,0
+Asynchronous Http Client,org.asynchttpclient.exception,TooManyConnectionsPerHostException,0,11,0,0,0,2,0,1,0,1
+Asynchronous Http Client,org.asynchttpclient.exception,ChannelClosedException,13,0,0,0,3,0,2,0,2,0
+Asynchronous Http Client,org.asynchttpclient.exception,TooManyConnectionsException,0,11,0,0,0,2,0,1,0,1
+Asynchronous Http Client,org.asynchttpclient.exception,RemotelyClosedException,0,13,0,0,0,3,0,2,0,2
+Asynchronous Http Client,org.asynchttpclient.config,AsyncHttpClientConfigDefaults,0,201,0,0,0,48,0,47,0,47
+Asynchronous Http Client,org.asynchttpclient.config,AsyncHttpClientConfigHelper.Config,42,161,6,16,6,44,7,14,2,8
+Asynchronous Http Client,org.asynchttpclient.config,AsyncHttpClientConfigHelper,3,13,1,3,1,6,2,3,1,2
+Asynchronous Http Client,org.asynchttpclient.netty.ssl,DefaultSslEngineFactory,5,54,2,4,1,15,2,6,0,5
+Asynchronous Http Client,org.asynchttpclient.netty.ssl,InsecureTrustManagerFactory,2,19,0,0,2,4,2,2,2,2
+Asynchronous Http Client,org.asynchttpclient.netty.ssl,InsecureTrustManagerFactory.new X509ExtendedTrustManager() {...},27,17,0,0,11,5,6,3,6,3
+Asynchronous Http Client,org.asynchttpclient.netty.ssl,JsseSslEngineFactory,0,18,0,0,0,6,0,2,0,2
+Asynchronous Http Client,org.asynchttpclient.netty.ssl,SslEngineFactoryBase,0,35,3,3,0,11,3,2,0,2
+Asynchronous Http Client,org.asynchttpclient.handler,TransferCompletionHandler,57,155,4,12,22,49,6,20,3,15
+Asynchronous Http Client,org.asynchttpclient.handler,ExtendedAsyncHandler,17,0,0,0,15,0,15,0,15,0
+Asynchronous Http Client,org.asynchttpclient.handler,AsyncHandlerExtensionsUtils,0,8,0,2,0,1,0,2,0,1
+Asynchronous Http Client,org.asynchttpclient.handler,MaxRedirectException,0,7,0,0,0,2,0,1,0,1
+Asynchronous Http Client,org.asynchttpclient.handler,BodyDeferringAsyncHandler,29,136,2,6,9,41,2,10,0,8
+Asynchronous Http Client,org.asynchttpclient.handler,BodyDeferringAsyncHandler.BodyDeferringInputStream,13,40,0,0,4,14,0,4,0,4
+Asynchronous Http Client,org.asynchttpclient,AsyncCompletionHandler,0,54,0,0,0,16,0,10,0,10
+Asynchronous Http Client,org.asynchttpclient,RequestBuilder,12,18,0,0,4,8,2,4,2,4
+Asynchronous Http Client,org.asynchttpclient,Param,54,93,16,12,15,23,13,7,1,5
+Asynchronous Http Client,org.asynchttpclient,Realm,96,126,0,0,1,40,1,20,1,20
+Asynchronous Http Client,org.asynchttpclient,AsyncHttpClientConfig.ResponseBodyPartFactory,0,24,0,0,0,3,0,1,0,1
+Asynchronous Http Client,org.asynchttpclient,DefaultAsyncHttpClientConfig,8,389,0,0,3,130,1,63,1,63
+Asynchronous Http Client,org.asynchttpclient,HttpResponseBodyPart,0,9,0,0,0,4,0,2,0,2
+Asynchronous Http Client,org.asynchttpclient,ListenableFuture.CompletedFailure,33,22,2,0,14,7,10,3,9,3
+Asynchronous Http Client,org.asynchttpclient,AsyncHttpClientConfig.ResponseBodyPartFactory.new AsyncHttpClientConfig.ResponseBodyPartFactory() {...},0,12,0,0,0,2,0,2,0,2
+Asynchronous Http Client,org.asynchttpclient,AsyncHttpClientConfig.ResponseBodyPartFactory.new AsyncHttpClientConfig.ResponseBodyPartFactory() {...},6,6,0,0,1,1,1,1,1,1
+Asynchronous Http Client,org.asynchttpclient,DefaultAsyncHttpClientConfig.Builder,644,460,2,12,148,112,48,32,46,27
+Asynchronous Http Client,org.asynchttpclient,BoundRequestBuilder,16,24,0,0,6,5,2,3,2,3
+Asynchronous Http Client,org.asynchttpclient,HostStats,71,21,10,0,8,7,8,4,3,4
+Asynchronous Http Client,org.asynchttpclient,RequestBuilderBase,234,770,28,34,62,200,36,63,16,52
+Asynchronous Http Client,org.asynchttpclient,AsyncHttpClientState,0,10,0,0,0,4,0,2,0,2
+Asynchronous Http Client,org.asynchttpclient,AsyncHandler.State,0,24,0,0,0,3,0,1,0,1
+Asynchronous Http Client,org.asynchttpclient,Response.ResponseBuilder,12,56,2,4,0,14,2,7,0,6
+Asynchronous Http Client,org.asynchttpclient,Realm.AuthScheme,0,54,0,0,0,2,0,1,0,1
+Asynchronous Http Client,org.asynchttpclient,Realm.Builder,140,494,23,31,23,108,20,37,2,28
+Asynchronous Http Client,org.asynchttpclient,Dsl,12,129,0,0,3,32,3,16,3,16
+Asynchronous Http Client,org.asynchttpclient,HttpResponseHeaders,3,17,0,0,1,7,1,3,1,3
+Asynchronous Http Client,org.asynchttpclient,DefaultRequest,44,282,4,12,8,75,3,34,0,29
+Asynchronous Http Client,org.asynchttpclient,ClientStats,27,56,6,0,5,22,5,6,2,6
+Asynchronous Http Client,org.asynchttpclient,Realm.Builder.new ThreadLocal() {...},6,6,0,0,2,2,0,2,0,2
+Asynchronous Http Client,org.asynchttpclient,HttpResponseStatus,13,9,0,0,1,4,1,2,1,2
+Asynchronous Http Client,org.asynchttpclient,DefaultAsyncHttpClient,110,260,6,10,23,54,19,19,13,17
+Asynchronous Http Client,org.asynchttpclient,SslEngineFactory,0,1,0,0,0,1,0,1,0,1
+Asynchronous Http Client,org.asynchttpclient,AsyncCompletionHandlerBase,0,5,0,0,0,2,0,2,0,2
+Asynchronous Http Client,org.asynchttpclient.oauth,OAuthSignatureCalculator.new ThreadLocal() {...},13,0,0,0,4,0,2,0,2,0
+Asynchronous Http Client,org.asynchttpclient.oauth,Parameters,0,69,1,3,0,15,1,5,0,4
+Asynchronous Http Client,org.asynchttpclient.oauth,ConsumerKey,87,15,12,0,19,6,10,3,4,3
+Asynchronous Http Client,org.asynchttpclient.oauth,OAuthSignatureCalculatorInstance,26,362,3,13,7,70,6,14,3,9
+Asynchronous Http Client,org.asynchttpclient.oauth,RequestToken,87,15,12,0,19,6,10,3,4,3
+Asynchronous Http Client,org.asynchttpclient.oauth,OAuthSignatureCalculator,33,0,0,0,10,0,3,0,3,0
+Asynchronous Http Client,org.asynchttpclient.oauth,Parameter,60,25,10,2,10,6,8,3,3,2
+Asynchronous Http Client,org.asynchttpclient.spnego,SpnegoEngineException,9,0,0,0,4,0,2,0,2,0
+Asynchronous Http Client,org.asynchttpclient.spnego,SpnegoEngine,237,0,26,0,57,0,17,0,4,0
+Asynchronous Http Client,org.asynchttpclient.netty.ws,NettyWebSocket,234,242,20,14,53,59,28,27,16,22
+Asynchronous Http Client,org.asynchttpclient.netty,OnLastHttpContentCallback,3,6,0,0,1,3,1,1,1,1
+Asynchronous Http Client,org.asynchttpclient.netty,NettyResponseStatus,26,34,0,2,6,10,6,4,6,3
+Asynchronous Http Client,org.asynchttpclient.netty,NettyResponseFuture,63,662,19,55,20,172,20,82,1,64
+Asynchronous Http Client,org.asynchttpclient.netty,SimpleChannelFutureListener,0,19,0,2,0,6,0,3,0,2
+Asynchronous Http Client,org.asynchttpclient.netty,DiscardEvent,0,14,0,0,0,2,0,1,0,1
+Asynchronous Http Client,org.asynchttpclient.netty,EagerResponseBodyPart,0,19,0,0,0,6,0,4,0,4
+Asynchronous Http Client,org.asynchttpclient.netty,SimpleFutureListener,0,16,0,2,0,5,0,3,0,2
+Asynchronous Http Client,org.asynchttpclient.netty,LazyResponseBodyPart,23,0,0,0,7,0,5,0,5,0
+Asynchronous Http Client,org.asynchttpclient.netty,NettyResponse,60,253,18,22,12,52,21,22,8,15
+Asynchronous Http Client,org.asynchttpclient.request.body.multipart.part,MultipartState,0,44,0,0,0,5,0,1,0,1
+Asynchronous Http Client,org.asynchttpclient.request.body.multipart.part,FileMultipartPart,16,96,0,4,2,23,0,7,0,5
+Asynchronous Http Client,org.asynchttpclient.request.body.multipart.part,PartVisitor.CounterPartVisitor,0,24,0,0,0,7,0,4,0,4
+Asynchronous Http Client,org.asynchttpclient.request.body.multipart.part,FileLikeMultipartPart,0,46,0,4,0,10,0,5,0,3
+Asynchronous Http Client,org.asynchttpclient.request.body.multipart.part,PartVisitor.ByteBufVisitor,0,18,0,0,0,7,0,3,0,3
+Asynchronous Http Client,org.asynchttpclient.request.body.multipart.part,ByteArrayMultipartPart,0,38,0,0,0,9,0,5,0,5
+Asynchronous Http Client,org.asynchttpclient.request.body.multipart.part,StringMultipartPart,0,39,0,0,0,9,0,5,0,5
+Asynchronous Http Client,org.asynchttpclient.request.body.multipart.part,PartVisitor.ByteBufferVisitor,18,0,0,0,7,0,3,0,3,0
+Asynchronous Http Client,org.asynchttpclient.request.body.multipart.part,MessageEndMultipartPart,14,78,0,4,4,17,4,10,4,8
+Asynchronous Http Client,org.asynchttpclient.request.body.multipart.part,MultipartPart,41,485,7,37,6,129,7,43,0,25
+Asynchronous Http Client,org.asynchttpclient.channel,ChannelPoolPartitioning.ProxyPartitionKey,28,129,15,13,11,30,13,5,0,4
+Asynchronous Http Client,org.asynchttpclient.channel,ChannelPoolPartitioning.PerHostChannelPoolPartitioning,0,48,0,6,0,8,0,5,0,2
+Asynchronous Http Client,org.asynchttpclient.channel,DefaultKeepAliveStrategy,0,20,2,4,0,4,2,3,0,2
+Asynchronous Http Client,org.asynchttpclient.channel,NoopChannelPool,3,23,0,0,2,7,2,6,2,6
+Asynchronous Http Client,org.asynchttpclient.webdav,WebDavCompletionHandlerBase.HttpStatusWrapper,61,0,4,0,14,0,11,0,9,0
+Asynchronous Http Client,org.asynchttpclient.webdav,WebDavResponse,74,17,0,0,18,6,18,3,18,3
+Asynchronous Http Client,org.asynchttpclient.webdav,WebDavCompletionHandlerBase,86,98,3,3,17,24,4,7,1,7
