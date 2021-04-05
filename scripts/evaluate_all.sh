@@ -2,6 +2,8 @@
 
 #This script will run for all repositories in a file
 
+rm -rf /repos/*.csv
+
 python3 json_preprocess.py
 
 repo_list=$1

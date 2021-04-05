@@ -6,10 +6,13 @@ import sys
 from dateutil.relativedelta import relativedelta
 import subprocess
 from pathlib import Path
-
+import csv
+import xml.dom.minidom
+import xml.etree.ElementTree as ET
 
 def clone_repo(target_dir, repo_link, repo_name): #target_dir = cur_dir + 'repos/'
-	os.system('rm -rf '+str(target_dir)+'/'+str(repo_name)+' && ' + 'cd '+str(target_dir)+' && git clone '+repo_link)
+	if os.path.isdir(str(target_dir)+'/'+str(repo_name)) == False:
+		os.system('rm -rf '+str(target_dir)+'/'+str(repo_name)+' && ' + 'cd '+str(target_dir)+' && git clone '+repo_link)
 	return
 
 def clean_time_output(meta_time):
@@ -39,7 +42,7 @@ def release_tag_list(target_dir): #target_dir = cur_dir + 'repos/' + $repo_name
 	returned_output = returned_output.replace('\'', '')
 	returned_output = returned_output.replace("\\n", ' ')
 	returned_output = returned_output.split()
-	print(returned_output)
+#	print(returned_output)
 	return returned_output
 
 def clean_number(num):
@@ -50,12 +53,15 @@ def clean_number(num):
 	return int(ret)
 
 def git_time_in_ms(target_dir, tag_name_or_sha):
-	os.chdir(target_dir)
-	cmd = 'git log -1 --format="%at" '+str(tag_name_or_sha)
-	returned_output = subprocess.check_output(cmd, shell=True)
-	returned_output = clean_number(str(returned_output))
-	print(str(tag_name_or_sha) + ' : ' + str(returned_output))
-	return int(returned_output)
+	try:
+		os.chdir(target_dir)
+		cmd = 'git log -1 --format="%at" '+str(tag_name_or_sha)
+		returned_output = subprocess.check_output(cmd, shell=True)
+		returned_output = clean_number(str(returned_output))
+		#print(str(tag_name_or_sha) + ' : ' + str(returned_output))
+		return int(returned_output)
+	except:
+		return 0
 
 #def checkout_last_commit_date(repo_name, date):
 #	os.chdir('repos/'+str(repo_name))
@@ -111,24 +117,66 @@ def checkout_by_tags(target_dir, desired_tag):
 		print('-------------Checkout Failed for '+str(desired_tag)+' -------------')
 	return
 
-def binary_search_in_dictory(data_dictionary, to_find):
-	low = 0
-	high = len(data_dictionary) - 1
-	mid = 0
-
-	while low < high:
-		mid = (high + low ) //2
-
-		if data_dictionary.key()[mid] >= to_find:
-			high = mid
+def search_in_dictory(data_dictionary, to_find):
+	#print('To Find: ' + str(to_find))
+	for row in data_dictionary:
+		if row[0] == to_find:
+			return row[0],row[1]
+		elif row[0] < to_find:
+			continue
 		else:
-			low = mid
+			return row[0], row[1]
+	return -1, -1
 
-	if low == high:
-		return data_dictionary.value()[mid]
-	else:
-		return null
+def load_csv(file_path):
+	with open(file_path, newline='') as csvfile:
+		data = csv.reader(csvfile)
+		returned_list = list(data)
+	return returned_list
 
+def tag_and_datetime(taglist, cur_dir, repo_name):
+	tag_date = []
+	for i in range(len(taglist)):
+		_datetime = git_time_in_ms(cur_dir + '/repos/' + str(repo_name), taglist[i])
+		tag_date.append([int(_datetime), taglist[i]])
+	return tag_date
+
+def is_covered(bugLine_number, bug_filename, root):
+	#print(bug_filename.split('/')[-1])
+	bug_filename = bug_filename.split('/')[-1]
+	for elem in root.iter('package'):
+		for elem_next in elem.iter('sourcefile'):
+			#print(elem_next.attrib)
+			if elem_next.attrib['name'] == str(bug_filename): #Expected Java File
+	#			print('----------'+elem_next.attrib['name']+'--------')
+				for line in elem_next.iter('line'):
+					#print('-----------'+line.attrib['nr']+'------------')
+					if int(line.attrib['nr']) == int(bugLine_number): #Expected Bug Line Number
+						if int(line.attrib['ci']) > 0:
+							return 1
+						else:
+							return 0
+
+
+def load_jacoco(target_dir, _version):
+	jacoco_report = None
+	#jacoco_report = xml.dom.minidom.parse(target_dir+'/'+_version+'/jacoco.xml')
+	try:
+		jacoco_report = ET.parse(str(target_dir)+'/'+str(_version)+'/jacoco.xml')
+		jacoco_report = jacoco_report.getroot()
+		#print('[VERSION] ' +str(_version))
+
+	except:
+		if _version =='checkstyle-8.22':
+			print ('Version Exists but exception')
+			print(target_dir+'/'+_version+'/jacoco.xml')
+		jacoco_report = None
+	return jacoco_report
+
+def print_report_final(data, fileName):
+	with open(fileName, "w+") as f:
+		print(data, file=f)
+		f.close()
 
 if __name__=="__main__":
 	args = sys.argv[1:]
@@ -141,16 +189,42 @@ if __name__=="__main__":
 	clone_repo(str(cur_dir)+'/repos/', repo_link, repo_name)
 
 #	_last_commit_date = last_commit_date(cur_dir+'/repos/' + str(repo_name))
-
 #	print_months_by_commit(cur_dir+'/repos/', repo_name, _last_commit_date)
 
 	taglist = release_tag_list(cur_dir + '/repos/' + str(repo_name))
-	tag_date = {}
-	for i in range(len(taglist)):
-		_datetime = git_time_in_ms(cur_dir + '/repos/' + str(repo_name), taglist[i])
-		tag_date[int(_datetime)] = taglist[i]
-		#checkout_by_tags(cur_dir + '/repos/' + str(repo_name), taglist[i])
-		#run_build(cur_dir + '/repos/' + str(repo_name))
-		#run_test(cur_dir + '/repos/' + str(repo_name))
+	tag_date = tag_and_datetime(taglist, cur_dir, repo_name)
+#	print(tag_date)
+	tag_date = sorted(tag_date, key=lambda l:l[0])
+	projectName = (str(repo_link).replace('git@github.com:', '')).split('/')[0]+'.'+repo_name+'.csv'
+	project_dataset = load_csv(cur_dir+'/repos/'+projectName)
 
-	print_taglist_by_dates(cur_dir+'/repos/', repo_name, tag_date)
+	count_covered = 0
+	count_uncovered = 0
+
+	for row in project_dataset:
+	#	try:
+		time_commit = git_time_in_ms(cur_dir+'/repos/'+repo_name, row[4])
+		next_release_time, next_release_tag = search_in_dictory(tag_date, int(time_commit))
+#		print(next_release_time)
+		if next_release_time > 0:
+			bug_file_name = row[1]
+			#print('Version: '+str(next_release_tag))
+			jacoco_report = load_jacoco(cur_dir+'/../reports/'+repo_name, next_release_tag)
+			#print(jacoco_report)
+			if jacoco_report != None:
+				bugLine_number = row[2]
+				_is_covered = is_covered(bugLine_number, bug_file_name, jacoco_report)
+				if _is_covered == 1:
+					count_covered += 1
+				else:
+					count_uncovered += 1
+	#	except:
+	#		count_covered += 0
+			#print('-----------------Exception----------------')
+	print_report_final('Covered: '+str(count_covered)+' Not Covered: '+str(count_uncovered)+ ' Total: '+str(count_covered + count_uncovered), projectName.replace('.csv', '.res'))
+	print("---------------Result Printed to .res file with Project Name--------------------")
+	#checkout_by_tags(cur_dir + '/repos/' + str(repo_name), taglist[i])
+	#run_build(cur_dir + '/repos/' + str(repo_name))
+	#run_test(cur_dir + '/repos/' + str(repo_name))
+
+#	print_taglist_by_dates(cur_dir+'/repos/', repo_name, tag_date)
