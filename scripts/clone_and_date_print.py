@@ -9,13 +9,16 @@ from pathlib import Path
 import csv
 import xml.dom.minidom
 import xml.etree.ElementTree as ET
+import logging
 
 def clone_repo(target_dir, repo_link, repo_name): #target_dir = cur_dir + 'repos/'
+	logging.info('Cloning ... '+str(repo_name))
 	if os.path.isdir(str(target_dir)+'/'+str(repo_name)) == False:
 		os.system('rm -rf '+str(target_dir)+'/'+str(repo_name)+' && ' + 'cd '+str(target_dir)+' && git clone '+repo_link)
 	return
 
 def clean_time_output(meta_time):
+	logging.info('Cleaning time Output .. Metatime: '+str(meta_time))
 	meta_time = str(meta_time)
 	meta_time = meta_time.replace('b', '')
 	meta_time = meta_time.replace('\'', '')
@@ -28,6 +31,7 @@ def clean_time_output(meta_time):
 	return _date
 
 def last_commit_date(target_dir): #target_dir = cur_dir + 'repos/' + $repo_name
+	logging.info('Last Commit Date for ..' + str(target_dir))
 	os.chdir(target_dir)
 	cmd = 'git log -1 --format="%at" | xargs -I{} date -d @{} +%Y/%m/%d_%H:%M:%S'
 	returned_output = subprocess.check_output(cmd, shell=True)
@@ -35,6 +39,7 @@ def last_commit_date(target_dir): #target_dir = cur_dir + 'repos/' + $repo_name
 	return _last_commit_date
 
 def release_tag_list(target_dir): #target_dir = cur_dir + 'repos/' + $repo_name
+	logging.info('Release Taglist for ..'+str(target_dir))
 	os.chdir(target_dir)
 	cmd = 'git tag -l'
 	returned_output = subprocess.check_output(cmd, shell=True)
@@ -46,6 +51,7 @@ def release_tag_list(target_dir): #target_dir = cur_dir + 'repos/' + $repo_name
 	return returned_output
 
 def clean_number(num):
+	logging.info('Cleaning Number ..'+str(num))
 	ret = ''
 	for i in num:
 		if i >= '0' and i<='9':
@@ -53,6 +59,7 @@ def clean_number(num):
 	return int(ret)
 
 def git_time_in_ms(target_dir, tag_name_or_sha):
+	logging.info('Git time for '+str(target_dir) + ' of tag/sha:' +str(tag_name_or_sha))
 	try:
 		os.chdir(target_dir)
 		cmd = 'git log -1 --format="%at" '+str(tag_name_or_sha)
@@ -60,13 +67,15 @@ def git_time_in_ms(target_dir, tag_name_or_sha):
 		returned_output = clean_number(str(returned_output))
 		#print(str(tag_name_or_sha) + ' : ' + str(returned_output))
 		return int(returned_output)
-	except:
+	except Exception as e:
+		logging.exception("Exception occurred")
 		return 0
 
 #def checkout_last_commit_date(repo_name, date):
 #	os.chdir('repos/'+str(repo_name))
 
 def print_months_by_commit(target_dir, repo_name, last_commit_time): #target_dir = cur_dir + 'repos/'
+	logging.info('Printing months for '+str(target_dir) + ' of ' +str(repo_name))
 	with open(str(target_dir)+'/'+str(repo_name)+'_months.txt', 'w') as f:
 		today = last_commit_time
 		sys.stdout = f
@@ -75,6 +84,7 @@ def print_months_by_commit(target_dir, repo_name, last_commit_time): #target_dir
 	return
 
 def print_taglist_by_dates(target_dir, repo_name, tag_dict): #target_dir = cur_dir + 'repo    s/'
+	logging.info('Print Taglist for '+str(target_dir) + ' of ' +str(tag_name_or_sha)+' by date')
 	with open(str(target_dir)+str(repo_name)+'_taglist.csv', 'w') as f:
 		sys.stdout = f
 		for key, value in tag_dict.items():
@@ -82,43 +92,46 @@ def print_taglist_by_dates(target_dir, repo_name, tag_dict): #target_dir = cur_d
 	return
 
 def run_build(target_dir): #target_dir = cur_dir + 'repos/' + $repo_name
+	logging.info('Building '+str(target_dir))
 	try:
 		cmd = 'mvn -f '+str(target_dir)+'/pom.xml clean compile'
 		subprocess.call(cmd, shell=True)
-	except:
-		print('-------------!!BUILD FAILED!!-----------------')
+	except Exception as e:
+		logging.exception('-------------!!BUILD FAILED!!-----------------')
 	return
 
 
 def run_test(target_dir): #target_dir = cur_dir + 'repos/' + $repo_name
+	logging.info('Running Test for '+str(target_dir))
 	try:
 		cmd = 'mvn -f '+str(target_dir)+'/pom.xml clean test'
 		subprocess.call(cmd, shell=True)
-	except:
-		print('------------!TEST FAILED!----------------------')
+	except Exception as e:
+		logging.exception('------------!TEST FAILED!----------------------')
 	return
 def jacoco_xml_generation():
 	return
 
 def create_repos(target_dir): #target_dir = cur_dir + 'repos/' + $repo_name
+	logging.info('Make Directory for '+str(target_dir))
 	try:
 		Path(target_dir).mkdir(parents=True, exist_ok=True)
-	except:
-		print('!Failed to create \'repos\'')
+	except Exception as e:
+		logging.exception('!Failed to create \'repos\'')
 	return
 
 def checkout_by_tags(target_dir, desired_tag):
-	print('[INFO]-------------------< Checking out at '+str(desired_tag)+'>---------------------')
+	logging.info('[INFO]-------------------< Checking out at '+str(desired_tag)+'>---------------------')
 	try:
 		os.chdir(target_dir)
 		cmd = 'git checkout tags/'+str(desired_tag)
 		subprocess.call(cmd, shell=True)
-	except:
-		print('-------------Checkout Failed for '+str(desired_tag)+' -------------')
+	except Exception as e:
+		logging.exception('-------------Checkout Failed for '+str(desired_tag)+' -------------')
 	return
 
 def search_in_dictory(data_dictionary, to_find):
-	#print('To Find: ' + str(to_find))
+	logging.info('Searching for '+str(to_find))
 	for row in data_dictionary:
 		if row[0] == to_find:
 			return row[0],row[1]
@@ -129,12 +142,14 @@ def search_in_dictory(data_dictionary, to_find):
 	return -1, -1
 
 def load_csv(file_path):
+	logging.info('Loading CSV '+str(file_path))
 	with open(file_path, newline='') as csvfile:
 		data = csv.reader(csvfile)
 		returned_list = list(data)
 	return returned_list
 
 def tag_and_datetime(taglist, cur_dir, repo_name):
+	logging.info('Taglist with date and time for '+str(repo_name))
 	tag_date = []
 	for i in range(len(taglist)):
 		_datetime = git_time_in_ms(cur_dir + '/repos/' + str(repo_name), taglist[i])
@@ -142,6 +157,7 @@ def tag_and_datetime(taglist, cur_dir, repo_name):
 	return tag_date
 
 def is_covered(bugLine_number, bug_filename, root):
+	logging.info('Is Covered? for '+str(bug_filename))
 	#print(bug_filename.split('/')[-1])
 	bug_filename = bug_filename.split('/')[-1]
 	for elem in root.iter('package'):
@@ -159,6 +175,7 @@ def is_covered(bugLine_number, bug_filename, root):
 
 
 def load_jacoco(target_dir, _version):
+	logging.info('Loading JACOCO for '+str(target_dir) + ' of '+str(_version))
 	jacoco_report = None
 	#jacoco_report = xml.dom.minidom.parse(target_dir+'/'+_version+'/jacoco.xml')
 	try:
@@ -166,15 +183,17 @@ def load_jacoco(target_dir, _version):
 		jacoco_report = jacoco_report.getroot()
 		#print('[VERSION] ' +str(_version))
 
-	except:
+	except Exception as e:
 		if _version =='checkstyle-8.22':
-			print ('Version Exists but exception')
-			print(target_dir+'/'+_version+'/jacoco.xml')
+			logging.exception('Version Exists but exception')
+			logging.exception(target_dir+'/'+_version+'/jacoco.xml')
 		jacoco_report = None
 	return jacoco_report
 
-def print_report_final(data, fileName):
-	with open(fileName, "w+") as f:
+def print_report_final(target_dir, data, fileName):
+	logging.info('Printing Final Covered Statistics in '+str(fileName))
+	print(data)
+	with open(target_dir+'/'+fileName, "w+") as f:
 		print(data, file=f)
 		f.close()
 
@@ -182,6 +201,7 @@ if __name__=="__main__":
 	args = sys.argv[1:]
 	repo_link = args[0]
 	repo_name = args[1]
+	logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO)
 
 	cur_dir = os.path.dirname(os.path.realpath(__file__))
 	create_repos(cur_dir+'/repos')
@@ -221,7 +241,7 @@ if __name__=="__main__":
 	#	except:
 	#		count_covered += 0
 			#print('-----------------Exception----------------')
-	print_report_final('Covered: '+str(count_covered)+' Not Covered: '+str(count_uncovered)+ ' Total: '+str(count_covered + count_uncovered), projectName.replace('.csv', '.res'))
+	print_report_final(cur_dir+'/repos/', 'Covered: '+str(count_covered)+' Not Covered: '+str(count_uncovered)+ ' Total: '+str(count_covered + count_uncovered), projectName.replace('.csv', '.res'))
 	print("---------------Result Printed to .res file with Project Name--------------------")
 	#checkout_by_tags(cur_dir + '/repos/' + str(repo_name), taglist[i])
 	#run_build(cur_dir + '/repos/' + str(repo_name))
