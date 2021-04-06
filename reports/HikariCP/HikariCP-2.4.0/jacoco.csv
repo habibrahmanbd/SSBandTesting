@@ -1,0 +1,38 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+HikariCP,com.zaxxer.hikari.util,Sequence.DropwizardSequence,71,0,0,0,17,0,3,0,3,0
+HikariCP,com.zaxxer.hikari.util,PropertyElf,51,315,4,24,11,57,5,17,1,7
+HikariCP,com.zaxxer.hikari.util,Sequence.Factory,20,9,1,1,7,2,2,1,1,1
+HikariCP,com.zaxxer.hikari.util,QueuedSequenceSynchronizer.Synchronizer,0,21,0,0,0,4,0,3,0,3
+HikariCP,com.zaxxer.hikari.util,ClockSource.MillisecondClockSource,2,17,0,0,1,5,1,5,1,5
+HikariCP,com.zaxxer.hikari.util,UtilityElf,24,65,3,5,5,18,4,4,1,3
+HikariCP,com.zaxxer.hikari.util,QueuedSequenceSynchronizer,0,37,0,0,0,10,0,6,0,6
+HikariCP,com.zaxxer.hikari.util,ConcurrentBag.new ThreadLocal() {...},0,12,0,0,0,2,0,2,0,2
+HikariCP,com.zaxxer.hikari.util,ClockSource,0,3,0,0,0,1,0,1,0,1
+HikariCP,com.zaxxer.hikari.util,Sequence.Java8Sequence,0,6,0,0,0,3,0,2,0,2
+HikariCP,com.zaxxer.hikari.util,ConcurrentBag,40,339,13,51,7,79,12,36,0,16
+HikariCP,com.zaxxer.hikari.util,DriverDataSource,62,125,5,13,16,29,11,10,6,6
+HikariCP,com.zaxxer.hikari.util,Sequence.Java7Sequence,7,0,0,0,4,0,2,0,2,0
+HikariCP,com.zaxxer.hikari.util,ClockSource.Factory,7,11,1,1,2,3,2,1,1,1
+HikariCP,com.zaxxer.hikari.util,FastList,127,191,4,8,30,39,29,12,26,9
+HikariCP,com.zaxxer.hikari.util,DefaultThreadFactory,0,22,0,0,0,7,0,2,0,2
+HikariCP,com.zaxxer.hikari.util,ClockSource.NanosecondClockSource,27,0,0,0,6,0,6,0,6,0
+HikariCP,com.zaxxer.hikari.hibernate,HikariConfigurationUtil,3,81,0,6,1,16,1,5,1,2
+HikariCP,com.zaxxer.hikari.hibernate,HikariConnectionProvider,21,82,8,6,4,27,7,9,1,8
+HikariCP,com.zaxxer.hikari,HikariConfig,148,796,25,93,34,219,27,109,5,72
+HikariCP,com.zaxxer.hikari,HikariJNDIFactory,28,107,6,14,6,26,6,8,0,4
+HikariCP,com.zaxxer.hikari,HikariDataSource,67,323,22,48,17,79,22,35,5,17
+HikariCP,com.zaxxer.hikari.pool,HikariPool,131,935,17,69,11,188,15,55,0,27
+HikariCP,com.zaxxer.hikari.pool,PoolBagEntry.new Runnable() {...},4,24,1,1,1,4,1,2,0,2
+HikariCP,com.zaxxer.hikari.pool,PoolBagEntry,11,188,4,11,2,47,4,19,0,14
+HikariCP,com.zaxxer.hikari.pool,LeakTask,0,95,0,2,0,25,0,9,0,8
+HikariCP,com.zaxxer.hikari.pool,HikariPool.new PoolStats() {...},21,7,0,0,5,1,1,1,1,1
+HikariCP,com.zaxxer.hikari.pool,HikariPool.new Runnable() {...},0,16,0,0,0,3,0,2,0,2
+HikariCP,com.zaxxer.hikari.pool,PoolInitializationException,0,5,0,0,0,2,0,1,0,1
+HikariCP,com.zaxxer.hikari.pool,SuspendResumeLock.new SuspendResumeLock() {...},2,6,0,0,2,3,2,3,2,3
+HikariCP,com.zaxxer.hikari.pool,HikariPool.new Runnable() {...},0,21,0,0,0,3,0,2,0,2
+HikariCP,com.zaxxer.hikari.pool,HikariPool.new Runnable() {...},0,53,0,8,0,8,0,6,0,2
+HikariCP,com.zaxxer.hikari.pool,PoolElf,226,738,45,83,31,166,37,48,1,20
+HikariCP,com.zaxxer.hikari.pool,HikariPool.HouseKeeper,30,125,6,8,7,19,6,3,0,2
+HikariCP,com.zaxxer.hikari.pool,LeakTask.new LeakTask() {...},0,5,0,0,0,2,0,2,0,2
+HikariCP,com.zaxxer.hikari.pool,SuspendResumeLock,0,38,0,2,0,12,0,7,0,6
+HikariCP,com.zaxxer.hikari.pool,PoolElf.SynchronousExecutor,13,0,0,0,6,0,2,0,2,0

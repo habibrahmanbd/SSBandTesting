@@ -1,0 +1,59 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+HikariCP,com.zaxxer.hikari.util,ClassLoaderUtils,51,0,8,0,12,0,6,0,2,0
+HikariCP,com.zaxxer.hikari.util,UtilityElf,24,113,5,9,6,33,6,9,1,7
+HikariCP,com.zaxxer.hikari.util,ConcurrentBag,39,325,13,43,9,74,11,32,1,14
+HikariCP,com.zaxxer.hikari.util,DriverDataSource,64,125,5,13,16,29,11,9,6,5
+HikariCP,com.zaxxer.hikari.util,Java8ConcurrentBag.Synchronizer,0,26,0,2,0,4,0,4,0,3
+HikariCP,com.zaxxer.hikari.util,Java8ConcurrentBag,0,57,0,8,0,9,0,10,0,6
+HikariCP,com.zaxxer.hikari.util,PropertyBeanSetter,50,310,3,23,11,55,4,16,1,6
+HikariCP,com.zaxxer.hikari.util,FastList,0,163,1,7,0,35,1,11,0,8
+HikariCP,com.zaxxer.hikari.util,JavassistProxyFactory,620,0,68,0,123,0,43,0,9,0
+HikariCP,com.zaxxer.hikari.util,DefaultThreadFactory,0,22,0,0,0,7,0,2,0,2
+HikariCP,com.zaxxer.hikari.hibernate,HikariConfigurationUtil,3,81,0,6,1,16,1,5,1,2
+HikariCP,com.zaxxer.hikari.hibernate,HikariConnectionProvider,21,71,7,5,4,25,6,9,1,8
+HikariCP,com.zaxxer.hikari.proxy,ResultSetProxy,48,16,4,0,12,7,6,2,4,2
+HikariCP,com.zaxxer.hikari.proxy,ProxyFactory,3,32,0,0,2,0,1,5,1,5
+HikariCP,com.zaxxer.hikari.proxy,ClosedConnection,3,19,0,0,1,3,1,2,1,2
+HikariCP,com.zaxxer.hikari.proxy,HikariStatementProxy,388,22,0,0,0,0,38,5,38,5
+HikariCP,com.zaxxer.hikari.proxy,ConnectionProxy,87,596,27,35,10,118,20,44,0,33
+HikariCP,com.zaxxer.hikari.proxy,PreparedStatementProxy,24,18,0,0,6,5,3,2,3,2
+HikariCP,com.zaxxer.hikari.proxy,HikariConnectionProxy,289,213,0,0,0,0,27,25,27,25
+HikariCP,com.zaxxer.hikari.proxy,HikariResultSetProxy,2059,18,0,0,0,0,187,4,187,4
+HikariCP,com.zaxxer.hikari.proxy,HikariCallableStatementProxy,2519,5,0,0,0,0,210,1,210,1
+HikariCP,com.zaxxer.hikari.proxy,HikariPreparedStatementProxy,1102,46,0,0,0,0,88,10,88,10
+HikariCP,com.zaxxer.hikari.proxy,ClosedConnection.new InvocationHandler() {...},27,33,4,6,4,9,4,3,0,2
+HikariCP,com.zaxxer.hikari.proxy,StatementProxy,131,83,4,4,30,25,15,10,12,9
+HikariCP,com.zaxxer.hikari.proxy,CallableStatementProxy,0,5,0,0,0,2,0,1,0,1
+HikariCP,com.zaxxer.hikari,AbstractHikariConfig,101,743,18,76,30,209,17,106,4,72
+HikariCP,com.zaxxer.hikari,HikariConfig,32,72,6,6,2,17,5,5,0,4
+HikariCP,com.zaxxer.hikari,HikariDataSource.MultiPoolKey,9,52,7,11,3,12,6,6,0,3
+HikariCP,com.zaxxer.hikari,AbstractHikariConfig.new IConnectionCustomizer() {...},0,7,0,0,0,2,0,2,0,2
+HikariCP,com.zaxxer.hikari,HikariJNDIFactory,26,110,6,14,5,27,6,8,0,4
+HikariCP,com.zaxxer.hikari,HikariDataSource,143,319,39,35,31,78,32,26,6,15
+HikariCP,com.zaxxer.hikari.metrics,CodahaleHealthChecker.ConnectivityHealthCheck,54,0,10,0,12,0,7,0,2,0
+HikariCP,com.zaxxer.hikari.metrics,CodahaleHealthChecker,92,0,6,0,14,0,5,0,2,0
+HikariCP,com.zaxxer.hikari.metrics,CodahaleHealthChecker.new MetricFilter() {...},23,0,0,0,2,0,2,0,2,0
+HikariCP,com.zaxxer.hikari.metrics,CodaHaleMetricsTracker.Context,16,0,0,0,7,0,3,0,3,0
+HikariCP,com.zaxxer.hikari.metrics,CodaHaleMetricsTracker.new CachedGauge() {...},16,0,0,0,2,0,2,0,2,0
+HikariCP,com.zaxxer.hikari.metrics,CodaHaleMetricsTracker.new CachedGauge() {...},16,0,0,0,2,0,2,0,2,0
+HikariCP,com.zaxxer.hikari.metrics,CodaHaleMetricsTracker.new CachedGauge() {...},16,0,0,0,2,0,2,0,2,0
+HikariCP,com.zaxxer.hikari.metrics,CodaHaleMetricsTracker.new CachedGauge() {...},16,0,0,0,2,0,2,0,2,0
+HikariCP,com.zaxxer.hikari.metrics,CodahaleHealthChecker.Connection99Percent,40,0,2,0,6,0,3,0,2,0
+HikariCP,com.zaxxer.hikari.metrics,MetricsTracker.MetricsContext,0,5,0,0,0,3,0,3,0,3
+HikariCP,com.zaxxer.hikari.metrics,MetricsTracker,2,13,0,0,1,6,1,4,1,4
+HikariCP,com.zaxxer.hikari.metrics,CodaHaleMetricsTracker,273,0,0,0,21,0,6,0,6,0
+HikariCP,com.zaxxer.hikari.pool,HikariPool,68,203,14,10,6,39,10,15,0,13
+HikariCP,com.zaxxer.hikari.pool,GlobalPoolLock,0,38,0,2,0,12,0,7,0,6
+HikariCP,com.zaxxer.hikari.pool,LeakTask,0,84,0,0,0,23,0,7,0,7
+HikariCP,com.zaxxer.hikari.pool,PoolUtilities.SynchronousExecutor,14,0,0,0,6,0,2,0,2,0
+HikariCP,com.zaxxer.hikari.pool,GlobalPoolLock.new GlobalPoolLock() {...},2,6,0,0,2,3,2,3,2,3
+HikariCP,com.zaxxer.hikari.pool,BaseHikariPool,113,840,18,56,18,159,19,43,2,23
+HikariCP,com.zaxxer.hikari.pool,PoolBagEntry.new Runnable() {...},4,24,1,1,1,4,1,2,0,2
+HikariCP,com.zaxxer.hikari.pool,PoolUtilities,54,265,9,35,10,74,9,25,0,12
+HikariCP,com.zaxxer.hikari.pool,PoolBagEntry,2,83,3,6,1,19,3,8,0,5
+HikariCP,com.zaxxer.hikari.pool,BaseHikariPool.new Runnable() {...},0,53,0,8,0,8,0,6,0,2
+HikariCP,com.zaxxer.hikari.pool,BaseHikariPool.new Runnable() {...},16,0,0,0,3,0,2,0,2,0
+HikariCP,com.zaxxer.hikari.pool,PoolInitializationException,5,0,0,0,2,0,1,0,1,0
+HikariCP,com.zaxxer.hikari.pool,HikariPool.HouseKeeper,12,89,3,3,2,14,3,4,0,4
+HikariCP,com.zaxxer.hikari.pool,HikariMBeanElf,13,112,2,6,5,25,2,6,0,4
+HikariCP,com.zaxxer.hikari.pool,LeakTask.new LeakTask() {...},0,7,0,0,0,3,0,3,0,3

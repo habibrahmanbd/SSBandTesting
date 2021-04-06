@@ -1,0 +1,50 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+HikariCP,com.zaxxer.hikari.util,Sequence.DropwizardSequence,71,0,0,0,17,0,3,0,3,0
+HikariCP,com.zaxxer.hikari.util,Sequence.Factory,20,12,2,2,7,2,3,1,1,1
+HikariCP,com.zaxxer.hikari.util,QueuedSequenceSynchronizer.Synchronizer,0,21,0,0,0,4,0,3,0,3
+HikariCP,com.zaxxer.hikari.util,UtilityElf,36,96,5,9,10,25,5,7,1,4
+HikariCP,com.zaxxer.hikari.util,QueuedSequenceSynchronizer,4,33,0,0,1,9,1,5,1,5
+HikariCP,com.zaxxer.hikari.util,SuspendResumeLock.new SuspendResumeLock() {...},2,7,0,0,2,3,2,3,2,3
+HikariCP,com.zaxxer.hikari.util,ClockSource,0,3,0,0,0,1,0,1,0,1
+HikariCP,com.zaxxer.hikari.util,Sequence.Java8Sequence,0,6,0,0,0,2,0,2,0,2
+HikariCP,com.zaxxer.hikari.util,ConcurrentBag,51,347,13,51,8,81,12,36,0,16
+HikariCP,com.zaxxer.hikari.util,DriverDataSource,62,124,5,13,16,28,11,9,6,5
+HikariCP,com.zaxxer.hikari.util,ClockSource.Factory,7,11,1,1,2,3,2,1,1,1
+HikariCP,com.zaxxer.hikari.util,ClockSource.NanosecondClockSource,37,0,0,0,9,0,9,0,9,0
+HikariCP,com.zaxxer.hikari.util,SuspendResumeLock,0,42,0,2,0,14,0,8,0,7
+HikariCP,com.zaxxer.hikari.util,PropertyElf,45,401,8,40,9,68,9,22,1,6
+HikariCP,com.zaxxer.hikari.util,ClockSource.MillisecondClockSource,10,23,0,0,3,6,3,6,3,6
+HikariCP,com.zaxxer.hikari.util,ConcurrentBag.new ThreadLocal() {...},0,12,0,0,0,2,0,2,0,2
+HikariCP,com.zaxxer.hikari.util,Sequence.Java7Sequence,7,0,0,0,3,0,2,0,2,0
+HikariCP,com.zaxxer.hikari.util,FastList,127,191,4,8,30,39,29,12,26,9
+HikariCP,com.zaxxer.hikari.util,JavassistProxyFactory,651,0,98,0,110,0,70,0,9,0
+HikariCP,com.zaxxer.hikari.util,DefaultThreadFactory,0,22,0,0,0,7,0,2,0,2
+HikariCP,com.zaxxer.hikari.hibernate,HikariConfigurationUtil,3,81,0,6,1,16,1,5,1,2
+HikariCP,com.zaxxer.hikari.hibernate,HikariConnectionProvider,21,82,8,6,4,27,7,9,1,8
+HikariCP,com.zaxxer.hikari,HikariConfig,167,800,29,95,37,220,29,110,4,73
+HikariCP,com.zaxxer.hikari,HikariJNDIFactory,28,107,6,14,6,26,6,8,0,4
+HikariCP,com.zaxxer.hikari,HikariDataSource,61,317,20,48,16,78,21,35,5,17
+HikariCP,com.zaxxer.hikari.pool,ProxyConnection.ClosedConnection.new InvocationHandler() {...},0,30,0,6,0,9,0,5,0,2
+HikariCP,com.zaxxer.hikari.pool,HikariPool,142,841,21,65,12,173,17,52,0,26
+HikariCP,com.zaxxer.hikari.pool,ProxyStatement,160,97,5,7,34,28,17,11,13,9
+HikariCP,com.zaxxer.hikari.pool,PoolEntry.new Comparator() {...},6,3,0,0,1,1,1,1,1,1
+HikariCP,com.zaxxer.hikari.pool,ProxyFactory,3,36,0,0,2,0,1,5,1,5
+HikariCP,com.zaxxer.hikari.pool,HikariPool.new PoolStats() {...},21,7,0,0,5,1,1,1,1,1
+HikariCP,com.zaxxer.hikari.pool,HikariPool.new Runnable() {...},0,16,0,0,0,3,0,2,0,2
+HikariCP,com.zaxxer.hikari.pool,ProxyCallableStatement,0,5,0,0,0,2,0,1,0,1
+HikariCP,com.zaxxer.hikari.pool,ProxyLeakTask.new ProxyLeakTask() {...},0,5,0,0,0,2,0,2,0,2
+HikariCP,com.zaxxer.hikari.pool,HikariPool.new Runnable() {...},0,17,0,0,0,3,0,2,0,2
+HikariCP,com.zaxxer.hikari.pool,HikariPool.new Runnable() {...},0,20,0,0,0,3,0,2,0,2
+HikariCP,com.zaxxer.hikari.pool,HikariPool.PoolEntryCreator,0,41,0,4,0,11,0,4,0,2
+HikariCP,com.zaxxer.hikari.pool,HikariPool.PoolInitializationException,0,13,0,0,0,2,0,1,0,1
+HikariCP,com.zaxxer.hikari.pool,PoolBase.NopMetricsTrackerDelegate,0,6,0,0,0,4,0,4,0,4
+HikariCP,com.zaxxer.hikari.pool,PoolBase.MetricsTrackerDelegate,0,36,0,0,0,14,0,5,0,5
+HikariCP,com.zaxxer.hikari.pool,ProxyConnection,76,544,19,29,12,120,16,47,2,37
+HikariCP,com.zaxxer.hikari.pool,PoolEntry,9,195,3,8,2,53,3,22,0,18
+HikariCP,com.zaxxer.hikari.pool,ProxyResultSet,71,19,4,0,17,8,8,2,6,2
+HikariCP,com.zaxxer.hikari.pool,ProxyConnection.ClosedConnection,3,19,0,0,1,3,1,2,1,2
+HikariCP,com.zaxxer.hikari.pool,ProxyPreparedStatement,24,19,0,0,6,5,3,2,3,2
+HikariCP,com.zaxxer.hikari.pool,PoolBase.SynchronousExecutor,14,0,0,0,6,0,2,0,2,0
+HikariCP,com.zaxxer.hikari.pool,HikariPool.HouseKeeper,28,118,8,8,7,21,7,3,0,2
+HikariCP,com.zaxxer.hikari.pool,PoolBase,266,772,52,86,33,172,42,50,1,22
+HikariCP,com.zaxxer.hikari.pool,ProxyLeakTask,0,95,0,2,0,25,0,9,0,8
