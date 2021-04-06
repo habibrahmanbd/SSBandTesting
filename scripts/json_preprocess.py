@@ -4,7 +4,7 @@ import os
 import sys
 
 def write_in_file(file_name, data):
-	with open(file_name, 'a+' ) as f:
+	with open(file_name, 'a' ) as f:
 		sys.stdout = f
 		print(data)
 		f.close()

@@ -132,14 +132,16 @@ def checkout_by_tags(target_dir, desired_tag):
 
 def search_in_dictory(data_dictionary, to_find):
 	logging.info('Searching for '+str(to_find))
+	count = 0
 	for row in data_dictionary:
 		if row[0] == to_find:
-			return row[0],row[1]
+			return row[0],row[1], count
 		elif row[0] < to_find:
+			count += 1
 			continue
 		else:
-			return row[0], row[1]
-	return -1, -1
+			return row[0], row[1], count
+	return -1, -1, count
 
 def load_csv(file_path):
 	logging.info('Loading CSV '+str(file_path))
@@ -184,17 +186,32 @@ def load_jacoco(target_dir, _version):
 		#print('[VERSION] ' +str(_version))
 
 	except Exception as e:
-		if _version =='checkstyle-8.22':
-			logging.exception('Version Exists but exception')
-			logging.exception(target_dir+'/'+_version+'/jacoco.xml')
+		'''
+		try:
+			os.system('rm -rf '+target_dir + '/log.txt')
+		except Exception as e:
+			print("------------------------------------------------------------Removing no existing file --------------------------------")
+		
+		with open(target_dir + '/log.txt', "a") as f:
+			print(str(e), file=f)
+			f.close()
+		'''
+		logging.exception('Exception in Loading Jacoco: '+str(e))
+		logging.exception(target_dir+'/'+_version+'/jacoco.xml')
 		jacoco_report = None
 	return jacoco_report
 
+def print_logfile(target_dir, data):
+	with open(target_dir + '/log.txt', "a") as f:
+		print(str(data), file=f)
+		f.close()
+
+
 def print_report_final(target_dir, data, fileName):
 	logging.info('Printing Final Covered Statistics in '+str(fileName))
-	print(data)
+	print(fileName+' => '+data)
 	with open(target_dir+'/'+fileName, "w+") as f:
-		print(data, file=f)
+		print(fileName+' => '+data, file=f)
 		f.close()
 
 if __name__=="__main__":
@@ -224,13 +241,20 @@ if __name__=="__main__":
 	for row in project_dataset:
 	#	try:
 		time_commit = git_time_in_ms(cur_dir+'/repos/'+repo_name, row[4])
-		next_release_time, next_release_tag = search_in_dictory(tag_date, int(time_commit))
+		next_release_time, next_release_tag, index = search_in_dictory(tag_date, int(time_commit))
 #		print(next_release_time)
 		if next_release_time > 0:
 			bug_file_name = row[1]
 			#print('Version: '+str(next_release_tag))
 			jacoco_report = load_jacoco(cur_dir+'/../reports/'+repo_name, next_release_tag)
 			#print(jacoco_report)
+			it = 0
+			while(jacoco_report == None and index+it < len(tag_date) and it < 6 ):
+				it +=1
+				next_release_tag = tag_date[index+it][1]
+				jacoco_report = load_jacoco(cur_dir+'/../reports/'+repo_name, next_release_tag)
+			if jacoco_report == None:
+				print_logfile(cur_dir+'/../reports/'+repo_name, next_release_tag)
 			if jacoco_report != None:
 				bugLine_number = row[2]
 				_is_covered = is_covered(bugLine_number, bug_file_name, jacoco_report)
@@ -241,7 +265,8 @@ if __name__=="__main__":
 	#	except:
 	#		count_covered += 0
 			#print('-----------------Exception----------------')
-	print_report_final(cur_dir+'/repos/', 'Covered: '+str(count_covered)+' Not Covered: '+str(count_uncovered)+ ' Total: '+str(count_covered + count_uncovered), projectName.replace('.csv', '.res'))
+	coverage = int((str(soup.select('#coveragetable tfoot tr td:nth-child(3)')[0]).replace('<td class="ctr2">', '')).replace('%</td>', ''))
+	print_report_final(cur_dir+'/repos/', 'Covered: '+str(count_covered)+' Not Covered: '+str(count_uncovered)+ ' Total: '+str(count_covered + count_uncovered) + '\%Coverage: '+str(coverage), projectName.replace('.csv', '.res'))
 	print("---------------Result Printed to .res file with Project Name--------------------")
 	#checkout_by_tags(cur_dir + '/repos/' + str(repo_name), taglist[i])
 	#run_build(cur_dir + '/repos/' + str(repo_name))
