@@ -1,6 +1,6 @@
-git@github.com:gabrielf/maven-samples.git
-git@github.com:web3j/sample-project-maven.git
-git@github.com:jglick/simple-maven-project-with-tests.git
-git@github.com:arpitaggarwal/maven-release-plugin-example.git
-git@github.com:git-commit-id/git-commit-id-maven-plugin.git
-git@github.com:javafx-maven-plugin/javafx-maven-plugin.git
+git@github.com:checkstyle/checkstyle.git
+git@github.com:AsyncHttpClient/async-http-client.git
+git@github.com:Atmosphere/atmosphere.git
+git@github.com:alibaba/druid.git
+git@github.com:alibaba/fastjson.git
+
