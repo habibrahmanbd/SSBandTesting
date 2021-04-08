@@ -1,0 +1,238 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Cucumber-JVM: Core,cucumber.api.event,TestStepStarted,0,8,0,0,0,3,0,1,0,1
+Cucumber-JVM: Core,cucumber.api.event,TestCaseStarted,0,8,0,0,0,3,0,1,0,1
+Cucumber-JVM: Core,cucumber.api.event,Event,0,5,0,0,0,1,0,1,0,1
+Cucumber-JVM: Core,cucumber.api.event,TestStepFinished,0,11,0,0,0,4,0,1,0,1
+Cucumber-JVM: Core,cucumber.api.event,TimeStampedEvent,0,9,0,0,0,4,0,2,0,2
+Cucumber-JVM: Core,cucumber.api.event,TestCaseFinished,0,11,0,0,0,4,0,1,0,1
+Cucumber-JVM: Core,cucumber.api.event,TestSourceRead,0,10,0,0,0,4,0,1,0,1
+Cucumber-JVM: Core,cucumber.api.event,TestRunStarted,0,4,0,0,0,2,0,1,0,1
+Cucumber-JVM: Core,cucumber.api.event,CanonicalEventOrder.TestCaseEventComparator,0,32,0,4,0,7,0,3,0,1
+Cucumber-JVM: Core,cucumber.api.event,SnippetsSuggestedEvent,0,14,0,0,0,5,0,1,0,1
+Cucumber-JVM: Core,cucumber.api.event,TestRunFinished,0,4,0,0,0,2,0,1,0,1
+Cucumber-JVM: Core,cucumber.api.event,CanonicalEventOrder.FixedEventOrderComparator,17,65,2,4,2,9,2,5,0,4
+Cucumber-JVM: Core,cucumber.api.event,EmbedEvent,0,11,0,0,0,4,0,1,0,1
+Cucumber-JVM: Core,cucumber.api.event,WriteEvent,0,8,0,0,0,3,0,1,0,1
+Cucumber-JVM: Core,cucumber.api.event,TestCaseEvent,0,10,0,0,0,4,0,2,0,2
+Cucumber-JVM: Core,cucumber.api.event,CanonicalEventOrder,0,38,1,5,0,9,1,5,0,3
+Cucumber-JVM: Core,cucumber.runtime.autocomplete,MetaStepdef,111,0,18,0,21,0,16,0,7,0
+Cucumber-JVM: Core,cucumber.runtime.autocomplete,MetaStepdef.MetaArgument,3,0,0,0,1,0,1,0,1,0
+Cucumber-JVM: Core,cucumber.runtime.autocomplete,MetaStepdef.MetaStep,63,0,10,0,12,0,9,0,4,0
+Cucumber-JVM: Core,cucumber.runtime.snippets,CamelCaseConcatenator,0,58,0,4,0,10,0,5,0,3
+Cucumber-JVM: Core,cucumber.runtime.snippets,ArgumentPattern,0,38,0,0,0,11,0,5,0,5
+Cucumber-JVM: Core,cucumber.runtime.snippets,UnderscoreConcatenator,0,44,0,4,0,10,0,4,0,2
+Cucumber-JVM: Core,cucumber.runtime.snippets,FunctionNameGenerator,0,94,1,11,0,18,1,9,0,4
+Cucumber-JVM: Core,cucumber.runtime.snippets,SnippetGenerator,242,0,22,0,41,0,18,0,7,0
+Cucumber-JVM: Core,cucumber.runtime.formatter,ProgressFormatter,0,114,2,6,0,27,2,9,0,7
+Cucumber-JVM: Core,cucumber.runtime.formatter,TestNGFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,UsageFormatter.StepContainer,0,13,0,0,0,3,0,1,0,1
+Cucumber-JVM: Core,cucumber.runtime.formatter,TestNGFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,TestNGFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,TestNGFormatter.new EventHandler() {...},0,10,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,TestNGFormatter.new EventHandler() {...},0,10,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,MonochromeFormats,2,10,0,0,1,3,1,3,1,3
+Cucumber-JVM: Core,cucumber.runtime.formatter,TestNGFormatter.TestMethod,4,372,6,34,0,77,6,22,0,8
+Cucumber-JVM: Core,cucumber.runtime.formatter,DefaultSummaryPrinter.new EventHandler() {...},0,10,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,Stats.SubCounts,0,39,0,0,0,8,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,JSONFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,JSONFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,JSONFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,JSONFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,JSONFormatter.new EventHandler() {...},0,10,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,JSONFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,JUnitFormatter.TestCase,39,295,5,19,7,61,5,20,1,12
+Cucumber-JVM: Core,cucumber.runtime.formatter,UsageFormatter.MedianUsageStatisticStrategy,0,58,0,10,0,9,0,8,0,3
+Cucumber-JVM: Core,cucumber.runtime.formatter,AnsiFormats.ColorFormat,0,40,0,2,0,9,0,3,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,PluginFactory.new PrintStream() {...},0,8,0,0,0,2,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,JSONFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,AnsiFormats.new HashMap() {...},0,282,0,0,0,21,0,1,0,1
+Cucumber-JVM: Core,cucumber.runtime.formatter,PluginFactory.new HashMap() {...},0,58,0,0,0,13,0,1,0,1
+Cucumber-JVM: Core,cucumber.runtime.formatter,PrettyFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,PrettyFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,PrettyFormatter.new Mapper() {...},0,9,0,0,0,2,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,PrettyFormatter.new Mapper() {...},0,9,0,0,0,2,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,PrettyFormatter.new EventHandler() {...},0,10,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,PrettyFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,PrettyFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,PrettyFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,HTMLFormatter.new HashMap() {...},0,33,0,0,0,8,0,1,0,1
+Cucumber-JVM: Core,cucumber.runtime.formatter,JSONFormatter,63,920,20,59,12,188,18,47,0,24
+Cucumber-JVM: Core,cucumber.runtime.formatter,RerunFormatter.new EventHandler() {...},0,10,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,HTMLFormatter.new EventHandler() {...},0,10,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,RerunFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,HTMLFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,HTMLFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,HTMLFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,HTMLFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,HTMLFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,HTMLFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,UsageFormatter.StepDefContainer,0,3,0,0,0,1,0,1,0,1
+Cucumber-JVM: Core,cucumber.runtime.formatter,UsageFormatter,27,320,6,16,7,70,6,20,1,14
+Cucumber-JVM: Core,cucumber.runtime.formatter,TimelineFormatter.GroupData,0,14,0,0,0,4,0,1,0,1
+Cucumber-JVM: Core,cucumber.runtime.formatter,PluginFactory,96,339,6,36,16,73,6,30,0,15
+Cucumber-JVM: Core,cucumber.runtime.formatter,TestSourcesModel.ExamplesRowWrapperNode,0,11,0,0,0,4,0,1,0,1
+Cucumber-JVM: Core,cucumber.runtime.formatter,TestSourcesModel.AstNode,0,12,0,0,0,4,0,1,0,1
+Cucumber-JVM: Core,cucumber.runtime.formatter,Stats,0,511,0,29,0,118,0,38,0,20
+Cucumber-JVM: Core,cucumber.runtime.formatter,TimelineFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,TimelineFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,TimelineFormatter.new EventHandler() {...},0,14,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,TimelineFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,TimelineFormatter.TestData,0,87,0,2,0,19,0,4,0,3
+Cucumber-JVM: Core,cucumber.runtime.formatter,TimelineFormatter,43,375,6,10,8,72,5,16,0,13
+Cucumber-JVM: Core,cucumber.runtime.formatter,TestSourcesModel,33,496,11,43,11,88,11,35,0,19
+Cucumber-JVM: Core,cucumber.runtime.formatter,ProgressFormatter.new HashMap() {...},0,39,0,0,0,8,0,1,0,1
+Cucumber-JVM: Core,cucumber.runtime.formatter,ProgressFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,ProgressFormatter.new HashMap() {...},0,33,0,0,0,8,0,1,0,1
+Cucumber-JVM: Core,cucumber.runtime.formatter,JUnitFormatter.new EventHandler() {...},0,10,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,JUnitFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,JUnitFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,ProgressFormatter.new EventHandler() {...},0,10,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,ProgressFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,MonochromeFormats.new Format() {...},0,5,0,0,0,2,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,JUnitFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,JUnitFormatter.new EventHandler() {...},0,11,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,Stats.new EventHandler() {...},0,16,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,Stats.new EventHandler() {...},0,27,0,4,0,7,0,4,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,TestNGFormatter,27,405,0,16,9,82,0,20,0,12
+Cucumber-JVM: Core,cucumber.runtime.formatter,Stats.new EventHandler() {...},0,12,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,Stats.new EventHandler() {...},0,12,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,Plugins.new EventHandler() {...},0,14,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,Plugins.new InvocationHandler() {...},13,35,4,4,3,7,2,4,0,2
+Cucumber-JVM: Core,cucumber.runtime.formatter,AnsiFormats,16,17,1,1,1,5,2,3,1,3
+Cucumber-JVM: Core,cucumber.runtime.formatter,NullSummaryPrinter,0,3,0,0,0,2,0,1,0,1
+Cucumber-JVM: Core,cucumber.runtime.formatter,PrettyFormatter,9,948,10,54,4,169,10,55,0,33
+Cucumber-JVM: Core,cucumber.runtime.formatter,UsageFormatter.StepDuration,0,3,0,0,0,1,0,1,0,1
+Cucumber-JVM: Core,cucumber.runtime.formatter,UsageFormatter.AverageUsageStatisticStrategy,0,48,0,10,0,9,0,8,0,3
+Cucumber-JVM: Core,cucumber.runtime.formatter,Plugins,0,209,1,15,0,53,1,18,0,11
+Cucumber-JVM: Core,cucumber.runtime.formatter,JUnitFormatter,37,311,2,10,10,73,2,15,0,11
+Cucumber-JVM: Core,cucumber.runtime.formatter,HTMLFormatter,327,1035,43,65,66,208,41,53,7,33
+Cucumber-JVM: Core,cucumber.runtime.formatter,UsageFormatter.new EventHandler() {...},4,6,0,0,2,1,1,1,1,1
+Cucumber-JVM: Core,cucumber.runtime.formatter,UsageFormatter.new EventHandler() {...},5,6,0,0,2,1,1,1,1,1
+Cucumber-JVM: Core,cucumber.runtime.formatter,DefaultSummaryPrinter,0,117,0,6,0,35,0,11,0,8
+Cucumber-JVM: Core,cucumber.runtime.formatter,RerunFormatter,0,142,1,9,0,35,1,11,0,7
+Cucumber-JVM: Core,cucumber.api.cli,Main,23,0,0,0,10,0,3,0,3,0
+Cucumber-JVM: Core,io.cucumber.stepexpression,ExpressionArgument,2,23,1,1,0,6,1,4,0,4
+Cucumber-JVM: Core,io.cucumber.stepexpression,TypeRegistry,10,31,0,0,4,10,2,5,2,5
+Cucumber-JVM: Core,io.cucumber.stepexpression,StepExpressionFactory.new DocStringTransformer() {...},0,26,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,io.cucumber.stepexpression,StepExpressionFactory.new RawTableTransformer() {...},0,24,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,io.cucumber.stepexpression,StepExpressionFactory.new RawTableTransformer() {...},6,6,0,0,1,1,1,1,1,1
+Cucumber-JVM: Core,io.cucumber.stepexpression,StepExpressionFactory.new DocStringTransformer() {...},2,3,0,0,1,1,1,1,1,1
+Cucumber-JVM: Core,io.cucumber.stepexpression,PickleTableConverter,3,43,0,4,1,9,1,3,1,1
+Cucumber-JVM: Core,io.cucumber.stepexpression,DocStringArgument,10,15,0,0,1,5,1,2,1,2
+Cucumber-JVM: Core,io.cucumber.stepexpression,DataTableArgument,0,30,0,0,0,7,0,4,0,4
+Cucumber-JVM: Core,io.cucumber.stepexpression,StepExpressionFactory.ResolvedType,0,9,0,0,0,4,0,2,0,2
+Cucumber-JVM: Core,io.cucumber.stepexpression,StepExpression,4,90,2,6,2,23,2,8,0,6
+Cucumber-JVM: Core,io.cucumber.stepexpression,StepExpressionFactory,50,82,3,3,5,17,6,5,3,5
+Cucumber-JVM: Core,io.cucumber.stepexpression,ExpressionArgumentMatcher,5,46,1,5,1,10,1,4,0,2
+Cucumber-JVM: Core,cucumber.runtime.filter,TagExpressionOld.And,1,43,1,3,0,11,1,5,0,4
+Cucumber-JVM: Core,cucumber.runtime.filter,LinePredicate,0,55,0,8,0,13,0,6,0,2
+Cucumber-JVM: Core,cucumber.runtime.filter,TagExpressionOld.BadTagException,16,0,0,0,3,0,1,0,1,0
+Cucumber-JVM: Core,cucumber.runtime.filter,RerunFilters,41,32,5,3,7,9,4,3,1,2
+Cucumber-JVM: Core,cucumber.runtime.filter,TagExpressionOld,52,161,8,20,8,28,8,12,2,4
+Cucumber-JVM: Core,cucumber.runtime.filter,NamePredicate,0,31,0,4,0,9,0,4,0,2
+Cucumber-JVM: Core,cucumber.runtime.filter,Filters,67,52,9,5,12,15,8,2,1,2
+Cucumber-JVM: Core,cucumber.runtime.filter,TagExpressionOld.BadTagLimitException,22,0,0,0,3,0,1,0,1,0
+Cucumber-JVM: Core,cucumber.runtime.filter,TagExpressionOld.Not,1,17,1,1,0,4,1,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.filter,TagExpressionOld.TagExp,6,34,1,5,1,9,1,4,0,2
+Cucumber-JVM: Core,cucumber.runtime.filter,TagPredicate,2,118,1,15,1,25,1,10,0,3
+Cucumber-JVM: Core,cucumber.runtime.filter,TagExpressionOld.Or,1,39,2,2,1,9,2,3,0,3
+Cucumber-JVM: Core,cucumber.runtime,RuntimeOptions.ParsedPluginData,12,70,1,5,1,17,1,7,0,5
+Cucumber-JVM: Core,cucumber.runtime,Env,10,128,3,9,2,30,3,11,1,7
+Cucumber-JVM: Core,cucumber.runtime,Runtime.SameThreadExecutorService,6,6,0,0,3,4,3,3,3,3
+Cucumber-JVM: Core,cucumber.runtime,Runtime.new Runnable() {...},0,17,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime,Runtime,7,141,2,8,2,32,2,7,0,4
+Cucumber-JVM: Core,cucumber.runtime,Shellwords,0,56,2,8,0,14,2,5,0,2
+Cucumber-JVM: Core,cucumber.runtime,Timeout,0,87,0,4,0,19,0,3,0,1
+Cucumber-JVM: Core,cucumber.runtime,TooManyInstancesException,17,0,0,0,3,0,2,0,2,0
+Cucumber-JVM: Core,cucumber.runtime,Utils.new Timeout.Callback() {...},60,34,0,0,8,5,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime,DuplicateStepDefinitionException,0,23,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime,RuntimeOptionsFactory,28,371,7,39,5,81,7,37,0,21
+Cucumber-JVM: Core,cucumber.runtime,NoInstancesException,17,0,0,0,3,0,2,0,2,0
+Cucumber-JVM: Core,cucumber.runtime,Runtime.Builder,13,219,1,13,4,38,3,17,2,11
+Cucumber-JVM: Core,cucumber.runtime,Utils,68,111,6,18,18,15,5,14,1,6
+Cucumber-JVM: Core,cucumber.runtime,UndefinedStepsTracker.StepNode,0,9,0,0,0,4,0,1,0,1
+Cucumber-JVM: Core,cucumber.runtime,MethodFormat,17,163,1,1,3,33,1,4,0,4
+Cucumber-JVM: Core,cucumber.runtime,Reflections,51,77,3,9,12,19,4,7,1,4
+Cucumber-JVM: Core,cucumber.runtime,RuntimeOptions.ParsedOptionNames,0,40,0,6,0,12,0,6,0,3
+Cucumber-JVM: Core,cucumber.runtime,ExitStatus,0,59,0,8,0,11,0,7,0,3
+Cucumber-JVM: Core,cucumber.runtime,DefinitionArgument,6,56,3,7,0,12,3,7,0,5
+Cucumber-JVM: Core,cucumber.runtime,FeatureCompiler,0,38,0,2,0,7,0,3,0,2
+Cucumber-JVM: Core,cucumber.runtime,BackendModuleBackendSupplier,0,94,0,2,0,17,0,5,0,4
+Cucumber-JVM: Core,cucumber.runtime,FeaturePathFeatureSupplier,0,17,0,0,0,5,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime,UndefinedStepsTracker.new EventHandler() {...},0,16,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime,UndefinedStepsTracker.new EventHandler() {...},0,16,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime,RuntimeOptions,243,633,22,88,49,136,24,61,5,25
+Cucumber-JVM: Core,cucumber.runtime,RuntimeOptions.new Mapper() {...},5,3,0,0,1,1,1,1,1,1
+Cucumber-JVM: Core,cucumber.runtime,RuntimeOptions.new Mapper() {...},11,3,0,0,1,1,1,1,1,1
+Cucumber-JVM: Core,cucumber.runtime,CucumberException,4,9,0,0,2,4,1,2,1,2
+Cucumber-JVM: Core,cucumber.runtime,ExitStatus.new EventHandler() {...},0,14,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime,Timeout.new Runnable() {...},0,28,1,1,0,6,1,2,0,2
+Cucumber-JVM: Core,cucumber.runtime,UndefinedStepsTracker.FeatureStepMap,0,9,0,0,0,4,0,1,0,1
+Cucumber-JVM: Core,cucumber.runtime,DefaultTypeRegistryConfiguration,0,6,0,0,0,3,0,3,0,3
+Cucumber-JVM: Core,cucumber.runtime,UndefinedStepsTracker,6,357,4,34,4,73,4,27,0,12
+Cucumber-JVM: Core,cucumber.api,Result,44,143,5,25,2,25,7,22,2,12
+Cucumber-JVM: Core,cucumber.api,HookType,0,48,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.api,Result.new Comparator() {...},0,21,0,4,0,2,0,4,0,2
+Cucumber-JVM: Core,cucumber.api,PendingException,0,8,0,0,0,4,0,2,0,2
+Cucumber-JVM: Core,cucumber.api,SnippetType,12,72,1,3,1,11,1,5,0,4
+Cucumber-JVM: Core,cucumber.api,Result.Type,0,89,0,0,0,10,0,4,0,4
+Cucumber-JVM: Core,cucumber.runner,HookDefinitionMatch,0,17,0,0,0,7,0,4,0,4
+Cucumber-JVM: Core,cucumber.runner,UndefinedStepDefinitionException,0,4,0,0,0,2,0,1,0,1
+Cucumber-JVM: Core,cucumber.runner,ThreadLocalRunnerSupplier,0,38,0,0,0,8,0,3,0,3
+Cucumber-JVM: Core,cucumber.runner,FailedPickleStepInstantiationMatch,4,19,0,0,2,4,1,2,1,2
+Cucumber-JVM: Core,cucumber.runner,ThreadLocalRunnerSupplier.LocalEventBus,0,18,0,0,0,7,0,3,0,3
+Cucumber-JVM: Core,cucumber.runner,HookComparator,0,23,0,2,0,6,0,3,0,2
+Cucumber-JVM: Core,cucumber.runner,AbstractEventPublisher,14,101,2,12,3,21,2,10,1,4
+Cucumber-JVM: Core,cucumber.runner,TestCase,0,246,0,10,0,42,0,15,0,10
+Cucumber-JVM: Core,cucumber.runner,Glue.CacheEntry,0,6,0,0,0,3,0,1,0,1
+Cucumber-JVM: Core,cucumber.runner,Glue,0,312,3,25,0,78,3,27,0,16
+Cucumber-JVM: Core,cucumber.runner,PickleStepDefinitionMatch,6,316,3,17,4,65,4,21,1,14
+Cucumber-JVM: Core,cucumber.runner,AmbiguousPickleStepDefinitionsMatch,11,15,0,0,3,4,2,2,2,2
+Cucumber-JVM: Core,cucumber.runner,TestStep,2,141,1,13,1,36,1,13,0,7
+Cucumber-JVM: Core,cucumber.runner,TimeService,0,5,0,0,0,1,0,1,0,1
+Cucumber-JVM: Core,cucumber.runner,UndefinedStepException,12,0,0,0,2,0,1,0,1,0
+Cucumber-JVM: Core,cucumber.runner,AmbiguousStepDefinitionsException,0,64,0,2,0,11,0,5,0,4
+Cucumber-JVM: Core,cucumber.runner,AbstractEventBus,4,7,0,0,2,3,1,2,1,2
+Cucumber-JVM: Core,cucumber.runner,SingletonRunnerSupplier,0,33,0,2,0,9,0,4,0,3
+Cucumber-JVM: Core,cucumber.runner,ThreadLocalRunnerSupplier.SynchronizedEventBus,20,23,1,1,7,8,4,4,3,4
+Cucumber-JVM: Core,cucumber.runner,Runner,19,303,1,19,4,66,1,22,0,13
+Cucumber-JVM: Core,cucumber.runner,ThreadLocalRunnerSupplier.new ThreadLocal() {...},0,10,0,0,0,2,0,2,0,2
+Cucumber-JVM: Core,cucumber.runner,TimeServiceEventBus,0,11,0,0,0,4,0,2,0,2
+Cucumber-JVM: Core,cucumber.runner,CanonicalOrderEventPublisher,0,28,0,2,0,8,0,3,0,2
+Cucumber-JVM: Core,cucumber.runner,PickleStepTestStep,21,114,0,4,3,24,3,11,3,9
+Cucumber-JVM: Core,cucumber.runner,Match,0,26,0,0,0,8,0,4,0,4
+Cucumber-JVM: Core,cucumber.runner,UndefinedPickleStepDefinitionMatch,4,13,0,0,2,3,1,2,1,2
+Cucumber-JVM: Core,cucumber.runner,NoStepDefinition,12,5,0,0,6,2,6,2,6,2
+Cucumber-JVM: Core,cucumber.runner,Scenario,27,114,4,8,5,24,4,14,1,11
+Cucumber-JVM: Core,cucumber.runner,TimeService.new TimeService() {...},0,5,0,0,0,2,0,2,0,2
+Cucumber-JVM: Core,cucumber.runner,HookTestStep,0,10,0,0,0,4,0,2,0,2
+Cucumber-JVM: Core,cucumber.util,FixJava,60,82,2,8,15,18,4,7,3,3
+Cucumber-JVM: Core,cucumber.util,Encoding,16,61,2,6,4,13,3,5,1,3
+Cucumber-JVM: Core,cucumber.runtime.io,ZipResourceIteratorFactory,6,18,0,0,2,4,0,3,0,3
+Cucumber-JVM: Core,cucumber.runtime.io,FileResource,23,71,1,3,3,14,3,7,2,6
+Cucumber-JVM: Core,cucumber.runtime.io,ZipResource,48,0,0,0,9,0,5,0,5,0
+Cucumber-JVM: Core,cucumber.runtime.io,URLOutputStream.ResponseException,24,56,3,1,4,9,2,3,0,3
+Cucumber-JVM: Core,cucumber.runtime.io,FlatteningIterator,4,88,0,12,1,25,1,11,1,5
+Cucumber-JVM: Core,cucumber.runtime.io,FileResourceIterator.FileIterator,17,77,1,7,3,17,2,7,1,4
+Cucumber-JVM: Core,cucumber.runtime.io,FileResourceIterator,4,49,0,0,1,9,1,5,1,5
+Cucumber-JVM: Core,cucumber.runtime.io,FileResourceIterable,0,20,0,0,0,6,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.io,ZipThenFileResourceIteratorFactory,1,45,1,5,0,7,1,5,0,3
+Cucumber-JVM: Core,cucumber.runtime.io,UTF8OutputStreamWriter,0,6,0,0,0,2,0,1,0,1
+Cucumber-JVM: Core,cucumber.runtime.io,FileResourceLoader,0,15,0,0,0,3,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.io,ResourceLoaderClassFinder,3,75,1,7,2,15,1,6,0,3
+Cucumber-JVM: Core,cucumber.runtime.io,ClasspathResourceLoader,0,14,0,0,0,4,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.io,ClasspathResourceIterable,6,52,0,2,2,14,0,3,0,2
+Cucumber-JVM: Core,cucumber.runtime.io,MultiLoader,24,53,3,3,5,12,3,6,1,5
+Cucumber-JVM: Core,cucumber.runtime.io,URLOutputStream,70,160,5,19,8,42,6,14,1,7
+Cucumber-JVM: Core,cucumber.runtime.io,DelegatingResourceIteratorFactory,18,61,3,7,3,13,3,5,0,3
+Cucumber-JVM: Core,cucumber.runtime.io,FileResourceIteratorFactory,0,30,0,0,0,5,0,3,0,3
+Cucumber-JVM: Core,cucumber.runtime.io,Helpers,38,40,3,5,6,8,3,4,0,3
+Cucumber-JVM: Core,cucumber.runtime.io,ZipResourceIterator,29,54,4,6,7,15,5,5,2,3
+Cucumber-JVM: Core,cucumber.runtime.io,FileResourceIterator.new FileFilter() {...},0,22,0,4,0,2,0,4,0,2
+Cucumber-JVM: Core,cucumber.runtime.model,CucumberFeature,0,30,0,0,0,9,0,4,0,4
+Cucumber-JVM: Core,cucumber.runtime.model,CucumberFeature.CucumberFeatureUriComparator,0,9,0,0,0,2,0,2,0,2
+Cucumber-JVM: Core,cucumber.runtime.model,FeatureBuilder,27,110,0,2,6,27,0,8,0,7
+Cucumber-JVM: Core,cucumber.runtime.model,PathWithLines,26,71,2,4,5,14,3,6,2,4
+Cucumber-JVM: Core,cucumber.runtime.model,FeatureLoader,19,242,3,25,4,53,3,20,0,9
+Cucumber-JVM: Core,cucumber.api.formatter,AnsiEscapes,13,86,0,0,1,23,1,6,1,6
+Cucumber-JVM: Core,cucumber.api.formatter,NiceAppendable,47,76,0,4,15,27,1,10,1,8
