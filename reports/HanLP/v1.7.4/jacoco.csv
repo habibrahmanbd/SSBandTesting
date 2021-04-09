@@ -1,0 +1,560 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+HanLP,com.hankcs.hanlp.dependency.nnparser.action,ActionUtils,411,0,50,0,75,0,34,0,9,0
+HanLP,com.hankcs.hanlp.dependency.nnparser.action,AbstractInexactAction,50,0,4,0,11,0,8,0,6,0
+HanLP,com.hankcs.hanlp.dependency.nnparser.action,Action,8,0,0,0,4,0,2,0,2,0
+HanLP,com.hankcs.hanlp.dependency.nnparser.action,ActionFactory,21,0,0,0,4,0,4,0,4,0
+HanLP,com.hankcs.hanlp.collection.dartsclone.details,BitVector,184,0,8,0,30,0,15,0,11,0
+HanLP,com.hankcs.hanlp.collection.dartsclone.details,DawgBuilder,918,0,80,0,189,0,66,0,26,0
+HanLP,com.hankcs.hanlp.collection.dartsclone.details,DoubleArrayBuilder,1134,0,116,0,230,0,77,0,19,0
+HanLP,com.hankcs.hanlp.collection.dartsclone.details,DoubleArrayBuilder.DoubleArrayBuilderExtraUnit,3,0,0,0,1,0,1,0,1,0
+HanLP,com.hankcs.hanlp.collection.dartsclone.details,DawgBuilder.DawgNode,60,0,8,0,13,0,9,0,5,0
+HanLP,com.hankcs.hanlp.collection.dartsclone.details,AutoIntPool,153,0,18,0,41,0,22,0,13,0
+HanLP,com.hankcs.hanlp.collection.dartsclone.details,Keyset,51,0,6,0,13,0,9,0,6,0
+HanLP,com.hankcs.hanlp.collection.dartsclone.details,AutoBytePool,153,0,18,0,41,0,22,0,13,0
+HanLP,com.hankcs.hanlp.dictionary.py,Head,0,274,0,0,0,28,0,1,0,1
+HanLP,com.hankcs.hanlp.dictionary.py,PinyinDictionary.Searcher,65,0,6,0,19,0,6,0,3,0
+HanLP,com.hankcs.hanlp.dictionary.py,PinyinUtil,196,6,20,0,52,1,14,1,4,1
+HanLP,com.hankcs.hanlp.dictionary.py,PinyinDictionary,230,169,15,15,40,33,16,11,6,6
+HanLP,com.hankcs.hanlp.dictionary.py,Pinyin,24858,0,0,0,1477,0,10,0,10,0
+HanLP,com.hankcs.hanlp.dictionary.py,Shengmu,0,244,0,0,0,25,0,1,0,1
+HanLP,com.hankcs.hanlp.dictionary.py,String2PinyinConverter,63,5999,8,12,16,40,9,10,4,5
+HanLP,com.hankcs.hanlp.dictionary.py,PinyinDictionary.new AhoCorasickDoubleArrayTrie.IHit() {...},0,40,1,5,0,5,1,4,0,2
+HanLP,com.hankcs.hanlp.dictionary.py,Integer2PinyinConverter,7,3,0,0,2,1,2,1,2,1
+HanLP,com.hankcs.hanlp.dictionary.py,TonePinyinString2PinyinConverter,192,0,18,0,36,0,18,0,9,0
+HanLP,com.hankcs.hanlp.dictionary.py,Yunmu,0,354,0,0,0,36,0,1,0,1
+HanLP,com.hankcs.hanlp.classification.statistics.evaluations,Evaluator,260,0,8,0,44,0,7,0,3,0
+HanLP,com.hankcs.hanlp.classification.statistics.evaluations,FMeasure,221,0,4,0,22,0,5,0,3,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.transition.trainer,ArcEagerBeamTrainer,1827,0,230,0,378,0,124,0,9,0
+HanLP,com.hankcs.hanlp.dictionary,CustomDictionary.Searcher,90,0,10,0,18,0,8,0,3,0
+HanLP,com.hankcs.hanlp.dictionary,CustomDictionary.new AhoCorasickDoubleArrayTrie.IHit() {...},30,0,2,0,6,0,3,0,2,0
+HanLP,com.hankcs.hanlp.dictionary,CoreDictionary,315,159,17,9,54,32,15,7,4,5
+HanLP,com.hankcs.hanlp.dictionary,CoreSynonymDictionaryEx,69,60,7,10,16,18,10,7,5,3
+HanLP,com.hankcs.hanlp.dictionary,CustomDictionary,871,222,105,19,172,45,78,10,19,7
+HanLP,com.hankcs.hanlp.dictionary,CoreDictionary.Attribute,280,33,20,0,54,11,20,3,10,3
+HanLP,com.hankcs.hanlp.dictionary,CoreBiGramTableDictionary,365,167,25,15,79,35,19,11,5,5
+HanLP,com.hankcs.hanlp.dictionary,TransformMatrixDictionary,78,18,0,0,14,5,6,3,6,3
+HanLP,com.hankcs.hanlp.dictionary,TransformMatrix,114,344,4,28,20,46,4,16,2,2
+HanLP,com.hankcs.hanlp.dictionary,CoreDictionaryTransformMatrixDictionary,46,0,2,0,7,0,3,0,2,0
+HanLP,com.hankcs.hanlp.dictionary,BaseSearcher,14,0,0,0,6,0,3,0,3,0
+HanLP,com.hankcs.hanlp.dictionary,CoreDictionaryTransformMatrixDictionary.new TransformMatrix() {...},7,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.dictionary,CoreSynonymDictionary,165,0,14,0,37,0,19,0,12,0
+HanLP,com.hankcs.hanlp.collection.sequence,SString,220,0,14,0,53,0,18,0,11,0
+HanLP,com.hankcs.hanlp.utility,ByteUtil,567,63,0,0,77,7,18,2,18,2
+HanLP,com.hankcs.hanlp.utility,MathUtility,233,39,24,2,43,6,20,1,7,1
+HanLP,com.hankcs.hanlp.utility,GlobalObjectPool,39,0,4,0,9,0,7,0,5,0
+HanLP,com.hankcs.hanlp.utility,LexiconUtility,137,0,24,0,33,0,23,0,11,0
+HanLP,com.hankcs.hanlp.utility,CharacterHelper,119,0,54,0,15,0,33,0,6,0
+HanLP,com.hankcs.hanlp.utility,TextUtility,1200,0,290,0,265,0,180,0,35,0
+HanLP,com.hankcs.hanlp.utility,Predefine,3,229,0,0,1,13,1,1,1,1
+HanLP,com.hankcs.hanlp.utility,SentencesUtil,153,0,31,0,35,0,24,0,7,0
+HanLP,com.hankcs.hanlp.corpus.dependency.model,WordNatureWeightModelMaker,238,0,10,0,29,0,9,0,4,0
+HanLP,com.hankcs.hanlp.corpus.dependency.model,MaxEntDependencyModelMaker,410,0,20,0,43,0,14,0,4,0
+HanLP,com.hankcs.hanlp.corpus.dependency.model,WordNatureWeightScorer,3,0,0,0,1,0,1,0,1,0
+HanLP,com.hankcs.hanlp.corpus.dictionary.item,EnumItem,174,54,13,3,32,13,13,5,6,4
+HanLP,com.hankcs.hanlp.corpus.dictionary.item,SimpleItem,240,0,18,0,50,0,21,0,12,0
+HanLP,com.hankcs.hanlp.corpus.dictionary.item,Item,145,0,10,0,28,0,11,0,6,0
+HanLP,com.hankcs.hanlp.corpus.dictionary.item,Item.new Comparator() {...},15,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.corpus.dictionary.item,SimpleItem.new Comparator() {...},15,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.corpus.dictionary.item,EnumItem.new Comparator() {...},15,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.seg.NShort,NShortSegment,351,0,40,0,83,0,31,0,11,0
+HanLP,com.hankcs.hanlp.model.perceptron,PerceptronTrainer.Result,27,0,2,0,8,0,4,0,3,0
+HanLP,com.hankcs.hanlp.model.perceptron,PerceptronClassifier.Instance,9,0,0,0,4,0,1,0,1,0
+HanLP,com.hankcs.hanlp.model.perceptron,Main.Option,35,0,0,0,9,0,1,0,1,0
+HanLP,com.hankcs.hanlp.model.perceptron,PerceptronTrainer,766,0,54,0,111,0,35,0,8,0
+HanLP,com.hankcs.hanlp.model.perceptron,PerceptronTrainer.new InstanceHandler() {...},26,0,0,0,4,0,2,0,2,0
+HanLP,com.hankcs.hanlp.model.perceptron,PerceptronTrainer.TrainingWorker,34,0,2,0,10,0,3,0,2,0
+HanLP,com.hankcs.hanlp.model.perceptron,InstanceConsumer,43,0,0,0,6,0,4,0,4,0
+HanLP,com.hankcs.hanlp.model.perceptron,PerceptronNERecognizer,117,0,8,0,21,0,12,0,8,0
+HanLP,com.hankcs.hanlp.model.perceptron,InstanceConsumer.new InstanceHandler() {...},30,0,0,0,5,0,2,0,2,0
+HanLP,com.hankcs.hanlp.model.perceptron,Main,242,0,24,0,53,0,16,0,2,0
+HanLP,com.hankcs.hanlp.model.perceptron,PerceptronTagger,76,0,14,0,15,0,14,0,7,0
+HanLP,com.hankcs.hanlp.model.perceptron,CWSTrainer,33,0,0,0,9,0,4,0,4,0
+HanLP,com.hankcs.hanlp.model.perceptron,PerceptronClassifier.BinaryClassificationFMeasure,35,0,0,0,6,0,2,0,2,0
+HanLP,com.hankcs.hanlp.model.perceptron,PerceptronClassifier,387,0,36,0,76,0,31,0,13,0
+HanLP,com.hankcs.hanlp.model.perceptron,PerceptronSegmenter,171,0,12,0,36,0,17,0,11,0
+HanLP,com.hankcs.hanlp.model.perceptron,PerceptronNameGenderClassifier,72,0,2,0,14,0,6,0,5,0
+HanLP,com.hankcs.hanlp.model.perceptron,POSTrainer,21,0,0,0,4,0,4,0,4,0
+HanLP,com.hankcs.hanlp.model.perceptron,PerceptronLexicalAnalyzer,200,0,24,0,46,0,29,0,17,0
+HanLP,com.hankcs.hanlp.model.perceptron,NERTrainer,39,0,0,0,11,0,4,0,4,0
+HanLP,com.hankcs.hanlp.model.perceptron,PerceptronPOSTagger,170,0,8,0,29,0,13,0,9,0
+HanLP,com.hankcs.hanlp.corpus.io,ByteArray,276,78,27,3,54,20,22,11,7,10
+HanLP,com.hankcs.hanlp.corpus.io,ByteArrayFileStream,188,0,18,0,44,0,16,0,7,0
+HanLP,com.hankcs.hanlp.corpus.io,IOUtil,1027,50,115,3,211,13,92,4,33,4
+HanLP,com.hankcs.hanlp.corpus.io,ByteArrayOtherStream,175,0,16,0,41,0,15,0,7,0
+HanLP,com.hankcs.hanlp.corpus.io,LineHandler,59,0,2,0,15,0,5,0,4,0
+HanLP,com.hankcs.hanlp.corpus.io,FileIOAdapter,13,0,0,0,3,0,3,0,3,0
+HanLP,com.hankcs.hanlp.corpus.io,ByteArrayStream,69,0,4,0,20,0,9,0,7,0
+HanLP,com.hankcs.hanlp.corpus.io,EasyReader.new FileFilter() {...},18,0,4,0,2,0,4,0,2,0
+HanLP,com.hankcs.hanlp.corpus.io,EasyReader,172,0,20,0,35,0,14,0,4,0
+HanLP,com.hankcs.hanlp.corpus.io,IOUtil.LineIterator,207,0,12,0,53,0,13,0,7,0
+HanLP,com.hankcs.hanlp.model.perceptron.model,LinearModel,974,0,98,0,172,0,69,0,20,0
+HanLP,com.hankcs.hanlp.model.perceptron.model,AveragedPerceptron,148,0,12,0,23,0,12,0,6,0
+HanLP,com.hankcs.hanlp.model.perceptron.model,StructuredPerceptron,186,0,16,0,26,0,12,0,4,0
+HanLP,com.hankcs.hanlp.model.perceptron.model,LinearModel.new Comparator() {...},12,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.model.bigram,WordNatureDependencyModel.Attribute,92,0,4,0,16,0,7,0,5,0
+HanLP,com.hankcs.hanlp.model.bigram,BigramDependencyModel,291,0,28,0,47,0,21,0,7,0
+HanLP,com.hankcs.hanlp.model.bigram,WordNatureDependencyModel,536,0,48,0,83,0,31,0,7,0
+HanLP,com.hankcs.hanlp,HanLP.Config,693,116,31,5,87,48,21,1,3,1
+HanLP,com.hankcs.hanlp,HanLP,350,4,34,0,76,1,48,1,31,1
+HanLP,com.hankcs.hanlp.classification.collections,FrequencyMap,34,0,2,0,7,0,3,0,2,0
+HanLP,com.hankcs.hanlp.algorithm.ahocorasick.interval,IntervalNode.Direction,0,24,0,0,0,2,0,1,0,1
+HanLP,com.hankcs.hanlp.algorithm.ahocorasick.interval,IntervalNode,24,250,8,31,5,55,8,20,0,8
+HanLP,com.hankcs.hanlp.algorithm.ahocorasick.interval,Interval,76,42,15,3,11,11,14,5,5,5
+HanLP,com.hankcs.hanlp.algorithm.ahocorasick.interval,IntervalableComparatorBySize,6,13,1,1,1,4,1,2,0,2
+HanLP,com.hankcs.hanlp.algorithm.ahocorasick.interval,IntervalTree,10,60,2,4,3,14,2,4,0,3
+HanLP,com.hankcs.hanlp.algorithm.ahocorasick.interval,IntervalableComparatorByPosition,0,9,0,0,0,2,0,2,0,2
+HanLP,com.hankcs.hanlp.algorithm.ahocorasick.trie,State,44,122,0,14,8,33,2,20,2,13
+HanLP,com.hankcs.hanlp.algorithm.ahocorasick.trie,FragmentToken,2,6,0,0,1,3,1,2,1,2
+HanLP,com.hankcs.hanlp.algorithm.ahocorasick.trie,Emit,16,8,0,0,2,3,2,1,2,1
+HanLP,com.hankcs.hanlp.algorithm.ahocorasick.trie,Trie,132,419,22,44,33,93,22,30,6,13
+HanLP,com.hankcs.hanlp.algorithm.ahocorasick.trie,TrieConfig,4,12,0,0,2,4,1,2,1,2
+HanLP,com.hankcs.hanlp.algorithm.ahocorasick.trie,MatchToken,3,9,0,0,1,4,1,2,1,2
+HanLP,com.hankcs.hanlp.algorithm.ahocorasick.trie,Token,13,9,0,0,1,4,1,2,1,2
+HanLP,com.hankcs.hanlp.dependency.perceptron.learning,AveragedPerceptron,829,0,90,0,136,0,60,0,15,0
+HanLP,com.hankcs.hanlp.seg,Segment.new AhoCorasickDoubleArrayTrie.IHit() {...},25,15,2,0,3,1,2,1,1,1
+HanLP,com.hankcs.hanlp.seg,Segment,1144,235,161,27,232,53,112,15,25,8
+HanLP,com.hankcs.hanlp.seg,SegmentPipeline.new Pipe() {...},48,0,4,0,8,0,4,0,2,0
+HanLP,com.hankcs.hanlp.seg,SegmentPipeline.new Pipe() {...},17,0,0,0,4,0,2,0,2,0
+HanLP,com.hankcs.hanlp.seg,Segment.WorkThread,40,0,2,0,9,0,3,0,2,0
+HanLP,com.hankcs.hanlp.seg,SegmentPipeline,192,0,2,0,42,0,31,0,30,0
+HanLP,com.hankcs.hanlp.seg,DictionaryBasedSegment,91,0,16,0,22,0,12,0,4,0
+HanLP,com.hankcs.hanlp.seg,CharacterBasedSegment,184,0,34,0,40,0,21,0,4,0
+HanLP,com.hankcs.hanlp.seg,Config,28,42,12,0,3,14,8,1,2,1
+HanLP,com.hankcs.hanlp.seg,WordBasedSegment.new AhoCorasickDoubleArrayTrie.IHit() {...},32,0,0,0,3,0,2,0,2,0
+HanLP,com.hankcs.hanlp.seg,WordBasedSegment,643,215,111,25,139,47,68,14,11,3
+HanLP,com.hankcs.hanlp.corpus.occurrence,Occurrence.new Comparator() {...},13,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.corpus.occurrence,Occurrence.new Comparator() {...},13,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.corpus.occurrence,Occurrence.new Comparator() {...},13,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.corpus.occurrence,Occurrence.new Comparator() {...},13,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.corpus.occurrence,TriaFrequency,136,0,0,0,29,0,5,0,5,0
+HanLP,com.hankcs.hanlp.corpus.occurrence,TermFrequency,58,0,2,0,11,0,8,0,7,0
+HanLP,com.hankcs.hanlp.corpus.occurrence,PairFrequency,120,0,4,0,27,0,7,0,5,0
+HanLP,com.hankcs.hanlp.corpus.occurrence,TermOccurrence,56,0,4,0,15,0,6,0,4,0
+HanLP,com.hankcs.hanlp.corpus.occurrence,Occurrence,759,0,42,0,133,0,45,0,24,0
+HanLP,com.hankcs.hanlp.mining.phrase,MutualInformationEntropyPhraseExtractor.new Filter() {...},18,0,4,0,4,0,4,0,2,0
+HanLP,com.hankcs.hanlp.mining.phrase,MutualInformationEntropyPhraseExtractor,230,0,18,0,35,0,12,0,3,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.transition.features,FeatureExtractor,5890,0,480,0,978,0,245,0,5,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.transition.parser,TransitionBasedParser,21,0,0,0,7,0,2,0,2,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.transition.parser,ArcEager,297,0,88,0,62,0,53,0,9,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.transition.parser,BeamScorerThread,83,0,0,0,19,0,2,0,2,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.transition.parser,Action.new Action() {...},22,0,0,0,5,0,2,0,2,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.transition.parser,Action.new Action() {...},20,0,0,0,5,0,2,0,2,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.transition.parser,Action.new Action() {...},17,0,0,0,5,0,2,0,2,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.transition.parser,Action.new Action() {...},17,0,0,0,5,0,2,0,2,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.transition.parser,Action.new Action() {...},17,0,0,0,5,0,2,0,2,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.transition.parser,ParseThread,859,0,122,0,206,0,66,0,5,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.transition.parser,PartialTreeBeamScorerThread,377,0,44,0,72,0,25,0,3,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.transition.parser,ParseTaggedThread,350,0,22,0,70,0,13,0,2,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.transition.parser,Action,54,0,0,0,6,0,1,0,1,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.transition.parser,KBeamArcEagerParser,1691,0,168,0,324,0,103,0,19,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.transition.parser,LabeledAction,67,0,10,0,18,0,7,0,2,0
+HanLP,com.hankcs.hanlp.dictionary.common,CommonStringDictionary,118,0,8,0,19,0,8,0,4,0
+HanLP,com.hankcs.hanlp.dictionary.common,CommonSynonymDictionaryEx.SynonymItem,33,0,0,0,8,0,2,0,2,0
+HanLP,com.hankcs.hanlp.dictionary.common,CommonDictionary,201,44,12,2,42,9,11,4,4,4
+HanLP,com.hankcs.hanlp.dictionary.common,EnumItemDictionary,71,55,5,5,12,14,5,4,2,2
+HanLP,com.hankcs.hanlp.dictionary.common,CommonSynonymDictionary.SynonymItem,141,0,15,0,34,0,15,0,7,0
+HanLP,com.hankcs.hanlp.dictionary.common,CommonSynonymDictionaryEx,60,144,6,12,11,32,5,8,1,3
+HanLP,com.hankcs.hanlp.dictionary.common,CommonSynonymDictionary,386,0,42,0,81,0,29,0,8,0
+HanLP,com.hankcs.hanlp.collection.trie.bintrie,BaseNode,429,0,62,0,79,0,49,0,18,0
+HanLP,com.hankcs.hanlp.collection.trie.bintrie,Node,142,0,20,0,38,0,15,0,4,0
+HanLP,com.hankcs.hanlp.collection.trie.bintrie,_EmptyValueArray,5,0,0,0,3,0,2,0,2,0
+HanLP,com.hankcs.hanlp.collection.trie.bintrie,BaseNode.Status,44,0,0,0,5,0,1,0,1,0
+HanLP,com.hankcs.hanlp.collection.trie.bintrie,BinTrie,1171,0,160,0,254,0,114,0,33,0
+HanLP,com.hankcs.hanlp.collection.trie.bintrie,_ValueArray,25,0,0,0,8,0,4,0,4,0
+HanLP,com.hankcs.hanlp.collection.trie.bintrie,BaseNode.TrieEntry,16,0,0,0,4,0,2,0,2,0
+HanLP,com.hankcs.hanlp.collection.MDAG,MDAGNode,461,20,50,0,95,7,53,1,28,1
+HanLP,com.hankcs.hanlp.collection.MDAG,MDAGMap.MDAGForMap,268,0,42,0,46,0,27,0,6,0
+HanLP,com.hankcs.hanlp.collection.MDAG,MDAG.SearchCondition,68,0,4,0,11,0,5,0,2,0
+HanLP,com.hankcs.hanlp.collection.MDAG,MDAG,1350,99,151,9,282,20,109,7,33,3
+HanLP,com.hankcs.hanlp.collection.MDAG,MDAGMap,172,0,10,0,38,0,15,0,10,0
+HanLP,com.hankcs.hanlp.collection.MDAG,MDAGSet,169,3,22,0,49,2,27,1,16,1
+HanLP,com.hankcs.hanlp.collection.MDAG,SimpleMDAGNode,173,123,14,16,42,34,17,15,10,7
+HanLP,com.hankcs.hanlp.corpus.dictionary,StringDictionaryMaker,84,0,8,0,17,0,9,0,5,0
+HanLP,com.hankcs.hanlp.corpus.dictionary,NatureDictionaryMaker.new CorpusLoader.Handler() {...},74,0,18,0,13,0,12,0,3,0
+HanLP,com.hankcs.hanlp.corpus.dictionary,CommonSuffixExtractor,190,0,24,0,38,0,19,0,7,0
+HanLP,com.hankcs.hanlp.corpus.dictionary,SuffixDictionary,141,0,12,0,28,0,15,0,9,0
+HanLP,com.hankcs.hanlp.corpus.dictionary,NRDictionaryMaker,716,0,107,0,136,0,57,0,3,0
+HanLP,com.hankcs.hanlp.corpus.dictionary,EasyDictionary.Attribute,103,0,4,0,29,0,9,0,7,0
+HanLP,com.hankcs.hanlp.corpus.dictionary,NSDictionaryMaker,435,0,64,0,84,0,35,0,3,0
+HanLP,com.hankcs.hanlp.corpus.dictionary,NTDictionaryMaker,690,0,118,0,148,0,63,0,4,0
+HanLP,com.hankcs.hanlp.corpus.dictionary,NGramDictionaryMaker,144,0,4,0,25,0,7,0,5,0
+HanLP,com.hankcs.hanlp.corpus.dictionary,TMDictionaryMaker,204,0,16,0,44,0,12,0,4,0
+HanLP,com.hankcs.hanlp.corpus.dictionary,EasyDictionary,232,0,10,0,36,0,11,0,6,0
+HanLP,com.hankcs.hanlp.corpus.dictionary,StringDictionary,128,0,6,0,28,0,8,0,5,0
+HanLP,com.hankcs.hanlp.corpus.dictionary,DictionaryMaker.new Comparator() {...},11,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.corpus.dictionary,NatureDictionaryMaker,131,0,12,0,31,0,10,0,4,0
+HanLP,com.hankcs.hanlp.corpus.dictionary,CommonDictionaryMaker,85,0,6,0,23,0,9,0,6,0
+HanLP,com.hankcs.hanlp.corpus.dictionary,PlaceSuffixDictionary,14,0,0,0,5,0,2,0,2,0
+HanLP,com.hankcs.hanlp.corpus.dictionary,DictionaryMaker,593,0,38,0,124,0,43,0,24,0
+HanLP,com.hankcs.hanlp.corpus.dictionary,SimpleDictionary,180,0,18,0,38,0,18,0,9,0
+HanLP,com.hankcs.hanlp.corpus.dictionary,TFDictionary,359,0,24,0,66,0,22,0,10,0
+HanLP,com.hankcs.hanlp.corpus.dictionary,EasyDictionary.Searcher,97,0,10,0,19,0,8,0,3,0
+HanLP,com.hankcs.hanlp.corpus.dictionary,CommonDictionaryMaker.new CorpusLoader.Handler() {...},36,0,2,0,8,0,3,0,2,0
+HanLP,com.hankcs.hanlp.model.hmm,SecondOrderHiddenMarkovModel,746,0,68,0,112,0,44,0,10,0
+HanLP,com.hankcs.hanlp.model.hmm,HMMNERecognizer,117,0,6,0,24,0,9,0,6,0
+HanLP,com.hankcs.hanlp.model.hmm,HMMSegmenter,230,0,16,0,38,0,15,0,7,0
+HanLP,com.hankcs.hanlp.model.hmm,HMMTrainer,141,0,14,0,28,0,12,0,5,0
+HanLP,com.hankcs.hanlp.model.hmm,HMMSegmenter.new Segment() {...},39,0,2,0,7,0,3,0,2,0
+HanLP,com.hankcs.hanlp.model.hmm,HiddenMarkovModel,675,0,70,0,98,0,50,0,15,0
+HanLP,com.hankcs.hanlp.model.hmm,HMMPOSTagger,119,0,6,0,23,0,9,0,6,0
+HanLP,com.hankcs.hanlp.model.hmm,Vocabulary,50,0,4,0,14,0,5,0,3,0
+HanLP,com.hankcs.hanlp.model.hmm,HMMTrainer.new InstanceHandler() {...},19,0,0,0,3,0,2,0,2,0
+HanLP,com.hankcs.hanlp.model.hmm,HMMLexicalAnalyzer,15,0,0,0,6,0,3,0,3,0
+HanLP,com.hankcs.hanlp.model.hmm,FirstOrderHiddenMarkovModel,241,0,18,0,43,0,13,0,4,0
+HanLP,com.hankcs.hanlp.tokenizer.lexical,AbstractLexicalAnalyzer.new AhoCorasickDoubleArrayTrie.IHit() {...},60,0,2,0,6,0,3,0,2,0
+HanLP,com.hankcs.hanlp.tokenizer.lexical,AbstractLexicalAnalyzer.new AhoCorasickDoubleArrayTrie.IHit() {...},103,0,10,0,10,0,8,0,3,0
+HanLP,com.hankcs.hanlp.tokenizer.lexical,AbstractLexicalAnalyzer,1460,0,202,0,302,0,125,0,24,0
+HanLP,com.hankcs.hanlp.classification.corpus,Document,132,0,20,0,26,0,15,0,5,0
+HanLP,com.hankcs.hanlp.classification.corpus,AbstractDataSet,383,0,32,0,55,0,29,0,13,0
+HanLP,com.hankcs.hanlp.classification.corpus,FileDataSet.new Iterator() {...},47,0,4,0,10,0,6,0,4,0
+HanLP,com.hankcs.hanlp.classification.corpus,Lexicon,143,0,24,0,29,0,20,0,8,0
+HanLP,com.hankcs.hanlp.classification.corpus,FileDataSet,215,0,10,0,57,0,17,0,12,0
+HanLP,com.hankcs.hanlp.classification.corpus,Catalog,142,0,18,0,27,0,19,0,10,0
+HanLP,com.hankcs.hanlp.classification.corpus,BagOfWordsDocument,15,0,0,0,5,0,3,0,3,0
+HanLP,com.hankcs.hanlp.classification.corpus,MemoryDataSet,106,0,10,0,27,0,12,0,7,0
+HanLP,com.hankcs.hanlp.model.perceptron.tagset,POSTagSet,4,0,0,0,2,0,1,0,1,0
+HanLP,com.hankcs.hanlp.model.perceptron.tagset,CWSTagSet,83,0,2,0,21,0,3,0,2,0
+HanLP,com.hankcs.hanlp.model.perceptron.tagset,NERTagSet,157,0,10,0,34,0,9,0,4,0
+HanLP,com.hankcs.hanlp.model.perceptron.tagset,TagSet,204,0,12,0,50,0,21,0,15,0
+HanLP,com.hankcs.hanlp.model.trigram,CharacterBasedGenerativeModel,1402,0,62,0,126,0,41,0,10,0
+HanLP,com.hankcs.hanlp.model.trigram.frequency,Probability.new BinTrie() {...},29,0,0,0,5,0,2,0,2,0
+HanLP,com.hankcs.hanlp.model.trigram.frequency,Probability,308,0,20,0,61,0,28,0,18,0
+HanLP,com.hankcs.hanlp.model,CRFSegmentModel,254,0,20,0,48,0,15,0,5,0
+HanLP,com.hankcs.hanlp.suggest.scorer.pinyin,PinyinKey,36,212,2,20,6,47,3,14,1,5
+HanLP,com.hankcs.hanlp.suggest.scorer.pinyin,PinyinScorer,2,13,1,1,0,4,1,2,0,2
+HanLP,com.hankcs.hanlp.collection.set,UnEmptyStringSet,13,0,2,0,3,0,3,0,2,0
+HanLP,com.hankcs.hanlp.dictionary.other,CharTable,286,0,40,0,58,0,31,0,11,0
+HanLP,com.hankcs.hanlp.dictionary.other,CharType,136,63,7,5,34,15,7,4,3,2
+HanLP,com.hankcs.hanlp.dictionary.other,PartOfSpeechTagDictionary,53,0,6,0,15,0,7,0,4,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.transition.configuration,State,509,0,52,0,100,0,57,0,31,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.transition.configuration,Configuration,222,0,18,0,50,0,19,0,10,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.transition.configuration,BeamElement,52,0,6,0,15,0,6,0,3,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.transition.configuration,Instance,561,0,138,0,102,0,78,0,9,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.transition.configuration,CompactTree,9,0,0,0,4,0,1,0,1,0
+HanLP,com.hankcs.hanlp.mining.cluster,ClusterAnalyzer,1080,0,106,0,207,0,67,0,14,0
+HanLP,com.hankcs.hanlp.mining.cluster,Cluster,457,0,50,0,113,0,43,0,18,0
+HanLP,com.hankcs.hanlp.mining.cluster,SparseVector,242,0,26,0,52,0,23,0,10,0
+HanLP,com.hankcs.hanlp.mining.cluster,Document,121,0,16,0,25,0,18,0,10,0
+HanLP,com.hankcs.hanlp.dependency,AbstractDependencyParser,137,0,18,0,34,0,19,0,10,0
+HanLP,com.hankcs.hanlp.dependency,MinimumSpanningTreeParser,328,0,40,0,53,0,22,0,2,0
+HanLP,com.hankcs.hanlp.dependency,WordNatureDependencyParser,55,0,2,0,14,0,7,0,6,0
+HanLP,com.hankcs.hanlp.dependency,MaxEntDependencyParser,474,0,30,0,47,0,20,0,5,0
+HanLP,com.hankcs.hanlp.collection.dartsclone,DoubleArray,319,0,24,0,63,0,24,0,12,0
+HanLP,com.hankcs.hanlp.collection.dartsclone,Pair,19,15,0,0,3,6,3,3,3,3
+HanLP,com.hankcs.hanlp.collection.dartsclone,DartMap,236,0,12,0,52,0,29,0,23,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.accessories,Options,1766,0,104,0,322,0,59,0,7,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.accessories,Evaluator,200,0,14,0,42,0,9,0,2,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.accessories,Edge,17,0,0,0,5,0,2,0,2,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.accessories,CoNLLReader,864,0,94,0,192,0,53,0,6,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.accessories,Pair,98,0,18,0,27,0,15,0,6,0
+HanLP,com.hankcs.hanlp.collection.trie.bintrie.util,ArrayTool,103,0,16,0,29,0,11,0,3,0
+HanLP,com.hankcs.hanlp.corpus.document,CorpusLoader.HandlerThread,76,0,2,0,13,0,3,0,2,0
+HanLP,com.hankcs.hanlp.corpus.document,Document,439,0,50,0,95,0,35,0,10,0
+HanLP,com.hankcs.hanlp.corpus.document,CorpusLoader,348,0,22,0,63,0,23,0,12,0
+HanLP,com.hankcs.hanlp.seg.Viterbi,ViterbiSegment,191,197,23,27,40,46,24,9,5,3
+HanLP,com.hankcs.hanlp.classification.utilities,CollectionUtility,204,0,22,0,33,0,18,0,7,0
+HanLP,com.hankcs.hanlp.classification.utilities,TextProcessUtility,302,0,36,0,53,0,26,0,8,0
+HanLP,com.hankcs.hanlp.classification.utilities,CollectionUtility.new Comparator() {...},23,0,2,0,3,0,3,0,2,0
+HanLP,com.hankcs.hanlp.mining.word,TfIdfCounter,362,0,20,0,79,0,34,0,24,0
+HanLP,com.hankcs.hanlp.mining.word,TermFrequencyCounter,295,0,32,0,71,0,38,0,22,0
+HanLP,com.hankcs.hanlp.mining.word,TfIdf.KeySetIterable,12,0,0,0,4,0,2,0,2,0
+HanLP,com.hankcs.hanlp.mining.word,TfIdf,337,0,39,0,63,0,31,0,11,0
+HanLP,com.hankcs.hanlp.mining.word,NewWordDiscover,240,0,32,0,48,0,20,0,4,0
+HanLP,com.hankcs.hanlp.mining.word,TfIdf.Normalization,24,0,0,0,3,0,1,0,1,0
+HanLP,com.hankcs.hanlp.mining.word,TfIdf.TfType,34,0,0,0,4,0,1,0,1,0
+HanLP,com.hankcs.hanlp.mining.word,TfIdfCounter.new Comparator() {...},11,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.mining.word,TfIdfCounter.new Comparator() {...},14,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.mining.word,TfIdf.KeySetIterable.new Iterator() {...},19,0,0,0,4,0,4,0,4,0
+HanLP,com.hankcs.hanlp.mining.word,WordInfo,182,0,8,0,35,0,11,0,7,0
+HanLP,com.hankcs.hanlp.mining.word,NewWordDiscover.new Comparator() {...},12,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.mining.word,TermFrequencyCounter.new Comparator() {...},10,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.summary,TextRankSentence,528,0,44,0,100,0,35,0,13,0
+HanLP,com.hankcs.hanlp.summary,BM25,282,0,20,0,48,0,14,0,4,0
+HanLP,com.hankcs.hanlp.summary,TextRankSentence.new Comparator() {...},22,0,0,0,4,0,2,0,2,0
+HanLP,com.hankcs.hanlp.summary,TextRankKeyword.new Comparator() {...},14,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.summary,KeywordExtractor,53,0,4,0,16,0,10,0,8,0
+HanLP,com.hankcs.hanlp.summary,TextRankKeyword,380,0,42,0,69,0,32,0,11,0
+HanLP,com.hankcs.hanlp.model.perceptron.common,TaskType,44,0,0,0,2,0,1,0,1,0
+HanLP,com.hankcs.hanlp.model.perceptron.common,FrequencyMap,38,0,2,0,8,0,3,0,2,0
+HanLP,com.hankcs.hanlp.seg.common.wrapper,SegmentWrapper,86,0,10,0,18,0,8,0,3,0
+HanLP,com.hankcs.hanlp.classification.tokenizers,BigramTokenizer,198,0,30,0,35,0,17,0,2,0
+HanLP,com.hankcs.hanlp.classification.tokenizers,HanLPTokenizer,52,0,6,0,15,0,5,0,2,0
+HanLP,com.hankcs.hanlp.classification.tokenizers,BlankTokenizer,7,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.model.perceptron.utility,Utility.new InstanceHandler() {...},137,0,10,0,27,0,7,0,2,0
+HanLP,com.hankcs.hanlp.model.perceptron.utility,Utility.new CorpusLoader.Handler() {...},89,0,14,0,20,0,9,0,2,0
+HanLP,com.hankcs.hanlp.model.perceptron.utility,Utility.new CorpusLoader.Handler() {...},90,0,14,0,20,0,9,0,2,0
+HanLP,com.hankcs.hanlp.model.perceptron.utility,IOUtility,239,0,26,0,39,0,19,0,6,0
+HanLP,com.hankcs.hanlp.model.perceptron.utility,Utility,1166,0,74,0,169,0,56,0,19,0
+HanLP,com.hankcs.hanlp.model.perceptron.utility,IOUtility.new FileFilter() {...},15,0,4,0,2,0,4,0,2,0
+HanLP,com.hankcs.hanlp.suggest.scorer,BaseScorer,6,98,2,8,2,25,3,7,1,4
+HanLP,com.hankcs.hanlp.dependency.nnparser.util,std,51,0,6,0,12,0,7,0,4,0
+HanLP,com.hankcs.hanlp.dependency.nnparser.util,PosTagUtil,770,0,20,0,153,0,14,0,4,0
+HanLP,com.hankcs.hanlp.dependency.nnparser.util,math,4103,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.dependency.nnparser.util,Log,15,0,0,0,5,0,3,0,3,0
+HanLP,com.hankcs.hanlp.corpus.dependency.CoNll,CoNLLSentence,248,0,20,0,43,0,19,0,9,0
+HanLP,com.hankcs.hanlp.corpus.dependency.CoNll,CoNLLFixer,74,0,6,0,14,0,5,0,2,0
+HanLP,com.hankcs.hanlp.corpus.dependency.CoNll,PosTagCompiler,53,0,16,0,10,0,10,0,2,0
+HanLP,com.hankcs.hanlp.corpus.dependency.CoNll,Evaluator,198,0,8,0,35,0,10,0,6,0
+HanLP,com.hankcs.hanlp.corpus.dependency.CoNll,CoNLLWord,210,0,4,0,37,0,9,0,7,0
+HanLP,com.hankcs.hanlp.corpus.dependency.CoNll,CoNLLSentence.new Iterator() {...},34,0,2,0,4,0,5,0,4,0
+HanLP,com.hankcs.hanlp.corpus.dependency.CoNll,CoNllLine,72,0,4,0,12,0,4,0,2,0
+HanLP,com.hankcs.hanlp.corpus.dependency.CoNll,CoNLLLoader,50,0,4,0,11,0,4,0,2,0
+HanLP,com.hankcs.hanlp.suggest.scorer.lexeme,IdVectorScorer,0,16,0,2,0,4,0,3,0,2
+HanLP,com.hankcs.hanlp.suggest.scorer.lexeme,IdVector,52,63,4,4,8,19,3,5,1,3
+HanLP,com.hankcs.hanlp.model.perceptron.instance,POSInstance,281,0,22,0,55,0,17,0,6,0
+HanLP,com.hankcs.hanlp.model.perceptron.instance,Instance,115,0,14,0,26,0,16,0,9,0
+HanLP,com.hankcs.hanlp.model.perceptron.instance,NERInstance,345,0,24,0,48,0,18,0,6,0
+HanLP,com.hankcs.hanlp.model.perceptron.instance,CWSInstance,371,0,28,0,63,0,20,0,6,0
+HanLP,com.hankcs.hanlp.dictionary.stopword,CoreStopWordDictionary,99,36,8,2,19,8,12,3,7,3
+HanLP,com.hankcs.hanlp.dictionary.stopword,StopWordDictionary,17,3,0,0,7,2,4,1,4,1
+HanLP,com.hankcs.hanlp.dictionary.stopword,CoreStopWordDictionary.new Filter() {...},25,3,6,0,7,1,4,1,1,1
+HanLP,com.hankcs.hanlp.dictionary.ts,TaiwanToTraditionalChineseDictionary,81,0,4,0,14,0,6,0,4,0
+HanLP,com.hankcs.hanlp.dictionary.ts,HongKongToTaiwanChineseDictionary,106,0,6,0,17,0,7,0,4,0
+HanLP,com.hankcs.hanlp.dictionary.ts,TraditionalToHongKongChineseDictionary,81,0,4,0,14,0,6,0,4,0
+HanLP,com.hankcs.hanlp.dictionary.ts,TraditionalChineseDictionary,63,0,2,0,9,0,5,0,4,0
+HanLP,com.hankcs.hanlp.dictionary.ts,BaseChineseDictionary.new AhoCorasickDoubleArrayTrie.IHit() {...},30,0,2,0,6,0,3,0,2,0
+HanLP,com.hankcs.hanlp.dictionary.ts,SimplifiedToHongKongChineseDictionary,105,0,6,0,17,0,7,0,4,0
+HanLP,com.hankcs.hanlp.dictionary.ts,BaseChineseDictionary,476,0,48,0,94,0,35,0,11,0
+HanLP,com.hankcs.hanlp.dictionary.ts,SimplifiedToTaiwanChineseDictionary,105,0,6,0,17,0,7,0,4,0
+HanLP,com.hankcs.hanlp.dictionary.ts,HongKongToTraditionalChineseDictionary,81,0,4,0,14,0,6,0,4,0
+HanLP,com.hankcs.hanlp.dictionary.ts,HongKongToSimplifiedChineseDictionary,106,0,6,0,17,0,7,0,4,0
+HanLP,com.hankcs.hanlp.dictionary.ts,BaseChineseDictionary.Searcher,65,0,6,0,19,0,6,0,3,0
+HanLP,com.hankcs.hanlp.dictionary.ts,TaiwanToHongKongChineseDictionary,106,0,6,0,17,0,7,0,4,0
+HanLP,com.hankcs.hanlp.dictionary.ts,TaiwanToSimplifiedChineseDictionary,106,0,6,0,17,0,7,0,4,0
+HanLP,com.hankcs.hanlp.dictionary.ts,TraditionalToTaiwanChineseDictionary,81,0,4,0,14,0,6,0,4,0
+HanLP,com.hankcs.hanlp.dictionary.ts,SimplifiedChineseDictionary,76,0,2,0,10,0,6,0,5,0
+HanLP,com.hankcs.hanlp.corpus.document.sentence.word,WordFactory,21,0,6,0,5,0,5,0,2,0
+HanLP,com.hankcs.hanlp.corpus.document.sentence.word,Word,89,0,8,0,20,0,12,0,8,0
+HanLP,com.hankcs.hanlp.corpus.document.sentence.word,CompoundWord,223,0,22,0,49,0,21,0,10,0
+HanLP,com.hankcs.hanlp.classification.classifiers,NaiveBayesClassifier,460,0,26,0,76,0,21,0,8,0
+HanLP,com.hankcs.hanlp.classification.classifiers,AbstractClassifier,219,0,18,0,51,0,18,0,9,0
+HanLP,com.hankcs.hanlp.model.maxent,MaxEntModel,888,0,70,0,154,0,46,0,11,0
+HanLP,com.hankcs.hanlp.model.maxent,UniformPrior,30,0,2,0,7,0,4,0,3,0
+HanLP,com.hankcs.hanlp.model.maxent,Context,15,0,0,0,6,0,3,0,3,0
+HanLP,com.hankcs.hanlp.model.maxent,EvalParameters,46,0,0,0,16,0,8,0,8,0
+HanLP,com.hankcs.hanlp.classification.utilities.io,ConsoleLogger,51,0,0,0,11,0,6,0,6,0
+HanLP,com.hankcs.hanlp.seg.Other,DoubleArrayTrieSegment,157,0,16,0,32,0,13,0,5,0
+HanLP,com.hankcs.hanlp.seg.Other,AhoCorasickDoubleArrayTrieSegment,179,0,14,0,41,0,16,0,9,0
+HanLP,com.hankcs.hanlp.seg.Other,DoubleArrayTrieSegment.new AhoCorasickDoubleArrayTrie.IHit() {...},41,0,4,0,7,0,4,0,2,0
+HanLP,com.hankcs.hanlp.seg.Other,AhoCorasickDoubleArrayTrieSegment.new AhoCorasickDoubleArrayTrie.IHit() {...},41,0,4,0,7,0,4,0,2,0
+HanLP,com.hankcs.hanlp.seg.Other,CommonAhoCorasickDoubleArrayTrieSegment,25,0,0,0,8,0,4,0,4,0
+HanLP,com.hankcs.hanlp.seg.Other,CommonAhoCorasickSegmentUtil.new AhoCorasickDoubleArrayTrie.IHit() {...},43,0,4,0,4,0,4,0,2,0
+HanLP,com.hankcs.hanlp.seg.Other,CommonAhoCorasickSegmentUtil.new AhoCorasickDoubleArrayTrie.IHit() {...},43,0,4,0,4,0,4,0,2,0
+HanLP,com.hankcs.hanlp.seg.Other,CommonAhoCorasickSegmentUtil,187,0,18,0,35,0,14,0,5,0
+HanLP,com.hankcs.hanlp.seg.NShort.Path,NShortPath,544,0,60,0,96,0,39,0,9,0
+HanLP,com.hankcs.hanlp.seg.NShort.Path,PathNode,26,0,0,0,5,0,2,0,2,0
+HanLP,com.hankcs.hanlp.seg.NShort.Path,CQueue,89,0,12,0,26,0,13,0,7,0
+HanLP,com.hankcs.hanlp.seg.NShort.Path,AtomNode,108,9,14,0,40,4,15,1,4,1
+HanLP,com.hankcs.hanlp.seg.NShort.Path,QueueElement,18,0,0,0,6,0,2,0,2,0
+HanLP,com.hankcs.hanlp.collection.AhoCorasick,AhoCorasickDoubleArrayTrie,522,323,52,28,104,62,42,21,15,8
+HanLP,com.hankcs.hanlp.collection.AhoCorasick,AhoCorasickDoubleArrayTrie.Builder,75,636,7,41,7,118,6,28,0,10
+HanLP,com.hankcs.hanlp.collection.AhoCorasick,AhoCorasickDoubleArrayTrie.DebugArray,95,0,4,0,17,0,6,0,4,0
+HanLP,com.hankcs.hanlp.collection.AhoCorasick,AhoCorasickDoubleArrayTrie.Hit,37,0,0,0,6,0,2,0,2,0
+HanLP,com.hankcs.hanlp.collection.AhoCorasick,State,64,167,4,20,9,42,4,28,1,19
+HanLP,com.hankcs.hanlp.seg.Viterbi.Path,Node,34,0,4,0,9,0,5,0,3,0
+HanLP,com.hankcs.hanlp.seg.Dijkstra.Path,State,15,0,0,0,5,0,2,0,2,0
+HanLP,com.hankcs.hanlp.corpus.util,Precompiler,66,0,8,0,14,0,9,0,5,0
+HanLP,com.hankcs.hanlp.corpus.util,DictionaryUtil,74,0,4,0,19,0,4,0,2,0
+HanLP,com.hankcs.hanlp.corpus.util,ReflectionHelper,38,0,0,0,13,0,3,0,3,0
+HanLP,com.hankcs.hanlp.corpus.util,CorpusUtil,114,0,18,0,22,0,13,0,4,0
+HanLP,com.hankcs.hanlp.classification.features,TfOnlyFeatureWeighter,6,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.classification.features,BaseFeatureData,72,0,4,0,13,0,3,0,1,0
+HanLP,com.hankcs.hanlp.classification.features,TfIdfFeatureWeighter,36,0,2,0,6,0,3,0,2,0
+HanLP,com.hankcs.hanlp.classification.features,ChiSquareFeatureExtractor.new Comparator() {...},14,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.classification.features,DfFeatureData,4,0,0,0,2,0,1,0,1,0
+HanLP,com.hankcs.hanlp.classification.features,ChiSquareFeatureExtractor,238,0,22,0,41,0,18,0,7,0
+HanLP,com.hankcs.hanlp.dependency.common,Node,415,0,2,0,83,0,4,0,3,0
+HanLP,com.hankcs.hanlp.dependency.common,Edge,15,0,0,0,6,0,1,0,1,0
+HanLP,com.hankcs.hanlp.dependency.common,State,18,0,0,0,6,0,2,0,2,0
+HanLP,com.hankcs.hanlp.model.perceptron.feature,FeatureMap,118,0,9,0,35,0,15,0,9,0
+HanLP,com.hankcs.hanlp.model.perceptron.feature,ImmutableFeatureMap,56,0,4,0,14,0,7,0,5,0
+HanLP,com.hankcs.hanlp.model.perceptron.feature,ImmutableFeatureDatMap,28,0,0,0,7,0,4,0,4,0
+HanLP,com.hankcs.hanlp.model.perceptron.feature,LockableFeatureMap,26,0,4,0,7,0,4,0,2,0
+HanLP,com.hankcs.hanlp.model.perceptron.feature,FeatureSortItem,35,0,2,0,6,0,2,0,1,0
+HanLP,com.hankcs.hanlp.model.perceptron.feature,MutableFeatureMap,91,0,4,0,22,0,11,0,9,0
+HanLP,com.hankcs.hanlp.model.perceptron.feature,ImmutableFeatureMDatMap,95,0,2,0,26,0,11,0,10,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.structures,Sentence,198,0,18,0,40,0,20,0,11,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.structures,CompactArray,136,0,10,0,27,0,10,0,5,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.structures,IndexMaps,283,0,22,0,61,0,17,0,6,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.structures,ParserModel,472,0,18,0,89,0,14,0,5,0
+HanLP,com.hankcs.hanlp.corpus.document.sentence,Sentence,865,0,100,0,182,0,77,0,27,0
+HanLP,com.hankcs.hanlp.seg.HMM,HMMSegment,184,0,14,0,35,0,10,0,3,0
+HanLP,com.hankcs.hanlp.model.crf,CRFModel,1002,0,92,0,188,0,59,0,13,0
+HanLP,com.hankcs.hanlp.model.crf,FeatureFunction,112,0,8,0,24,0,9,0,5,0
+HanLP,com.hankcs.hanlp.model.crf,CRFNERecognizer.new NERInstance() {...},127,0,14,0,22,0,9,0,2,0
+HanLP,com.hankcs.hanlp.model.crf,Table,125,0,10,0,14,0,10,0,5,0
+HanLP,com.hankcs.hanlp.model.crf,CRFSegmenter.new CWSInstance() {...},110,0,10,0,20,0,7,0,2,0
+HanLP,com.hankcs.hanlp.model.crf,CRFPOSTagger,244,0,18,0,46,0,19,0,10,0
+HanLP,com.hankcs.hanlp.model.crf,CRFTagger,289,0,12,0,50,0,15,0,9,0
+HanLP,com.hankcs.hanlp.model.crf,FeatureTemplate,267,0,12,0,51,0,14,0,8,0
+HanLP,com.hankcs.hanlp.model.crf,CRFTagger.new InstanceHandler() {...},29,0,0,0,8,0,2,0,2,0
+HanLP,com.hankcs.hanlp.model.crf,CRFNERecognizer,151,0,8,0,35,0,14,0,10,0
+HanLP,com.hankcs.hanlp.model.crf,CRFLexicalAnalyzer,84,0,0,0,23,0,7,0,7,0
+HanLP,com.hankcs.hanlp.model.crf,CRFSegmenter,143,0,8,0,36,0,11,0,7,0
+HanLP,com.hankcs.hanlp.model.crf,CRFPOSTagger.new POSInstance() {...},122,0,10,0,22,0,7,0,2,0
+HanLP,com.hankcs.hanlp.model.crf,LogLinearModel,619,0,79,0,128,0,48,0,8,0
+HanLP,com.hankcs.hanlp.model.perceptron.cli,Args.new Args.ValueCreator() {...},13,0,2,0,4,0,3,0,2,0
+HanLP,com.hankcs.hanlp.model.perceptron.cli,Args.new Args.ValueCreator() {...},47,0,0,0,9,0,2,0,2,0
+HanLP,com.hankcs.hanlp.model.perceptron.cli,Args.new Args.ValueCreator() {...},64,0,2,0,10,0,3,0,2,0
+HanLP,com.hankcs.hanlp.model.perceptron.cli,Args,1256,0,124,0,273,0,89,0,27,0
+HanLP,com.hankcs.hanlp.model.perceptron.cli,PropertiesArgs,194,0,36,0,45,0,22,0,4,0
+HanLP,com.hankcs.hanlp.corpus.synonym,SynonymHelper,125,114,0,0,13,13,3,4,3,4
+HanLP,com.hankcs.hanlp.corpus.synonym,Synonym,89,82,7,7,27,19,13,6,8,2
+HanLP,com.hankcs.hanlp.corpus.synonym,Synonym.Type,0,44,0,0,0,5,0,1,0,1
+HanLP,com.hankcs.hanlp.tokenizer,NotionalTokenizer,119,0,20,0,31,0,17,0,7,0
+HanLP,com.hankcs.hanlp.tokenizer,SpeedTokenizer,26,0,0,0,6,0,6,0,6,0
+HanLP,com.hankcs.hanlp.tokenizer,TraditionalChineseTokenizer,100,0,6,0,23,0,10,0,7,0
+HanLP,com.hankcs.hanlp.tokenizer,URLTokenizer,61,0,4,0,13,0,5,0,3,0
+HanLP,com.hankcs.hanlp.tokenizer,BasicTokenizer,28,0,0,0,6,0,6,0,6,0
+HanLP,com.hankcs.hanlp.tokenizer,StandardTokenizer,24,0,0,0,6,0,6,0,6,0
+HanLP,com.hankcs.hanlp.tokenizer,IndexTokenizer,16,9,0,0,4,2,4,2,4,2
+HanLP,com.hankcs.hanlp.tokenizer,NLPTokenizer,36,0,0,0,11,0,7,0,7,0
+HanLP,com.hankcs.hanlp.seg.CRF,CRFSegment,737,0,80,0,154,0,49,0,9,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.parser,Main,393,0,44,0,62,0,27,0,5,0
+HanLP,com.hankcs.hanlp.dependency.perceptron.parser,KBeamArcEagerDependencyParser,268,0,10,0,54,0,13,0,8,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,Pair,88,0,18,0,15,0,15,0,6,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,ModelImpl,145,0,6,0,43,0,16,0,13,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,FeatureIndex,794,0,68,0,160,0,74,0,40,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,LbfgsOptimizer,1016,0,112,0,163,0,63,0,7,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,DecoderFeatureIndex,609,0,44,0,116,0,28,0,6,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,crf_test.Option,19,0,0,0,9,0,1,0,1,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,Node,230,0,16,0,43,0,15,0,7,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,Encoder,1142,0,102,0,216,0,58,0,6,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,TaggerImpl,2380,0,206,0,435,0,191,0,88,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,ModelImpl.Option,15,0,0,0,7,0,1,0,1,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,crf_test,179,0,24,0,56,0,15,0,3,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,TaggerImpl.new Comparator() {...},13,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,EncoderFeatureIndex,1052,0,104,0,209,0,63,0,11,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,Encoder.Algorithm,71,0,8,0,10,0,6,0,2,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,Model,11,0,0,0,5,0,5,0,5,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,TaggerImpl.Mode,24,0,0,0,2,0,1,0,1,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,Tagger,87,0,0,0,43,0,43,0,43,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,Path,88,0,2,0,17,0,5,0,4,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,TaggerImpl.QueueElement,6,0,0,0,1,0,1,0,1,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,crf_learn,225,0,34,0,55,0,21,0,4,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,Mcsrch,1789,0,146,0,262,0,80,0,7,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,DoubleArrayTrieInteger,1272,0,134,0,248,0,97,0,30,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,crf_learn.Option,47,0,0,0,22,0,1,0,1,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,CRFEncoderThread,94,0,8,0,19,0,6,0,2,0
+HanLP,com.hankcs.hanlp.model.crf.crfpp,TaggerImpl.ReadStatus,34,0,0,0,2,0,1,0,1,0
+HanLP,com.hankcs.hanlp.corpus.tag,NR,0,164,0,0,0,17,0,1,0,1
+HanLP,com.hankcs.hanlp.corpus.tag,NS,104,0,0,0,11,0,1,0,1,0
+HanLP,com.hankcs.hanlp.corpus.tag,NT,174,0,0,0,18,0,1,0,1,0
+HanLP,com.hankcs.hanlp.corpus.tag,Nature,42,813,8,8,10,165,10,8,4,6
+HanLP,com.hankcs.hanlp.suggest.scorer.editdistance,EditDistanceScorer,2,14,1,1,0,4,1,2,0,2
+HanLP,com.hankcs.hanlp.suggest.scorer.editdistance,CharArray,0,64,0,4,0,19,0,5,0,3
+HanLP,com.hankcs.hanlp.seg.common,WordNet,454,322,54,25,84,65,42,20,11,10
+HanLP,com.hankcs.hanlp.seg.common,CWSEvaluator,413,0,46,0,90,0,33,0,10,0
+HanLP,com.hankcs.hanlp.seg.common,EdgeFrom,32,0,0,0,4,0,2,0,2,0
+HanLP,com.hankcs.hanlp.seg.common,Term,49,9,8,0,10,4,8,1,4,1
+HanLP,com.hankcs.hanlp.seg.common,CWSEvaluator.Result,53,0,0,0,8,0,2,0,2,0
+HanLP,com.hankcs.hanlp.seg.common,ResultTerm,25,0,0,0,6,0,2,0,2,0
+HanLP,com.hankcs.hanlp.seg.common,Graph,231,0,12,0,34,0,15,0,9,0
+HanLP,com.hankcs.hanlp.seg.common,Vertex,320,154,27,22,65,36,45,16,26,10
+HanLP,com.hankcs.hanlp.seg.common,Edge,9,0,0,0,4,0,1,0,1,0
+HanLP,com.hankcs.hanlp.collection.trie,DoubleArrayTrie,1160,880,134,78,227,190,118,49,38,23
+HanLP,com.hankcs.hanlp.collection.trie,DoubleArrayTrie.Node,27,0,0,0,1,0,1,0,1,0
+HanLP,com.hankcs.hanlp.collection.trie,DoubleArrayTrie.LongestSearcher,151,0,14,0,29,0,9,0,2,0
+HanLP,com.hankcs.hanlp.collection.trie,DoubleArrayTrie.Searcher,4,165,2,12,0,33,2,7,0,2
+HanLP,com.hankcs.hanlp.collection.trie.datrie,MutableDoubleArrayTrieInteger.1.new Iterator() {...},35,0,0,0,6,0,4,0,4,0
+HanLP,com.hankcs.hanlp.collection.trie.datrie,MutableDoubleArrayTrieInteger.KeyValuePair,353,0,30,0,70,0,26,0,11,0
+HanLP,com.hankcs.hanlp.collection.trie.datrie,MutableDoubleArrayTrieInteger.2.new Iterator() {...},25,0,0,0,5,0,4,0,4,0
+HanLP,com.hankcs.hanlp.collection.trie.datrie,MutableDoubleArrayTrie.3.new Iterator() {...},40,0,0,0,6,0,4,0,4,0
+HanLP,com.hankcs.hanlp.collection.trie.datrie,MutableDoubleArrayTrie,257,0,22,0,62,0,34,0,23,0
+HanLP,com.hankcs.hanlp.collection.trie.datrie,IntArrayList,333,0,14,0,84,0,31,0,24,0
+HanLP,com.hankcs.hanlp.collection.trie.datrie,MutableDoubleArrayTrie.2.new Iterator() {...},21,0,0,0,4,0,4,0,4,0
+HanLP,com.hankcs.hanlp.collection.trie.datrie,MutableDoubleArrayTrieInteger.new Set() {...},80,0,2,0,18,0,15,0,14,0
+HanLP,com.hankcs.hanlp.collection.trie.datrie,MutableDoubleArrayTrieInteger.new Set() {...},61,0,0,0,14,0,14,0,14,0
+HanLP,com.hankcs.hanlp.collection.trie.datrie,Utf8CharacterMapping,215,0,27,0,51,0,24,0,8,0
+HanLP,com.hankcs.hanlp.collection.trie.datrie,MutableDoubleArrayTrie.new Set() {...},61,0,0,0,15,0,14,0,14,0
+HanLP,com.hankcs.hanlp.collection.trie.datrie,MutableDoubleArrayTrie.new Set() {...},116,0,12,0,25,0,20,0,14,0
+HanLP,com.hankcs.hanlp.collection.trie.datrie,MutableDoubleArrayTrie.new Comparator() {...},10,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.collection.trie.datrie,MutableDoubleArrayTrieInteger,1761,0,230,0,374,0,175,0,60,0
+HanLP,com.hankcs.hanlp.dictionary.nt,OrganizationDictionary.new AhoCorasickDoubleArrayTrie.IHit() {...},86,0,8,0,13,0,6,0,2,0
+HanLP,com.hankcs.hanlp.dictionary.nt,OrganizationDictionary,11106,0,6,0,3686,0,8,0,5,0
+HanLP,com.hankcs.hanlp.dictionary.nt,NTDictionary,12,0,0,0,4,0,4,0,4,0
+HanLP,com.hankcs.hanlp.dictionary.ns,PlaceDictionary,143,0,6,0,29,0,7,0,4,0
+HanLP,com.hankcs.hanlp.dictionary.ns,NSDictionary,12,0,0,0,4,0,4,0,4,0
+HanLP,com.hankcs.hanlp.dictionary.ns,PlaceDictionary.new AhoCorasickDoubleArrayTrie.IHit() {...},86,0,8,0,13,0,6,0,2,0
+HanLP,com.hankcs.hanlp.dictionary.nr,NRConstant,3,7,0,0,1,2,1,1,1,1
+HanLP,com.hankcs.hanlp.dictionary.nr,NRDictionary,21,9,0,0,3,3,2,3,2,3
+HanLP,com.hankcs.hanlp.dictionary.nr,NRPattern,0,194,0,0,0,20,0,1,0,1
+HanLP,com.hankcs.hanlp.dictionary.nr,JapanesePersonDictionary.Searcher,65,0,6,0,19,0,6,0,3,0
+HanLP,com.hankcs.hanlp.dictionary.nr,TranslatedPersonDictionary,213,48,18,2,30,9,13,4,3,4
+HanLP,com.hankcs.hanlp.dictionary.nr,PersonDictionary.new AhoCorasickDoubleArrayTrie.IHit() {...},74,15,10,0,12,1,6,1,1,1
+HanLP,com.hankcs.hanlp.dictionary.nr,JapanesePersonDictionary,295,0,16,0,48,0,17,0,9,0
+HanLP,com.hankcs.hanlp.dictionary.nr,PersonDictionary,156,170,11,8,34,33,9,5,2,2
+HanLP,com.hankcs.hanlp.suggest,Suggester,37,234,3,21,8,46,4,16,2,6
+HanLP,com.hankcs.hanlp.tokenizer.pipe,LexicalAnalyzerPipe,45,0,6,0,15,0,5,0,2,0
+HanLP,com.hankcs.hanlp.tokenizer.pipe,Pipeline,174,0,2,0,41,0,30,0,29,0
+HanLP,com.hankcs.hanlp.tokenizer.pipe,LexicalAnalyzerPipeline.new Pipe() {...},5,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.tokenizer.pipe,LexicalAnalyzerPipeline.new Pipe() {...},17,0,0,0,4,0,2,0,2,0
+HanLP,com.hankcs.hanlp.tokenizer.pipe,RegexRecognizePipe,80,0,8,0,21,0,6,0,2,0
+HanLP,com.hankcs.hanlp.tokenizer.pipe,LexicalAnalyzerPipeline,139,0,16,0,38,0,19,0,11,0
+HanLP,com.hankcs.hanlp.algorithm,LongestCommonSubsequence,89,0,6,0,11,0,6,0,3,0
+HanLP,com.hankcs.hanlp.algorithm,ArrayCompare,9,31,2,2,4,9,3,1,1,1
+HanLP,com.hankcs.hanlp.algorithm,LongestCommonSubstring,11,90,4,20,2,29,6,9,2,1
+HanLP,com.hankcs.hanlp.algorithm,EditDistance,433,257,42,26,48,31,28,13,5,2
+HanLP,com.hankcs.hanlp.algorithm,ArrayDistance,87,65,4,8,9,11,5,5,3,1
+HanLP,com.hankcs.hanlp.algorithm,MaxHeap,100,0,10,0,25,0,11,0,6,0
+HanLP,com.hankcs.hanlp.algorithm,Viterbi,683,95,42,6,112,19,25,4,4,1
+HanLP,com.hankcs.hanlp.algorithm,Dijkstra,140,0,10,0,24,0,7,0,2,0
+HanLP,com.hankcs.hanlp.classification.statistics,ContinuousDistributions,526,0,28,0,82,0,22,0,8,0
+HanLP,com.hankcs.hanlp.recognition.ns,PlaceRecognition,228,0,20,0,45,0,14,0,4,0
+HanLP,com.hankcs.hanlp.recognition.nt,OrganizationRecognition,249,0,28,0,52,0,18,0,4,0
+HanLP,com.hankcs.hanlp.seg.Dijkstra,DijkstraSegment,334,0,40,0,68,0,23,0,3,0
+HanLP,com.hankcs.hanlp.recognition.nr,PersonRecognition,182,87,14,8,30,22,11,5,2,3
+HanLP,com.hankcs.hanlp.recognition.nr,JapanesePersonRecognition,152,0,26,0,40,0,17,0,4,0
+HanLP,com.hankcs.hanlp.recognition.nr,TranslatedPersonRecognition,14,86,2,12,2,24,3,6,1,1
+HanLP,com.hankcs.hanlp.mining.word2vec,DocVectorModel,104,0,16,0,29,0,14,0,6,0
+HanLP,com.hankcs.hanlp.mining.word2vec,WordAnalogy,198,0,18,0,36,0,13,0,4,0
+HanLP,com.hankcs.hanlp.mining.word2vec,Word2VecTraining.TrainModelThread,1234,0,148,0,174,0,77,0,3,0
+HanLP,com.hankcs.hanlp.mining.word2vec,Word2VecTrainer,282,0,20,0,63,0,23,0,13,0
+HanLP,com.hankcs.hanlp.mining.word2vec,Train,91,0,4,0,19,0,6,0,4,0
+HanLP,com.hankcs.hanlp.mining.word2vec,AbstractTrainer,322,0,36,0,40,0,24,0,6,0
+HanLP,com.hankcs.hanlp.mining.word2vec,Word2VecTraining,505,0,40,0,100,0,28,0,8,0
+HanLP,com.hankcs.hanlp.mining.word2vec,Corpus,507,0,34,0,106,0,33,0,16,0
+HanLP,com.hankcs.hanlp.mining.word2vec,Distance,165,0,14,0,32,0,11,0,4,0
+HanLP,com.hankcs.hanlp.mining.word2vec,TextFileCorpus,544,0,34,0,106,0,24,0,7,0
+HanLP,com.hankcs.hanlp.mining.word2vec,Word2VecTraining.VocabWordComparator,9,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.mining.word2vec,Config,134,0,0,0,43,0,28,0,28,0
+HanLP,com.hankcs.hanlp.mining.word2vec,NeuralNetworkType,24,0,0,0,3,0,1,0,1,0
+HanLP,com.hankcs.hanlp.mining.word2vec,VectorsReader,242,0,10,0,46,0,11,0,6,0
+HanLP,com.hankcs.hanlp.mining.word2vec,AbstractClosestVectors,225,0,28,0,40,0,18,0,4,0
+HanLP,com.hankcs.hanlp.mining.word2vec,AbstractVectorModel.new Comparator() {...},14,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.mining.word2vec,AbstractVectorModel.new Comparator() {...},14,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.mining.word2vec,WordVectorModel,127,0,18,0,25,0,14,0,5,0
+HanLP,com.hankcs.hanlp.mining.word2vec,VocabWord,112,0,8,0,21,0,8,0,4,0
+HanLP,com.hankcs.hanlp.mining.word2vec,AbstractClosestVectors.Result,9,0,0,0,4,0,1,0,1,0
+HanLP,com.hankcs.hanlp.mining.word2vec,KMeansClustering,378,0,34,0,64,0,20,0,3,0
+HanLP,com.hankcs.hanlp.mining.word2vec,WordCluster,61,0,2,0,16,0,4,0,3,0
+HanLP,com.hankcs.hanlp.mining.word2vec,AbstractVectorModel,204,0,22,0,44,0,24,0,13,0
+HanLP,com.hankcs.hanlp.mining.word2vec,ComputeAccuracy,701,0,92,0,119,0,49,0,3,0
+HanLP,com.hankcs.hanlp.mining.word2vec,Utility,151,0,28,0,44,0,24,0,10,0
+HanLP,com.hankcs.hanlp.mining.word2vec,Vector,225,0,14,0,40,0,22,0,15,0
+HanLP,com.hankcs.hanlp.mining.word2vec,CacheCorpus,73,0,6,0,15,0,8,0,5,0
+HanLP,com.hankcs.hanlp.mining.word2vec,Preconditions,365,0,56,0,74,0,46,0,18,0
+HanLP,com.hankcs.hanlp.mining.word2vec,NeuralNetworkType.new NeuralNetworkType() {...},8,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.mining.word2vec,NeuralNetworkType.new NeuralNetworkType() {...},8,0,0,0,2,0,2,0,2,0
+HanLP,com.hankcs.hanlp.dependency.nnparser,Dependency,23,0,0,0,8,0,3,0,3,0
+HanLP,com.hankcs.hanlp.dependency.nnparser,Context,3,0,0,0,1,0,1,0,1,0
+HanLP,com.hankcs.hanlp.dependency.nnparser,NeuralNetworkParser,2467,0,172,0,375,0,117,0,31,0
+HanLP,com.hankcs.hanlp.dependency.nnparser,NeuralNetworkDependencyParser,155,0,8,0,27,0,9,0,5,0
+HanLP,com.hankcs.hanlp.dependency.nnparser,Parser,3,0,0,0,1,0,1,0,1,0
+HanLP,com.hankcs.hanlp.dependency.nnparser,Instance,204,0,34,0,41,0,23,0,6,0
+HanLP,com.hankcs.hanlp.dependency.nnparser,NeuralNetworkClassifier,633,0,16,0,101,0,16,0,8,0
+HanLP,com.hankcs.hanlp.dependency.nnparser,Matrix,2126,0,206,0,363,0,164,0,61,0
+HanLP,com.hankcs.hanlp.dependency.nnparser,Alphabet,129,0,8,0,22,0,12,0,8,0
+HanLP,com.hankcs.hanlp.dependency.nnparser,State,1285,0,92,0,185,0,60,0,14,0
+HanLP,com.hankcs.hanlp.dependency.nnparser,Sample,12,0,0,0,6,0,2,0,2,0
+HanLP,com.hankcs.hanlp.dependency.nnparser,parser_dll,134,0,6,0,25,0,6,0,3,0
+HanLP,com.hankcs.hanlp.dependency.nnparser,TransitionSystem,292,0,36,0,65,0,28,0,10,0
+HanLP,com.hankcs.hanlp.classification.models,AbstractModel,3,0,0,0,1,0,1,0,1,0
+HanLP,com.hankcs.hanlp.classification.models,NaiveBayesModel,22,0,0,0,6,0,1,0,1,0
+HanLP,com.hankcs.hanlp.dependency.nnparser.option,TestOption,3,0,0,0,1,0,1,0,1,0
+HanLP,com.hankcs.hanlp.dependency.nnparser.option,ConfigOption,15,0,0,0,3,0,2,0,2,0
+HanLP,com.hankcs.hanlp.dependency.nnparser.option,NetworkOption,3,0,0,0,1,0,1,0,1,0
+HanLP,com.hankcs.hanlp.dependency.nnparser.option,BasicOption,3,0,0,0,1,0,1,0,1,0
+HanLP,com.hankcs.hanlp.dependency.nnparser.option,SpecialOption,3,0,0,0,1,0,1,0,1,0
+HanLP,com.hankcs.hanlp.dependency.nnparser.option,LearnOption,3,0,0,0,1,0,1,0,1,0
+HanLP,com.hankcs.hanlp.dependency.nnparser.option,AdaOption,3,0,0,0,1,0,1,0,1,0
