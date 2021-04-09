@@ -1,0 +1,1824 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Closure Compiler,com.google.javascript.jscomp.deps,JsFileParser.ModuleType,0,44,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.deps,PathUtil,16,213,2,28,1,45,2,20,0,7
+Closure Compiler,com.google.javascript.jscomp.deps,ModuleLoader.PathEscaper.new ModuleLoader.PathEscaper() {...},0,9,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp.deps,ModuleLoader.PathEscaper.new ModuleLoader.PathEscaper() {...},0,9,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp.deps,BrowserWithTransformedPrefixesModuleResolver.Factory,0,16,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp.deps,Es6SortedDependencies,2,311,1,39,0,70,1,28,0,9
+Closure Compiler,com.google.javascript.jscomp.deps,NodeModuleResolver.Factory,0,20,0,0,0,6,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp.deps,WebpackModuleResolver,0,30,0,2,0,7,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp.deps,DependencyInfo.Require.Type,0,54,0,0,0,6,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.deps,SimpleDependencyInfo.Builder,0,38,0,2,0,11,0,5,0,4
+Closure Compiler,com.google.javascript.jscomp.deps,ModuleLoader.PathEscaper,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.deps,DepsGenerator.InclusionStrategy,0,34,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.deps,AutoValue_BrowserWithTransformedPrefixesModuleResolver_PrefixReplacement,39,60,7,5,5,19,7,5,1,5
+Closure Compiler,com.google.javascript.jscomp.deps,NodeModuleResolver,1,403,3,47,1,77,3,33,0,11
+Closure Compiler,com.google.javascript.jscomp.deps,ModuleLoader.PathResolver.new ModuleLoader.PathResolver() {...},0,8,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp.deps,ModuleLoader.PathResolver.new ModuleLoader.PathResolver() {...},0,13,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp.deps,DependencyInfo.Require.Builder,0,3,0,0,0,1,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.deps,ClosureBundler.EvalMode.new ClosureBundler.EvalMode() {...},0,40,0,0,0,11,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp.deps,ClosureBundler.EvalMode.new ClosureBundler.EvalMode() {...},0,32,0,0,0,9,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp.deps,AutoValue_DependencyInfo_Require,24,94,3,7,2,24,4,9,1,7
+Closure Compiler,com.google.javascript.jscomp.deps,ClosureBundler.EvalMode,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.deps,BrowserWithTransformedPrefixesModuleResolver,72,135,5,11,11,36,5,10,0,7
+Closure Compiler,com.google.javascript.jscomp.deps,DependencyInfo.Util,0,137,0,4,0,28,0,6,0,4
+Closure Compiler,com.google.javascript.jscomp.deps,DepsGenerator,108,874,12,77,19,205,14,56,4,21
+Closure Compiler,com.google.javascript.jscomp.deps,ModuleLoader.ResolutionMode,0,44,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.deps,JsFileLineParser,82,449,17,55,10,96,16,29,0,9
+Closure Compiler,com.google.javascript.jscomp.deps,ModuleLoader.NoopErrorHandler,0,1,0,0,0,1,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.deps,ClosureBundler,81,198,4,10,13,40,11,16,7,13
+Closure Compiler,com.google.javascript.jscomp.deps,JsFileLineParser.ParseException,0,10,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp.deps,BrowserWithTransformedPrefixesModuleResolver.PrefixReplacement,0,9,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp.deps,ModuleLoader.ModulePath,4,70,1,5,1,13,2,9,1,7
+Closure Compiler,com.google.javascript.jscomp.deps,ClosureBundler.EscapeMode.new ClosureBundler.EscapeMode() {...},0,13,0,0,0,3,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp.deps,ClosureBundler.EscapeMode.new ClosureBundler.EscapeMode() {...},0,11,0,0,0,3,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp.deps,AutoValue_SimpleDependencyInfo.Builder,119,105,17,15,19,35,17,10,1,10
+Closure Compiler,com.google.javascript.jscomp.deps,SourceCodeEscapers,60,89,0,0,11,17,1,2,1,2
+Closure Compiler,com.google.javascript.jscomp.deps,DefaultDependencyResolver,0,181,0,18,0,43,0,18,0,9
+Closure Compiler,com.google.javascript.jscomp.deps,ModuleResolver,2,155,0,14,1,38,1,12,1,5
+Closure Compiler,com.google.javascript.jscomp.deps,SourceCodeEscapers.new ArrayBasedCharEscaper() {...},40,6,2,0,9,1,2,1,1,1
+Closure Compiler,com.google.javascript.jscomp.deps,JsFileParser,32,513,12,121,4,116,10,66,0,9
+Closure Compiler,com.google.javascript.jscomp.deps,ModuleLoader.PathResolver,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.deps,ModuleLoader,8,312,2,28,1,69,2,28,0,15
+Closure Compiler,com.google.javascript.jscomp.deps,DependencyInfo.Base,0,14,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp.deps,VirtualFile,2,53,2,4,1,12,2,7,0,6
+Closure Compiler,com.google.javascript.jscomp.deps,AutoValue_DependencyInfo_Require.Builder,54,64,7,7,7,22,7,6,0,6
+Closure Compiler,com.google.javascript.jscomp.deps,DepsFileParser,30,199,4,20,3,50,5,15,1,7
+Closure Compiler,com.google.javascript.jscomp.deps,ServiceException,0,4,0,0,0,2,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.deps,DependencyInfo.Require,0,70,0,0,0,14,0,10,0,10
+Closure Compiler,com.google.javascript.jscomp.deps,WebpackModuleResolver.Factory,0,58,0,4,0,12,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp.deps,AutoValue_SimpleDependencyInfo,39,154,6,10,2,38,7,11,1,9
+Closure Compiler,com.google.javascript.jscomp.deps,BrowserModuleResolver,0,59,0,4,0,13,0,5,0,3
+Closure Compiler,com.google.javascript.jscomp.deps,ModuleNames,0,190,0,24,0,51,0,20,0,8
+Closure Compiler,com.google.javascript.jscomp.deps,SimpleDependencyInfo,0,25,0,0,0,9,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp.deps,SortedDependencies.MissingProvideException,0,9,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp.deps,ClosureBundler.EscapeMode,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.deps,DependencyFile,41,132,5,9,4,33,4,11,0,8
+Closure Compiler,com.google.javascript.jscomp.bundle,AutoValue_Source,6,284,4,24,0,56,3,25,0,14
+Closure Compiler,com.google.javascript.jscomp.bundle,AutoValue_Source.Builder,129,171,18,18,18,55,18,15,0,15
+Closure Compiler,com.google.javascript.jscomp.bundle,Transpiler,4,34,0,0,2,7,2,4,2,4
+Closure Compiler,com.google.javascript.jscomp.bundle,CoverageInstrumenter.CompilerSupplier,0,34,0,0,0,12,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp.bundle,Source,0,41,0,0,0,14,0,5,0,5
+Closure Compiler,com.google.javascript.jscomp.bundle,Source.Lazy,0,34,1,3,0,6,1,6,0,5
+Closure Compiler,com.google.javascript.jscomp.bundle,Source.Builder,5,40,0,2,1,9,1,7,1,6
+Closure Compiler,com.google.javascript.jscomp.bundle,CachedTransformer,11,19,0,0,4,4,2,2,2,2
+Closure Compiler,com.google.javascript.jscomp.bundle,CoverageInstrumenter,2,16,0,0,1,6,1,4,1,4
+Closure Compiler,com.google.javascript.jscomp.bundle,TranspilationException,49,74,4,4,10,17,8,4,5,3
+Closure Compiler,com.google.javascript.jscomp.bundle,CompilerBasedTransformer.CompilerSupplier,1,147,1,5,1,39,1,10,0,8
+Closure Compiler,com.google.javascript.jscomp.bundle,Source.Transformer,31,6,0,0,6,1,7,1,7,1
+Closure Compiler,com.google.javascript.jscomp.bundle,CompilerBasedTransformer.CompileResult,0,21,0,0,0,6,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.bundle,Source.Lazy.new Source.Lazy() {...},0,9,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp.bundle,Source.Lazy.new Source.Lazy() {...},0,10,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp.bundle,CompilerBasedTransformer,43,56,3,5,6,13,2,4,0,2
+Closure Compiler,com.google.debugging.sourcemap.proto,Mapping.LineMapping.Builder,498,0,52,0,136,0,59,0,33,0
+Closure Compiler,com.google.debugging.sourcemap.proto,Mapping.new Descriptors.FileDescriptor.InternalDescriptorAssigner() {...},0,66,0,0,0,11,0,2,0,2
+Closure Compiler,com.google.debugging.sourcemap.proto,Mapping,1,19,0,0,1,6,1,2,1,2
+Closure Compiler,com.google.debugging.sourcemap.proto,Mapping.OriginalMapping.Builder,331,213,35,15,97,62,49,12,26,10
+Closure Compiler,com.google.debugging.sourcemap.proto,Mapping.OriginalMapping,374,142,44,8,102,38,48,20,21,19
+Closure Compiler,com.google.debugging.sourcemap.proto,Mapping.LineMapping.new AbstractParser() {...},10,0,0,0,2,0,2,0,2,0
+Closure Compiler,com.google.debugging.sourcemap.proto,Mapping.LineMapping,419,0,37,0,109,0,57,0,37,0
+Closure Compiler,com.google.debugging.sourcemap.proto,Mapping.OriginalMapping.new AbstractParser() {...},7,3,0,0,1,1,1,1,1,1
+Closure Compiler,com.google.javascript.refactoring.examples,GoogBindToArrow,0,102,3,19,0,26,3,12,0,4
+Closure Compiler,com.google.javascript.refactoring,Scanner,2,5,0,0,1,2,1,2,1,2
+Closure Compiler,com.google.javascript.refactoring,FixingErrorManager,3,149,4,20,0,33,3,18,0,9
+Closure Compiler,com.google.javascript.refactoring,CodeReplacement,0,23,0,0,0,4,0,4,0,4
+Closure Compiler,com.google.javascript.refactoring,Match,0,15,0,0,0,6,0,3,0,3
+Closure Compiler,com.google.javascript.refactoring,JsSourceMatcher,0,20,0,0,0,5,0,3,0,3
+Closure Compiler,com.google.javascript.refactoring,RefactoringUtils,0,38,0,12,0,12,0,7,0,1
+Closure Compiler,com.google.javascript.refactoring,AutoValue_CodeReplacement,14,135,7,9,4,30,7,9,0,8
+Closure Compiler,com.google.javascript.refactoring,Matchers.new Matcher() {...},0,5,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.refactoring,Matchers.new Matcher() {...},0,32,0,4,0,5,0,4,0,2
+Closure Compiler,com.google.javascript.refactoring,Matchers.new Matcher() {...},0,32,0,4,0,5,0,4,0,2
+Closure Compiler,com.google.javascript.refactoring,Matchers.new Matcher() {...},0,37,3,9,0,10,3,5,0,2
+Closure Compiler,com.google.javascript.refactoring,Matchers.new Matcher() {...},2,14,1,1,0,2,1,2,0,2
+Closure Compiler,com.google.javascript.refactoring,Matchers.new Matcher() {...},4,30,2,4,2,9,2,3,0,2
+Closure Compiler,com.google.javascript.refactoring,Matchers.new Matcher() {...},0,6,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.refactoring,Matchers.new Matcher() {...},0,20,1,3,0,2,1,3,0,2
+Closure Compiler,com.google.javascript.refactoring,Matchers.new Matcher() {...},0,21,0,4,0,2,0,4,0,2
+Closure Compiler,com.google.javascript.refactoring,NodeMetadata,0,9,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.javascript.refactoring,RefactoringDriver.Builder,41,73,0,0,9,17,5,9,5,9
+Closure Compiler,com.google.javascript.refactoring,AutoValue_SuggestedFix_MatchedNodeInfo,115,29,15,1,21,11,11,5,3,5
+Closure Compiler,com.google.javascript.refactoring,ApplySuggestedFixes.ReplacementMap,0,61,0,6,0,15,0,7,0,4
+Closure Compiler,com.google.javascript.refactoring,ErrorToFixMapper,77,802,8,70,21,189,9,55,2,16
+Closure Compiler,com.google.javascript.refactoring,ErrorToFixMapper.RequireProvideSorter,1,119,2,28,0,29,2,19,0,6
+Closure Compiler,com.google.javascript.refactoring,SuggestedFix,47,115,4,6,9,25,4,11,2,8
+Closure Compiler,com.google.javascript.refactoring,Matchers,17,216,11,13,4,52,10,33,0,31
+Closure Compiler,com.google.javascript.refactoring,Matchers.new Matcher() {...},2,38,6,10,1,11,6,4,0,2
+Closure Compiler,com.google.javascript.refactoring,Matchers.new Matcher() {...},4,44,3,9,1,12,3,5,0,2
+Closure Compiler,com.google.javascript.refactoring,Matchers.new Matcher() {...},0,20,0,4,0,2,0,4,0,2
+Closure Compiler,com.google.javascript.refactoring,Matchers.new Matcher() {...},2,35,3,5,1,7,3,3,0,2
+Closure Compiler,com.google.javascript.refactoring,Matchers.new Matcher() {...},1,14,2,2,0,3,2,2,0,2
+Closure Compiler,com.google.javascript.refactoring,Matchers.new Matcher() {...},0,34,0,8,0,9,0,6,0,2
+Closure Compiler,com.google.javascript.refactoring,Matchers.new Matcher() {...},0,27,1,5,0,4,1,4,0,2
+Closure Compiler,com.google.javascript.refactoring,Matchers.new Matcher() {...},4,49,5,9,2,11,5,4,0,2
+Closure Compiler,com.google.javascript.refactoring,Matchers.new Matcher() {...},2,16,1,3,1,4,1,3,0,2
+Closure Compiler,com.google.javascript.refactoring,RefasterJsScanner,39,650,11,71,9,149,13,38,2,8
+Closure Compiler,com.google.javascript.refactoring,RefasterJs,305,0,24,0,70,0,17,0,5,0
+Closure Compiler,com.google.javascript.refactoring,RefasterJsScanner.RefasterJsTemplate,2,79,1,5,1,26,1,8,0,6
+Closure Compiler,com.google.javascript.refactoring,ApplySuggestedFixes,78,252,6,18,13,59,4,19,1,10
+Closure Compiler,com.google.javascript.refactoring,SuggestedFix.HasAliasedRequireOrModuleCallback,0,46,0,10,0,12,0,9,0,4
+Closure Compiler,com.google.javascript.refactoring,SuggestedFix.MatchedNodeInfo,0,14,0,0,0,5,0,2,0,2
+Closure Compiler,com.google.javascript.refactoring,RefactoringDriver,0,131,0,0,0,36,0,6,0,6
+Closure Compiler,com.google.javascript.refactoring,JsFlumeCallback,14,73,5,7,3,20,3,8,0,5
+Closure Compiler,com.google.javascript.refactoring,SuggestedFix.Builder,133,1405,29,199,30,355,28,121,2,33
+Closure Compiler,com.google.javascript.jscomp.resources,ResourceLoader,48,24,4,2,12,5,5,3,2,3
+Closure Compiler,com.google.javascript.jscomp.resources,GwtProperties,179,0,26,0,37,0,19,0,6,0
+Closure Compiler,com.google.javascript.jscomp.lint,CheckPrimitiveAsObject.new NodeUtil.Visitor() {...},0,31,0,4,0,6,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp.lint,CheckUselessBlocks,7,123,5,30,2,31,6,21,1,7
+Closure Compiler,com.google.javascript.jscomp.lint,CheckJSDocStyle.ExternsCallback,0,27,1,9,0,6,1,6,0,2
+Closure Compiler,com.google.javascript.jscomp.lint,CheckUnusedLabels.LabelContext,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.lint,CheckInterfaces,6,114,3,21,2,33,4,14,1,5
+Closure Compiler,com.google.javascript.jscomp.lint,CheckUnusedLabels,6,91,2,13,2,23,3,11,1,5
+Closure Compiler,com.google.javascript.jscomp.lint,CheckPrimitiveAsObject,6,92,0,10,2,29,1,12,1,7
+Closure Compiler,com.google.javascript.jscomp.lint,CheckEmptyStatements,0,30,0,4,0,9,0,6,0,4
+Closure Compiler,com.google.javascript.jscomp.lint,CheckJSDocStyle,1,739,5,155,0,191,5,94,0,17
+Closure Compiler,com.google.javascript.jscomp.lint,CheckRedundantNullabilityModifier,0,175,0,44,0,41,0,30,0,8
+Closure Compiler,com.google.javascript.jscomp.lint,CheckNullableReturn,16,170,8,42,3,46,9,28,1,11
+Closure Compiler,com.google.javascript.jscomp.lint,CheckRequiresAndProvidesSorted,31,385,6,59,5,94,7,36,1,9
+Closure Compiler,com.google.javascript.jscomp.lint,CheckMissingSemicolon,3,108,3,27,3,31,3,18,0,6
+Closure Compiler,com.google.javascript.jscomp.lint,CheckArrayWithGoogObject,10,182,5,21,4,35,6,14,1,6
+Closure Compiler,com.google.javascript.jscomp.lint,CheckEnums,1,154,2,24,1,40,2,18,0,7
+Closure Compiler,com.google.javascript.jscomp.lint,CheckDuplicateCase,6,50,0,6,2,13,1,7,1,4
+Closure Compiler,com.google.javascript.jscomp.lint,CheckJSDocStyle.FindNonTrivialReturn,2,26,1,11,1,9,1,6,0,1
+Closure Compiler,com.google.javascript.jscomp.lint,CheckPrototypeProperties,6,62,1,9,2,18,2,9,1,5
+Closure Compiler,com.google.javascript.jscomp.ijs,CheckTypeSummaryWarningsGuard,0,28,0,6,0,8,0,7,0,4
+Closure Compiler,com.google.javascript.jscomp.ijs,PotentialDeclaration,0,340,6,74,0,75,6,56,0,22
+Closure Compiler,com.google.javascript.jscomp.ijs,PotentialDeclaration.StringKeyDeclaration,10,81,6,20,3,24,7,11,1,4
+Closure Compiler,com.google.javascript.jscomp.ijs,ConvertToTypedInterface.PropagateConstJsdoc,4,50,3,9,0,15,2,6,0,2
+Closure Compiler,com.google.javascript.jscomp.ijs,PotentialDeclaration.MethodDeclaration,0,12,0,0,0,4,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp.ijs,PotentialDeclaration.DefineDeclaration,0,16,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp.ijs,ClassUtil,3,201,6,36,1,44,6,23,0,8
+Closure Compiler,com.google.javascript.jscomp.ijs,ProcessConstJsdocCallback,17,199,6,40,1,49,5,25,0,4
+Closure Compiler,com.google.javascript.jscomp.ijs,PotentialDeclaration.NameDeclaration,0,194,3,49,0,54,3,29,0,6
+Closure Compiler,com.google.javascript.jscomp.ijs,JsdocUtil,2,234,3,46,1,58,3,37,0,12
+Closure Compiler,com.google.javascript.jscomp.ijs,ConvertToTypedInterface.SimplifyDeclarations,0,360,2,72,0,92,2,49,0,14
+Closure Compiler,com.google.javascript.jscomp.ijs,ConvertToTypedInterface.RemoveNonDeclarations,2,350,5,77,0,100,5,46,0,3
+Closure Compiler,com.google.javascript.jscomp.ijs,ConvertToTypedInterface.SimplifyDeclarations.TypingLevel,0,34,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.ijs,ConvertToTypedInterface,0,158,1,15,0,40,1,14,0,7
+Closure Compiler,com.google.javascript.jscomp.ijs,PotentialDeclaration.ThisPropDeclaration,0,49,0,2,0,14,0,4,0,3
+Closure Compiler,com.google.javascript.jscomp.ijs,FileInfo,10,127,1,9,2,32,3,16,2,12
+Closure Compiler,com.google.javascript.rhino,SourcePosition,36,59,2,4,2,20,2,9,0,8
+Closure Compiler,com.google.javascript.rhino,TokenStream,46,500,21,136,8,97,17,88,1,2
+Closure Compiler,com.google.javascript.rhino,JSDocInfo,55,2206,64,364,20,502,63,333,1,181
+Closure Compiler,com.google.javascript.rhino,SimpleSourceFile,24,15,2,0,6,6,5,3,4,3
+Closure Compiler,com.google.javascript.rhino,Node.SiblingNodeIterator,8,26,1,3,2,8,2,4,1,3
+Closure Compiler,com.google.javascript.rhino,Token,14,1667,2,4,2,171,2,5,0,2
+Closure Compiler,com.google.javascript.rhino,JSDocInfo.Marker,9,66,12,8,2,19,10,10,0,10
+Closure Compiler,com.google.javascript.rhino,ErrorReporter.new ErrorReporter() {...},1,4,0,0,1,2,1,2,1,2
+Closure Compiler,com.google.javascript.rhino,IR,181,1250,40,82,29,262,46,121,12,93
+Closure Compiler,com.google.javascript.rhino,JSDocInfo.Visibility,0,54,0,0,0,6,0,1,0,1
+Closure Compiler,com.google.javascript.rhino,JSDocInfo.TrimmedStringPosition,1,24,2,2,0,5,2,2,0,2
+Closure Compiler,com.google.javascript.rhino,JSDocInfoBuilder,49,1482,58,236,20,439,58,193,1,103
+Closure Compiler,com.google.javascript.rhino,Node.SideEffectFlags,12,116,0,10,4,35,2,16,2,11
+Closure Compiler,com.google.javascript.rhino,Node.TypeDeclarationNode,0,31,0,0,0,9,0,5,0,5
+Closure Compiler,com.google.javascript.rhino,Node.IntPropListItem,4,24,0,0,1,6,1,4,1,4
+Closure Compiler,com.google.javascript.rhino,JSDocInfo.LazilyInitializedInfo,99,207,7,19,21,41,8,13,2,6
+Closure Compiler,com.google.javascript.rhino,Node.PropListItem,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.rhino,HamtPMap.Iter,4,55,1,5,1,11,2,5,1,3
+Closure Compiler,com.google.javascript.rhino,Node.AncestorIterable,0,11,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.javascript.rhino,InputId,6,40,3,3,0,10,3,5,0,5
+Closure Compiler,com.google.javascript.rhino,JSDocInfo.StringPosition,5,44,11,11,1,9,10,3,0,2
+Closure Compiler,com.google.javascript.rhino,JSDocInfo.NamePosition,13,58,19,15,2,12,16,3,0,2
+Closure Compiler,com.google.javascript.rhino,JSDocInfo.Property,3,0,0,0,1,0,1,0,1,0
+Closure Compiler,com.google.javascript.rhino,ErrorReporter,0,5,0,0,0,1,0,1,0,1
+Closure Compiler,com.google.javascript.rhino,Node.ObjectPropListItem,4,24,0,0,1,6,1,4,1,4
+Closure Compiler,com.google.javascript.rhino,HamtPMap,344,1098,35,127,59,197,27,91,4,33
+Closure Compiler,com.google.javascript.rhino,Node.StringNode,5,82,1,5,1,22,1,12,0,10
+Closure Compiler,com.google.javascript.rhino,TypeDeclarationsIR,51,207,6,16,12,44,8,20,4,13
+Closure Compiler,com.google.javascript.rhino,Node.NumberNode,9,63,0,8,3,14,1,9,1,5
+Closure Compiler,com.google.javascript.rhino,JSDocInfo.TypePosition,13,73,20,16,2,16,17,5,0,4
+Closure Compiler,com.google.javascript.rhino,Node,401,4182,126,697,60,970,127,620,19,282
+Closure Compiler,com.google.javascript.rhino,Node.AncestorIterable.new Iterator() {...},8,31,1,3,2,6,2,4,1,3
+Closure Compiler,com.google.javascript.rhino,Node.SiblingNodeIterable,0,12,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.javascript.rhino,JSTypeExpression,0,106,1,11,0,19,1,16,0,11
+Closure Compiler,com.google.javascript.rhino,Node.NodeMismatch,17,30,3,3,2,8,4,2,1,2
+Closure Compiler,com.google.javascript.rhino,TokenUtil,11,51,9,14,2,9,10,7,1,4
+Closure Compiler,com.google.javascript.rhino,JSIdentifier,3,38,1,11,1,10,2,6,1,1
+Closure Compiler,com.google.javascript.rhino,SimpleErrorReporter,87,45,12,0,22,12,9,4,3,4
+Closure Compiler,com.google.javascript.jscomp.regex,RegExpTree.Concatenation.new Object() {...},201,0,32,0,46,0,19,0,3,0
+Closure Compiler,com.google.javascript.jscomp.regex,CharRanges,262,745,43,97,49,134,31,58,6,13
+Closure Compiler,com.google.javascript.jscomp.regex,RegExpTree.BackReference,49,0,8,0,11,0,10,0,6,0
+Closure Compiler,com.google.javascript.jscomp.regex,CaseCanonicalize,9125,0,26,0,220,0,18,0,5,0
+Closure Compiler,com.google.javascript.jscomp.regex,RegExpTree.WordBoundary,40,0,4,0,10,0,8,0,6,0
+Closure Compiler,com.google.javascript.jscomp.regex,RegExpTree.CapturingGroup,56,6,4,0,13,3,11,1,9,1
+Closure Compiler,com.google.javascript.jscomp.regex,RegExpTree.Anchor,40,0,4,0,9,0,9,0,7,0
+Closure Compiler,com.google.javascript.jscomp.regex,RegExpTree,198,246,31,0,41,27,22,3,4,3
+Closure Compiler,com.google.javascript.jscomp.regex,RegExpTree.LookaheadAssertion,93,9,14,0,19,4,16,1,9,1
+Closure Compiler,com.google.javascript.jscomp.regex,CaseCanonicalize.DeltaSet,9,0,0,0,4,0,1,0,1,0
+Closure Compiler,com.google.javascript.jscomp.regex,RegExpTree.Repetition,483,0,105,0,92,0,66,0,13,0
+Closure Compiler,com.google.javascript.jscomp.regex,RegExpTree.Text,139,6,25,0,28,3,20,1,7,1
+Closure Compiler,com.google.javascript.jscomp.regex,RegExpTree.DecomposedCharset,352,0,79,0,69,0,49,0,7,0
+Closure Compiler,com.google.javascript.jscomp.regex,RegExpTree.RegExpTreeAtom,8,3,0,0,4,1,4,1,4,1
+Closure Compiler,com.google.javascript.jscomp.regex,RegExpTree.Charset,374,9,42,0,84,4,31,1,10,1
+Closure Compiler,com.google.javascript.jscomp.regex,RegExpTree.Alternation,394,0,72,0,86,0,47,0,10,0
+Closure Compiler,com.google.javascript.jscomp.regex,RegExpTree.Empty,9,8,0,0,5,2,5,2,5,2
+Closure Compiler,com.google.javascript.jscomp.regex,RegExpTree.new Object() {...},784,313,143,36,165,64,97,11,4,6
+Closure Compiler,com.google.javascript.jscomp.regex,RegExpTree.Concatenation,243,0,45,0,55,0,34,0,11,0
+Closure Compiler,com.google.debugging.sourcemap,Base64VLQ,0,97,0,14,0,24,0,11,0,4
+Closure Compiler,com.google.debugging.sourcemap,SourceMapConsumerV3.MappingBuilder,15,327,4,34,1,65,4,24,0,8
+Closure Compiler,com.google.debugging.sourcemap,FilePosition,0,15,0,0,0,6,0,3,0,3
+Closure Compiler,com.google.debugging.sourcemap,SourceMapObject.Builder,0,78,0,0,0,22,0,12,0,12
+Closure Compiler,com.google.debugging.sourcemap,SourceMapGeneratorV3.Mapping,0,9,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.debugging.sourcemap,SourceMapConsumerV3.UnmappedEntry,4,13,0,0,2,6,2,4,2,4
+Closure Compiler,com.google.debugging.sourcemap,SourceMapGeneratorV3.ConsumerEntryVisitor,0,15,0,0,0,3,0,2,0,2
+Closure Compiler,com.google.debugging.sourcemap,SourceMapConsumerV3.StringCharIterator,0,39,0,2,0,8,0,5,0,4
+Closure Compiler,com.google.debugging.sourcemap,SourceMapSection,15,43,0,0,6,12,1,7,1,7
+Closure Compiler,com.google.debugging.sourcemap,SourceMapObjectParser,25,230,3,23,4,43,3,14,0,4
+Closure Compiler,com.google.debugging.sourcemap,SourceMapConsumerV3,192,459,37,55,43,115,29,33,2,14
+Closure Compiler,com.google.debugging.sourcemap,SourceMapObjectParserJs,183,0,16,0,38,0,11,0,3,0
+Closure Compiler,com.google.debugging.sourcemap,SourceMapParseException,4,0,0,0,2,0,1,0,1,0
+Closure Compiler,com.google.debugging.sourcemap,SourceMapConsumerV3.UnnamedEntry,0,24,0,0,0,9,0,5,0,5
+Closure Compiler,com.google.debugging.sourcemap,SourceMapGeneratorV3.LineMapper,6,188,6,20,1,49,5,14,0,6
+Closure Compiler,com.google.debugging.sourcemap,SourceMapFormat,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.debugging.sourcemap,SourceMapConsumerV3.DefaultSourceMapSupplier,2,3,0,0,1,1,1,1,1,1
+Closure Compiler,com.google.debugging.sourcemap,SourceMapSection.SectionType,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.debugging.sourcemap,SourceMapGeneratorV3.MappingTraversal,7,232,5,37,1,45,5,24,0,8
+Closure Compiler,com.google.debugging.sourcemap,SourceMapGeneratorFactory,5,9,1,1,1,2,1,1,0,1
+Closure Compiler,com.google.debugging.sourcemap,SourceMapGeneratorV3.UsedMappingCheck,0,6,0,2,0,3,0,2,0,1
+Closure Compiler,com.google.debugging.sourcemap,Util,98,199,18,13,21,29,14,10,0,5
+Closure Compiler,com.google.debugging.sourcemap,SourceMapConsumerV3.NamedEntry,0,13,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.debugging.sourcemap,Base64,19,85,6,10,0,16,6,6,0,4
+Closure Compiler,com.google.debugging.sourcemap,SourceMapObject,0,67,0,0,0,23,0,12,0,12
+Closure Compiler,com.google.debugging.sourcemap,SourceMapGeneratorV3,57,875,15,65,13,222,14,56,1,29
+Closure Compiler,com.google.debugging.sourcemap,SourceMapConsumerFactory,27,24,3,3,5,7,4,1,1,1
+Closure Compiler,com.google.javascript.rhino.dtoa,DToA,1056,1117,239,139,237,240,157,51,3,12
+Closure Compiler,com.google.javascript.jscomp,ShowByPathWarningsGuard,7,54,2,4,2,14,3,6,1,5
+Closure Compiler,com.google.javascript.jscomp,ProcessCommonJSModules.RewriteModule,336,1971,118,368,71,476,94,166,0,13
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,11,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,PreprocessorSymbolTable.CachedInstanceFactory,0,28,1,5,0,7,1,5,0,3
+Closure Compiler,com.google.javascript.jscomp,GoogleJsMessageIdGenerator.FP,13,598,6,24,2,91,4,14,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.11.new HotSwapCompilerPass() {...},0,30,0,0,0,6,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,CodePrinter,4,67,1,11,1,14,2,6,1,1
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,11,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,11,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,ReplaceCssNames.Traversal,34,296,2,32,5,60,2,19,0,3
+Closure Compiler,com.google.javascript.jscomp,SideEffectsAnalysis.VariableUseDeclarationMap,0,74,0,4,0,17,0,5,0,3
+Closure Compiler,com.google.javascript.jscomp,OptimizeReturns,37,272,15,58,6,66,10,38,0,9
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.GlobalTypeResolver,4,33,1,1,1,9,1,3,0,3
+Closure Compiler,com.google.javascript.jscomp,PureFunctionIdentifier,9,651,12,95,2,167,12,60,0,17
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,18,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,11,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,11,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,SideEffectsAnalysis.LocationAbstractionMode,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,11,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,11,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,InvalidatingTypes,2,89,2,28,1,21,2,15,0,2
+Closure Compiler,com.google.javascript.jscomp,ExternExportsPass.new Comparator() {...},0,12,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,ChangeVerifier,72,348,20,55,12,84,17,34,0,13
+Closure Compiler,com.google.javascript.jscomp,ProcessTweaks.TweakFunction,4,211,1,11,1,34,1,18,0,12
+Closure Compiler,com.google.javascript.jscomp,InstrumentFunctions.InstrumentCallback,1,177,2,16,1,45,2,9,0,2
+Closure Compiler,com.google.javascript.jscomp,DisambiguateProperties,85,814,24,132,11,195,23,73,0,18
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteModulesToCommonJsModules,4,61,1,5,1,15,1,6,0,4
+Closure Compiler,com.google.javascript.jscomp,CheckMissingReturn,2,188,2,34,1,57,2,26,0,10
+Closure Compiler,com.google.javascript.jscomp,PerformanceTracker.Stats,0,39,0,0,0,14,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,ChangeVerifier.new NodeUtil.Visitor() {...},0,18,0,2,0,4,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,ChangeVerifier.new NodeUtil.Visitor() {...},0,58,0,6,0,11,0,5,0,2
+Closure Compiler,com.google.javascript.jscomp,NodeTraversal.AbstractPreOrderCallback,0,4,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,DefinitionsRemover.MemberFunctionDefinition,0,30,0,0,0,7,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,ObjectPropertyStringPreprocess,5,46,2,2,2,18,2,4,0,4
+Closure Compiler,com.google.javascript.jscomp,CrossModuleReferenceCollector.TopLevelStatement,0,75,1,5,0,17,1,11,0,9
+Closure Compiler,com.google.javascript.jscomp,FileInstrumentationData.BranchIndexPair,3,48,3,3,1,12,3,6,0,6
+Closure Compiler,com.google.javascript.jscomp,CompilerOptions.TracerMode,2,59,1,1,0,7,1,2,0,2
+Closure Compiler,com.google.javascript.jscomp,SyntheticAst,27,40,0,0,6,12,2,5,2,5
+Closure Compiler,com.google.javascript.jscomp,CompilerInput,71,402,11,31,20,102,20,43,9,33
+Closure Compiler,com.google.javascript.jscomp,AstValidator,394,2926,60,319,71,899,57,314,2,134
+Closure Compiler,com.google.javascript.jscomp,AbstractCommandLineRunner.SystemExitCodeReceiver,18,5,4,0,6,1,3,1,1,1
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,11,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,PrebuildAst,72,0,2,0,17,0,3,0,2,0
+Closure Compiler,com.google.javascript.jscomp,AngularPass.NodeContext,0,27,0,0,0,10,0,5,0,5
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,11,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,11,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,11,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,11,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,11,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,11,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,11,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,11,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,AbstractCommandLineRunner.FlagEntry,10,37,2,4,2,10,3,5,1,4
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.RestrictedMethodCall.Restriction,0,12,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.55.new CompilerPass() {...},38,0,2,0,7,0,3,0,2,0
+Closure Compiler,com.google.javascript.jscomp,CheckSideEffects.StripProtection,0,38,0,6,0,13,0,6,0,3
+Closure Compiler,com.google.javascript.jscomp,Requirement,1642,285,265,28,362,71,180,44,36,35
+Closure Compiler,com.google.javascript.jscomp,TransformAMDToCJSModule.DefineCallbackReturnCallback,0,26,1,3,0,8,1,2,0,1
+Closure Compiler,com.google.javascript.jscomp,J2clClinitPrunerPass.LookAheadRedundantClinitPruner,2,169,6,38,1,43,6,23,0,6
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteClass,46,1247,16,155,6,291,15,88,0,17
+Closure Compiler,com.google.javascript.jscomp,PeepholeRemoveDeadCode.new Predicate() {...},0,13,1,3,0,2,1,3,0,2
+Closure Compiler,com.google.javascript.jscomp,ExternExportsPass.Export,4,408,6,62,2,107,6,40,0,11
+Closure Compiler,com.google.javascript.jscomp,PeepholeRemoveDeadCode.new Predicate() {...},0,16,1,5,0,4,1,4,0,2
+Closure Compiler,com.google.javascript.jscomp,PeepholeRemoveDeadCode.new Predicate() {...},0,13,0,4,0,3,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp,Es6ConvertSuperConstructorCalls.UndefinedReturnValueCheck.new NodeTraversal.AbstractShallowCallback() {...},10,17,4,4,2,5,3,3,0,2
+Closure Compiler,com.google.javascript.jscomp,AbstractCommandLineRunner.JsModuleSpec,71,73,10,6,9,18,9,5,2,4
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,21,0,0,0,4,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,J2clPropertyInlinerPass,0,18,0,2,0,7,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,61,0,6,0,11,0,6,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,26,0,0,0,6,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,14,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},7,8,0,0,2,1,2,1,2,1
+Closure Compiler,com.google.javascript.jscomp,RescopeGlobalSymbols.FindNamesReferencingThis,0,86,0,30,0,25,0,17,0,2
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},6,39,2,2,1,9,2,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},6,25,1,1,1,7,1,3,0,3
+Closure Compiler,com.google.javascript.jscomp,ClosureCheckModule.new NodeUtil.Visitor() {...},0,82,1,11,0,14,1,7,0,2
+Closure Compiler,com.google.javascript.jscomp,J2clPropertyInlinerPass.StaticFieldGetterSetterInliner.InlinePropertiesPass,1,185,3,21,1,41,3,12,0,3
+Closure Compiler,com.google.javascript.jscomp,ObjectPropertyStringPostprocess.Callback,1,80,1,7,1,26,1,5,0,2
+Closure Compiler,com.google.javascript.jscomp,CompilerOptions.Environment,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,JSModuleGraph.MissingModuleException,4,0,0,0,2,0,1,0,1,0
+Closure Compiler,com.google.javascript.jscomp,RenameProperties.Property,0,6,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,Requirement.TypeMatchingStrategy.new Internal.EnumLiteMap() {...},3,3,0,0,1,1,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,RuntimeTypeCheck.new Comparator() {...},5,33,5,7,2,9,4,5,0,3
+Closure Compiler,com.google.javascript.jscomp,MakeDeclaredNamesUnique.BoilerplateRenamer,0,25,0,0,0,6,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,GatherSideEffectSubexpressionsCallback.GetReplacementSideEffectSubexpressions,37,149,9,15,10,42,8,10,1,5
+Closure Compiler,com.google.javascript.jscomp,RecentChange,0,17,0,0,0,7,0,4,0,4
+Closure Compiler,com.google.javascript.jscomp,CompilerInput.DepsFinder,207,69,47,7,53,20,30,5,1,3
+Closure Compiler,com.google.javascript.jscomp,ModuleMetadata,37,188,8,6,11,51,7,9,2,7
+Closure Compiler,com.google.javascript.jscomp,DeadPropertyAssignmentElimination.Property,4,79,1,7,1,22,1,7,0,4
+Closure Compiler,com.google.javascript.jscomp,AbstractCommandLineRunner,1185,2861,195,341,234,671,157,185,10,64
+Closure Compiler,com.google.javascript.jscomp,ShadowVariables.GatherReferenceInfo,0,99,2,16,0,19,2,9,0,2
+Closure Compiler,com.google.javascript.jscomp,Es6ConvertSuperConstructorCalls.ConstructorData,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,AmbiguateProperties.PropertyGraphNode,0,16,0,0,0,7,0,4,0,4
+Closure Compiler,com.google.javascript.jscomp,FunctionInformationMap.new AbstractParser() {...},7,3,0,0,1,1,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,ConstParamCheck,0,147,1,33,0,42,1,21,0,5
+Closure Compiler,com.google.javascript.jscomp,ComposeWarningsGuard,26,264,6,34,7,64,5,28,1,11
+Closure Compiler,com.google.javascript.jscomp,InlineVariables,4,71,1,7,1,16,1,8,0,4
+Closure Compiler,com.google.javascript.jscomp,PrintStreamJSONErrorManager,352,0,22,0,71,0,16,0,5,0
+Closure Compiler,com.google.javascript.jscomp,PeepholeOptimizationsPass,0,79,0,8,0,22,0,9,0,5
+Closure Compiler,com.google.javascript.jscomp,CommandLineRunner.Flags.MultiFlagSetter,16,27,0,0,4,8,4,2,4,2
+Closure Compiler,com.google.javascript.jscomp,ReplaceIdGenerators.RenameStrategy,0,54,0,0,0,6,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CollectFileOverviewVisibility,1,53,1,5,1,21,1,7,0,5
+Closure Compiler,com.google.javascript.jscomp,AnalyzePrototypeProperties.SymbolType,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CustomPassExecutionTime,0,44,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CompilerOptions.Es6ModuleTranspilation,0,44,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,NodeTraversal.AbstractShallowCallback,0,16,0,6,0,2,0,5,0,2
+Closure Compiler,com.google.javascript.jscomp,ClosureRewriteModule.UnwrapGoogLoadModule,0,61,0,7,0,16,0,6,0,2
+Closure Compiler,com.google.javascript.jscomp,JsMessage.Style,10,34,4,0,3,4,3,1,1,1
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteGenerators.SingleGeneratorFunctionTranspiler.TranspilationContext,116,1304,31,117,14,294,29,87,0,42
+Closure Compiler,com.google.javascript.jscomp,FunctionRewriter.GetterReducer,13,42,2,10,1,14,2,7,0,3
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteGenerators.SingleGeneratorFunctionTranspiler,40,1801,27,162,7,450,27,100,0,26
+Closure Compiler,com.google.javascript.jscomp,VariableReferenceCheck.ReferenceCheckingBehavior.new NodeTraversal.AbstractShallowCallback() {...},0,44,0,6,0,7,0,5,0,2
+Closure Compiler,com.google.javascript.jscomp,GlobalVarReferenceMap,7,352,3,35,3,84,3,24,0,8
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedCode.Kind,0,34,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteBlockScopedDeclaration,49,500,10,62,10,118,11,44,1,18
+Closure Compiler,com.google.javascript.jscomp,GatherExternProperties,1,182,4,26,0,49,4,18,0,6
+Closure Compiler,com.google.javascript.jscomp,J2clClinitPrunerPass,0,280,1,33,0,62,1,27,0,11
+Closure Compiler,com.google.javascript.jscomp,JSModuleGraph.InverseDepthComparator,0,9,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,FunctionRewriter.IdentityReducer,0,51,1,13,0,12,1,9,0,3
+Closure Compiler,com.google.javascript.jscomp,ProcessCommonJSModules.FindImportsAndExports,173,1412,80,246,37,328,75,102,0,14
+Closure Compiler,com.google.javascript.jscomp,LintPassConfig.new PassFactory() {...},17,0,0,0,3,0,3,0,3,0
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedCode.ObjectDefinePropertiesDefinition,0,18,0,0,0,7,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,LintPassConfig.new PassFactory() {...},16,0,0,0,3,0,3,0,3,0
+Closure Compiler,com.google.javascript.jscomp,LintPassConfig.new PassFactory() {...},83,0,0,0,4,0,3,0,3,0
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.BanThrowOfNonErrorTypes,0,41,4,10,0,12,4,5,0,2
+Closure Compiler,com.google.javascript.jscomp,LintPassConfig.new PassFactory() {...},16,0,0,0,3,0,3,0,3,0
+Closure Compiler,com.google.javascript.jscomp,FunctionRewriter.EmptyFunctionReducer,0,16,0,4,0,4,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp,LintPassConfig.new PassFactory() {...},25,0,0,0,4,0,3,0,3,0
+Closure Compiler,com.google.javascript.jscomp,SymbolTable.Symbol,1,213,3,19,0,47,3,27,0,19
+Closure Compiler,com.google.javascript.jscomp,J2clClinitPrunerPass.EmptyClinitPruner,3,93,5,17,2,28,5,10,0,4
+Closure Compiler,com.google.javascript.jscomp,SourceExcerptProvider.SourceExcerpt,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,TypeInference.TemplateTypeReplacer,0,32,0,2,0,8,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,InlineObjectLiterals,0,30,0,0,0,7,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,VerboseMessageFormatter,98,0,8,0,14,0,8,0,4,0
+Closure Compiler,com.google.javascript.jscomp,ConformanceWhitelister.ConformanceViolationRecordingCompiler,21,23,3,1,3,7,2,3,0,3
+Closure Compiler,com.google.javascript.jscomp,PeepholeRemoveDeadCode.new Predicate() {...},0,13,0,4,0,2,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp,InlineFunctions,31,780,16,152,5,203,16,90,0,22
+Closure Compiler,com.google.javascript.jscomp,ReplaceIdGenerators.PseudoNameSupplier,0,42,0,2,0,8,0,4,0,3
+Closure Compiler,com.google.javascript.jscomp,MakeDeclaredNamesUnique.WhitelistedRenamer,4,47,0,4,1,12,1,7,1,5
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.RequireFileoverviewVisibility,0,32,2,8,0,11,2,5,0,2
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.59.new CompilerPass() {...},25,0,0,0,5,0,2,0,2,0
+Closure Compiler,com.google.javascript.jscomp,SyntacticScopeCreator,30,248,9,36,8,69,9,23,0,8
+Closure Compiler,com.google.javascript.jscomp,CombinedCompilerPass,3,167,2,14,2,30,2,15,0,9
+Closure Compiler,com.google.javascript.jscomp,FunctionInjector.CallSiteType.new FunctionInjector.CallSiteType() {...},12,6,0,0,1,1,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,Es6TypedToEs6Converter,65,2012,8,214,13,493,9,149,1,34
+Closure Compiler,com.google.javascript.jscomp,WhitelistWarningsGuard,189,0,16,0,47,0,22,0,14,0
+Closure Compiler,com.google.javascript.jscomp,FunctionInjector.CallSiteType.new FunctionInjector.CallSiteType() {...},1,30,1,1,0,7,1,2,0,2
+Closure Compiler,com.google.javascript.jscomp,FunctionInjector.CallSiteType.new FunctionInjector.CallSiteType() {...},0,7,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteModules.FindMutatedExports,0,61,1,13,0,13,1,8,0,2
+Closure Compiler,com.google.javascript.jscomp,FunctionInjector.CallSiteType.new FunctionInjector.CallSiteType() {...},0,7,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,FunctionInjector.CallSiteType.new FunctionInjector.CallSiteType() {...},1,30,1,1,0,7,1,2,0,2
+Closure Compiler,com.google.javascript.jscomp,FunctionInjector.CallSiteType.new FunctionInjector.CallSiteType() {...},0,7,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,SideEffectsAnalysis.RawMotionEnvironment,0,9,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,PassFactory,3,23,0,0,1,8,1,5,1,5
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteGenerators.GeneratorFunctionsTranspiler,0,38,0,4,0,8,0,5,0,3
+Closure Compiler,com.google.javascript.jscomp,JSModuleGraph.ModuleDependenceException,16,0,0,0,6,0,3,0,3,0
+Closure Compiler,com.google.javascript.jscomp,Es6ConvertSuper,43,488,11,59,8,119,10,36,0,11
+Closure Compiler,com.google.javascript.jscomp,MakeDeclaredNamesUnique.InlineRenamer,14,130,7,11,2,27,6,10,0,7
+Closure Compiler,com.google.javascript.jscomp,PeepholeReplaceKnownMethods,38,1656,40,310,16,437,40,164,0,21
+Closure Compiler,com.google.javascript.jscomp,NodeTraversal.AbstractScopedCallback,0,7,0,0,0,4,0,4,0,4
+Closure Compiler,com.google.javascript.jscomp,ConformanceConfig.Builder,451,187,55,17,119,54,60,18,28,14
+Closure Compiler,com.google.javascript.jscomp,PureFunctionIdentifier.new FixedPointGraphTraversal.EdgeCallback() {...},0,11,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,Requirement.TypeMatchingStrategy,44,80,7,1,13,14,12,4,6,4
+Closure Compiler,com.google.javascript.jscomp,TransformAMDToCJSModule.RenameCallback,0,27,0,4,0,8,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp,Es6RenameVariablesInParamLists.new NodeTraversal.AbstractPreOrderCallback() {...},4,34,3,7,0,8,2,5,0,2
+Closure Compiler,com.google.javascript.jscomp,IdGenerator,0,21,0,2,0,4,0,4,0,3
+Closure Compiler,com.google.javascript.jscomp,ObjectPropertyStringPostprocess,0,16,0,0,0,5,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,TemplateAstMatcher,8,702,8,104,2,173,8,68,0,20
+Closure Compiler,com.google.javascript.jscomp,CleanupPasses.MemoizedScopeCleanupPass,1,55,1,9,1,17,2,6,1,2
+Closure Compiler,com.google.javascript.jscomp,GuardedCallback,2,245,4,42,1,50,4,27,0,8
+Closure Compiler,com.google.javascript.jscomp,NameBasedDefinitionProvider,16,380,3,45,3,87,4,30,1,9
+Closure Compiler,com.google.javascript.jscomp,FunctionRewriter.ReductionGatherer,0,49,0,4,0,12,0,5,0,3
+Closure Compiler,com.google.javascript.jscomp,SymbolTable.new Ordering() {...},30,6,6,0,5,1,4,1,1,1
+Closure Compiler,com.google.javascript.jscomp,SymbolTable.new Ordering() {...},0,36,0,2,0,7,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,SymbolTable.new NodeTraversal.AbstractScopedCallback() {...},0,14,0,0,0,4,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,SymbolTable.new Ordering() {...},19,6,2,0,4,1,2,1,1,1
+Closure Compiler,com.google.javascript.jscomp,Es6ToEs3ClassSideInheritance.JavascriptClass,0,18,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,MustBeReachingVariableDef.MustDef,4,58,1,5,1,12,2,6,1,4
+Closure Compiler,com.google.javascript.jscomp,InstrumentFunctions.RemoveCallback,0,28,1,7,0,8,1,5,0,2
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteModules.NameNodePair,17,12,0,0,1,5,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,JsMessageExtractor.new Callable() {...},0,15,0,0,0,3,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,FlowSensitiveInlineVariables.Candidate.new ControlFlowGraph.AbstractCfgNodeTraversalCallback() {...},0,48,0,11,0,10,0,8,0,2
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteBlockScopedDeclaration.LoopClosureTransformer.ContinueStatementUpdater,1,106,3,19,0,30,3,12,0,4
+Closure Compiler,com.google.javascript.jscomp,ReferenceCollection,25,307,4,62,8,73,5,42,1,13
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedCode.Continuation,0,32,0,2,0,8,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,FunctionInformationMap.Module.new AbstractParser() {...},10,0,0,0,2,0,2,0,2,0
+Closure Compiler,com.google.javascript.jscomp,TypeInferencePass,11,140,2,6,2,31,2,8,0,6
+Closure Compiler,com.google.javascript.jscomp,FlowSensitiveInlineVariables.Candidate.new Predicate() {...},0,16,0,2,0,4,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,FlowSensitiveInlineVariables.Candidate.new ControlFlowGraph.AbstractCfgNodeTraversalCallback() {...},0,54,0,14,0,11,0,10,0,3
+Closure Compiler,com.google.javascript.jscomp,SourceFile.AtUrl,18,69,3,3,6,22,4,6,2,5
+Closure Compiler,com.google.javascript.jscomp,FlowSensitiveInlineVariables.Candidate.new Predicate() {...},0,27,0,6,0,6,0,5,0,2
+Closure Compiler,com.google.javascript.jscomp,FlowSensitiveInlineVariables.Candidate.new Predicate() {...},0,13,0,2,0,2,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,CoalesceVariableNames,14,629,7,105,3,153,6,59,0,9
+Closure Compiler,com.google.javascript.jscomp,RhinoErrorReporter,0,262,0,6,0,85,0,11,0,8
+Closure Compiler,com.google.javascript.jscomp,FunctionInformationMap.Entry.new AbstractParser() {...},7,3,0,0,1,1,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,FindModuleDependencies,72,345,23,77,19,95,16,43,0,9
+Closure Compiler,com.google.javascript.jscomp,CoverageUtil,0,5,0,0,0,1,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,TypedScopeCreator.NormalScopeBuilder,0,121,0,32,0,27,0,21,0,3
+Closure Compiler,com.google.javascript.jscomp,MaybeReachingVariableUse,0,448,2,60,0,101,2,43,0,10
+Closure Compiler,com.google.javascript.jscomp,BasicErrorManager.ErrorWithLevel,3,54,2,2,1,8,2,3,0,3
+Closure Compiler,com.google.javascript.jscomp,CheckUnusedPrivateProperties,18,297,5,72,3,70,6,48,1,12
+Closure Compiler,com.google.javascript.jscomp,CombinedCompilerPass.CallbackWrapper,0,81,0,20,0,22,0,16,0,6
+Closure Compiler,com.google.javascript.jscomp,DataFlowAnalysis.new NodeTraversal.AbstractPostOrderCallback() {...},0,50,0,10,0,11,0,7,0,2
+Closure Compiler,com.google.javascript.jscomp,ClosureRewriteClass,78,1160,28,160,17,300,27,89,0,21
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteRestAndSpread.new NodeUtil.Visitor() {...},0,28,1,5,0,4,1,4,0,2
+Closure Compiler,com.google.javascript.jscomp,NodeTraversal.AbstractNodeTypePruningCallback,5,21,0,2,2,5,1,3,1,2
+Closure Compiler,com.google.javascript.jscomp,VariableVisibilityAnalysis,13,107,2,18,1,25,2,12,0,4
+Closure Compiler,com.google.javascript.jscomp,J2clClinitPrunerPass.RedundantClinitPruner,0,130,0,30,0,33,0,21,0,6
+Closure Compiler,com.google.javascript.jscomp,FunctionRewriter,2,158,4,16,1,34,4,10,0,4
+Closure Compiler,com.google.javascript.jscomp,CodePrinter.MappedCodePrinter.Mapping,20,0,0,0,1,0,1,0,1,0
+Closure Compiler,com.google.javascript.jscomp,Tracer.new Tracer.InternalClock() {...},0,5,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,InlineFunctions.FunctionState,1,216,1,23,0,65,1,38,0,27
+Closure Compiler,com.google.javascript.jscomp,ReplaceCssNames,0,66,1,1,0,22,1,5,0,5
+Closure Compiler,com.google.javascript.jscomp,ModuleMetadata.Module.Builder,39,70,4,12,7,20,4,10,0,6
+Closure Compiler,com.google.javascript.jscomp,RenameVars.ProcessVars,0,253,1,57,0,57,1,33,0,5
+Closure Compiler,com.google.javascript.jscomp,J2clEqualitySameRewriterPass.Eq,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CheckConformance.InvalidRequirementSpec,0,4,0,0,0,2,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,ProcessDefines.CollectDefines,9,444,5,67,2,93,5,40,0,9
+Closure Compiler,com.google.javascript.jscomp,ImplicitNullabilityCheck,0,77,0,4,0,22,0,7,0,5
+Closure Compiler,com.google.javascript.jscomp,InlineCostEstimator.CompiledSizeEstimator,0,63,0,2,0,21,0,9,0,8
+Closure Compiler,com.google.javascript.jscomp,TypeInfoCheck,104,0,28,0,28,0,20,0,6,0
+Closure Compiler,com.google.javascript.jscomp,SourceMap.PrefixLocationMapping,20,64,3,5,2,11,4,5,1,4
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.106.new CompilerPass() {...},0,26,0,0,0,3,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,LinkedFlowScope,33,582,16,112,5,114,18,70,3,21
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig,145,2993,63,327,25,534,58,163,0,25
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedPolyfills,26,130,8,16,6,36,5,14,0,7
+Closure Compiler,com.google.javascript.jscomp,SideEffectsAnalysis.LocationSummary,0,15,0,0,0,6,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,NameAnonymousFunctions,0,49,0,0,0,11,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,TypeMatchingStrategy,0,140,1,27,0,24,1,16,0,3
+Closure Compiler,com.google.javascript.jscomp,RescopeGlobalSymbols,2,234,2,16,1,35,2,14,0,7
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.7.new CompilerPass() {...},0,24,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedCode.InstanceofName,23,40,2,2,2,12,3,3,1,3
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteClass.CheckClassAssignments,0,34,0,6,0,8,0,5,0,2
+Closure Compiler,com.google.javascript.jscomp,PolymerClassDefinition.DefinitionType,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,Es6RenameVariablesInParamLists.CollectReferences,0,19,0,2,0,6,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,ConformanceWhitelister,0,62,0,0,0,19,0,5,0,5
+Closure Compiler,com.google.javascript.jscomp,MinimizedCondition,1,339,1,22,0,60,1,18,0,6
+Closure Compiler,com.google.javascript.jscomp,PreprocessorSymbolTable,16,105,1,7,5,24,5,11,4,8
+Closure Compiler,com.google.javascript.jscomp,DefinitionUseSiteFinder.UseSiteGatheringCallback,0,63,0,6,0,14,0,5,0,2
+Closure Compiler,com.google.javascript.jscomp,TypedScopeCreator.AbstractScopeBuilder.SlotDefiner,14,412,14,84,2,86,13,43,0,7
+Closure Compiler,com.google.javascript.jscomp,CodingConvention.Cache,0,15,0,0,0,6,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,DeadAssignmentsElimination.VariableLiveness,0,34,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,ReferenceCollectingCallback,0,480,1,68,0,104,1,54,0,20
+Closure Compiler,com.google.javascript.jscomp,PolymerPassStaticUtils.new NodeUtil.Visitor() {...},0,33,1,7,0,9,1,5,0,2
+Closure Compiler,com.google.javascript.jscomp,AliasStrings,53,365,8,44,13,87,7,30,1,10
+Closure Compiler,com.google.javascript.jscomp,FunctionTypeBuilder.AstFunctionContents,0,38,0,4,0,11,0,8,0,6
+Closure Compiler,com.google.javascript.jscomp,CrossModuleReferenceCollector,13,678,14,127,1,158,14,74,1,16
+Closure Compiler,com.google.javascript.jscomp,DefaultNameGenerator.CharPriority,0,44,0,2,0,13,0,4,0,3
+Closure Compiler,com.google.javascript.jscomp,ShadowVariables,0,53,0,2,0,14,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,MustBeReachingVariableDef.new ControlFlowGraph.AbstractCfgNodeTraversalCallback() {...},0,35,0,4,0,7,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteRestAndSpread,37,949,12,81,6,237,13,51,1,16
+Closure Compiler,com.google.javascript.jscomp,CheckConstPrivateProperties,6,209,6,49,2,55,7,31,1,9
+Closure Compiler,com.google.javascript.jscomp,RewritePolyfills,14,171,8,20,4,47,8,18,0,9
+Closure Compiler,com.google.javascript.jscomp,ScopedAliases.Traversal,14,1005,10,150,3,231,10,92,0,22
+Closure Compiler,com.google.javascript.jscomp,TransformAMDToCJSModule.TransformAMDModulesCallback,10,389,7,61,4,103,7,34,0,7
+Closure Compiler,com.google.javascript.jscomp,NodeNameExtractor,0,163,0,19,0,33,0,15,0,2
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteGenerators.SingleGeneratorFunctionTranspiler.TranspilationContext.Case,3,130,3,9,0,28,3,9,0,6
+Closure Compiler,com.google.javascript.jscomp,FunctionRewriter.SetterReducer,13,85,4,18,1,27,4,10,0,3
+Closure Compiler,com.google.javascript.jscomp,ConformanceConfig,271,149,30,13,67,46,42,16,22,14
+Closure Compiler,com.google.javascript.jscomp,PropertyRenamingPolicy,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,ProcessDefines.DefineInfo,1,42,1,3,0,14,1,6,0,5
+Closure Compiler,com.google.javascript.jscomp,SymbolTable.SymbolScope,10,200,4,34,2,41,6,30,2,15
+Closure Compiler,com.google.javascript.jscomp,AmbiguateProperties.PropertyGraph,25,21,2,0,6,6,4,4,3,4
+Closure Compiler,com.google.javascript.jscomp,RenameLabels.LabelInfo,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,DefinitionsRemover.RecordTypePropertyDefinition,18,0,0,0,4,0,2,0,2,0
+Closure Compiler,com.google.javascript.jscomp,AbstractCompiler.LifeCycleStage,0,58,0,8,0,7,0,8,0,4
+Closure Compiler,com.google.javascript.jscomp,MaybeReachingVariableUse.ReachingUses,4,30,1,3,1,8,2,4,1,3
+Closure Compiler,com.google.javascript.jscomp,PeepholeSubstituteAlternateSyntax,8,1376,19,236,2,356,18,146,0,26
+Closure Compiler,com.google.javascript.jscomp,AnalyzePrototypeProperties.ProcessProperties,133,631,48,113,27,146,35,63,1,14
+Closure Compiler,com.google.javascript.jscomp,IncrementalScopeCreator.PersistentScopeFactory,0,13,1,1,0,4,1,2,0,2
+Closure Compiler,com.google.javascript.jscomp,AnalyzePrototypeProperties.LiteralProperty,14,34,0,0,4,12,1,5,1,5
+Closure Compiler,com.google.javascript.jscomp,Xid,6,77,0,2,3,17,1,6,1,5
+Closure Compiler,com.google.javascript.jscomp,SourceFile.Preloaded,0,10,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,FunctionRewriter.ReturnConstantReducer,0,34,0,8,0,12,0,7,0,3
+Closure Compiler,com.google.javascript.jscomp,XtbMessageBundle,15,112,1,1,5,29,3,7,2,7
+Closure Compiler,com.google.javascript.jscomp,RenameVars.Assignment,1,34,1,1,0,10,1,2,0,2
+Closure Compiler,com.google.javascript.jscomp,FindModuleDependencies.FindGoogProvideOrGoogModule,41,0,16,0,15,0,10,0,2,0
+Closure Compiler,com.google.javascript.jscomp,StrictModeCheck.NonExternChecks,13,101,5,23,2,22,5,12,0,3
+Closure Compiler,com.google.javascript.jscomp,MethodCompilerPass.GetExternMethods,0,108,2,15,0,22,2,9,0,2
+Closure Compiler,com.google.javascript.jscomp,TypedScopeCreator.AbstractScopeBuilder,175,2614,73,537,32,636,67,289,2,44
+Closure Compiler,com.google.javascript.jscomp,Compiler.new Callable() {...},21,0,0,0,5,0,2,0,2,0
+Closure Compiler,com.google.javascript.jscomp,Compiler.new Supplier() {...},0,11,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,DisambiguateProperties.FindExternProperties,0,79,0,16,0,16,0,11,0,3
+Closure Compiler,com.google.javascript.jscomp,CssRenamingMap.ByPart,0,5,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,WarningsGuard,4,10,0,0,2,4,2,4,2,4
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteArrowFunction.ThisAndArgumentsReferenceUpdater,0,86,1,13,0,20,1,9,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.ClearTypedScope,0,10,0,0,0,3,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,Normalize.VerifyConstants,6,136,6,22,1,36,6,11,0,3
+Closure Compiler,com.google.javascript.jscomp,Compiler.new AbstractSet() {...},5,10,0,0,2,3,2,3,2,3
+Closure Compiler,com.google.javascript.jscomp,Compiler.new Callable() {...},0,16,0,2,0,4,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,Compiler.new Callable() {...},0,11,0,0,0,3,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,Compiler.new Callable() {...},1,27,1,1,0,5,1,2,0,2
+Closure Compiler,com.google.javascript.jscomp,Compiler.new Callable() {...},0,11,0,0,0,3,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,Compiler.new PassFactory() {...},2,13,0,0,1,2,1,2,1,2
+Closure Compiler,com.google.javascript.jscomp,RemoveSuperMethodsPass,0,62,0,2,0,14,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,Compiler.new Callable() {...},0,11,0,0,0,3,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,TypeInferencePass.SecondScopeBuildingCallback,0,20,0,2,0,6,0,4,0,3
+Closure Compiler,com.google.javascript.jscomp,CrossModuleCodeMotion,3,278,12,40,0,69,12,24,0,10
+Closure Compiler,com.google.javascript.jscomp,DefinitionsRemover.FunctionExpressionDefinition,0,22,0,0,0,6,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,MoveFunctionDeclarations,0,117,1,15,0,29,1,11,0,4
+Closure Compiler,com.google.javascript.jscomp,RemoveSuperMethodsPass.RemoveSuperMethodsCallback,13,253,15,57,7,62,15,26,0,5
+Closure Compiler,com.google.javascript.jscomp,CodingConventions,17,30,8,6,3,9,6,4,1,2
+Closure Compiler,com.google.javascript.jscomp,SideEffectsAnalysis.LocationAbstraction,0,37,0,2,0,8,0,2,0,1
+Closure Compiler,com.google.javascript.jscomp,OptimizeParameters.UnusedParameterOptimizer,4,404,8,74,2,102,8,39,0,6
+Closure Compiler,com.google.javascript.jscomp,BasicErrorManager.LeveledJSErrorComparator,10,111,6,34,5,29,6,16,0,2
+Closure Compiler,com.google.javascript.jscomp,TypeCheck.SuggestionPair,9,0,0,0,4,0,1,0,1,0
+Closure Compiler,com.google.javascript.jscomp,GlobalNamespace.Ref.Type,0,74,0,0,0,8,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CodingConventions.DefaultCodingConvention,46,235,9,43,18,65,24,45,15,28
+Closure Compiler,com.google.javascript.jscomp,JsAst,28,191,1,21,6,49,2,19,1,9
+Closure Compiler,com.google.javascript.jscomp,Instrumentation.Builder,756,294,70,24,221,82,84,23,45,15
+Closure Compiler,com.google.javascript.jscomp,RewriteAsyncFunctions.LexicalContext,0,96,0,10,0,25,0,12,0,7
+Closure Compiler,com.google.javascript.jscomp,Requirement.Type.new Internal.EnumLiteMap() {...},3,3,0,0,1,1,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,CompilerOptions.TweakProcessing,4,44,2,2,0,6,2,3,0,3
+Closure Compiler,com.google.javascript.jscomp,ExpressionDecomposer.DecompositionType,0,34,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,Es7RewriteExponentialOperator,0,206,0,5,0,53,0,12,0,9
+Closure Compiler,com.google.javascript.jscomp,TypeTransformation,89,1675,23,161,17,353,19,139,0,55
+Closure Compiler,com.google.javascript.jscomp,Es6TypedToEs6Converter.ScanNamespaces,19,129,4,15,4,22,3,12,0,3
+Closure Compiler,com.google.javascript.jscomp,FieldCleanupPass.QualifiedNameSearchTraversal,1,59,2,10,1,16,2,8,0,4
+Closure Compiler,com.google.javascript.jscomp,ReplaceIdGenerators.ObfuscatedNameSupplier,0,36,0,2,0,11,0,4,0,3
+Closure Compiler,com.google.javascript.jscomp,GoogleCodingConvention,0,190,3,43,0,40,3,33,0,13
+Closure Compiler,com.google.javascript.jscomp,CodePrinter.Builder.new CodePrinter.Builder.CodeGeneratorFactory() {...},0,28,0,2,0,4,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,AliasStrings.StringInfo,0,158,3,27,0,35,3,15,0,3
+Closure Compiler,com.google.javascript.jscomp,SymbolTable,458,1558,92,244,95,361,75,152,7,52
+Closure Compiler,com.google.javascript.jscomp,Promises,0,59,0,8,0,16,0,6,0,2
+Closure Compiler,com.google.javascript.jscomp,JSModuleGraph,115,1065,21,121,21,228,20,74,3,20
+Closure Compiler,com.google.javascript.jscomp,CompilerExecutor.new ThreadFactory() {...},0,16,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,CompilerExecutor.new Callable() {...},2,46,2,2,2,10,2,2,0,2
+Closure Compiler,com.google.javascript.jscomp,AutoValue_Es6RewriteModulesToCommonJsModules_ModuleRequest,32,67,6,6,5,19,7,5,1,5
+Closure Compiler,com.google.javascript.jscomp,ProcessCommonJSModules,63,777,65,143,19,204,60,67,0,23
+Closure Compiler,com.google.javascript.jscomp,CheckSuspiciousCode,0,173,0,25,0,53,0,24,0,11
+Closure Compiler,com.google.javascript.jscomp,CommandLineRunner.FormattingOption,20,44,3,1,5,8,3,2,0,2
+Closure Compiler,com.google.javascript.jscomp,Normalize.ScopeTicklingCallback,0,8,0,0,0,5,0,4,0,4
+Closure Compiler,com.google.javascript.jscomp,TransformAMDToCJSModule,0,55,1,5,0,16,1,7,0,5
+Closure Compiler,com.google.javascript.jscomp,CommandLineRunner.Flags.WarningGuardOffOptionHandler,0,12,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,DefinitionsRemover.AssignmentDefinition,0,42,0,0,0,12,0,4,0,4
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteModules.RenameGlobalVars,34,371,12,46,5,77,11,22,0,4
+Closure Compiler,com.google.javascript.jscomp,ExtractPrototypeMemberDeclarations.GatherExtractionInfo,0,82,0,12,0,17,0,9,0,3
+Closure Compiler,com.google.javascript.jscomp,InlineFunctions.NamedFunction,4,36,0,0,1,9,1,4,1,4
+Closure Compiler,com.google.javascript.jscomp,LinterMain,46,0,4,0,13,0,5,0,3,0
+Closure Compiler,com.google.javascript.jscomp,AnalyzePrototypeProperties.MemberFunction,40,0,6,0,11,0,7,0,4,0
+Closure Compiler,com.google.javascript.jscomp,RenameLabels.LabelNamespace,0,8,0,0,0,2,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CheckMissingReturn.new Predicate() {...},0,45,0,12,0,12,0,8,0,2
+Closure Compiler,com.google.javascript.jscomp,CheckMissingReturn.new Predicate() {...},0,12,0,4,0,2,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp,FunctionInformationMap,357,105,33,5,83,29,46,14,27,13
+Closure Compiler,com.google.javascript.jscomp,CodingConvention.AssertionFunctionSpec,6,23,1,1,2,7,2,4,1,4
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.45.new HotSwapCompilerPass() {...},0,49,0,0,0,9,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,ModuleMetadata.Finder,54,594,21,102,7,124,21,53,0,10
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteDestructuring,94,1017,10,86,25,233,9,58,0,18
+Closure Compiler,com.google.javascript.jscomp,InlineProperties.ReplaceCandidates,0,96,1,17,0,21,1,11,0,3
+Closure Compiler,com.google.javascript.jscomp,JsMessage.Builder,5,225,0,20,2,54,1,27,1,17
+Closure Compiler,com.google.javascript.jscomp,AbstractMessageFormatter,33,45,3,4,6,15,4,8,1,7
+Closure Compiler,com.google.javascript.jscomp,ShadowVariables.DoShadowVariables,20,351,5,49,3,70,5,28,0,6
+Closure Compiler,com.google.javascript.jscomp,ShadowVariables.Reference,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,Es6SyntacticScopeCreator.DefaultRedeclarationHandler,0,4,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.BannedName,8,117,4,23,2,26,4,14,0,4
+Closure Compiler,com.google.javascript.jscomp,ProcessTweaks.CollectTweaks,15,193,2,22,3,46,2,13,0,2
+Closure Compiler,com.google.javascript.jscomp,OutputCharsetEncoder,7,21,3,5,0,6,2,4,0,2
+Closure Compiler,com.google.javascript.jscomp,J2clPropertyInlinerPass.StaticFieldGetterSetterInliner.DetermineInlinableProperties,0,39,2,8,0,11,2,5,0,2
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.10.new CompilerPass() {...},0,24,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,ProcessClosurePrimitives.new CssRenamingMap() {...},0,28,0,2,0,5,0,4,0,3
+Closure Compiler,com.google.javascript.jscomp,ClosureOptimizePrimitives.FindPrimitives,0,55,0,12,0,15,0,8,0,2
+Closure Compiler,com.google.javascript.jscomp,StrictModeCheck,6,330,6,54,1,78,5,36,0,10
+Closure Compiler,com.google.javascript.jscomp,GlobalNamespace.Name.Type,0,64,0,0,0,7,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CodingConvention.DelegateRelationship,9,0,0,0,4,0,1,0,1,0
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedPolyfills.CollectUnusedPolyfills,38,269,7,45,4,64,7,27,0,8
+Closure Compiler,com.google.javascript.jscomp,StripCode.Strip,13,713,12,138,4,192,12,87,0,20
+Closure Compiler,com.google.javascript.jscomp,SourceFile.Builder,6,86,0,2,1,16,1,11,1,10
+Closure Compiler,com.google.javascript.jscomp,EsNextToEs8Converter.ComputedPropertyName,0,9,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,PreprocessorSymbolTable.Reference,0,5,0,0,0,2,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,RuntimeTypeCheck.AddChecks,1,305,4,46,1,83,4,27,0,6
+Closure Compiler,com.google.javascript.jscomp,ExternExportsPass.PropertyExport,0,92,0,6,0,13,0,5,0,2
+Closure Compiler,com.google.javascript.jscomp,NodeIterators.LocalVarMotion,8,202,5,39,3,47,6,23,1,6
+Closure Compiler,com.google.javascript.jscomp,MinimizedCondition.MinimizationStyle,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CompilerOptions.DisposalCheckingPolicy,34,0,0,0,4,0,1,0,1,0
+Closure Compiler,com.google.javascript.jscomp,CollectFunctionNames,0,199,2,26,0,51,2,20,0,7
+Closure Compiler,com.google.javascript.jscomp,PerformanceTracker.new Comparator() {...},10,6,0,0,1,1,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,InvalidatingTypes.Builder,26,184,6,16,4,50,5,15,0,9
+Closure Compiler,com.google.javascript.jscomp,FunctionInformationMap.Builder,971,117,124,10,256,35,115,8,49,7
+Closure Compiler,com.google.javascript.jscomp,AbstractMessageFormatter.Color,3,67,0,0,1,9,1,2,1,2
+Closure Compiler,com.google.javascript.jscomp,ReplaceIdGenerators.GatherGenerators,16,202,7,21,5,46,5,11,0,2
+Closure Compiler,com.google.javascript.jscomp,TypeCheck,226,5008,86,825,31,1184,77,474,0,73
+Closure Compiler,com.google.javascript.jscomp,DisambiguateProperties.FindRenameableProperties,201,453,26,62,35,99,20,33,0,9
+Closure Compiler,com.google.javascript.jscomp,ClosureCodeRemoval,0,156,0,14,0,38,0,9,0,2
+Closure Compiler,com.google.javascript.jscomp,InlineFunctions.FunctionVar,0,41,0,0,0,10,0,5,0,5
+Closure Compiler,com.google.javascript.jscomp,Normalize.NormalizeStatements,27,720,5,117,4,195,5,74,0,15
+Closure Compiler,com.google.javascript.jscomp,CollectFunctionNames.FunctionNamesMap,14,121,7,11,2,26,7,9,0,7
+Closure Compiler,com.google.javascript.jscomp,DiagnosticGroupPathSuppressingWarningsGuard,40,0,4,0,7,0,6,0,4,0
+Closure Compiler,com.google.javascript.jscomp,DefinitionsRemover.ObjectLiteralPropertyDefinition,13,39,1,1,1,12,1,5,0,5
+Closure Compiler,com.google.javascript.jscomp,CheckProvides,0,33,0,0,0,10,0,4,0,4
+Closure Compiler,com.google.javascript.jscomp,RewriteAsyncFunctions,14,394,4,34,2,86,4,24,0,7
+Closure Compiler,com.google.javascript.jscomp,ThreadSafeDelegatingErrorManager,0,45,0,0,0,15,0,10,0,10
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.RestrictedNameCall.Restriction,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,RenameProperties.new Comparator() {...},0,20,0,2,0,4,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,VariableReferenceCheck.ReferenceCheckingBehavior,0,398,6,88,0,84,6,46,0,5
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteBlockScopedDeclaration.LoopClosureTransformer.LoopObject,0,14,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,DeadPropertyAssignmentElimination.FindCandidateAssignmentTraversal,13,257,7,54,4,85,7,37,1,11
+Closure Compiler,com.google.javascript.jscomp,ErrorFormat.new ErrorFormat() {...},11,6,0,0,3,1,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,TypedScopeCreator.FirstOrderFunctionAnalyzer,0,143,0,34,0,31,0,20,0,3
+Closure Compiler,com.google.javascript.jscomp,ErrorFormat.new ErrorFormat() {...},0,13,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.54.new CompilerPass() {...},0,57,0,2,0,8,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,ErrorFormat.new ErrorFormat() {...},0,16,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,TypeInference.BooleanOutcomePair,0,63,0,12,0,15,0,9,0,3
+Closure Compiler,com.google.javascript.jscomp,ShowByPathWarningsGuard.ShowType,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,InvocationsCallback,1,28,1,5,1,10,1,4,0,2
+Closure Compiler,com.google.javascript.jscomp,RewritePolyfills.Polyfills.new Function() {...},0,11,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,JoinOp.BinaryJoinOp,1,88,1,11,0,21,1,8,0,3
+Closure Compiler,com.google.javascript.jscomp,Es6SyntacticScopeCreator.ScopeScanner,24,386,6,95,6,99,7,57,1,6
+Closure Compiler,com.google.javascript.jscomp,RuntimeTypeCheck.AddMarkers,2,170,3,23,1,46,3,17,0,7
+Closure Compiler,com.google.javascript.jscomp,MarkNoSideEffectCalls,0,79,0,8,0,18,0,8,0,4
+Closure Compiler,com.google.javascript.jscomp,GlobalNamespace.Ref,17,142,8,10,2,35,8,14,2,11
+Closure Compiler,com.google.javascript.jscomp,AbstractScope.ImplicitVar,0,65,0,4,0,13,0,7,0,4
+Closure Compiler,com.google.javascript.jscomp,NodeUtil.MatchDeclaration,0,6,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,PhaseOptimizer.NamedPass,25,186,0,10,3,30,1,7,1,2
+Closure Compiler,com.google.javascript.jscomp,DefinitionsRemover.UnknownDefinition,5,5,0,0,1,2,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,FlowSensitiveInlineVariables,11,323,5,59,3,74,4,41,0,13
+Closure Compiler,com.google.javascript.jscomp,RenameLabels.ProcessLabels,3,250,6,31,0,64,6,22,0,9
+Closure Compiler,com.google.javascript.jscomp,ProcessTweaks.TweakFunctionCall,0,22,0,0,0,8,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,J2clPass,0,62,0,2,0,16,0,4,0,3
+Closure Compiler,com.google.javascript.jscomp,WhitelistWarningsGuard.WhitelistBuilder,202,0,20,0,43,0,17,0,7,0
+Closure Compiler,com.google.javascript.jscomp,CompilerOptions,1376,1767,60,69,419,621,152,235,107,213
+Closure Compiler,com.google.javascript.jscomp,Normalize.FindExposeAnnotations,0,74,0,20,0,15,0,13,0,3
+Closure Compiler,com.google.javascript.jscomp,Es6CheckModule,6,122,2,28,2,30,3,18,1,4
+Closure Compiler,com.google.javascript.jscomp,DiagnosticGroupWarningsGuard,20,85,6,14,3,15,4,13,1,6
+Closure Compiler,com.google.javascript.jscomp,UniqueRenamingToken,2,3,0,0,1,1,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,NameAnonymousFunctions.AnonymousFunctionNamer,0,69,0,0,0,13,0,5,0,5
+Closure Compiler,com.google.javascript.jscomp,SideEffectsAnalysis.CrossModuleMotionEnvironment,5,0,0,0,3,0,2,0,2,0
+Closure Compiler,com.google.javascript.jscomp,ReplaceIdGenerators.ReplaceGenerators,0,246,0,32,0,57,0,19,0,3
+Closure Compiler,com.google.javascript.jscomp,InlineSimpleMethods.new MethodCompilerPass.SignatureStore() {...},0,6,0,0,0,4,0,4,0,4
+Closure Compiler,com.google.javascript.jscomp,AbstractCompiler.ConfigContext,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,GlobalNamespace.AstChange,1,58,3,3,0,11,3,3,0,3
+Closure Compiler,com.google.javascript.jscomp,PeepholeOptimizationsPass.PeepCallback,0,29,0,4,0,8,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.CustomRuleProxy.new TypeToken() {...},0,3,0,0,0,1,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.CustomRuleProxy.new TypeToken() {...},0,3,0,0,0,1,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.CustomRuleProxy.new TypeToken() {...},0,3,0,0,0,1,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CollapseProperties,2,1381,20,239,0,335,20,138,0,27
+Closure Compiler,com.google.javascript.jscomp,Tracer.AtomicTracerStatMap,50,0,6,0,12,0,6,0,3,0
+Closure Compiler,com.google.javascript.jscomp,TypeMismatch,50,291,20,60,5,64,20,31,2,9
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteGenerators.YieldExposer,3,90,2,6,2,21,2,5,0,3
+Closure Compiler,com.google.javascript.jscomp,InjectRuntimeLibraries,0,38,0,4,0,10,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp,DataFlowAnalysis.BranchedFlowState,53,25,6,0,7,10,6,3,3,3
+Closure Compiler,com.google.javascript.jscomp,CommandLineRunner.new SimpleFileVisitor() {...},2,59,1,7,1,9,2,5,1,2
+Closure Compiler,com.google.javascript.jscomp,SideEffectsAnalysis.VisibilityLocationAbstraction.VisibilityBasedEffectLocation,0,49,0,4,0,12,0,6,0,4
+Closure Compiler,com.google.javascript.jscomp,CommandLineRunner.Flags.JsZipOptionHandler,0,12,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CompilerOptions.NullAliasTransformationHandler,0,11,0,0,0,3,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,CompilerOptions.LanguageMode,6,159,2,15,2,31,2,14,0,4
+Closure Compiler,com.google.javascript.jscomp,TypeInferencePass.FirstScopeBuildingCallback,0,5,0,0,0,3,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,InlineVariables.AliasCandidate,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteGenerators.SingleGeneratorFunctionTranspiler.TranspilationContext.LabelCases,0,12,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CheckRegExp,4,204,3,37,0,30,3,22,0,5
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.26.new HotSwapCompilerPass() {...},0,29,0,0,0,5,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,ReplaceIdGenerators,2,228,3,21,0,58,3,16,0,7
+Closure Compiler,com.google.javascript.jscomp,LinkedFlowScope.FlowScopeJoinOp,0,43,0,6,0,9,0,5,0,2
+Closure Compiler,com.google.javascript.jscomp,FieldCleanupPass,1,23,0,0,1,8,1,2,1,2
+Closure Compiler,com.google.javascript.jscomp,InstrumentationTemplate.new Descriptors.FileDescriptor.InternalDescriptorAssigner() {...},0,45,0,0,0,5,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,SimpleRegion,0,21,0,0,0,8,0,4,0,4
+Closure Compiler,com.google.javascript.jscomp,J2clStringValueOfRewriterPass,0,99,1,21,0,23,1,16,0,6
+Closure Compiler,com.google.javascript.jscomp,InlineAliases.AliasesInliner.new NodeUtil.Visitor() {...},0,63,0,8,0,16,0,6,0,2
+Closure Compiler,com.google.javascript.jscomp,FunctionArgumentInjector,21,645,11,133,3,151,11,75,0,13
+Closure Compiler,com.google.javascript.jscomp,Compiler.new HasCompiler() {...},0,10,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,CompilerOptions.ExtractPrototypeMemberDeclarationsMode,0,34,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.36.new CompilerPass() {...},0,24,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,PassConfig,136,93,19,3,34,26,16,11,6,10
+Closure Compiler,com.google.javascript.jscomp,PolymerPass.MemberDefinition,12,12,0,0,1,5,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,ProcessCommonJSModules.FindImportsAndExports.UmdTestInfo,0,12,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,AmbiguateProperties.Property,3,97,2,14,1,24,2,9,0,3
+Closure Compiler,com.google.javascript.jscomp,CheckSuper.FindSuper,0,36,0,10,0,9,0,8,0,3
+Closure Compiler,com.google.javascript.jscomp,RenameVars.new Comparator() {...},0,19,0,2,0,4,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,RenameVars.new Comparator() {...},0,9,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,RescopeGlobalSymbols.RemoveGlobalVarCallback,0,146,1,23,0,34,1,14,0,3
+Closure Compiler,com.google.javascript.jscomp,TypeMismatch.LazyError,1,59,1,1,0,7,1,3,0,3
+Closure Compiler,com.google.javascript.jscomp,InlineProperties.GatherCandidates,4,222,7,45,1,56,7,26,0,7
+Closure Compiler,com.google.javascript.jscomp,BasicErrorManager,0,177,1,15,0,38,1,18,0,11
+Closure Compiler,com.google.javascript.jscomp,ByPathWarningsGuard,2,93,2,14,0,21,2,11,0,5
+Closure Compiler,com.google.javascript.jscomp,CheckJSDoc,36,948,30,249,13,246,29,148,1,29
+Closure Compiler,com.google.javascript.jscomp,CompilerOptions.IsolationMode,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,IncrementalScopeCreator.PersistentGlobalScope,4,298,6,28,0,71,6,22,0,11
+Closure Compiler,com.google.javascript.jscomp,DiagnosticGroup,6,127,1,7,1,31,2,15,1,12
+Closure Compiler,com.google.javascript.jscomp,Es6RenameVariablesInParamLists,0,157,1,9,0,29,1,9,0,5
+Closure Compiler,com.google.javascript.jscomp,AbstractCompiler,1,52,1,3,0,13,1,7,0,6
+Closure Compiler,com.google.javascript.jscomp,RescopeGlobalSymbols.RewriteScopeCallback,0,403,3,59,0,85,3,37,0,9
+Closure Compiler,com.google.javascript.jscomp,JsMessageExtractor,0,111,0,6,0,25,0,7,0,4
+Closure Compiler,com.google.javascript.jscomp,CodeGenerator,145,4026,92,721,15,1050,91,419,0,46
+Closure Compiler,com.google.javascript.jscomp,DataFlowAnalysis.BranchedForwardDataFlowAnalysis,1,179,1,17,0,38,1,13,0,5
+Closure Compiler,com.google.javascript.jscomp,SourceMap.DetailLevel.new SourceMap.DetailLevel() {...},0,8,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,SourceMap.DetailLevel.new SourceMap.DetailLevel() {...},0,38,6,12,0,9,6,5,0,2
+Closure Compiler,com.google.javascript.jscomp,Tracer.Stat,21,3,2,0,4,1,5,1,4,1
+Closure Compiler,com.google.javascript.jscomp,RewriteGoogJsImports,13,286,4,46,3,78,4,27,0,6
+Closure Compiler,com.google.javascript.jscomp,ExtractPrototypeMemberDeclarations.PrototypeMemberDeclaration,2,99,1,13,1,29,1,11,0,5
+Closure Compiler,com.google.javascript.jscomp,FunctionInjector.new Predicate() {...},0,34,0,8,0,6,0,6,0,2
+Closure Compiler,com.google.javascript.jscomp,NodeUtil.MatchNameNode,0,19,0,4,0,4,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp,FunctionInjector.new Predicate() {...},0,6,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,InstrumentationTemplate,1,19,0,0,1,6,1,2,1,2
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.AbstractRule,29,245,10,37,9,54,10,22,0,7
+Closure Compiler,com.google.javascript.jscomp,FunctionInjector.new Predicate() {...},0,46,1,11,0,8,1,7,0,2
+Closure Compiler,com.google.javascript.jscomp,FunctionInjector.new Supplier() {...},0,18,0,0,0,3,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,20,0,0,0,4,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,J2clConstantHoisterPass,5,255,11,53,2,65,11,31,0,10
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},2,12,0,0,1,2,1,2,1,2
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedCode.NamedClassExpression,10,34,2,2,1,10,3,2,1,2
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,SourceMap.DetailLevel,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,ClosureCodeRemoval.FindAbstractMethods,0,89,3,21,0,18,3,11,0,2
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,21,0,0,0,4,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,ExportTestFunctions,0,149,1,7,0,35,1,9,0,6
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,CollapseAnonymousFunctions,0,149,3,35,0,43,3,21,0,5
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,InlineFunctions.FunctionExpression,2,17,0,0,1,7,1,4,1,4
+Closure Compiler,com.google.javascript.jscomp,DeadPropertyAssignmentElimination.GetterSetterCollector,4,167,6,44,1,39,6,23,0,4
+Closure Compiler,com.google.javascript.jscomp,CrossModuleCodeMotion.OrderAndCombineGlobalSymbols,1,149,1,17,0,32,1,11,0,3
+Closure Compiler,com.google.javascript.jscomp,TypedCodeGenerator.new Function() {...},0,11,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,PhaseOptimizer.ProgressRange,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,PureFunctionIdentifier.FunctionAnalyzer,14,504,5,101,3,131,5,57,0,9
+Closure Compiler,com.google.javascript.jscomp,LiveVariablesAnalysis.LiveVariableJoinOp,0,27,0,2,0,4,0,2,0,1
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.ConformanceResult,0,36,0,0,0,10,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DiagnosticGroups,0,1349,0,0,0,190,0,9,0,9
+Closure Compiler,com.google.javascript.jscomp,PolymerBehaviorExtractor,36,341,6,52,6,79,6,28,0,5
+Closure Compiler,com.google.javascript.jscomp,DefinitionSite,0,18,0,0,0,7,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,FunctionInjector.CanInlineResult,0,34,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},2,23,1,1,0,5,1,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new CompilerPass() {...},9,14,1,1,2,3,1,2,0,2
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},7,7,0,0,2,1,2,1,2,1
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,FunctionInformationMap.Entry.Builder,685,248,85,13,200,72,89,12,40,12
+Closure Compiler,com.google.javascript.jscomp,ScopedAliases.Traversal.new SourcePosition() {...},0,6,0,0,0,1,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,16,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,ScopedAliases.Traversal.new NodeTraversal.AbstractPostOrderCallback() {...},0,55,1,5,0,7,1,4,0,2
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,28,0,2,0,5,0,4,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},17,8,0,0,3,1,2,1,2,1
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,22,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,AmbiguateProperties.JSTypeBitSet,43,7,2,0,10,3,3,1,2,1
+Closure Compiler,com.google.javascript.jscomp,CssRenamingMap.ByWhole,0,5,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,RenameProperties,14,425,7,37,4,91,8,22,1,7
+Closure Compiler,com.google.javascript.jscomp,ProcessClosurePrimitives.ProvidedName,5,541,9,77,0,137,9,48,0,14
+Closure Compiler,com.google.javascript.jscomp,CodePrinter.Builder,10,97,1,1,3,28,2,10,1,10
+Closure Compiler,com.google.javascript.jscomp,FunctionRewriter.Reducer,0,23,0,2,0,6,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.RequireUseStrict,5,25,2,6,1,8,2,4,0,2
+Closure Compiler,com.google.javascript.jscomp,CollapseProperties.new NodeTraversal.AbstractShallowCallback() {...},0,28,0,2,0,5,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,ReplacedStringsDecoder,0,82,0,8,0,16,0,7,0,3
+Closure Compiler,com.google.javascript.jscomp,DefinitionsRemover.IncompleteDefinition,0,31,0,0,0,11,0,4,0,4
+Closure Compiler,com.google.javascript.jscomp,SideEffectsAnalysis.IntraproceduralMotionEnvironment,5,0,0,0,3,0,2,0,2,0
+Closure Compiler,com.google.javascript.jscomp,CoalesceVariableNames.new Comparator() {...},0,20,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,PolymerPassErrors,0,57,0,0,0,18,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,Es6SplitVariableDeclarations,0,85,0,8,0,22,0,10,0,6
+Closure Compiler,com.google.javascript.jscomp,ControlFlowGraph.Branch,0,64,0,4,0,7,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp,ProcessTweaks.TweakInfo,0,201,0,20,0,43,0,19,0,9
+Closure Compiler,com.google.javascript.jscomp,Es6RelativizeImportPaths,0,34,1,3,0,9,1,3,0,2
+Closure Compiler,com.google.javascript.jscomp,DefinitionsRemover.ClassExpressionDefinition,0,21,0,0,0,7,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,InlineObjectLiterals.InliningBehavior,8,735,8,108,2,177,8,60,0,10
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},7,8,0,0,2,1,2,1,2,1
+Closure Compiler,com.google.javascript.jscomp,ScopedAliases.AliasedNode,13,35,3,3,2,11,2,3,0,2
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,ProcessClosurePrimitives,70,2549,57,347,21,589,57,193,0,40
+Closure Compiler,com.google.javascript.jscomp,MustBeReachingVariableDef,2,626,4,92,0,136,4,61,0,13
+Closure Compiler,com.google.javascript.jscomp,OptimizeParameters.Parameter,3,37,0,0,1,16,1,9,1,9
+Closure Compiler,com.google.javascript.jscomp,Timeline.Event,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,ErrorPass,23,0,0,0,8,0,3,0,3,0
+Closure Compiler,com.google.javascript.jscomp,CoverageInstrumentationCallback,27,260,7,25,9,69,7,16,0,7
+Closure Compiler,com.google.javascript.jscomp,NodeTraversal.AbstractModuleCallback,0,27,0,4,0,10,0,6,0,4
+Closure Compiler,com.google.javascript.jscomp,Es6ConvertSuper.new Predicate() {...},0,16,0,2,0,4,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,ReferenceCollectingCallback.ReferenceMapWrapper,4,15,0,0,1,5,1,3,1,3
+Closure Compiler,com.google.javascript.jscomp,CheckMissingAndExtraRequires,24,1437,37,270,5,324,34,159,0,35
+Closure Compiler,com.google.javascript.jscomp,FunctionArgumentInjector.ReferencedAfterSideEffect,2,170,2,42,1,43,2,27,0,7
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.RestrictedNameCall,19,143,9,23,5,33,9,11,0,4
+Closure Compiler,com.google.javascript.jscomp,CoalesceVariableNames.LiveRangeChecker,0,130,1,37,0,26,1,23,0,5
+Closure Compiler,com.google.javascript.jscomp,MinimizeExitPoints,30,466,17,95,8,125,15,53,0,10
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedCode.IncOrDecOp,12,79,3,11,1,18,4,6,1,2
+Closure Compiler,com.google.javascript.jscomp,ClosureRewriteModule.ScriptUpdater,0,130,0,27,0,34,0,20,0,5
+Closure Compiler,com.google.javascript.jscomp,NodeUtil,956,6836,374,1768,187,1664,306,1189,24,275
+Closure Compiler,com.google.javascript.jscomp,FunctionInformationMap.Entry,585,216,78,21,167,55,78,23,26,22
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedCode.Assign,27,203,8,42,4,44,8,26,1,8
+Closure Compiler,com.google.javascript.jscomp,PeepholeSubstituteAlternateSyntax.FoldArrayAction,0,34,0,0,0,2,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,ChromePass,0,874,9,103,0,191,9,66,0,19
+Closure Compiler,com.google.javascript.jscomp,LineNumberCheck,14,55,1,7,3,19,1,9,0,6
+Closure Compiler,com.google.javascript.jscomp,FunctionInfo,1,23,0,0,1,6,1,2,1,2
+Closure Compiler,com.google.javascript.jscomp,TypeValidator,79,1734,30,250,16,377,27,163,1,49
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.27.new CompilerPass() {...},0,42,0,2,0,8,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,InstrumentFunctions.InstrumentReturns,0,154,0,12,0,39,0,12,0,6
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.BanUnknownTypedClassPropsReferences,3,148,15,29,1,35,15,12,0,5
+Closure Compiler,com.google.javascript.jscomp,Normalize.RewriteExposedProperties,0,60,1,9,0,17,1,6,0,2
+Closure Compiler,com.google.javascript.jscomp,CheckSideEffects,0,328,2,62,0,79,2,37,0,7
+Closure Compiler,com.google.javascript.jscomp,CheckPathsBetweenNodes,11,265,8,42,3,74,6,30,0,11
+Closure Compiler,com.google.javascript.jscomp,ConvertToDottedProperties,0,70,0,11,0,20,0,9,0,3
+Closure Compiler,com.google.javascript.jscomp,AngularPass,4,424,5,56,1,121,5,36,0,9
+Closure Compiler,com.google.javascript.jscomp,GlobalNamespace.Name,119,748,26,175,12,170,27,114,2,31
+Closure Compiler,com.google.javascript.jscomp,ReplaceIdGenerators.MappedNameSupplier,0,13,0,0,0,5,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteGenerators,20,105,0,2,3,26,1,4,1,3
+Closure Compiler,com.google.javascript.jscomp,ClosureRewriteModule.ExportDefinition,29,117,8,22,7,27,7,15,1,6
+Closure Compiler,com.google.javascript.jscomp,GlobalVarReferenceMap.SourceRefRange,0,35,0,0,0,7,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,SideEffectsAnalysis,33,273,10,46,7,75,10,32,1,11
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.53.new CompilerPass() {...},29,0,0,0,5,0,2,0,2,0
+Closure Compiler,com.google.javascript.jscomp,AnalyzePrototypeProperties.GlobalFunction,36,27,6,4,10,8,7,2,3,1
+Closure Compiler,com.google.javascript.jscomp,GlobalVarReferenceMap.GlobalVarRefCleanupPass,1,20,1,1,1,8,2,2,1,2
+Closure Compiler,com.google.javascript.jscomp,CodeGenerator.Context,0,104,0,0,0,16,0,5,0,5
+Closure Compiler,com.google.javascript.jscomp,JsAst.RecordingReporterProxy,0,54,0,0,0,11,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteModulesToCommonJsModules.ModuleRequest,0,9,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,PrebuildAst.new Runnable() {...},17,0,0,0,3,0,2,0,2,0
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.BanGlobalVars,2,70,7,21,1,18,7,11,0,4
+Closure Compiler,com.google.javascript.jscomp,PrebuildAst.new ThreadFactory() {...},19,0,0,0,4,0,2,0,2,0
+Closure Compiler,com.google.javascript.jscomp,Compiler.CodeBuilder,1,112,2,6,0,24,2,11,0,9
+Closure Compiler,com.google.javascript.jscomp,PhaseOptimizer.ScopedChangeHandler,0,42,0,2,0,9,0,4,0,3
+Closure Compiler,com.google.javascript.jscomp,OptimizeCalls.ReferenceMapBuildingCallback,0,108,0,22,0,30,0,21,0,8
+Closure Compiler,com.google.javascript.jscomp,CreateSyntheticBlocks,0,276,0,22,0,62,0,17,0,6
+Closure Compiler,com.google.javascript.jscomp,Compiler.CompilerState,0,161,0,0,0,37,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CheckPathsBetweenNodes.new Annotation() {...},0,3,0,0,0,1,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CheckPathsBetweenNodes.new Annotation() {...},0,3,0,0,0,1,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CheckPathsBetweenNodes.new Annotation() {...},0,3,0,0,0,1,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CheckPathsBetweenNodes.new Annotation() {...},0,3,0,0,0,1,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.BanCreateDom,23,568,14,72,8,156,14,35,0,6
+Closure Compiler,com.google.javascript.jscomp,CrossModuleCodeMotion.GlobalSymbolCycle,34,221,9,23,4,50,6,15,0,5
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteGenerators.SingleGeneratorFunctionTranspiler.new Object() {...},0,12,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CheckLevelLegacy,44,0,0,0,5,0,1,0,1,0
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.BannedDependency,7,40,3,5,1,11,3,3,0,2
+Closure Compiler,com.google.javascript.jscomp,InlineVariables.InliningBehavior,22,1119,15,231,4,273,15,132,0,24
+Closure Compiler,com.google.javascript.jscomp,UnreachableCodeElimination.new NodeTraversal.ChangeScopeRootCallback() {...},0,54,0,4,0,12,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp,VariableMap,46,262,6,22,12,62,8,20,2,12
+Closure Compiler,com.google.javascript.jscomp,LoggerErrorManager,0,107,1,8,0,20,1,8,0,4
+Closure Compiler,com.google.javascript.jscomp,Reference,18,309,9,67,3,62,10,55,2,23
+Closure Compiler,com.google.javascript.jscomp,ErrorFormat,0,34,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.62.new CompilerPass() {...},45,0,0,0,5,0,2,0,2,0
+Closure Compiler,com.google.javascript.jscomp,DeadPropertyAssignmentElimination.FunctionVisitor,0,92,0,16,0,27,0,10,0,2
+Closure Compiler,com.google.javascript.jscomp,J2clPropertyInlinerPass.StaticFieldGetterSetterInliner.GatherJ2CLClassGetterSetters,3,265,6,32,3,55,6,19,0,5
+Closure Compiler,com.google.javascript.jscomp,FindExportableNodes.Mode,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CommandLineRunner.Flags.BooleanOptionHandler,0,72,0,6,0,21,0,7,0,4
+Closure Compiler,com.google.javascript.jscomp,LateEs6ToEs3Converter,28,388,3,35,6,96,4,27,1,9
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedCode,122,2818,41,407,23,709,40,251,0,57
+Closure Compiler,com.google.javascript.jscomp,J2clClinitPrunerPass.HierarchicalSet,0,42,0,10,0,6,0,8,0,3
+Closure Compiler,com.google.javascript.jscomp,AbstractCommandLineRunner.CommandLineConfig,50,514,4,8,20,167,10,53,8,49
+Closure Compiler,com.google.javascript.jscomp,ClosureRewriteModule.GlobalRewriteState,0,80,0,8,0,18,0,10,0,6
+Closure Compiler,com.google.javascript.jscomp,EsNextToEs8Converter,16,429,2,43,3,110,3,30,1,9
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.BannedCodePattern,17,96,4,14,2,24,4,7,0,2
+Closure Compiler,com.google.javascript.jscomp,NodeTraversal.new NodeTraversal.AbstractPreOrderCallback() {...},0,25,0,4,0,4,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp,NodeTraversal.new NodeTraversal.ScopedCallback() {...},0,83,2,18,0,16,2,13,0,5
+Closure Compiler,com.google.javascript.jscomp,NodeTraversal.new NodeTraversal.Callback() {...},0,15,0,0,0,4,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,CodingConvention.ObjectLiteralCast,0,12,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,MarkNoSideEffectCalls.GatherNoSideEffectFunctions,0,81,2,20,0,23,2,11,0,2
+Closure Compiler,com.google.javascript.jscomp,FileInstrumentationData,27,200,7,11,4,40,10,13,3,11
+Closure Compiler,com.google.javascript.jscomp,FlowSensitiveInlineVariables.Candidate,11,322,5,39,3,82,5,24,0,7
+Closure Compiler,com.google.javascript.jscomp,PrintStreamErrorManager,5,102,5,7,1,19,4,7,0,5
+Closure Compiler,com.google.javascript.jscomp,MustBeReachingVariableDef.MustDefJoin,0,98,0,12,0,22,0,7,0,1
+Closure Compiler,com.google.javascript.jscomp,JsMessage.PlaceholderReference,18,39,3,3,3,8,6,5,3,5
+Closure Compiler,com.google.javascript.jscomp,Conformance.new Descriptors.FileDescriptor.InternalDescriptorAssigner() {...},0,8,0,0,0,3,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,ProcessDefines.CollectDefines.RefInfo,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,RuntimeTypeCheck,1,110,1,3,1,27,1,7,0,6
+Closure Compiler,com.google.javascript.jscomp,LiveVariablesAnalysis,4,560,8,76,1,122,7,53,0,15
+Closure Compiler,com.google.javascript.jscomp,FunctionInjector.CallSiteType,0,64,0,0,0,7,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,LazyParsedDependencyInfo,4,106,1,9,1,24,2,10,1,6
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteBlockScopedDeclaration.CollectUndeclaredNames,0,23,0,4,0,4,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp,J2clPropertyInlinerPass.StaticFieldGetterSetterInliner.J2clPropertyEs5,2,68,4,6,0,14,4,3,0,2
+Closure Compiler,com.google.javascript.jscomp,J2clPropertyInlinerPass.StaticFieldGetterSetterInliner.J2clPropertyEs6,0,54,0,0,0,13,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,CompilerOptionsPreprocessor,35,48,5,15,6,9,4,7,0,1
+Closure Compiler,com.google.javascript.jscomp,Es6TypedToEs6Converter.Namespace,0,14,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,AbstractCommandLineRunner.JsonFileSpec,7,38,0,0,2,14,1,7,1,7
+Closure Compiler,com.google.javascript.jscomp,Requirement.Type,13,202,3,12,5,36,5,18,2,8
+Closure Compiler,com.google.javascript.jscomp,VariableRenamingPolicy,0,34,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,PrepareAst,31,89,7,19,10,25,6,13,1,5
+Closure Compiler,com.google.javascript.jscomp,CleanupPasses.new PassFactory.HotSwapPassFactory() {...},2,12,0,0,1,2,1,2,1,2
+Closure Compiler,com.google.javascript.jscomp,CleanupPasses.new PassFactory.HotSwapPassFactory() {...},2,12,0,0,1,2,1,2,1,2
+Closure Compiler,com.google.javascript.jscomp,CleanupPasses.new PassFactory.HotSwapPassFactory() {...},2,12,0,0,1,2,1,2,1,2
+Closure Compiler,com.google.javascript.jscomp,RewritePolyfills.Polyfill,0,12,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CommandLineRunner.Flags.new OptionHandlerFilter() {...},2,32,1,5,1,5,1,4,0,2
+Closure Compiler,com.google.javascript.jscomp,EsNextToEs8Converter.ObjectPatternConverter,0,467,0,22,0,106,0,17,0,6
+Closure Compiler,com.google.javascript.jscomp,SymbolTable.JSDocInfoCollector,17,219,6,36,3,52,5,21,0,5
+Closure Compiler,com.google.javascript.jscomp,Normalize,12,162,1,5,1,35,1,8,0,6
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.100.new CompilerPass() {...},0,14,0,0,0,3,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,ClosureCodingConvention.AssertFunctionByTypeName,0,13,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,FunctionInfo.new Descriptors.FileDescriptor.InternalDescriptorAssigner() {...},0,91,0,0,0,11,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,ClosureRewriteModule.UnrecognizedRequire,0,12,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CheckDebuggerStatement,0,27,0,2,0,10,0,5,0,4
+Closure Compiler,com.google.javascript.jscomp,CompilerInput.ModuleType,0,64,0,0,0,7,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,TypedScopeCreator.DeferredSetType,0,29,0,0,0,8,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,TypedScopeCreator.IdentifyGlobalEnumsAndTypedefsAsNonNullable,1,90,1,22,0,24,1,14,0,3
+Closure Compiler,com.google.javascript.jscomp,ClosureCodingConvention,31,675,18,110,7,168,18,78,3,29
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses,5,431,4,36,2,94,5,31,1,15
+Closure Compiler,com.google.javascript.jscomp,NodeUtil.new NodeTraversal.ScopedCallback() {...},0,54,1,5,0,10,1,7,0,5
+Closure Compiler,com.google.javascript.jscomp,NodeUtil.new Predicate() {...},0,20,0,2,0,2,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.44.new HotSwapCompilerPass() {...},0,35,0,0,0,7,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,AutoValue_TypeMismatch_LazyError,88,79,16,4,14,24,12,6,2,6
+Closure Compiler,com.google.javascript.jscomp,JsMessageVisitor.MalformedException,0,10,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,NodeUtil.new NodeUtil.Visitor() {...},0,15,0,0,0,3,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,NodeUtil.new Predicate() {...},0,15,0,2,0,2,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,CompilerOptions.JsonStreamMode,0,44,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,DefinitionsRemover,162,158,63,51,39,29,34,26,2,1
+Closure Compiler,com.google.javascript.jscomp,Scope,2,56,2,2,0,11,2,6,0,6
+Closure Compiler,com.google.javascript.jscomp,CrossModuleCodeMotion.MovableInstanceofReference,0,16,0,0,0,6,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,CoverageInstrumentationPass,13,180,2,5,1,44,2,7,0,5
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedCode.Builder,0,75,0,0,0,28,0,10,0,10
+Closure Compiler,com.google.javascript.jscomp,DiagnosticType,6,74,1,3,1,14,2,10,1,9
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.BanNullDeref,0,66,1,18,0,15,1,13,0,4
+Closure Compiler,com.google.javascript.jscomp,JsMessageDefinition,0,9,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,BranchCoverageInstrumentationCallback,10,538,10,42,1,125,10,27,0,11
+Closure Compiler,com.google.javascript.jscomp,SourceInformationAnnotator,0,83,5,18,0,23,5,11,0,3
+Closure Compiler,com.google.javascript.jscomp,PeepholeFoldConstants,128,2539,80,555,46,663,79,309,0,40
+Closure Compiler,com.google.javascript.jscomp,ConstCheck,0,185,3,35,0,41,3,23,0,6
+Closure Compiler,com.google.javascript.jscomp,NodeUtil.MatchShallowStatement,0,27,2,10,0,6,2,6,0,2
+Closure Compiler,com.google.javascript.jscomp,PhaseOptimizer.State,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,NodeIterators.FunctionlessLocalScope,10,125,3,19,3,27,4,14,1,6
+Closure Compiler,com.google.javascript.jscomp,CodingConventions.Proxy,36,195,0,4,8,43,7,38,7,36
+Closure Compiler,com.google.javascript.jscomp,ChromeCodingConvention,79,0,4,0,19,0,9,0,7,0
+Closure Compiler,com.google.javascript.jscomp,ControlFlowGraph.AbstractCfgNodeTraversalCallback,0,14,0,4,0,4,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.RestrictedMethodCall,42,271,28,42,11,59,26,17,0,8
+Closure Compiler,com.google.javascript.jscomp,ClosureCheckModule,65,838,22,133,10,210,21,76,0,16
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,11,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory() {...},0,12,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,PassFactory.HotSwapPassFactory,0,9,0,0,0,3,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedCode.VanillaForNameDeclaration,0,43,0,4,0,11,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp,ForbiddenChange,5,3,0,0,1,1,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteArrowFunction.ThisAndArgumentsContext,0,59,0,4,0,19,0,7,0,5
+Closure Compiler,com.google.javascript.jscomp,PassFactory.new PassFactory() {...},0,12,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,WarningLevel,5,176,1,3,1,49,1,7,0,5
+Closure Compiler,com.google.javascript.jscomp,PeepholeMinimizeConditions,12,1690,25,283,6,490,25,169,0,33
+Closure Compiler,com.google.javascript.jscomp,NameAnonymousFunctionsMapped.MappedFunctionNamer,0,102,0,9,0,21,0,10,0,5
+Closure Compiler,com.google.javascript.jscomp,InlineProperties.PropertyInfo,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,AutoValue_RemoveUnusedPolyfills_PrototypeMethod,15,67,6,6,4,19,6,5,0,5
+Closure Compiler,com.google.javascript.jscomp,JsMessageVisitor,141,1272,26,187,17,324,26,110,0,24
+Closure Compiler,com.google.javascript.jscomp,DataFlowAnalysis.MaxIterationsExceededException,0,4,0,0,0,2,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,RewriteJsonToModule,50,263,12,35,6,60,12,20,0,7
+Closure Compiler,com.google.javascript.jscomp,ProcessCommonJSModules.UmdPattern,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,UnreachableCodeElimination.EliminationPass,17,225,9,58,4,63,8,34,0,7
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,27,0,0,0,7,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory() {...},7,5,0,0,2,1,2,1,2,1
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory() {...},2,10,0,0,1,2,1,2,1,2
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,11,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,11,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,11,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,TranspilationPasses.new PassFactory.HotSwapPassFactory() {...},0,11,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,RescopeGlobalSymbols.RewriteScopeCallback.ModuleGlobal,0,12,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,Es6ExtractClasses.SelfReferenceRewriter.ClassDescription,0,12,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,DeclaredGlobalExternsOnWindow,0,235,2,46,0,66,2,28,0,6
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteClass.ClassDeclarationMetadata,12,123,3,11,3,28,3,8,0,4
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedCode.FunctionDeclaration,10,18,0,0,1,7,1,3,1,3
+Closure Compiler,com.google.javascript.jscomp,SourceFile.Generated,9,28,0,2,3,11,1,4,1,3
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.ConformanceLevel,0,34,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,WarningsGuard.DiagnosticGroupState,34,0,0,0,4,0,1,0,1,0
+Closure Compiler,com.google.javascript.jscomp,ScopedAliases.AliasUsage,0,44,0,4,0,10,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp,DotFormatter,228,335,21,17,40,73,13,18,1,11
+Closure Compiler,com.google.javascript.jscomp,CollapseVariableDeclarations.GatherCollapses,1,68,1,11,1,18,1,7,0,2
+Closure Compiler,com.google.javascript.jscomp,CollapseVariableDeclarations.Collapse,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CommandLineRunner.Flags.WarningGuardWarningOptionHandler,0,12,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,ProcessCommonJSModules.RewriteModule.new Predicate() {...},0,18,0,2,0,2,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,CleanupPasses,0,48,0,0,0,11,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,SymbolTable.Reference,0,5,0,0,0,2,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,TypedCodeGenerator,12,656,19,105,4,145,19,54,0,11
+Closure Compiler,com.google.javascript.jscomp,Es6SyntacticScopeCreator.DefaultScopeFactory,0,9,0,2,0,3,0,2,0,1
+Closure Compiler,com.google.javascript.jscomp,CoalesceVariableNames.CombinedLiveRangeChecker,0,101,0,22,0,25,0,15,0,4
+Closure Compiler,com.google.javascript.jscomp,AnalyzePrototypeProperties.AssignmentProperty,15,30,0,0,4,10,1,6,1,6
+Closure Compiler,com.google.javascript.jscomp,TypedScope,27,185,9,23,5,44,9,24,2,15
+Closure Compiler,com.google.javascript.jscomp,Es6ExternsCheck,0,81,0,14,0,22,0,12,0,5
+Closure Compiler,com.google.javascript.jscomp,InlineSimpleMethods,5,198,3,25,2,61,3,25,0,14
+Closure Compiler,com.google.javascript.jscomp,SourceFile.OnDisk,73,66,10,4,14,22,8,7,2,6
+Closure Compiler,com.google.javascript.jscomp,XtbMessageBundle.SecureEntityResolver,8,0,0,0,1,0,1,0,1,0
+Closure Compiler,com.google.javascript.jscomp,ClosureRewriteModule.ScriptPreprocessor,0,35,0,8,0,9,0,7,0,2
+Closure Compiler,com.google.javascript.jscomp,DataFlowAnalysis,0,425,0,50,0,92,0,34,0,9
+Closure Compiler,com.google.javascript.jscomp,CodePrinter.MappedCodePrinter,86,282,24,36,16,63,18,24,1,11
+Closure Compiler,com.google.javascript.jscomp,CommandLineRunner.Flags.JsOptionHandler,0,12,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,AbstractCommandLineRunner.JsSourceType,0,45,0,0,0,7,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteBlockScopedDeclaration.LoopClosureTransformer,15,781,13,81,3,198,13,40,0,6
+Closure Compiler,com.google.javascript.jscomp,SourceMap,6,165,2,16,3,50,3,17,1,10
+Closure Compiler,com.google.javascript.jscomp,AnonymousFunctionNamingCallback,0,141,2,29,0,35,2,17,0,3
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteArrowFunction,0,332,4,30,0,74,4,26,0,12
+Closure Compiler,com.google.javascript.jscomp,GenerateExports,1,405,1,39,0,97,1,29,0,10
+Closure Compiler,com.google.javascript.jscomp,CompilerOptions.IncrementalCheckMode,0,34,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,InlineCostEstimator,0,19,0,0,0,5,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,ReplaceMessages,47,408,9,47,9,115,9,31,0,10
+Closure Compiler,com.google.javascript.jscomp,AmbiguateProperties.PropertySubGraph,0,34,0,2,0,5,0,4,0,3
+Closure Compiler,com.google.javascript.jscomp,Timeline.Time,2,23,1,1,1,7,1,3,0,3
+Closure Compiler,com.google.javascript.jscomp,InferConsts,0,124,0,26,0,29,0,16,0,3
+Closure Compiler,com.google.javascript.jscomp,DefinitionUseSiteFinder,219,90,38,4,57,18,23,7,4,5
+Closure Compiler,com.google.javascript.jscomp,Tracer.Event,145,0,10,0,29,0,8,0,3,0
+Closure Compiler,com.google.javascript.jscomp,FlowSensitiveInlineVariables.SideEffectPredicate,5,74,4,24,1,22,3,14,0,3
+Closure Compiler,com.google.javascript.jscomp,InlineSimpleMethods.InlineTrivialAccessors,42,117,5,29,4,25,5,14,0,2
+Closure Compiler,com.google.javascript.jscomp,NodeTraversal,88,1584,23,175,23,426,25,154,2,78
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},1,31,1,1,0,5,1,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,13,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,LinkedFlowScope.OverlayScope,0,67,0,6,0,14,0,7,0,4
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,22,0,0,0,4,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,AutoValue_ModuleMetadata_Module,233,57,32,0,35,20,19,10,3,10
+Closure Compiler,com.google.javascript.jscomp,VarCheck,8,471,8,68,0,107,7,43,0,12
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,16,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,16,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,RewriteGoogJsImports.Mode,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},7,8,0,0,2,1,2,1,2,1
+Closure Compiler,com.google.javascript.jscomp,ControlFlowGraph,28,84,2,19,5,17,2,18,1,6
+Closure Compiler,com.google.javascript.jscomp,NameAnonymousFunctionsMapped,0,81,0,2,0,18,0,5,0,4
+Closure Compiler,com.google.javascript.jscomp,InlineVariables.IdentifyConstants,0,3,0,0,0,1,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.BannedProperty,32,327,25,77,8,82,24,34,0,7
+Closure Compiler,com.google.javascript.jscomp,PolymerPass,45,351,11,35,9,84,9,22,0,8
+Closure Compiler,com.google.javascript.jscomp,ClosureRewriteModule.ScriptDescription,0,59,1,5,0,15,1,7,0,5
+Closure Compiler,com.google.javascript.jscomp,PolymerClassDefinition,35,428,9,51,10,100,10,25,1,4
+Closure Compiler,com.google.javascript.jscomp,RescopeGlobalSymbols.FindCrossModuleNamesCallback,7,56,1,13,2,15,1,8,0,2
+Closure Compiler,com.google.javascript.jscomp,CompilerExecutor,35,79,2,10,9,24,3,9,1,5
+Closure Compiler,com.google.javascript.jscomp,LinkedFlowScope.OverlaySlot,8,17,0,0,3,7,3,4,3,4
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.BanExpose,0,17,1,3,0,6,1,3,0,2
+Closure Compiler,com.google.javascript.jscomp,IdMappingUtil,43,162,3,15,7,41,3,9,0,3
+Closure Compiler,com.google.javascript.jscomp,ReplaceIdGenerators.StableNameSupplier,0,6,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,EmptyMessageBundle,2,7,0,0,1,3,1,3,1,3
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.InferredConstCheck,0,37,1,13,0,11,1,8,0,2
+Closure Compiler,com.google.javascript.jscomp,PerformanceTrackerCodeSizeEstimator,29,83,4,4,10,25,5,5,1,5
+Closure Compiler,com.google.javascript.jscomp,CodingConvention.SubclassRelationship,0,24,0,0,0,9,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,UseSite,14,16,4,0,1,6,3,2,1,2
+Closure Compiler,com.google.javascript.jscomp,RenameProperties.ProcessProperties,81,337,21,64,17,82,17,34,0,5
+Closure Compiler,com.google.javascript.jscomp,DefinitionsRemover.ExternalNameOnlyDefinition,5,5,0,0,1,2,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,ModuleMetadata.Module,20,106,5,19,2,17,6,18,1,10
+Closure Compiler,com.google.javascript.jscomp,InlineAliases.AliasesInliner,0,151,1,21,0,31,1,14,0,4
+Closure Compiler,com.google.javascript.jscomp,ModuleIdentifier,0,98,0,6,0,23,0,10,0,7
+Closure Compiler,com.google.javascript.jscomp,InlineFunctions.new Predicate() {...},0,13,0,4,0,2,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp,FunctionInformationMap.Module,430,0,42,0,124,0,58,0,36,0
+Closure Compiler,com.google.javascript.jscomp,SideEffectsAnalysis.new Predicate() {...},0,10,0,2,0,2,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,SideEffectsAnalysis.new Predicate() {...},0,19,0,6,0,3,0,5,0,2
+Closure Compiler,com.google.javascript.jscomp,SideEffectsAnalysis.new Predicate() {...},0,16,1,5,0,2,1,4,0,2
+Closure Compiler,com.google.javascript.jscomp,Es6SyntacticScopeCreator,6,52,0,0,2,14,1,6,1,6
+Closure Compiler,com.google.javascript.jscomp,CoverageInstrumentationPass.CoverageReach,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,Instrumentation,680,112,77,5,172,36,82,12,38,12
+Closure Compiler,com.google.javascript.jscomp,NameBasedDefinitionProvider.DefinitionGatheringCallback,0,182,0,47,0,47,0,32,0,8
+Closure Compiler,com.google.javascript.jscomp,SourceMap.Format,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,RewritePolyfills.Traverser,0,167,1,33,0,33,1,19,0,3
+Closure Compiler,com.google.javascript.jscomp,PureFunctionIdentifier.FunctionInformation,56,131,12,18,13,43,8,24,2,15
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedCode.UnusedReadReference,11,62,2,8,1,15,3,5,1,2
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.AbstractTypeRestrictionRule,3,241,12,42,0,53,12,28,0,13
+Closure Compiler,com.google.javascript.jscomp,JsMessageVisitor.MessageLocation,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,GatherRawExports,0,96,0,16,0,22,0,14,0,6
+Closure Compiler,com.google.javascript.jscomp,ReplaceStrings.new Predicate() {...},0,6,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,AbstractScope,32,490,12,90,6,119,16,75,4,36
+Closure Compiler,com.google.javascript.jscomp,SourceFile,114,492,18,38,24,121,21,46,4,35
+Closure Compiler,com.google.javascript.jscomp,JSModule,123,254,15,15,34,70,19,26,10,20
+Closure Compiler,com.google.javascript.jscomp,MakeDeclaredNamesUnique.ContextualRenamer,33,159,7,17,7,39,7,16,1,10
+Closure Compiler,com.google.javascript.jscomp,SourceMapResolver,17,104,2,16,3,20,3,12,1,5
+Closure Compiler,com.google.javascript.jscomp,ReplaceStrings.Config,0,27,0,4,0,6,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp,OptimizeReturns.new NodeUtil.Visitor() {...},0,53,0,8,0,10,0,6,0,2
+Closure Compiler,com.google.javascript.jscomp,FunctionInjector,41,986,27,167,8,261,26,96,0,22
+Closure Compiler,com.google.javascript.jscomp,J2clSourceFileChecker,0,52,1,7,0,15,1,8,0,5
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteModules.RewriteRequiresForEs6Modules,29,79,8,16,8,19,6,8,0,2
+Closure Compiler,com.google.javascript.jscomp,AutoValue_EsNextToEs8Converter_ComputedPropertyName,80,19,10,2,16,8,9,3,3,3
+Closure Compiler,com.google.javascript.jscomp,NodeTraversal.AbstractShallowStatementCallback,0,15,0,6,0,4,0,5,0,2
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteModulesToCommonJsModules.LocalQName,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CompilerOptions.NullAliasTransformationHandler.NullAliasTransformation,0,1,0,0,0,1,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,StrictWarningsGuard,7,23,1,3,2,6,2,5,1,4
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.BanUnknownThis,0,40,2,8,0,11,2,5,0,2
+Closure Compiler,com.google.javascript.jscomp,CompilerOptions.OutputJs,0,34,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,InlineVariables.Mode,0,34,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CheckMissingGetCssName,2,184,4,40,1,46,4,26,0,8
+Closure Compiler,com.google.javascript.jscomp,ScopedName,0,46,0,6,0,7,0,7,0,4
+Closure Compiler,com.google.javascript.jscomp,DefinitionsRemover.ClassDefinition,0,20,0,0,0,6,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,PeepholeCollectPropertyAssignments,49,417,19,98,15,126,16,53,1,9
+Closure Compiler,com.google.javascript.jscomp,GuardedCallback.Context,10,130,3,30,1,20,2,24,0,5
+Closure Compiler,com.google.javascript.jscomp,ExtractPrototypeMemberDeclarations.ExtractionInstance,0,75,0,10,0,17,0,7,0,2
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteBlockScopedFunctionDeclaration,16,88,1,7,3,24,2,8,1,5
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteGenerators.YieldNodeMarker,0,22,0,8,0,6,0,6,0,2
+Closure Compiler,com.google.javascript.jscomp,WarningsGuard.Priority,0,92,0,0,0,12,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,ExternExportsPass.SymbolExport,0,23,0,2,0,7,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,Var,15,8,0,0,1,2,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,CheckUnreachableCode.new Predicate() {...},0,43,0,10,0,11,0,7,0,2
+Closure Compiler,com.google.javascript.jscomp,PerformanceTracker,339,833,38,34,57,134,35,27,7,19
+Closure Compiler,com.google.javascript.jscomp,AbstractCompiler.PropertyAccessKind,112,0,11,0,18,0,13,0,6,0
+Closure Compiler,com.google.javascript.jscomp,JvmMetrics,417,382,35,35,69,86,32,14,3,8
+Closure Compiler,com.google.javascript.jscomp,GlobalNamespace,9,225,1,25,3,54,3,30,2,18
+Closure Compiler,com.google.javascript.jscomp,IncrementalScopeCreator.PersistentScope,2,78,3,7,0,19,3,8,0,6
+Closure Compiler,com.google.javascript.jscomp,CreateSyntheticBlocks.Marker,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.BanUnknownDirectThisPropsReferences,0,44,4,12,0,11,4,7,0,3
+Closure Compiler,com.google.javascript.jscomp,Es6ConvertSuperConstructorCalls.new NodeTraversal.Callback() {...},5,47,4,8,1,11,3,6,0,3
+Closure Compiler,com.google.javascript.jscomp,CheckSuper,7,149,1,21,2,45,1,18,0,8
+Closure Compiler,com.google.javascript.jscomp,DeadPropertyAssignmentElimination,1,39,1,3,1,12,1,3,0,2
+Closure Compiler,com.google.javascript.jscomp,DefinitionsRemover.FunctionArgumentDefinition,5,11,0,0,1,4,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,MethodCompilerPass.GatherSignatures,23,98,2,21,4,22,2,14,0,3
+Closure Compiler,com.google.javascript.jscomp,ClosureOptimizePrimitives,3,346,4,54,0,100,4,36,0,11
+Closure Compiler,com.google.javascript.jscomp,NodeUtil.ValueType,0,74,0,0,0,8,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,ProcessCommonJSModules.ExportInfo,0,36,1,9,0,8,1,6,0,2
+Closure Compiler,com.google.javascript.jscomp,CrossModuleReferenceCollector.TopLevelStatementDraft,0,26,0,0,0,9,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,TagNameToType,3,221,0,0,1,74,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,GatherSideEffectSubexpressionsCallback,167,57,32,10,42,17,25,5,5,4
+Closure Compiler,com.google.javascript.jscomp,ReplaceIdGenerators.XidNameSupplier,4,18,1,1,0,5,1,3,0,3
+Closure Compiler,com.google.javascript.jscomp,SymbolTable.ThisRefCollector,4,174,4,24,0,43,4,15,0,5
+Closure Compiler,com.google.javascript.jscomp,Instrumentation.new AbstractParser() {...},7,3,0,0,1,1,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,AnalyzePrototypeProperties.NameContext,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,UnreachableCodeElimination,0,19,0,0,0,7,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,CompilerOptions.DependencyMode,0,34,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,ExternExportsPass,5,325,7,33,5,79,7,21,0,8
+Closure Compiler,com.google.javascript.jscomp,Result,15,47,0,2,2,15,1,2,1,1
+Closure Compiler,com.google.javascript.jscomp,MinimizedCondition.MeasuredNode,0,325,1,39,0,63,1,38,0,17
+Closure Compiler,com.google.javascript.jscomp,CheckAccessControls,19,1750,39,344,7,429,39,201,0,45
+Closure Compiler,com.google.javascript.jscomp,LightweightMessageFormatter,24,296,9,25,5,73,12,18,3,10
+Closure Compiler,com.google.javascript.jscomp,ProcessCommonJSModules.new NodeUtil.Visitor() {...},0,15,0,2,0,4,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,ProcessCommonJSModules.new NodeUtil.Visitor() {...},0,15,0,2,0,4,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,ForwardingCompiler,451,15,0,0,135,5,98,3,98,3
+Closure Compiler,com.google.javascript.jscomp,FunctionRewriter.Reduction,0,43,0,0,0,11,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,AnonymousFunctionNamingPolicy,0,58,0,0,0,8,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,CheckGlobalThis,0,171,2,60,0,48,2,34,0,5
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteGenerators.SingleGeneratorFunctionTranspiler.YieldFinder,3,32,2,4,1,9,2,4,0,3
+Closure Compiler,com.google.javascript.jscomp,RescopeGlobalSymbols.RewriteGlobalClassFunctionDeclarationsToVarAssignmentsCallback,0,64,0,10,0,17,0,7,0,2
+Closure Compiler,com.google.javascript.jscomp,ExploitAssigns,0,265,2,66,0,75,2,41,0,7
+Closure Compiler,com.google.javascript.jscomp,JSDocInfoPrinter,18,1017,5,161,6,229,5,87,0,9
+Closure Compiler,com.google.javascript.jscomp,Normalize.RemoveEmptyClassMembers,0,21,0,4,0,5,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp,Es6ConvertSuperConstructorCalls,84,769,26,88,20,183,24,50,1,16
+Closure Compiler,com.google.javascript.jscomp,BasicBlock,10,89,1,23,1,21,2,18,1,7
+Closure Compiler,com.google.javascript.jscomp,GoogleJsMessageIdGenerator.MessageId,0,31,2,4,0,5,2,2,0,1
+Closure Compiler,com.google.javascript.jscomp,J2clPass.ClassStaticFunctionsInliner.StaticCallInliner,14,70,2,10,1,18,2,6,0,2
+Closure Compiler,com.google.javascript.jscomp,Es6NormalizeShorthandProperties,0,57,0,2,0,14,0,6,0,5
+Closure Compiler,com.google.javascript.jscomp,SymbolTable.PropertyRefCollector,0,214,3,39,0,55,3,25,0,7
+Closure Compiler,com.google.javascript.jscomp,MustBeReachingVariableDef.Definition,14,31,0,4,2,9,2,4,2,2
+Closure Compiler,com.google.javascript.jscomp,Xid.new Xid.HashFunction() {...},0,6,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,Requirement.new AbstractParser() {...},7,3,0,0,1,1,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,SymbolTable.VisibilityCollector,6,126,8,20,6,36,8,10,0,4
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.BanCreateElement,18,127,13,25,6,28,12,10,0,3
+Closure Compiler,com.google.javascript.jscomp,ClosureRewriteClass.MemberDefinition,0,12,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,ScopedName.Simple,0,15,0,0,0,6,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefinitionUseSiteFinder.NameAndUseSite,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,Es6InjectRuntimeLibraries,7,238,6,28,1,51,6,21,0,9
+Closure Compiler,com.google.javascript.jscomp,DeadAssignmentsElimination,113,628,33,131,28,167,24,73,0,13
+Closure Compiler,com.google.javascript.jscomp,CompilationLevel,12,332,6,10,5,106,6,14,0,9
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.96.new CompilerPass() {...},0,30,0,0,0,5,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,ValidityCheck,37,141,1,9,6,37,1,11,0,7
+Closure Compiler,com.google.javascript.jscomp,AbstractVar,2,319,6,56,0,53,6,58,0,33
+Closure Compiler,com.google.javascript.jscomp,Es6ToEs3Util,15,127,0,6,3,28,2,13,2,10
+Closure Compiler,com.google.javascript.jscomp,CssRenamingMap.Style,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteBlockScopedDeclaration.new Predicate() {...},0,13,0,4,0,2,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.61.new CompilerPass() {...},0,45,0,0,0,5,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,AmbiguateProperties.ProcessProperties,22,204,6,33,7,51,6,19,0,4
+Closure Compiler,com.google.javascript.jscomp,Es6ToEs3ClassSideInheritance.FindStaticMembers,7,288,5,41,1,63,5,29,0,9
+Closure Compiler,com.google.javascript.jscomp,J2clChecksPass,0,167,2,36,0,38,2,25,0,8
+Closure Compiler,com.google.javascript.jscomp,FindExportableNodes,6,252,18,53,0,69,17,26,0,5
+Closure Compiler,com.google.javascript.jscomp,JsMessage.Hash,394,469,30,26,38,51,22,12,0,6
+Closure Compiler,com.google.javascript.jscomp,JsAst.ParseResult,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,MakeDeclaredNamesUnique.ContextualRenameInverter,1,259,3,39,0,65,3,31,0,13
+Closure Compiler,com.google.javascript.jscomp,Requirement.Builder,1062,956,104,78,297,249,139,68,75,41
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.BannedProperty.Property,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,ControlFlowAnalysis,47,1574,15,281,9,394,16,190,1,40
+Closure Compiler,com.google.javascript.jscomp,AnalyzePrototypeProperties,0,233,0,14,0,52,0,12,0,5
+Closure Compiler,com.google.javascript.jscomp,AmbiguateProperties.new Comparator() {...},6,14,1,1,1,3,1,2,0,2
+Closure Compiler,com.google.javascript.jscomp,ReferenceCollectingCallback.new ReferenceCollectingCallback.Behavior() {...},0,4,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,ChromePass.RenameInternalsToExternalsCallback,6,208,2,30,1,48,2,17,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,PolymerPassStaticUtils,6,279,8,57,1,62,9,32,1,7
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,14,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,14,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,29,0,0,0,6,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,23,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,16,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,23,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,39,1,1,0,7,1,3,0,3
+Closure Compiler,com.google.javascript.jscomp,ComposeWarningsGuard.GuardComparator,0,30,0,2,0,7,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.ConformanceUtil,11,125,5,27,2,32,5,16,0,5
+Closure Compiler,com.google.javascript.jscomp,ScopedAliases.AliasedTypeNode,1,50,1,1,1,12,1,2,0,2
+Closure Compiler,com.google.javascript.jscomp,Scope.Simple,0,34,0,0,0,12,0,4,0,4
+Closure Compiler,com.google.javascript.jscomp,RenameVars,7,614,5,75,2,136,5,49,0,14
+Closure Compiler,com.google.javascript.jscomp,InlineVariables.IdentifyLocals,0,3,0,0,0,1,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,DefaultNameGenerator,0,455,0,42,0,93,0,35,0,14
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,22,0,0,0,4,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,38,0,0,0,7,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,14,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,22,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,NodeUtil.TemplateArgsIterable,0,14,0,0,0,5,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},16,8,0,0,2,1,2,1,2,1
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,27,0,0,0,6,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,CrossModuleCodeMotion.DeclarationStatementGroupCycle,34,214,9,23,5,54,6,16,0,6
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,14,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,PolymerPassSuppressBehaviors,18,199,2,32,4,55,2,22,0,7
+Closure Compiler,com.google.javascript.jscomp,Es6ForOfConverter,16,459,2,18,3,104,3,17,1,9
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteScriptsToModules,1,69,2,6,1,20,2,7,0,5
+Closure Compiler,com.google.javascript.jscomp,CodePrinter.PrettyCodePrinter,15,342,4,48,8,105,4,45,0,21
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.56.new HotSwapCompilerPass() {...},0,18,0,0,0,5,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DependencyOptions,20,71,1,7,6,19,2,13,1,10
+Closure Compiler,com.google.javascript.jscomp,TypeInference,27,3347,36,588,6,865,36,355,0,62
+Closure Compiler,com.google.javascript.jscomp,Es6RelativizeImportPaths.Rewriter,20,101,5,11,10,29,5,7,1,2
+Closure Compiler,com.google.javascript.jscomp,CodingConvention.Bind,0,29,0,2,0,9,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,Es6TemplateLiterals,77,331,14,31,24,81,13,19,1,5
+Closure Compiler,com.google.javascript.jscomp,ControlFlowAnalysis.AstControlFlowGraph,0,32,0,2,0,9,0,4,0,3
+Closure Compiler,com.google.javascript.jscomp,Compiler,798,4721,143,481,173,1160,150,401,29,204
+Closure Compiler,com.google.javascript.jscomp,RenameLabels,0,36,0,0,0,10,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,InlineFunctions.Reference,0,17,0,0,0,6,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,CompilerOptionsPreprocessor.InvalidOptionsException,0,6,0,0,0,2,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CommandLineRunner.Flags,31,897,6,42,4,220,6,31,0,13
+Closure Compiler,com.google.javascript.jscomp,RecoverableJsAst,30,102,2,8,5,24,4,8,2,5
+Closure Compiler,com.google.javascript.jscomp,FunctionRewriter.SingleReturnStatementReducer,0,22,0,4,0,8,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp,Es6RenameReferences,0,83,0,14,0,28,0,11,0,4
+Closure Compiler,com.google.javascript.jscomp,CollapseVariableDeclarations,1,84,1,9,0,22,1,7,0,3
+Closure Compiler,com.google.javascript.jscomp,FunctionTypeBuilder.UnknownFunctionContents,4,14,0,0,2,5,2,5,2,5
+Closure Compiler,com.google.javascript.jscomp,WhitespaceWrapGoogModules,0,98,1,5,0,27,1,5,0,3
+Closure Compiler,com.google.javascript.jscomp,CrossModuleCodeMotion.DeclarationStatementGroup,1,76,1,7,0,19,1,7,0,4
+Closure Compiler,com.google.javascript.jscomp,Compiler.ExternalSourceLoader,8,0,0,0,2,0,2,0,2,0
+Closure Compiler,com.google.javascript.jscomp,LightweightMessageFormatter.LineNumberingFormatter,0,119,0,12,0,34,0,9,0,3
+Closure Compiler,com.google.javascript.jscomp,InlineObjectLiterals.InliningBehavior.new NodeUtil.Visitor() {...},0,23,0,2,0,4,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,Es6ConvertSuperConstructorCalls.UndefinedReturnValueCheck,0,23,0,0,0,5,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,DartSuperAccessorsPass,9,326,4,46,3,77,5,34,1,13
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.43.new HotSwapCompilerPass() {...},0,40,0,0,0,7,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,AccessControlUtils,0,213,2,60,0,49,2,36,0,7
+Closure Compiler,com.google.javascript.jscomp,AstValidator.new AstValidator.ViolationHandler() {...},1,28,1,1,0,4,1,2,0,2
+Closure Compiler,com.google.javascript.jscomp,FunctionToBlockMutator.LabelNameSupplier,0,18,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,Conformance,4,109,0,0,3,10,2,2,2,2
+Closure Compiler,com.google.javascript.jscomp,MakeDeclaredNamesUnique,17,215,3,38,4,55,3,28,0,10
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteGenerators.SingleGeneratorFunctionTranspiler.TranspilationContext.CatchCase,0,9,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,LiveVariablesAnalysis.LiveVariableLattice,8,43,1,3,2,11,3,5,2,4
+Closure Compiler,com.google.javascript.jscomp,DefinitionsRemover.NamedClassDefinition,0,10,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteModules.ModuleOriginalNamePair,17,9,0,0,1,4,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,ExpressionDecomposer.DecompositionState,12,0,0,0,4,0,1,0,1,0
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.BanUnresolvedType,2,72,3,13,1,19,3,8,0,3
+Closure Compiler,com.google.javascript.jscomp,RhinoErrorReporter.OldRhinoErrorReporter,0,19,0,0,0,6,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,CommandLineRunner,703,1095,107,95,160,264,80,47,8,18
+Closure Compiler,com.google.javascript.jscomp,PolymerBehaviorExtractor.BehaviorDefinition,0,18,0,0,0,7,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,DefinitionsRemover.NamedFunctionDefinition,0,18,0,0,0,6,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,Timeline,0,158,0,14,0,38,0,13,0,6
+Closure Compiler,com.google.javascript.jscomp,PhaseOptimizer.Loop,9,387,5,53,2,82,5,31,0,7
+Closure Compiler,com.google.javascript.jscomp,SideEffectsAnalysis.DegenerateLocationAbstraction.DegenerateEffectLocation,0,24,0,8,0,5,0,7,0,3
+Closure Compiler,com.google.javascript.jscomp,ReplaceStrings,44,751,24,91,7,182,24,54,1,18
+Closure Compiler,com.google.javascript.jscomp,ClosureCheckModule.ModuleInfo,0,19,0,0,0,6,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,J2clAssertRemovalPass,2,54,1,13,1,14,1,11,0,5
+Closure Compiler,com.google.javascript.jscomp,SideEffectsAnalysis.VisibilityLocationAbstraction.new NodeTraversal.AbstractShallowCallback() {...},0,24,0,6,0,5,0,5,0,2
+Closure Compiler,com.google.javascript.jscomp,Linter,161,0,6,0,44,0,8,0,5,0
+Closure Compiler,com.google.javascript.jscomp,RecordFunctionInformation,1,78,1,5,1,24,1,6,0,4
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteModules,109,1238,20,118,21,298,16,76,0,23
+Closure Compiler,com.google.javascript.jscomp,AmbiguateProperties,85,451,11,41,13,109,10,28,1,11
+Closure Compiler,com.google.javascript.jscomp,ProcessTweaks,0,367,0,26,0,93,0,21,0,8
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedCode.AnonymousPrototypeNamedPropertyAssign,11,123,1,13,2,31,2,9,1,3
+Closure Compiler,com.google.javascript.jscomp,InlineFunctions.Inline,0,53,1,5,0,17,1,5,0,3
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteClassExtendsExpressions,0,124,0,8,0,26,0,11,0,7
+Closure Compiler,com.google.javascript.jscomp,NodeUtil.TemplateArgsIterable.new AbstractIterator() {...},0,43,0,6,0,9,0,5,0,2
+Closure Compiler,com.google.javascript.jscomp,InlineAliases.AliasesCollector,0,141,2,45,0,27,2,27,0,5
+Closure Compiler,com.google.javascript.jscomp,CrossModuleCodeMotion.GlobalSymbol,4,127,0,10,1,30,1,10,1,5
+Closure Compiler,com.google.javascript.jscomp,Requirement.Severity,35,63,4,2,9,14,8,6,5,5
+Closure Compiler,com.google.javascript.jscomp,ClosureRewriteModule.AddAt,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedCode.ClassDeclaration,10,16,0,0,1,6,1,2,1,2
+Closure Compiler,com.google.javascript.jscomp,ClosureRewriteModule,230,2608,77,335,47,631,69,197,0,59
+Closure Compiler,com.google.javascript.jscomp,CheckUnreachableCode,0,76,1,11,0,20,1,11,0,6
+Closure Compiler,com.google.javascript.jscomp,JsMessageExtractor.ExtractMessagesVisitor,0,33,2,2,0,8,2,3,0,3
+Closure Compiler,com.google.javascript.jscomp,J2clPropertyInlinerPass.StaticFieldGetterSetterInliner,20,194,21,27,10,44,21,7,0,4
+Closure Compiler,com.google.javascript.jscomp,TypeMatchingStrategy.MatchResult,0,48,0,4,0,6,0,5,0,3
+Closure Compiler,com.google.javascript.jscomp,TypedVar,17,63,0,4,1,22,1,12,1,10
+Closure Compiler,com.google.javascript.jscomp,DefinitionsRemover.Definition,19,23,1,1,2,9,2,4,1,4
+Closure Compiler,com.google.javascript.jscomp,FunctionTypeBuilder,56,1725,31,293,10,396,28,162,0,28
+Closure Compiler,com.google.javascript.jscomp,Normalize.PropagateConstantAnnotationsOverVars,21,72,1,19,3,21,1,12,0,3
+Closure Compiler,com.google.javascript.jscomp,DisambiguateProperties.Warnings,3,13,0,0,1,4,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,ProcessClosurePrimitives.UnrecognizedRequire,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,SourceExcerptProvider.SourceExcerpt.new SourceExcerptProvider.SourceExcerpt() {...},7,6,0,0,2,1,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,SourceExcerptProvider.SourceExcerpt.new SourceExcerptProvider.SourceExcerpt() {...},0,14,0,0,0,3,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,InlineFunctions.CallVisitor,0,83,0,16,0,25,0,10,0,2
+Closure Compiler,com.google.javascript.jscomp,PureFunctionIdentifier.Driver,16,35,1,1,4,10,1,2,0,2
+Closure Compiler,com.google.javascript.jscomp,CodeConsumer,1,405,1,83,1,124,2,74,1,33
+Closure Compiler,com.google.javascript.jscomp,ClosureCodeRemoval.RemovableAssignment,0,86,0,8,0,23,0,6,0,2
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.105.new CompilerPass() {...},0,50,0,0,0,7,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,Strings,63,0,14,0,12,0,10,0,3,0
+Closure Compiler,com.google.javascript.jscomp,DevirtualizePrototypeMethods,22,652,19,103,9,187,19,57,0,15
+Closure Compiler,com.google.javascript.jscomp,StripCode,0,84,0,2,0,17,0,5,0,4
+Closure Compiler,com.google.javascript.jscomp,CrossModuleCodeMotion.GlobalSymbolCollector,1,207,2,26,1,50,2,19,0,7
+Closure Compiler,com.google.javascript.jscomp,OptimizeParameters,61,1064,29,208,14,284,24,120,0,23
+Closure Compiler,com.google.javascript.jscomp,TemplateAstMatcher.new TemplateAstMatcher.Visitor() {...},0,94,1,15,0,15,1,9,0,2
+Closure Compiler,com.google.javascript.jscomp,FunctionTypeBuilder.ImplementedTypeValidator,18,56,1,7,2,12,1,5,0,2
+Closure Compiler,com.google.javascript.jscomp,AnalyzePrototypeProperties.PropagateReferences,2,29,1,5,1,7,1,4,0,2
+Closure Compiler,com.google.javascript.jscomp,PassConfig.PassConfigDelegate,32,0,0,0,9,0,7,0,7,0
+Closure Compiler,com.google.javascript.jscomp,IncrementalScopeCreator,28,193,9,23,7,46,9,18,2,9
+Closure Compiler,com.google.javascript.jscomp,ClosureRewriteModule.new NodeUtil.Visitor() {...},20,130,2,16,4,27,2,9,0,2
+Closure Compiler,com.google.javascript.jscomp,Requirement.Severity.new Internal.EnumLiteMap() {...},3,3,0,0,1,1,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,RemoveSuperMethodsPass.FilterDuplicateMethods,0,39,1,9,0,6,1,6,0,2
+Closure Compiler,com.google.javascript.jscomp,AliasStrings.StringOccurrence,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,ExtractPrototypeMemberDeclarations,2,280,2,14,0,66,2,11,0,5
+Closure Compiler,com.google.javascript.jscomp,ExpressionDecomposer.EvaluationDirection,0,24,0,0,0,1,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,PureFunctionIdentifier.CallSitePropagationInfo,2,139,2,46,0,37,2,25,0,3
+Closure Compiler,com.google.javascript.jscomp,InferJSDocInfo,13,224,5,75,4,71,4,43,0,6
+Closure Compiler,com.google.javascript.jscomp,FlowSensitiveInlineVariables.GatherCandidatesCfgNodeCallback,0,88,0,26,0,22,0,16,0,3
+Closure Compiler,com.google.javascript.jscomp,CompilerOptions.DevMode,0,44,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CollectFunctionNames.FunctionRecord,0,12,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,NodeUtil.VarCollector,0,29,1,5,0,8,1,4,0,2
+Closure Compiler,com.google.javascript.jscomp,OptimizeArgumentsArray,5,391,2,58,2,109,2,40,0,12
+Closure Compiler,com.google.javascript.jscomp,ProcessCommonJSModules.FindImportsAndExports.new NodeUtil.Visitor() {...},0,47,0,16,0,9,0,10,0,2
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteGenerators.SingleGeneratorFunctionTranspiler.TranspilationContext.UnmarkedNodeTranspiler,7,431,6,62,1,101,6,40,0,12
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedCode.VarInfo,0,120,0,20,0,32,0,16,0,6
+Closure Compiler,com.google.javascript.jscomp,BlackHoleErrorManager,0,5,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,J2clPass.ClassStaticFunctionsInliner,0,62,0,0,0,12,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,CheckMissingAndExtraRequires.new NodeUtil.Visitor() {...},0,82,0,14,0,14,0,9,0,2
+Closure Compiler,com.google.javascript.jscomp,CheckSideEffects.GetNoSideEffectExterns,0,27,0,6,0,7,0,5,0,2
+Closure Compiler,com.google.javascript.jscomp,InlineAliases,0,43,0,0,0,10,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,CheckMissingAndExtraRequires.new Predicate() {...},0,18,0,2,0,2,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,DisambiguateProperties.Property,2,301,5,43,0,66,5,28,0,9
+Closure Compiler,com.google.javascript.jscomp,RewriteGoogJsImports.FindExports,34,62,7,9,9,18,6,6,0,3
+Closure Compiler,com.google.javascript.jscomp,AbstractPeepholeOptimization,1,86,3,5,0,17,3,12,0,11
+Closure Compiler,com.google.javascript.jscomp,AnalyzePrototypeProperties.NameInfo,3,76,0,8,1,24,1,10,1,6
+Closure Compiler,com.google.javascript.jscomp,LintPassConfig,61,0,0,0,9,0,3,0,3,0
+Closure Compiler,com.google.javascript.jscomp,NodeUtil.MatchNodeType,0,15,0,2,0,4,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,Normalize.DuplicateDeclarationHandler,18,128,5,17,4,34,3,11,0,3
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedCode.ClassSetupCall,18,81,1,9,2,23,2,7,1,3
+Closure Compiler,com.google.javascript.jscomp,OptimizeCalls.ReferenceMap,11,282,11,51,3,71,11,40,0,17
+Closure Compiler,com.google.javascript.jscomp,ImplicitNullabilityCheck.new Function() {...},0,9,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,CrossModuleCodeMotion.ImmovableInstanceofReference,0,15,0,0,0,6,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,ImplicitNullabilityCheck.new NodeUtil.Visitor() {...},0,107,0,27,0,25,0,16,0,2
+Closure Compiler,com.google.javascript.jscomp,CompilerOptions.Reach,7,41,2,2,1,5,2,3,1,2
+Closure Compiler,com.google.javascript.jscomp,MemoizedScopeCreator,0,46,0,4,0,11,0,5,0,3
+Closure Compiler,com.google.javascript.jscomp,CrossModuleMethodMotion,10,312,4,44,4,92,4,25,0,5
+Closure Compiler,com.google.javascript.jscomp,AggressiveInlineAliases,33,1024,19,194,6,238,18,105,0,16
+Closure Compiler,com.google.javascript.jscomp,ClosureRewriteModule.ScopeType,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,SourceMapInput,20,74,0,2,4,23,0,5,0,4
+Closure Compiler,com.google.javascript.jscomp,MarkNoSideEffectCalls.SetNoSideEffectCallProperty,1,76,1,17,1,24,1,10,0,2
+Closure Compiler,com.google.javascript.jscomp,PolymerPassFindExterns,0,67,3,17,0,19,3,13,0,6
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.StrictBanUnresolvedType,0,32,1,3,0,6,1,3,0,2
+Closure Compiler,com.google.javascript.jscomp,CheckMissingAndExtraRequires.Mode,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,TypedScopeCreator.FunctionScopeBuilder,6,280,8,48,1,81,8,24,0,4
+Closure Compiler,com.google.javascript.jscomp,FunctionInjector.Reference,10,15,0,0,1,6,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp,TypeTransformation.NameResolver,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,PassFactory.1.new CompilerPass() {...},0,7,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,ExpressionDecomposer,52,1181,25,154,8,309,24,98,0,29
+Closure Compiler,com.google.javascript.jscomp,SideEffectsAnalysis.AbstractMotionEnvironment,0,3,0,0,0,1,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,ConformanceRules.CustomRuleProxy,13,144,4,10,3,35,4,9,0,6
+Closure Compiler,com.google.javascript.jscomp,AutoValue_ModuleMetadata_Module.Builder,63,178,14,26,8,53,14,18,0,12
+Closure Compiler,com.google.javascript.jscomp,CompilerOptions.PropertyCollapseLevel,0,34,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CheckProvides.CheckProvidesCallback,1,258,7,50,1,64,7,29,0,6
+Closure Compiler,com.google.javascript.jscomp,J2clClinitPrunerPass.new NodeTraversal.AbstractPostOrderCallback() {...},0,21,0,2,0,5,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,PhaseOptimizer,47,263,4,26,9,70,5,23,1,12
+Closure Compiler,com.google.javascript.jscomp,CheckLevel,0,41,0,2,0,5,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,RewriteGoogJsImports.FindReexports,0,70,0,18,0,17,0,14,0,4
+Closure Compiler,com.google.javascript.jscomp,AnalyzePrototypeProperties.ProcessExternProperties,0,27,0,2,0,5,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,PeepholeRemoveDeadCode.MatchUnnamedBreak,0,10,0,4,0,1,0,3,0,1
+Closure Compiler,com.google.javascript.jscomp,RewritePolyfills.Polyfills,19,131,4,12,2,24,3,9,0,4
+Closure Compiler,com.google.javascript.jscomp,ObjectPropertyStringPreprocess.Callback,1,151,1,11,1,38,1,7,0,2
+Closure Compiler,com.google.javascript.jscomp,SuppressDocWarningsGuard,0,184,1,33,0,38,1,19,0,3
+Closure Compiler,com.google.javascript.jscomp,J2clPass.ClassStaticFunctionsInliner.FunctionDefsCollector,1,67,2,14,1,14,2,9,0,3
+Closure Compiler,com.google.javascript.jscomp,ConformanceConfig.new AbstractParser() {...},0,10,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,CheckConformance,48,384,5,41,11,90,5,31,0,10
+Closure Compiler,com.google.javascript.jscomp,Es6RewriteModulesToCommonJsModules.Rewriter,15,828,7,70,1,196,7,52,0,19
+Closure Compiler,com.google.javascript.jscomp,InlineFunctions.FindCandidatesReferences,2,176,2,32,1,48,2,21,0,6
+Closure Compiler,com.google.javascript.jscomp,TypedScopeCreator,15,654,2,34,3,148,2,41,0,25
+Closure Compiler,com.google.javascript.jscomp,InlineFunctions.FindCandidateFunctions,4,147,5,26,0,35,4,16,0,4
+Closure Compiler,com.google.javascript.jscomp,PeepholeMinimizeConditions.new Predicate() {...},0,14,0,4,0,3,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp,SubstituteEs6Syntax,0,82,2,15,0,21,2,12,0,5
+Closure Compiler,com.google.javascript.jscomp,RandomNameGenerator,32,287,0,24,9,68,3,23,3,11
+Closure Compiler,com.google.javascript.jscomp,Es6ExtractClasses,0,213,0,22,0,41,0,18,0,7
+Closure Compiler,com.google.javascript.jscomp,VarCheck.NameRefInExternsCheck,0,117,6,25,0,27,6,15,0,3
+Closure Compiler,com.google.javascript.jscomp,DisambiguatePrivateProperties,0,98,0,11,0,24,0,11,0,5
+Closure Compiler,com.google.javascript.jscomp,VariableReferenceCheck,14,550,19,117,3,125,17,62,0,11
+Closure Compiler,com.google.javascript.jscomp,InstrumentFunctions,1,156,2,10,1,38,2,6,0,2
+Closure Compiler,com.google.javascript.jscomp,OptimizeCalls,1,143,4,30,0,36,4,21,0,7
+Closure Compiler,com.google.javascript.jscomp,RenameLabels.DefaultNameSupplier,6,17,0,0,3,4,1,2,1,2
+Closure Compiler,com.google.javascript.jscomp,StatementFusion,9,348,3,69,3,98,4,48,1,11
+Closure Compiler,com.google.javascript.jscomp,DeadPropertyAssignmentElimination.PropertyWrite,19,35,5,5,1,9,4,5,1,3
+Closure Compiler,com.google.javascript.jscomp,GlobalNamespace.BuildGlobalNamespace,35,1015,24,199,10,274,23,122,0,18
+Closure Compiler,com.google.javascript.jscomp,J2clPropertyInlinerPass.StaticFieldGetterSetterInliner.J2clProperty,0,15,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CodePrinter.Format,0,49,1,5,0,9,1,4,0,2
+Closure Compiler,com.google.javascript.jscomp,Es6ExtractClasses.SelfReferenceRewriter,0,134,1,22,0,25,1,16,0,5
+Closure Compiler,com.google.javascript.jscomp,JsAst.RhinoError,0,15,0,0,0,6,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,J2clEqualitySameRewriterPass,3,127,4,24,1,31,4,17,0,7
+Closure Compiler,com.google.javascript.jscomp,RewriteGoogJsImports.ReferenceReplacer,1,100,5,13,1,27,5,7,0,3
+Closure Compiler,com.google.javascript.jscomp,MethodCompilerPass,0,100,1,5,0,25,1,6,0,4
+Closure Compiler,com.google.javascript.jscomp,ProcessTweaks.CollectTweaksResult,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,ReplaceStrings.Result,0,12,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,CodePrinter.CompactCodePrinter,0,272,2,22,0,67,2,17,0,7
+Closure Compiler,com.google.javascript.jscomp,FunctionTypeBuilder.ExtendedTypeValidator,0,82,0,10,0,14,0,7,0,2
+Closure Compiler,com.google.javascript.jscomp,InlineProperties,6,77,1,3,1,21,1,6,0,5
+Closure Compiler,com.google.javascript.jscomp,VarCheck.RedeclarationCheckHandler,14,176,12,40,4,39,8,21,0,3
+Closure Compiler,com.google.javascript.jscomp,ScopedAliases,12,276,2,26,1,70,2,21,0,7
+Closure Compiler,com.google.javascript.jscomp,CodingConvention.SubclassType,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,Tracer.ThreadTrace,523,33,76,0,118,9,46,2,8,2
+Closure Compiler,com.google.javascript.jscomp,DefaultExterns,0,112,0,6,0,16,0,5,0,2
+Closure Compiler,com.google.javascript.jscomp,CompilerOptions.J2clPassMode,1,30,1,1,0,4,1,2,0,2
+Closure Compiler,com.google.javascript.jscomp,ProcessDefines,10,318,3,45,1,79,3,29,0,8
+Closure Compiler,com.google.javascript.jscomp,ReplaceMessagesForChrome,30,123,2,8,5,30,2,8,0,5
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},8,27,2,1,3,6,2,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,16,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},4,32,1,1,0,4,1,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,23,0,0,0,5,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,JsMessage,165,115,44,8,21,33,26,15,3,12
+Closure Compiler,com.google.javascript.jscomp,ModuleMetadata.ModuleType,0,78,0,0,0,10,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,Denormalize,0,318,4,68,0,89,4,39,0,7
+Closure Compiler,com.google.javascript.jscomp,CheckGlobalNames,5,507,9,89,1,116,9,51,0,11
+Closure Compiler,com.google.javascript.jscomp,PolymerClassRewriter,18,1364,15,107,4,293,14,63,0,16
+Closure Compiler,com.google.javascript.jscomp,Es6ToEs3ClassSideInheritance,32,414,5,39,8,101,6,25,1,8
+Closure Compiler,com.google.javascript.jscomp,AbstractCommandLineRunner.CommandLineConfig.ErrorFormatOption,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,42,0,4,0,6,0,5,0,3
+Closure Compiler,com.google.javascript.jscomp,FlowSensitiveInlineVariables.GatherCandidates,0,37,0,2,0,9,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,63,0,2,0,13,0,4,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,21,0,0,0,4,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,25,0,0,0,4,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,GoogleJsMessageIdGenerator,10,65,2,6,0,16,2,4,0,2
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedCode.NameDeclarationStatement,10,69,1,9,1,19,2,8,1,4
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,19,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,25,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,PeepholeReorderConstantExpression,0,57,0,12,0,17,0,8,0,2
+Closure Compiler,com.google.javascript.jscomp,XtbMessageBundle.Handler,22,158,11,23,7,36,15,14,5,7
+Closure Compiler,com.google.javascript.jscomp,CommandLineRunner.Flags.WarningGuardErrorOptionHandler,0,12,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedPolyfills.PrototypeMethod,13,25,0,2,1,4,1,3,1,2
+Closure Compiler,com.google.javascript.jscomp,ExtractPrototypeMemberDeclarations.Pattern,0,55,0,0,0,13,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,IncrementalScopeCreator.PersistentLocalScope,49,65,12,8,11,18,10,5,0,5
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,19,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,SourceMap.Format.new SourceMap.Format() {...},0,13,0,0,0,3,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,SourceMap.Format.new SourceMap.Format() {...},0,13,0,0,0,3,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,31,0,0,0,6,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,19,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},5,33,1,3,1,7,1,4,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,17,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,ExportTestFunctions.ExportTestFunctionsNodes,0,355,6,60,0,83,6,36,0,9
+Closure Compiler,com.google.javascript.jscomp,PrepareAst.PrepareAnnotations,0,47,0,10,0,14,0,8,0,3
+Closure Compiler,com.google.javascript.jscomp,JSError,37,292,17,28,10,47,17,23,2,15
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedCode.ClassOrPrototypeNamedProperty,10,27,0,2,1,8,1,5,1,4
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.51.new CompilerPass() {...},0,40,0,0,0,5,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,19,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,16,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},8,8,0,0,2,1,2,1,2,1
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,23,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,28,0,2,0,5,0,4,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,23,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,19,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,17,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,VariableVisibilityAnalysis.VariableVisibility,0,44,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},7,8,0,0,2,1,2,1,2,1
+Closure Compiler,com.google.javascript.jscomp,FunctionInformationMap.Module.Builder,414,0,42,0,129,0,49,0,28,0
+Closure Compiler,com.google.javascript.jscomp,J2clUtilGetDefineRewriterPass,0,122,2,16,0,28,2,14,0,7
+Closure Compiler,com.google.javascript.jscomp,ClosureCodeRemoval.FindAssertionCalls,0,50,0,6,0,12,0,5,0,2
+Closure Compiler,com.google.javascript.jscomp,FunctionInjector.InliningMode,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,14,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,AbstractCommandLineRunner.FlagUsageException,0,4,0,0,0,2,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,16,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,ClosureRewriteModule.ScriptRecorder,0,139,0,33,0,31,0,22,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},8,8,0,0,2,1,2,1,2,1
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,16,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},8,8,0,0,2,1,2,1,2,1
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedCode.Removable,2,118,2,14,1,31,3,21,1,15
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,14,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,FileAwareWarningsGuard,2,44,1,9,1,14,1,6,0,2
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},8,8,0,0,2,1,2,1,2,1
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedCode.DestructuringAssign,22,168,10,24,3,41,9,17,1,8
+Closure Compiler,com.google.javascript.jscomp,NodeTraversal.AbstractPostOrderCallback,0,5,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp,SideEffectsAnalysis.DegenerateLocationAbstraction,0,39,0,4,0,11,0,8,0,6
+Closure Compiler,com.google.javascript.jscomp,ClosureCodingConvention.AssertInstanceofSpec,0,36,3,7,0,13,3,4,0,2
+Closure Compiler,com.google.javascript.jscomp,DefinitionsRemover.FunctionDefinition,0,27,0,0,0,8,0,4,0,4
+Closure Compiler,com.google.javascript.jscomp,Tracer,367,87,47,6,100,30,47,8,20,7
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,16,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,16,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,43,1,3,0,8,1,4,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,18,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,Compiler.new Callable() {...},62,0,2,0,12,0,3,0,2,0
+Closure Compiler,com.google.javascript.jscomp,DataFlowAnalysis.FlowState,53,35,6,0,7,14,6,5,3,5
+Closure Compiler,com.google.javascript.jscomp,Compiler.new Callable() {...},76,0,6,0,16,0,5,0,2,0
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,66,0,0,0,14,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,Compiler.new Callable() {...},16,48,2,4,3,10,2,3,0,2
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,65,2,4,0,13,2,4,0,3
+Closure Compiler,com.google.javascript.jscomp,Compiler.new Callable() {...},7,184,3,29,1,30,3,15,0,2
+Closure Compiler,com.google.javascript.jscomp,ClosureRewriteClass.ClassDefinition,0,24,0,0,0,9,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,Compiler.new Callable() {...},0,39,0,2,0,7,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,Compiler.SyntheticExternsPosition,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,Compiler.new Callable() {...},0,46,0,2,0,11,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp,SideEffectsAnalysis.VisibilityLocationAbstraction,15,175,5,26,1,54,5,20,0,8
+Closure Compiler,com.google.javascript.jscomp,FunctionToBlockMutator,7,680,14,80,1,175,14,50,0,17
+Closure Compiler,com.google.javascript.jscomp,Compiler.new Callable() {...},0,72,1,7,0,16,1,5,0,2
+Closure Compiler,com.google.javascript.jscomp,DefinitionsRemover.VarDefinition,4,72,5,7,0,16,5,5,0,4
+Closure Compiler,com.google.javascript.jscomp,CoverageInstrumentationPass.InstrumentOption,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},13,25,3,1,3,5,2,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,PeepholeRemoveDeadCode,19,1753,27,328,4,490,26,195,0,36
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,78,0,0,0,6,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,14,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,15,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,MaybeReachingVariableUse.ReachingUsesJoinOp,0,23,0,2,0,5,0,2,0,1
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory() {...},0,22,0,0,0,4,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},2,13,0,0,1,2,1,2,1,2
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,14,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,DefaultPassConfig.new PassFactory.HotSwapPassFactory() {...},0,14,0,0,0,3,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp,TypedScopeCreator.ClassScopeBuilder,1,100,1,17,0,28,1,12,0,4
+Closure Compiler,com.google.javascript.jscomp,ErrorManager,26,5,5,1,4,2,3,1,0,1
+Closure Compiler,com.google.javascript.jscomp,RemoveUnusedCode.RemovableBuilder,1,211,2,6,0,37,2,22,0,20
+Closure Compiler,com.google.javascript.jscomp.parsing,Annotation,0,801,0,0,0,127,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing,JsDocTokenStream,65,656,30,99,16,176,22,73,0,22
+Closure Compiler,com.google.javascript.jscomp.parsing,Config.StrictMode,0,31,0,2,0,3,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp.parsing,Config.Builder,0,8,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp.parsing,Config.LanguageMode,49,123,5,3,6,15,5,4,2,3
+Closure Compiler,com.google.javascript.jscomp.parsing,AutoValue_Config.Builder,105,98,14,14,14,33,14,9,0,9
+Closure Compiler,com.google.javascript.jscomp.parsing,IRFactory,124,2219,28,325,19,562,29,270,1,81
+Closure Compiler,com.google.javascript.jscomp.parsing,Config.RunMode,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing,TypeTransformationParser.Keywords,0,357,0,0,0,31,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp.parsing,IRFactory.new ErrorReporter() {...},2,3,0,0,2,1,2,1,2,1
+Closure Compiler,com.google.javascript.jscomp.parsing,JsDocToken,0,214,0,0,0,22,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing,JsDocInfoParser.ExtractionInfo,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing,JsDocInfoParser.ExtendedTypeInfo,0,12,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing,ParserRunner.Es6ErrorReporter,0,49,0,4,0,11,0,5,0,3
+Closure Compiler,com.google.javascript.jscomp.parsing,JsDocInfoParser.State,0,34,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing,JsDocInfoParser.WhitespaceOption,0,34,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing,TypeTransformationParser.OperationKind,0,54,0,0,0,6,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing,Config.JsDocParsing,0,48,0,4,0,6,0,5,0,3
+Closure Compiler,com.google.javascript.jscomp.parsing,TypeTransformationParser,22,1370,6,203,5,327,6,162,0,55
+Closure Compiler,com.google.javascript.jscomp.parsing,AutoValue_Config,180,42,20,0,30,15,14,7,4,7
+Closure Compiler,com.google.javascript.jscomp.parsing,JsDocInfoParser,137,4115,62,719,38,1110,59,460,0,88
+Closure Compiler,com.google.javascript.jscomp.parsing,IRFactory.TransformDispatcher,156,4999,37,486,24,1088,39,418,3,137
+Closure Compiler,com.google.javascript.jscomp.parsing,Config,0,57,1,5,0,18,1,6,0,4
+Closure Compiler,com.google.javascript.jscomp.parsing,ParserRunner,0,219,2,19,0,66,2,19,0,8
+Closure Compiler,com.google.javascript.jscomp.parsing,ParserRunner.ParseResult,0,15,0,0,0,6,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.util,LookaheadErrorReporter,1,7,0,0,1,2,1,2,1,2
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.util,ErrorReporter,0,27,0,0,0,9,0,4,0,4
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.util,SourcePosition,40,15,2,0,4,6,3,1,2,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.util,LookaheadErrorReporter.ParseException,0,3,0,0,0,1,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.util,SourceRange,15,9,0,0,1,4,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.util.format,UnknownFormatConversionException,4,0,0,0,2,0,1,0,1,0
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.util.format,SimpleFormat,579,556,117,85,150,153,93,39,9,16
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.util.format,IllegalFormatCodePointException,11,0,0,0,2,0,1,0,1,0
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.util.format,MissingFormatWidthException,4,0,0,0,2,0,1,0,1,0
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.util.format,IllegalFormatPrecisionException,11,0,0,0,2,0,1,0,1,0
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.util.format,SimpleFormat.FormatToken,224,288,43,70,46,80,41,40,3,14
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.util.format,IllegalFormatConversionException,15,0,0,0,2,0,1,0,1,0
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.util.format,MissingFormatArgumentException,4,0,0,0,2,0,1,0,1,0
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.util.format,SimpleFormat.FormatSpecifierParser,61,217,13,27,15,48,15,18,3,10
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.util.format,IllegalFormatWidthException,11,0,0,0,2,0,1,0,1,0
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.util.format,IllegalFormatFlagsException,4,0,0,0,2,0,1,0,1,0
+Closure Compiler,com.google.javascript.rhino.jstype,EquivalenceMethod,0,34,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.rhino.jstype,TernaryValue,0,40,0,2,0,5,0,3,0,2
+Closure Compiler,com.google.javascript.rhino.jstype,Property,53,59,3,3,5,20,7,12,5,11
+Closure Compiler,com.google.javascript.rhino.jstype,NamedType,30,539,14,84,10,139,14,62,0,27
+Closure Compiler,com.google.javascript.rhino.jstype,NoObjectType,4,92,1,9,1,27,2,25,1,21
+Closure Compiler,com.google.javascript.rhino.jstype,FunctionType.PropAccess,0,34,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.rhino.jstype,RecordTypeBuilder.RecordProperty,17,15,0,0,1,6,1,3,1,3
+Closure Compiler,com.google.javascript.rhino.jstype,JSType.HasPropertyKind,0,40,0,2,0,5,0,3,0,2
+Closure Compiler,com.google.javascript.rhino.jstype,RecordType,18,290,5,37,4,69,6,25,2,8
+Closure Compiler,com.google.javascript.rhino.jstype,JSTypeRegistry.SyntheticTemplateScope,5,58,0,4,1,14,1,8,1,6
+Closure Compiler,com.google.javascript.rhino.jstype,RecordTypeBuilder,0,65,0,4,0,16,0,6,0,4
+Closure Compiler,com.google.javascript.rhino.jstype,PrototypeObjectType,19,753,9,157,5,185,9,110,1,35
+Closure Compiler,com.google.javascript.rhino.jstype,JSTypeRegistry.PropDefinitionKind,0,44,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.rhino.jstype,FunctionBuilder,5,328,3,19,0,79,3,30,0,22
+Closure Compiler,com.google.javascript.rhino.jstype,FunctionType,364,2037,89,365,92,486,71,245,8,78
+Closure Compiler,com.google.javascript.rhino.jstype,UnionType,108,1261,22,202,27,285,20,140,4,43
+Closure Compiler,com.google.javascript.rhino.jstype,TemplatizedType,32,291,6,30,6,64,6,30,1,17
+Closure Compiler,com.google.javascript.rhino.jstype,JSTypeRegistry,123,3618,38,306,29,818,42,256,7,111
+Closure Compiler,com.google.javascript.rhino.jstype,ArrowType,38,363,16,92,11,90,23,49,8,10
+Closure Compiler,com.google.javascript.rhino.jstype,SimpleReference,8,46,2,2,1,9,3,4,1,4
+Closure Compiler,com.google.javascript.rhino.jstype,ObjectType,75,748,11,129,14,184,16,123,7,62
+Closure Compiler,com.google.javascript.rhino.jstype,TernaryValue.new TernaryValue() {...},0,30,0,4,0,7,0,9,0,7
+Closure Compiler,com.google.javascript.rhino.jstype,TernaryValue.new TernaryValue() {...},0,18,0,0,0,7,0,7,0,7
+Closure Compiler,com.google.javascript.rhino.jstype,TernaryValue.new TernaryValue() {...},0,19,0,0,0,7,0,7,0,7
+Closure Compiler,com.google.javascript.rhino.jstype,TemplateType,0,50,0,2,0,14,0,11,0,10
+Closure Compiler,com.google.javascript.rhino.jstype,PropertyMap,4,216,4,30,1,65,4,30,0,17
+Closure Compiler,com.google.javascript.rhino.jstype,BooleanLiteralSet,25,91,2,12,3,18,2,14,0,6
+Closure Compiler,com.google.javascript.rhino.jstype,NominalTypeBuilderOti,23,38,2,0,6,12,3,6,2,6
+Closure Compiler,com.google.javascript.rhino.jstype,EnumType,16,128,3,9,3,26,4,21,2,17
+Closure Compiler,com.google.javascript.rhino.jstype,JSTypeRegistry.new FunctionType() {...},0,20,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.rhino.jstype,JSType.MatchCache,0,9,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.javascript.rhino.jstype,SymbolType,12,36,3,1,4,14,3,11,1,11
+Closure Compiler,com.google.javascript.rhino.jstype,EnumElementType,0,189,0,10,0,47,0,35,0,30
+Closure Compiler,com.google.javascript.rhino.jstype,JSType.MatchStatus,0,48,0,0,0,8,0,3,0,3
+Closure Compiler,com.google.javascript.rhino.jstype,ModificationVisitor,25,392,7,49,8,104,8,42,2,20
+Closure Compiler,com.google.javascript.rhino.jstype,NumberType,0,49,1,5,0,18,1,13,0,11
+Closure Compiler,com.google.javascript.rhino.jstype,VoidType,0,55,0,6,0,18,0,16,0,13
+Closure Compiler,com.google.javascript.rhino.jstype,TemplateTypeMapReplacer,1,167,2,28,0,44,2,20,0,7
+Closure Compiler,com.google.javascript.rhino.jstype,AllType,0,38,0,0,0,16,0,15,0,15
+Closure Compiler,com.google.javascript.rhino.jstype,SimpleSlot,6,23,0,0,2,9,2,5,2,5
+Closure Compiler,com.google.javascript.rhino.jstype,FunctionType.Kind,0,34,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.rhino.jstype,JSType.ImplCache,0,51,0,4,0,13,0,7,0,5
+Closure Compiler,com.google.javascript.rhino.jstype,TemplateTypeMap,125,517,13,73,13,114,10,57,1,23
+Closure Compiler,com.google.javascript.rhino.jstype,CanCastToVisitor,0,261,1,57,0,57,1,44,0,16
+Closure Compiler,com.google.javascript.rhino.jstype,ProxyObjectType,79,319,16,18,17,79,21,62,9,57
+Closure Compiler,com.google.javascript.rhino.jstype,NamedType.PropertyContinuation,0,27,0,0,0,8,0,2,0,2
+Closure Compiler,com.google.javascript.rhino.jstype,UnionTypeBuilder,8,521,9,119,0,138,8,67,0,11
+Closure Compiler,com.google.javascript.rhino.jstype,ValueType,0,32,0,4,0,9,0,8,0,6
+Closure Compiler,com.google.javascript.rhino.jstype,BooleanType,0,52,1,7,0,19,1,14,0,11
+Closure Compiler,com.google.javascript.rhino.jstype,FunctionParamBuilder,2,156,2,22,1,35,2,20,0,10
+Closure Compiler,com.google.javascript.rhino.jstype,InstanceObjectType,9,217,3,41,3,45,4,39,1,20
+Closure Compiler,com.google.javascript.rhino.jstype,JSType.Nullability,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.rhino.jstype,JSTypeNative,0,714,0,0,0,72,0,1,0,1
+Closure Compiler,com.google.javascript.rhino.jstype,NoType,2,36,1,1,0,12,1,11,0,11
+Closure Compiler,com.google.javascript.rhino.jstype,JSType.EqCache,0,100,0,12,0,19,0,11,0,5
+Closure Compiler,com.google.javascript.rhino.jstype,StringType,0,49,1,5,0,18,1,13,0,11
+Closure Compiler,com.google.javascript.rhino.jstype,UnknownType,0,73,0,2,0,27,0,26,0,25
+Closure Compiler,com.google.javascript.rhino.jstype,TemplateTypeMap.EquivalenceMatch,0,34,0,0,0,2,0,1,0,1
+Closure Compiler,com.google.javascript.rhino.jstype,JSType,56,1727,16,362,15,439,25,311,9,137
+Closure Compiler,com.google.javascript.rhino.jstype,JSType.TypePair,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.rhino.jstype,NoResolvedType,2,51,1,5,0,15,1,11,0,9
+Closure Compiler,com.google.javascript.rhino.jstype,JSType.SubtypingMode,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.rhino.jstype,NullType,2,55,2,8,1,19,2,15,0,12
+Closure Compiler,com.google.javascript.jscomp.transpile,CachingTranspiler.Key,1,47,3,3,0,7,3,3,0,3
+Closure Compiler,com.google.javascript.jscomp.transpile,Transpiler.new Transpiler() {...},2,11,0,0,1,2,1,2,1,2
+Closure Compiler,com.google.javascript.jscomp.transpile,CachingTranspiler,12,38,2,0,4,7,1,3,0,3
+Closure Compiler,com.google.javascript.jscomp.transpile,Transpiler,0,5,0,0,0,1,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.transpile,BaseTranspiler.CompileResult,0,16,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.transpile,CachingTranspiler.new CacheLoader() {...},0,17,0,0,0,2,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp.transpile,BaseTranspiler.CompilerSupplier,3,228,2,8,2,64,2,13,0,10
+Closure Compiler,com.google.javascript.jscomp.transpile,BaseTranspiler,0,88,0,4,0,17,0,8,0,6
+Closure Compiler,com.google.javascript.jscomp.transpile,TranspileResult,16,184,2,14,3,25,4,16,3,9
+Closure Compiler,com.google.javascript.jscomp.transpile,TranspilerBuilder,42,0,0,0,9,0,7,0,7,0
+Closure Compiler,com.google.javascript.jscomp.ant,Warning,17,0,0,0,7,0,5,0,5,0
+Closure Compiler,com.google.javascript.jscomp.ant,CompileTask,1242,0,104,0,309,0,102,0,48,0
+Closure Compiler,com.google.javascript.jscomp.ant,AntErrorManager,85,0,7,0,17,0,7,0,3,0
+Closure Compiler,com.google.javascript.jscomp.graph,StandardUnionFind,0,248,0,18,0,53,0,20,0,11
+Closure Compiler,com.google.javascript.jscomp.graph,DiGraph,0,33,1,7,0,4,1,6,0,3
+Closure Compiler,com.google.javascript.jscomp.graph,GraphColoring,0,39,0,2,0,11,0,4,0,3
+Closure Compiler,com.google.javascript.jscomp.graph,Graph.GraphAnnotationState,0,4,0,0,0,2,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.graph,Graph.AnnotationState,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.graph,LinkedDirectedGraph,193,475,15,37,41,100,18,45,9,28
+Closure Compiler,com.google.javascript.jscomp.graph,GraphReachability,1,93,2,8,0,25,2,9,0,6
+Closure Compiler,com.google.javascript.jscomp.graph,StandardUnionFind.Node,0,15,0,0,0,6,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.graph,StandardUnionFind.new Predicate() {...},2,52,1,5,1,8,1,4,0,2
+Closure Compiler,com.google.javascript.jscomp.graph,StandardUnionFind.new AbstractSet() {...},0,38,0,0,0,4,0,4,0,4
+Closure Compiler,com.google.javascript.jscomp.graph,FixedPointGraphTraversal,0,148,0,14,0,33,0,12,0,5
+Closure Compiler,com.google.javascript.jscomp.graph,Graph.SimpleSubGraph,0,49,0,4,0,12,0,5,0,3
+Closure Compiler,com.google.javascript.jscomp.graph,GraphColoring.Color,4,23,2,2,1,7,2,3,0,3
+Closure Compiler,com.google.javascript.jscomp.graph,LinkedUndirectedGraph,109,339,15,39,22,72,17,36,6,20
+Closure Compiler,com.google.javascript.jscomp.graph,LinkedUndirectedGraph.LinkedUndirectedGraphNode,30,53,0,4,6,13,6,6,6,4
+Closure Compiler,com.google.javascript.jscomp.graph,LinkedDirectedGraph.LinkedDirectedGraphEdge,53,21,0,0,13,8,11,4,11,4
+Closure Compiler,com.google.javascript.jscomp.graph,LinkedUndirectedGraph.AnnotatedLinkedUndirectedGraphEdge,0,13,0,0,0,5,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp.graph,LinkedDirectedGraph.LinkedDirectedGraphNode,29,25,0,0,6,8,6,4,6,4
+Closure Compiler,com.google.javascript.jscomp.graph,LinkedUndirectedGraph.LinkedUndirectedGraphEdge,39,21,0,0,7,8,7,4,7,4
+Closure Compiler,com.google.javascript.jscomp.graph,LinkedUndirectedGraph.AnnotatedLinkedUndirectedGraphNode,0,11,0,0,0,5,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp.graph,UndiGraph,0,3,0,0,0,1,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.graph,GraphReachability.EdgeTuple,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.graph,GraphColoring.GreedyGraphColoring,0,97,0,10,0,26,0,9,0,4
+Closure Compiler,com.google.javascript.jscomp.graph,GraphReachability.new Annotation() {...},0,3,0,0,0,1,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.graph,LinkedDirectedGraph.AnnotatedLinkedDirectedGraphNode,0,11,0,0,0,5,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp.graph,LinkedDirectedGraph.AnnotatedLinkedDirectedGraphEdge,0,13,0,0,0,5,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp.graph,Graph,0,177,0,18,0,42,0,22,0,13
+Closure Compiler,com.google.javascript.jscomp.parsing.parser,Parser.FunctionFlavor,0,34,0,0,0,2,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser,Parser.CommentRecorder,0,39,0,2,0,8,0,4,0,3
+Closure Compiler,com.google.javascript.jscomp.parsing.parser,IdentifierToken,0,11,0,0,0,4,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp.parsing.parser,Parser,94,7522,48,925,20,1835,47,726,0,264
+Closure Compiler,com.google.javascript.jscomp.parsing.parser,Keywords,6,705,0,16,1,75,1,17,1,9
+Closure Compiler,com.google.javascript.jscomp.parsing.parser,FeatureSet.Feature,0,594,0,0,0,54,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp.parsing.parser,Token,0,23,0,0,0,8,0,5,0,5
+Closure Compiler,com.google.javascript.jscomp.parsing.parser,Parser.Expression,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser,Parser.ParamContext,0,34,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser,Parser.Config.Mode,0,64,0,0,0,7,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser,FeatureSet,96,323,27,25,28,72,21,35,3,23
+Closure Compiler,com.google.javascript.jscomp.parsing.parser,Parser.PatternKind,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser,TokenType,0,1211,0,2,0,119,0,5,0,4
+Closure Compiler,com.google.javascript.jscomp.parsing.parser,Parser.PartialClassElement,0,15,0,0,0,6,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser,Parser.Config,5,44,0,12,2,7,1,7,1,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser,LineNumberTable,0,140,0,14,0,30,0,17,0,10
+Closure Compiler,com.google.javascript.jscomp.parsing.parser,LiteralToken,3,8,0,0,1,3,1,1,1,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser,SourceFile,0,15,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser,FeatureSet.LangVersion,0,113,0,4,0,14,0,4,0,2
+Closure Compiler,com.google.javascript.jscomp.parsing.parser,Scanner,85,2129,34,389,22,497,35,281,1,76
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,FunctionTypeTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ProgramTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ImportSpecifierTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,IndexSignatureTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,GenericTypeListTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,TryStatementTree,0,14,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ComprehensionIfTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ParameterizedTypeTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ComputedPropertyDefinitionTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,IfStatementTree,0,14,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,CatchTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,AmbientDeclarationTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ConditionalExpressionTree,0,14,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,VariableDeclarationListTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,TypeAliasTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,SpreadExpressionTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ImportDeclarationTree,0,17,0,0,0,6,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,TemplateLiteralExpressionTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,AwaitExpressionTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ComprehensionTree,0,14,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ExportDeclarationTree,0,20,0,0,0,7,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,PropertyNameAssignmentTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,Comment,23,12,2,0,3,5,4,1,3,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ForInStatementTree,0,14,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,TypedParameterTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,DebuggerStatementTree,0,5,0,0,0,2,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,InterfaceDeclarationTree,0,17,0,0,0,6,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,CallSignatureTree,0,17,0,0,0,6,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ObjectPatternTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,BreakStatementTree,0,17,0,2,0,4,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,TemplateLiteralPortionTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,WhileStatementTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ComprehensionForTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ClassDeclarationTree,0,20,0,0,0,7,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ComputedPropertyGetterTree,0,20,0,0,0,7,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,TypeQueryTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ParseTreeType,0,964,0,0,0,97,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ExpressionStatementTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,CaseClauseTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ReturnStatementTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,UnionTypeTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,NewTargetExpressionTree,0,5,0,0,0,2,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,YieldExpressionTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,BlockTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,SuperExpressionTree,0,5,0,0,0,2,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ComprehensionTree.ComprehensionType,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,TypeNameTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ComputedPropertyMethodTree,0,14,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,MemberVariableTree,0,20,0,0,0,7,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,DoWhileStatementTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,FunctionDeclarationTree.Builder,0,95,0,0,0,35,0,12,0,12
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ArgumentListTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,RestParameterTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,RecordTypeTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,MemberExpressionTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,FinallyTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,VariableStatementTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,GetAccessorTree,0,17,0,0,0,6,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,UpdateExpressionTree,0,30,0,0,0,7,0,3,0,3
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,LiteralExpressionTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,DefaultClauseTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,NamespaceDeclarationTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,NullTree,0,5,0,0,0,2,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ArrayPatternTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ComputedPropertySetterTree,0,23,0,0,0,8,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,FunctionDeclarationTree.Kind,0,44,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,EnumDeclarationTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ComputedPropertyMemberVariableTree,0,17,0,0,0,6,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ParseTree,39,328,3,9,7,107,8,99,6,95
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,UnaryExpressionTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ArrayTypeTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,WithStatementTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ForAwaitOfStatementTree,14,0,0,0,5,0,1,0,1,0
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ThisExpressionTree,0,5,0,0,0,2,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ObjectLiteralExpressionTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,CallExpressionTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,IdentifierExpressionTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,CommaExpressionTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ExportSpecifierTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,BinaryOperatorTree,0,14,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ParenExpressionTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,EmptyStatementTree,0,5,0,0,0,2,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,UpdateExpressionTree.OperatorPosition,0,24,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,NamespaceNameTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ForStatementTree,0,17,0,0,0,6,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,TemplateSubstitutionTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ContinueStatementTree,0,17,0,2,0,4,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,OptionalParameterTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,VariableDeclarationTree,0,14,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ArrayLiteralExpressionTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,MemberLookupExpressionTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ThrowStatementTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,LabelledStatementTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,SwitchStatementTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,NewExpressionTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,DefaultParameterTree,0,11,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,FormalParameterListTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,Comment.Type,0,54,0,0,0,6,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,ForOfStatementTree,0,14,0,0,0,5,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,MissingPrimaryExpressionTree,0,5,0,0,0,2,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,AssignmentRestElementTree,0,8,0,0,0,3,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,FunctionDeclarationTree,0,61,0,0,0,14,0,2,0,2
+Closure Compiler,com.google.javascript.jscomp.parsing.parser.trees,SetAccessorTree,0,20,0,0,0,7,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.type,SemanticReverseAbstractInterpreter.RefinementTrackingFlowScope,26,55,1,1,6,10,7,5,6,5
+Closure Compiler,com.google.javascript.jscomp.type,ClosureReverseAbstractInterpreter.new ChainableReverseAbstractInterpreter.RestrictByTrueTypeOfResultVisitor() {...},2,14,0,0,1,3,1,3,1,3
+Closure Compiler,com.google.javascript.jscomp.type,ClosureReverseAbstractInterpreter.new ChainableReverseAbstractInterpreter.RestrictByFalseTypeOfResultVisitor() {...},2,30,0,0,1,4,1,3,1,3
+Closure Compiler,com.google.javascript.jscomp.type,ChainableReverseAbstractInterpreter.RestrictByTrueTypeOfResultVisitor,6,19,0,0,3,7,3,7,3,7
+Closure Compiler,com.google.javascript.jscomp.type,ChainableReverseAbstractInterpreter.RestrictByOneTypeOfResultVisitor,4,167,3,31,0,26,3,26,0,12
+Closure Compiler,com.google.javascript.jscomp.type,ClosureReverseAbstractInterpreter,2,287,5,37,0,55,5,28,0,12
+Closure Compiler,com.google.javascript.jscomp.type,SemanticReverseAbstractInterpreter.RestrictByFalseInstanceOfResultVisitor,14,44,5,5,6,12,6,3,1,3
+Closure Compiler,com.google.javascript.jscomp.type,ChainableReverseAbstractInterpreter.new ChainableReverseAbstractInterpreter.RestrictByTrueTypeOfResultVisitor() {...},1,29,1,3,0,4,1,4,0,3
+Closure Compiler,com.google.javascript.jscomp.type,ChainableReverseAbstractInterpreter.new ChainableReverseAbstractInterpreter.RestrictByFalseTypeOfResultVisitor() {...},0,18,0,2,0,2,0,3,0,2
+Closure Compiler,com.google.javascript.jscomp.type,ChainableReverseAbstractInterpreter.new Visitor() {...},54,67,4,0,13,9,12,9,10,9
+Closure Compiler,com.google.javascript.jscomp.type,ChainableReverseAbstractInterpreter.new Visitor() {...},66,55,4,0,16,6,15,6,13,6
+Closure Compiler,com.google.javascript.jscomp.type,ClosureReverseAbstractInterpreter.TypeRestriction,0,9,0,0,0,4,0,1,0,1
+Closure Compiler,com.google.javascript.jscomp.type,ChainableReverseAbstractInterpreter.RestrictByTypeOfResultVisitor,7,83,0,10,2,20,2,13,2,8
+Closure Compiler,com.google.javascript.jscomp.type,SemanticReverseAbstractInterpreter,13,872,18,151,5,199,17,94,0,20
+Closure Compiler,com.google.javascript.jscomp.type,ChainableReverseAbstractInterpreter.RestrictByFalseTypeOfResultVisitor,9,39,0,0,3,8,3,8,3,8
+Closure Compiler,com.google.javascript.jscomp.type,ChainableReverseAbstractInterpreter,32,239,7,35,5,59,7,30,0,12
+Closure Compiler,com.google.javascript.jscomp.type,SemanticReverseAbstractInterpreter.RestrictByTrueInstanceOfResultVisitor,8,55,3,5,3,14,4,7,1,6
