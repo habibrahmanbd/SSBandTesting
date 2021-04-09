@@ -1,0 +1,505 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Jedis,redis.clients.jedis.params,Params,94,0,12,0,20,0,12,0,6,0
+Jedis,redis.clients.jedis.exceptions,JedisNoScriptException,13,0,0,0,3,0,3,0,3,0
+Jedis,redis.clients.jedis.exceptions,JedisException,4,9,0,0,2,4,1,2,1,2
+Jedis,redis.clients.jedis.exceptions,JedisClusterMaxRedirectionsException,13,0,0,0,6,0,3,0,3,0
+Jedis,redis.clients.jedis.exceptions,JedisConnectionException,4,9,0,0,2,4,1,2,1,2
+Jedis,redis.clients.jedis.exceptions,JedisAskDataException,19,0,0,0,6,0,3,0,3,0
+Jedis,redis.clients.jedis.exceptions,JedisNoReachableClusterNodeException,13,0,0,0,6,0,3,0,3,0
+Jedis,redis.clients.jedis.exceptions,JedisBusyException,9,4,0,0,4,2,2,1,2,1
+Jedis,redis.clients.jedis.exceptions,InvalidURIException,9,4,0,0,4,2,2,1,2,1
+Jedis,redis.clients.jedis.exceptions,JedisClusterException,13,0,0,0,6,0,3,0,3,0
+Jedis,redis.clients.jedis.exceptions,JedisDataException,9,4,0,0,4,2,2,1,2,1
+Jedis,redis.clients.jedis.exceptions,JedisMovedDataException,19,0,0,0,6,0,3,0,3,0
+Jedis,redis.clients.jedis.exceptions,JedisClusterCrossSlotException,13,0,0,0,6,0,3,0,3,0
+Jedis,redis.clients.jedis.exceptions,JedisRedirectionException,37,0,0,0,14,0,5,0,5,0
+Jedis,redis.clients.jedis.exceptions,JedisExhaustedPoolException,13,0,0,0,6,0,3,0,3,0
+Jedis,redis.clients.jedis.params.geo,GeoRadiusParam,119,0,14,0,27,0,14,0,7,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BuilderFactory.new Builder() {...},10,3,2,0,4,1,3,1,2,1
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,ClusterReset,0,24,0,0,0,2,0,1,0,1
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,Queable,48,0,4,0,13,0,8,0,6,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BuilderFactory.new Builder() {...},62,3,6,0,14,1,6,1,3,1
+Jedis,redis.clients.jedis,BuilderFactory.new Builder() {...},38,3,4,0,10,1,5,1,3,1
+Jedis,redis.clients.jedis,BuilderFactory.new Builder() {...},120,3,14,0,26,1,9,1,2,1
+Jedis,redis.clients.jedis,BuilderFactory.new Builder() {...},42,3,4,0,9,1,4,1,2,1
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BuilderFactory.new Builder() {...},42,3,6,0,11,1,5,1,2,1
+Jedis,redis.clients.jedis,BuilderFactory.new Builder() {...},46,3,6,0,11,1,6,1,3,1
+Jedis,redis.clients.jedis,BuilderFactory.new Builder() {...},42,3,4,0,9,1,4,1,2,1
+Jedis,redis.clients.jedis,JedisPoolConfig,0,15,0,0,0,6,0,1,0,1
+Jedis,redis.clients.jedis,BuilderFactory.new Builder() {...},12,3,2,0,5,1,3,1,2,1
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BuilderFactory.new Builder() {...},25,3,2,0,7,1,3,1,2,1
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},31,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BuilderFactory.new Builder() {...},39,3,6,0,11,1,5,1,2,1
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},31,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedis.SetFromList,26,87,4,8,7,22,8,15,4,13
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},23,0,0,0,3,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},23,0,0,0,3,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},31,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,Pipeline.MultiResponseBuilder,97,0,6,0,22,0,7,0,4,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},41,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},41,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},31,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},31,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BuilderFactory.new Builder() {...},6,32,2,6,2,7,3,4,1,2
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BuilderFactory.new Builder() {...},5,3,0,0,2,1,2,1,2,1
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BuilderFactory.new Builder() {...},4,10,1,1,1,2,2,2,1,2
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BuilderFactory.new Builder() {...},13,3,2,0,2,1,3,1,2,1
+Jedis,redis.clients.jedis,ShardedJedis,1685,34,9,1,322,11,162,5,157,5
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BuilderFactory.new Builder() {...},6,3,0,0,2,1,2,1,2,1
+Jedis,redis.clients.jedis,BuilderFactory.new Builder() {...},35,3,2,0,8,1,3,1,2,1
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BuilderFactory.new Builder() {...},42,3,6,0,11,1,5,1,2,1
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BuilderFactory.new Builder() {...},41,3,6,0,11,1,5,1,2,1
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BuilderFactory.new Builder() {...},34,3,2,0,7,1,3,1,2,1
+Jedis,redis.clients.jedis,BuilderFactory,7,81,0,0,2,20,1,1,1,1
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},31,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryClient.LIST_POSITION,34,0,0,0,5,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisSentinelPool,325,104,21,5,71,29,28,3,16,2
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},31,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,GeoRadiusResponse,27,0,0,0,11,0,7,0,7,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},17,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisFactory,177,161,20,2,49,37,16,6,6,5
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,Transaction,137,0,10,0,43,0,14,0,9,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},11,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},11,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisClusterConnectionHandler,99,0,8,0,27,0,12,0,8,0
+Jedis,redis.clients.jedis,JedisCluster,3290,0,20,0,461,0,228,0,218,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,Jedis,3727,155,60,2,864,36,299,15,268,15
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},41,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},31,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},41,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},31,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisSlotBasedConnectionHandler,102,0,12,0,31,0,12,0,6,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},31,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,ShardedJedisPool,53,0,4,0,18,0,9,0,7,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,ZParams.Aggregate,44,0,0,0,5,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},31,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BitPosParams,36,0,0,0,10,0,4,0,4,0
+Jedis,redis.clients.jedis,ShardedJedisPipeline,129,0,6,0,28,0,11,0,8,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,GeoCoordinate,91,0,8,0,17,0,10,0,6,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.Reset,24,0,0,0,2,0,1,0,1,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},31,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisSentinelPool.MasterListener,226,0,12,0,42,0,11,0,5,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,DebugParams,49,0,0,0,10,0,4,0,4,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisShardInfo,270,155,3,1,64,47,21,21,19,21
+Jedis,redis.clients.jedis,JedisSentinelPool.MasterListener.new JedisPubSub() {...},110,0,4,0,10,0,4,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster,3207,0,20,0,451,0,230,0,220,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,PipelineBlock,3,0,0,0,1,0,1,0,1,0
+Jedis,redis.clients.jedis,ShardedJedisPipeline.FutureResult,10,0,0,0,4,0,2,0,2,0
+Jedis,redis.clients.jedis,Client,1917,73,14,4,503,14,237,7,230,5
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},31,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,Builder,0,3,0,0,0,1,0,1,0,1
+Jedis,redis.clients.jedis,Protocol.Keyword,476,0,0,0,8,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisPool,330,143,3,5,58,36,27,16,25,14
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,Protocol.Command,0,1724,0,0,0,20,0,2,0,2
+Jedis,redis.clients.jedis,Pipeline,181,0,20,0,50,0,23,0,13,0
+Jedis,redis.clients.jedis,Tuple,41,117,6,10,6,25,9,9,4,6
+Jedis,redis.clients.jedis,JedisMonitor,19,0,2,0,7,0,3,0,2,0
+Jedis,redis.clients.jedis,PipelineBase,3241,0,0,0,607,0,304,0,304,0
+Jedis,redis.clients.jedis,JedisClusterCommand,253,0,38,0,63,0,27,0,8,0
+Jedis,redis.clients.jedis,ListPosition,34,0,0,0,5,0,2,0,2,0
+Jedis,redis.clients.jedis,ScanParams,129,0,8,0,25,0,13,0,9,0
+Jedis,redis.clients.jedis,BinaryJedisPubSub,281,0,18,0,72,0,27,0,18,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisClusterInfoCache,588,0,40,0,139,0,40,0,20,0
+Jedis,redis.clients.jedis,BinaryShardedJedis,1641,30,1,3,319,10,157,5,156,4
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedis,3427,258,51,7,825,61,295,20,267,19
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,Protocol,165,193,17,19,35,56,17,19,5,11
+Jedis,redis.clients.jedis,Response,119,0,18,0,35,0,15,0,6,0
+Jedis,redis.clients.jedis,ZParams,86,0,4,0,14,0,7,0,5,0
+Jedis,redis.clients.jedis,Connection,455,200,33,7,111,52,44,16,25,15
+Jedis,redis.clients.jedis,SortingParams,147,0,4,0,28,0,13,0,11,0
+Jedis,redis.clients.jedis,MultiKeyPipelineBase,911,0,0,0,212,0,106,0,106,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},11,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},11,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisPubSub,435,0,54,0,105,0,47,0,20,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,ScanResult,40,0,0,0,13,0,8,0,8,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BitOP,44,0,0,0,2,0,1,0,1,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},17,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},23,0,0,0,3,0,2,0,2,0
+Jedis,redis.clients.jedis,HostAndPort,63,150,11,9,16,33,11,12,3,10
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},23,0,0,0,3,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},31,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},31,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryJedisCluster.new JedisClusterCommand() {...},31,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,BinaryClient,4613,49,30,1,675,20,282,11,265,11
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},17,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,GeoUnit,55,0,0,0,5,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,TransactionBlock,11,0,0,0,6,0,3,0,3,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},16,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,ShardedJedisPool.ShardedJedisFactory,86,0,8,0,28,0,10,0,6,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},31,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},21,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},31,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},26,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis,JedisCluster.new JedisClusterCommand() {...},36,0,0,0,2,0,2,0,2,0
+Jedis,redis.clients.jedis.params.sortedset,ZIncrByParams,72,0,6,0,15,0,7,0,4,0
+Jedis,redis.clients.jedis.params.sortedset,ZAddParams,81,0,8,0,18,0,9,0,5,0
+Jedis,redis.clients.util,JedisClusterCRC16,67,1082,16,2,15,10,10,6,2,5
+Jedis,redis.clients.util,Hashing.new Hashing() {...},6,64,0,2,2,11,0,4,0,3
+Jedis,redis.clients.util,Sharded,12,205,0,14,2,36,2,18,2,11
+Jedis,redis.clients.util,Hashing,0,13,0,0,0,3,0,1,0,1
+Jedis,redis.clients.util,ByteArrayComparator,7,47,0,10,2,11,1,6,1,1
+Jedis,redis.clients.util,KeyMergeUtil,7,38,0,0,2,8,1,2,1,2
+Jedis,redis.clients.util,JedisByteHashMap,176,0,12,0,35,0,19,0,13,0
+Jedis,redis.clients.util,JedisByteHashMap.JedisByteEntry,20,0,0,0,8,0,4,0,4,0
+Jedis,redis.clients.util,JedisClusterHashTagUtil,47,16,10,2,8,4,9,2,3,2
+Jedis,redis.clients.util,JedisByteHashMap.ByteArrayWrapper,28,0,4,0,9,0,5,0,3,0
+Jedis,redis.clients.util,Slowlog,116,0,4,0,22,0,9,0,7,0
+Jedis,redis.clients.util,Pool,112,79,19,7,39,29,20,12,8,11
+Jedis,redis.clients.util,SafeEncoder,24,33,1,3,7,7,2,4,1,3
+Jedis,redis.clients.util,MurmurHash,109,111,4,4,25,26,6,7,4,5
+Jedis,redis.clients.util,IOUtils,7,0,2,0,5,0,2,0,1,0
+Jedis,redis.clients.util,RedisInputStream,111,251,18,22,29,60,14,16,1,9
+Jedis,redis.clients.util,JedisURIHelper,14,67,3,13,4,15,5,10,2,5
+Jedis,redis.clients.util,RedisOutputStream,416,1181,48,12,69,46,33,11,4,10
+Jedis,redis.clients.util,ShardInfo,3,9,0,0,2,4,1,2,1,2
