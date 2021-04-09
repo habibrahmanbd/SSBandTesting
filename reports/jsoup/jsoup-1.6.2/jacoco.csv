@@ -1,0 +1,194 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},11,102,3,9,3,20,3,5,0,2
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},14,170,5,17,5,20,5,8,0,2
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},44,83,10,10,13,21,9,6,0,3
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},14,225,4,19,4,35,3,13,0,4
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},92,140,10,12,14,28,7,8,0,4
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},23,212,4,20,9,30,4,12,0,4
+jsoup,org.jsoup.parser,Token.Doctype,0,40,0,0,0,11,0,5,0,5
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},137,148,26,21,28,34,19,10,0,3
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},125,6,10,0,11,1,6,1,1,1
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},15,66,3,15,5,15,3,8,0,2
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},55,83,15,15,15,20,13,4,0,2
+jsoup,org.jsoup.parser,Token.TokenType,0,64,0,0,0,7,0,1,0,1
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},26,56,6,14,6,12,6,6,0,2
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},0,50,2,10,0,10,2,6,0,2
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},35,24,11,5,6,5,8,2,0,2
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},2,6,0,0,1,1,1,1,1,1
+jsoup,org.jsoup.parser,Parser,12,119,0,6,4,24,3,13,3,10
+jsoup,org.jsoup.parser,Token.EndTag,18,12,0,0,1,6,1,2,1,2
+jsoup,org.jsoup.parser,HtmlTreeBuilderState,0,293,0,6,0,43,0,7,0,4
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},13,66,2,8,4,20,2,7,0,3
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},0,24,0,2,0,7,0,3,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},0,31,0,3,0,12,0,4,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},8,71,2,8,4,20,2,7,0,3
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},0,24,0,2,0,7,0,3,0,2
+jsoup,org.jsoup.parser,Token.Comment,12,16,0,0,1,5,1,2,1,2
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},5,58,1,7,1,15,1,5,0,2
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},20,207,4,27,6,42,4,16,0,3
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},30,119,13,15,6,14,12,5,0,3
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},43,59,6,10,6,15,5,6,0,3
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},54,66,7,13,8,15,6,6,0,2
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},0,43,1,5,0,12,1,4,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},0,23,0,2,0,7,0,3,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},22,65,5,7,8,18,4,6,0,3
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},81,309,16,30,22,57,13,13,0,3
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},0,37,0,2,0,9,0,3,0,2
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},64,135,8,14,14,25,7,7,0,3
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},0,53,0,6,0,12,0,5,0,2
+jsoup,org.jsoup.parser,HtmlTreeBuilderState.new HtmlTreeBuilderState() {...},565,1753,105,183,132,272,82,67,0,3
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},5,68,2,4,2,14,2,5,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},14,59,3,6,5,14,3,5,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},8,65,2,7,3,16,2,6,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},26,44,3,6,11,18,3,7,0,2
+jsoup,org.jsoup.parser,TokeniserState,0,677,0,0,0,69,0,1,0,1
+jsoup,org.jsoup.parser,Token.StartTag,27,12,0,0,5,6,2,2,2,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},39,28,5,3,16,11,5,4,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},19,87,4,4,7,16,4,5,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},12,52,1,6,5,21,1,7,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},8,42,2,4,3,13,2,3,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},3,20,1,1,1,6,1,2,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},47,6,6,0,20,1,6,1,1,1
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},43,6,5,0,18,1,5,1,1,1
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},23,39,3,2,10,9,3,3,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},0,50,0,6,0,16,0,5,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},48,33,8,2,17,8,6,3,0,3
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},6,30,1,1,2,7,1,2,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},0,50,0,4,0,12,0,4,0,2
+jsoup,org.jsoup.parser,ParseErrorList,3,28,0,2,1,6,1,5,1,4
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},21,32,3,4,9,12,3,4,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},21,28,3,3,9,10,3,3,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},16,44,2,4,7,11,2,4,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},3,18,1,1,1,5,1,2,0,2
+jsoup,org.jsoup.parser,Tokeniser,49,474,8,62,11,108,10,49,2,22
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},0,21,0,2,0,6,0,3,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},43,16,5,1,17,6,5,2,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},57,6,5,0,19,1,5,1,1,1
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},52,6,5,0,19,1,5,1,1,1
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},36,22,3,2,13,7,3,3,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},41,16,5,1,16,6,5,2,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},50,16,5,1,19,6,5,2,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},37,46,5,5,12,8,4,3,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},29,36,3,4,9,13,3,4,0,2
+jsoup,org.jsoup.parser,Tag,46,997,19,37,4,85,21,26,4,15
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},46,15,5,1,17,5,4,2,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},21,16,2,1,8,6,2,2,0,2
+jsoup,org.jsoup.parser,TokenQueue,162,545,28,78,20,110,25,60,8,24
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},55,18,5,1,17,7,5,2,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},24,27,2,2,8,8,2,3,0,2
+jsoup,org.jsoup.parser,TreeBuilder,0,77,0,2,0,21,0,7,0,6
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},0,54,0,4,0,15,0,5,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},50,6,5,0,19,1,5,1,1,1
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},35,21,4,1,14,6,4,2,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},6,33,1,5,2,9,1,4,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},0,26,0,0,0,7,0,2,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},13,22,2,1,5,8,2,2,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},0,41,0,5,0,17,0,6,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},34,89,6,5,11,14,5,5,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},59,6,6,0,24,1,6,1,1,1
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},36,20,4,2,14,8,4,3,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},0,21,0,0,0,6,0,2,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},18,6,3,0,9,1,3,1,1,1
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},20,18,3,1,8,7,3,2,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},52,6,5,0,19,1,5,1,1,1
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},36,22,3,2,13,7,3,3,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},51,6,6,0,21,1,6,1,1,1
+jsoup,org.jsoup.parser,HtmlTreeBuilder,223,1577,55,137,65,308,58,113,9,66
+jsoup,org.jsoup.parser,ParseError,6,33,0,0,2,9,2,3,2,3
+jsoup,org.jsoup.parser,XmlTreeBuilder,10,181,2,19,1,57,2,20,0,9
+jsoup,org.jsoup.parser,Token.EOF,0,7,0,0,0,3,0,1,0,1
+jsoup,org.jsoup.parser,CharacterReader,31,487,14,68,6,92,16,52,2,25
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},16,32,2,4,5,9,2,3,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},0,42,0,6,0,15,0,6,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},26,6,3,0,10,1,3,1,1,1
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},9,36,1,3,4,9,1,4,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},9,36,1,3,4,9,1,4,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},19,6,2,0,6,1,2,1,1,1
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},13,40,2,3,6,9,2,4,0,2
+jsoup,org.jsoup.parser,Token.Character,3,13,0,0,1,5,1,2,1,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},0,25,0,2,0,7,0,3,0,2
+jsoup,org.jsoup.parser,TokeniserState.new TokeniserState() {...},0,52,0,5,0,14,0,6,0,2
+jsoup,org.jsoup.parser,Token.Tag,7,112,1,13,2,30,2,18,1,12
+jsoup,org.jsoup.parser,Token,0,67,0,12,0,12,0,18,0,12
+jsoup,org.jsoup.select,Evaluator.AttributeWithValueContaining,15,23,0,4,1,3,1,4,1,2
+jsoup,org.jsoup.select,Evaluator.Tag,10,12,0,0,1,4,1,2,1,2
+jsoup,org.jsoup.select,StructuralEvaluator,0,3,0,0,0,1,0,1,0,1
+jsoup,org.jsoup.select,StructuralEvaluator.Parent,10,31,0,6,1,11,1,5,1,2
+jsoup,org.jsoup.select,Evaluator.AttributeWithValue,15,22,0,4,1,3,1,4,1,2
+jsoup,org.jsoup.select,Evaluator.AttributeWithValueMatching,16,29,0,4,1,5,1,4,1,2
+jsoup,org.jsoup.select,Evaluator.AttributeWithValueEnding,15,23,0,4,1,3,1,4,1,2
+jsoup,org.jsoup.select,Selector,0,105,0,10,0,29,0,10,0,5
+jsoup,org.jsoup.select,StructuralEvaluator.ImmediateParent,0,26,1,5,0,7,1,4,0,2
+jsoup,org.jsoup.select,Evaluator.Class,10,11,0,0,1,4,1,2,1,2
+jsoup,org.jsoup.select,Evaluator.IndexGreaterThan,11,14,0,2,1,3,1,3,1,2
+jsoup,org.jsoup.select,Evaluator.ContainsText,10,14,0,0,1,4,1,2,1,2
+jsoup,org.jsoup.select,CombiningEvaluator.And,5,30,0,4,1,9,1,5,1,3
+jsoup,org.jsoup.select,Evaluator.IndexLessThan,11,14,0,2,1,3,1,3,1,2
+jsoup,org.jsoup.select,Evaluator.AttributeStarting,10,31,0,4,1,9,1,4,1,2
+jsoup,org.jsoup.select,Evaluator.Matches,10,15,0,0,1,5,1,2,1,2
+jsoup,org.jsoup.select,Collector,0,17,0,0,0,3,0,1,0,1
+jsoup,org.jsoup.select,NodeTraversor,0,56,1,9,0,19,1,6,0,2
+jsoup,org.jsoup.select,CombiningEvaluator.Or,10,48,0,6,1,12,1,6,1,3
+jsoup,org.jsoup.select,Evaluator.AllElements,2,5,0,0,1,2,1,2,1,2
+jsoup,org.jsoup.select,Evaluator.ContainsOwnText,10,14,0,0,1,4,1,2,1,2
+jsoup,org.jsoup.select,Evaluator.AttributeWithValueNot,15,17,0,2,1,3,1,3,1,2
+jsoup,org.jsoup.select,Evaluator,0,3,0,0,0,2,0,1,0,1
+jsoup,org.jsoup.select,StructuralEvaluator.Not,10,16,0,2,1,4,1,3,1,2
+jsoup,org.jsoup.select,StructuralEvaluator.Root,0,10,0,2,0,2,0,3,0,2
+jsoup,org.jsoup.select,StructuralEvaluator.PreviousSibling,14,26,2,4,3,9,3,3,1,2
+jsoup,org.jsoup.select,CombiningEvaluator,0,16,0,0,0,6,0,2,0,2
+jsoup,org.jsoup.select,Evaluator.Id,10,12,0,0,1,4,1,2,1,2
+jsoup,org.jsoup.select,Evaluator.AttributeWithValueStarting,15,23,0,4,1,3,1,4,1,2
+jsoup,org.jsoup.select,StructuralEvaluator.Has,10,31,0,6,1,8,1,5,1,2
+jsoup,org.jsoup.select,StructuralEvaluator.ImmediatePreviousSibling,10,26,0,6,1,7,1,5,1,2
+jsoup,org.jsoup.select,Evaluator.AttributeKeyPair,0,17,0,0,0,6,0,1,0,1
+jsoup,org.jsoup.select,Selector.SelectorParseException,6,0,0,0,2,0,1,0,1,0
+jsoup,org.jsoup.select,Evaluator.Attribute,10,11,0,0,1,4,1,2,1,2
+jsoup,org.jsoup.select,Evaluator.MatchesOwn,10,15,0,0,1,5,1,2,1,2
+jsoup,org.jsoup.select,Elements,129,645,5,71,24,144,24,77,20,43
+jsoup,org.jsoup.select,QueryParser,49,850,3,83,3,157,3,60,0,20
+jsoup,org.jsoup.select,Collector.Accumulator,0,32,0,4,0,11,0,5,0,3
+jsoup,org.jsoup.select,Evaluator.IndexEquals,11,14,0,2,1,3,1,3,1,2
+jsoup,org.jsoup.select,Evaluator.IndexEvaluator,0,6,0,0,0,3,0,1,0,1
+jsoup,org.jsoup,Connection.Method,0,24,0,0,0,2,0,1,0,1
+jsoup,org.jsoup,Jsoup,18,73,0,0,5,16,3,11,3,11
+jsoup,org.jsoup.examples,HtmlToPlainText,49,0,2,0,12,0,4,0,3,0
+jsoup,org.jsoup.examples,ListLinks,224,0,12,0,30,0,10,0,4,0
+jsoup,org.jsoup.examples,HtmlToPlainText.FormattingVisitor,224,0,28,0,39,0,19,0,5,0
+jsoup,org.jsoup.nodes,Document,176,153,24,10,40,40,15,20,3,15
+jsoup,org.jsoup.nodes,Document.QuirksMode,0,34,0,0,0,2,0,1,0,1
+jsoup,org.jsoup.nodes,Attributes.Dataset.EntrySet,0,29,0,2,0,7,0,4,0,3
+jsoup,org.jsoup.nodes,Attributes,14,283,5,37,4,64,5,34,0,18
+jsoup,org.jsoup.nodes,DocumentType,0,67,0,4,0,15,0,6,0,4
+jsoup,org.jsoup.nodes,Node.new NodeVisitor() {...},0,15,0,0,0,4,0,3,0,3
+jsoup,org.jsoup.nodes,Entities.EscapeMode,0,48,0,0,0,8,0,3,0,3
+jsoup,org.jsoup.nodes,Attributes.Dataset,7,48,1,3,1,9,1,4,0,3
+jsoup,org.jsoup.nodes,Comment,3,35,1,1,1,13,2,5,1,5
+jsoup,org.jsoup.nodes,Entities,4,30321,2,26,2,2198,2,19,0,7
+jsoup,org.jsoup.nodes,TextNode,49,189,7,25,15,37,15,22,8,13
+jsoup,org.jsoup.nodes,Document.OutputSettings,7,91,1,1,2,28,1,12,0,12
+jsoup,org.jsoup.nodes,Node,49,776,11,59,13,185,13,70,3,45
+jsoup,org.jsoup.nodes,Attributes.Dataset.DatasetIterator,0,55,0,4,0,9,0,6,0,4
+jsoup,org.jsoup.nodes,Node.OuterHtmlVisitor,0,30,0,2,0,9,0,4,0,3
+jsoup,org.jsoup.nodes,DataNode,19,23,0,0,5,8,3,5,3,5
+jsoup,org.jsoup.nodes,XmlDeclaration,40,0,2,0,14,0,7,0,6,0
+jsoup,org.jsoup.nodes,Element,186,1055,12,112,33,252,29,122,17,72
+jsoup,org.jsoup.nodes,Attribute,42,140,12,12,7,31,12,13,2,11
+jsoup,org.jsoup.helper,HttpConnection.Request,33,60,1,1,12,18,9,5,8,5
+jsoup,org.jsoup.helper,Validate,35,68,8,16,7,24,9,14,1,10
+jsoup,org.jsoup.helper,DescendableLinkedList.DescendingIterator,0,23,0,0,0,7,0,4,0,4
+jsoup,org.jsoup.helper,HttpConnection,142,165,4,4,34,41,15,15,13,13
+jsoup,org.jsoup.helper,HttpConnection.Base,16,176,0,14,5,49,2,22,2,15
+jsoup,org.jsoup.helper,HttpConnection.Response,661,79,84,12,140,21,59,6,15,2
+jsoup,org.jsoup.helper,StringUtil,10,267,3,49,3,54,4,32,1,9
+jsoup,org.jsoup.helper,HttpConnection.KeyVal,29,27,0,0,7,9,3,4,3,4
+jsoup,org.jsoup.helper,DescendableLinkedList,4,27,2,2,0,7,2,5,0,5
+jsoup,org.jsoup.helper,DataUtil,9,172,3,21,2,42,4,15,1,6
+jsoup,org.jsoup.safety,Whitelist.TypedValue,15,52,8,6,1,16,7,4,0,4
+jsoup,org.jsoup.safety,Whitelist,31,1025,5,35,7,113,6,29,1,14
+jsoup,org.jsoup.safety,Cleaner.ElementMeta,0,9,0,0,0,4,0,1,0,1
+jsoup,org.jsoup.safety,Whitelist.TagName,0,9,0,0,0,3,0,2,0,2
+jsoup,org.jsoup.safety,Whitelist.AttributeValue,0,9,0,0,0,3,0,2,0,2
+jsoup,org.jsoup.safety,Cleaner,0,181,0,14,0,45,0,12,0,5
+jsoup,org.jsoup.safety,Whitelist.Protocol,0,9,0,0,0,3,0,2,0,2
+jsoup,org.jsoup.safety,Whitelist.AttributeKey,0,9,0,0,0,3,0,2,0,2
