@@ -10,6 +10,10 @@ import csv
 import xml.dom.minidom
 import xml.etree.ElementTree as ET
 import logging
+from bs4 import BeautifulSoup
+import warnings
+warnings.filterwarnings('ignore')
+
 
 def clone_repo(target_dir, repo_link, repo_name): #target_dir = cur_dir + 'repos/'
 	logging.info('Cloning ... '+str(repo_name))
@@ -20,7 +24,7 @@ def clone_repo(target_dir, repo_link, repo_name): #target_dir = cur_dir + 'repos
 def clean_time_output(meta_time):
 	logging.info('Cleaning time Output .. Metatime: '+str(meta_time))
 	meta_time = str(meta_time)
-	meta_time = meta_time.replace('b', '')
+	meta_time = meta_time[1:]
 	meta_time = meta_time.replace('\'', '')
 	meta_time = meta_time.replace('_', '/')
 	_year = meta_time.split("/")[0]
@@ -43,7 +47,7 @@ def release_tag_list(target_dir): #target_dir = cur_dir + 'repos/' + $repo_name
 	os.chdir(target_dir)
 	cmd = 'git tag -l'
 	returned_output = subprocess.check_output(cmd, shell=True)
-	returned_output = str(returned_output).replace('b', '')
+	returned_output = str(returned_output)[1:]
 	returned_output = returned_output.replace('\'', '')
 	returned_output = returned_output.replace("\\n", ' ')
 	returned_output = returned_output.split()
@@ -237,19 +241,22 @@ if __name__=="__main__":
 
 	count_covered = 0
 	count_uncovered = 0
-
+	total_coverage = 0
+	cov_str = ""
+	cov_dic = {}
 	for row in project_dataset:
 	#	try:
 		time_commit = git_time_in_ms(cur_dir+'/repos/'+repo_name, row[4])
 		next_release_time, next_release_tag, index = search_in_dictory(tag_date, int(time_commit))
 #		print(next_release_time)
+		logging.info(repo_name+" => "+next_release_tag)
 		if next_release_time > 0:
 			bug_file_name = row[1]
 			#print('Version: '+str(next_release_tag))
 			jacoco_report = load_jacoco(cur_dir+'/../reports/'+repo_name, next_release_tag)
 			#print(jacoco_report)
 			it = 0
-			while(jacoco_report == None and index+it < len(tag_date) and it < 6 ):
+			while(jacoco_report == None and index+it+1 < len(tag_date) and it+1 < 7 ):
 				it +=1
 				next_release_tag = tag_date[index+it][1]
 				jacoco_report = load_jacoco(cur_dir+'/../reports/'+repo_name, next_release_tag)
@@ -262,11 +269,22 @@ if __name__=="__main__":
 					count_covered += 1
 				else:
 					count_uncovered += 1
-	#	except:
-	#		count_covered += 0
-			#print('-----------------Exception----------------')
-	coverage = int((str(soup.select('#coveragetable tfoot tr td:nth-child(3)')[0]).replace('<td class="ctr2">', '')).replace('%</td>', ''))
-	print_report_final(cur_dir+'/repos/', 'Covered: '+str(count_covered)+' Not Covered: '+str(count_uncovered)+ ' Total: '+str(count_covered + count_uncovered) + '\%Coverage: '+str(coverage), projectName.replace('.csv', '.res'))
+				#	except:
+				#		count_covered += 0
+				#print('-----------------Exception----------------')
+				htmlFile = open(cur_dir+'/../reports/'+repo_name+'/'+next_release_tag+'/index.html', "r")
+				soup = BeautifulSoup(htmlFile,'html.parser')
+				print("----------INDEX.HTML PATH: "+cur_dir+'/../reports/'+repo_name+'/'+next_release_tag+'/index.html')
+				coverage = int((str(soup.select('#coveragetable tfoot tr td:nth-child(3)')[0]).replace('<td class="ctr2">', '')).replace('%</td>', ''))
+				#cov_str += '\nVersion: ' + str(next_release_tag)+' Coverage: '+str(coverage)+'\n'
+				#total_coverage += coverage
+				htmlFile.close()
+				cov_dic[str(next_release_tag)] = coverage
+	for key, value in cov_dic.items():
+		total_coverage += value
+	cov_avg = total_coverage / len(cov_dic.items())
+	cov_str += ', Average Coverage: '+str(cov_avg)+'\n'
+	print_report_final(cur_dir+'/repos/', 'Covered: '+str(count_covered)+', Not Covered: '+str(count_uncovered)+ ', Total: '+str(count_covered + count_uncovered) + ''+str(cov_str), projectName.replace('.csv', '.res'))
 	print("---------------Result Printed to .res file with Project Name--------------------")
 	#checkout_by_tags(cur_dir + '/repos/' + str(repo_name), taglist[i])
 	#run_build(cur_dir + '/repos/' + str(repo_name))
