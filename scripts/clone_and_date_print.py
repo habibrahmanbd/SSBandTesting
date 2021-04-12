@@ -13,7 +13,8 @@ import logging
 from bs4 import BeautifulSoup
 import warnings
 warnings.filterwarnings('ignore')
-
+import datetime
+import matplotlib.pyplot as plt
 
 def clone_repo(target_dir, repo_link, repo_name): #target_dir = cur_dir + 'repos/'
 	logging.info('Cloning ... '+str(repo_name))
@@ -244,9 +245,16 @@ if __name__=="__main__":
 	total_coverage = 0
 	cov_str = ""
 	cov_dic = {}
+	bug_freq = {}
 	for row in project_dataset:
 	#	try:
 		time_commit = git_time_in_ms(cur_dir+'/repos/'+repo_name, row[4])
+		yvalue = datetime.datetime.fromtimestamp(time_commit)
+		try:
+			bug_freq[int(f"{yvalue:%Y}")] +=1
+		except:
+			bug_freq[int(f"{yvalue:%Y}")] =1
+
 		next_release_time, next_release_tag, index = search_in_dictory(tag_date, int(time_commit))
 #		print(next_release_time)
 		logging.info(repo_name+" => "+next_release_tag)
@@ -286,6 +294,17 @@ if __name__=="__main__":
 	cov_str += ', Average Coverage: '+str(cov_avg)+'\n'
 	print_report_final(cur_dir+'/repos/', 'Covered: '+str(count_covered)+', Not Covered: '+str(count_uncovered)+ ', Total: '+str(count_covered + count_uncovered) + ''+str(cov_str), projectName.replace('.csv', '.res'))
 	print("---------------Result Printed to .res file with Project Name--------------------")
+	years = []
+	bugs = []
+	for key, value in bug_freq.items():
+		years.append(key)
+		bugs.append(value)
+	plt.bar(years, bugs)
+	plt.title(str(repo_name))
+	plt.ylabel('Bug Frequency')
+	plt.xlabel('Years')
+	#plt.show()
+	plt.savefig(cur_dir+'/repos/'+repo_name+'.png')
 	#checkout_by_tags(cur_dir + '/repos/' + str(repo_name), taglist[i])
 	#run_build(cur_dir + '/repos/' + str(repo_name))
 	#run_test(cur_dir + '/repos/' + str(repo_name))
