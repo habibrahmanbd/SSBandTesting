@@ -2,7 +2,7 @@
 This repository contains the graduate project artifacts for CMPUT501 - Software Quality course instructed by Dr. Sarah Nadi.
 
 ## Graduate Students:
- - [Saqib Amin]()
+ - Saqib Ameen
  - [Habibur Rahman](https://habibrahman.me)
 
 ## Dependencies
