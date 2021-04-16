@@ -57,7 +57,7 @@ This repository contains the graduate project artifacts for CMPUT501 - Software 
 |   |   ├── ...
 ```
 ## Instructions
-### Step 1: Projectwise Dataset Split
+### Step 1: Project wise Dataset Split
     ```
     python3 json_preprocess.py
     ```
@@ -65,7 +65,7 @@ This repository contains the graduate project artifacts for CMPUT501 - Software 
     ```
         ./evaluate_all.sh
     ```
-### Step 3: Corelation Report Generation
+### Step 3: Correlation Report Generation
 
 ## Troubleshooting
 
