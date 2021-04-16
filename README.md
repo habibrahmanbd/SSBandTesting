@@ -58,12 +58,12 @@ This repository contains the graduate project artifacts for CMPUT501 - Software 
 ```
 ## Instructions
 ### Step 1: Project wise Dataset Split
-```
-    python3 json_preprocess.py
+```shell
+python3 json_preprocess.py
 ```
 ### Step 2: Print Coverage, and Bug Result in .res file and print Projectwise Bug Distribution Graph in <repo_name>.png file
-```
-        ./evaluate_all.sh
+```shell
+./evaluate_all.sh
 ```
 ### Step 3: Correlation Report Generation
 
