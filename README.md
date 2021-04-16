@@ -9,7 +9,7 @@ This repository contains the graduate project artifacts for CMPUT501 - Software 
  - Python 3
  - [github3](https://github.com/sigmavirus24/github3.py)
  ````shell
- # Quick Installtion steps
+ # Quick Installation steps
  pip3 install -r requirements.txt
  ````
  These scripts have been tested with Python 3.9.1(latest).
