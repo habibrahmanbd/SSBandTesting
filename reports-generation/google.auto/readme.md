@@ -1,0 +1,72 @@
+# Auto
+
+We have added `pom.xml` files for following versions in their respective folders:
+
+1. auto-value-1.1
+2. auto-value-1.2
+3. auto-value-1.3
+
+## Reports Versions
+
+Our artifacts include reports for all following versions.
+
+* auto-value-1.1
+* auto-value-1.2
+* auto-value-1.3
+* auto-value-1.4-rc2
+* auto-value-1.4-rc3
+* auto-value-1.4.1
+* auto-value-1.5.1
+* auto-value-1.5.2
+* auto-value-1.5.3
+* auto-value-1.5
+* auto-value-1.6.2
+* auto-value-1.6
+
+
+Use `git checkout <VERSION_NAME>` to checkout to the particular release.
+
+## Generating report for a new version
+
+In `pom.xml` file at the root, add the following xml code inside ```<build> <plugins> ... </plugins> </build>``` and run `mvn clean test`.
+
+It will generate reports in the `/target` folder at root directory.
+
+```xml
+<plugin>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>2.19.1</version>
+    <configuration>
+        <testFailureIgnore>true</testFailureIgnore>
+    </configuration>
+</plugin>
+<plugin>
+    <groupId>org.jacoco</groupId>
+    <artifactId>jacoco-maven-plugin</artifactId>
+    <version>0.8.3</version>
+
+    <executions>
+        <execution>
+            <id>default-prepare-agent</id>
+            <goals>
+                <goal>prepare-agent</goal>
+            </goals>
+            <configuration>
+                <destFile>${project.basedir}/target/jacoco.exec</destFile>
+            </configuration>
+        </execution>
+        <execution>
+            <id>default-report</id>
+            <phase>test</phase>
+            <goals>
+                <goal>report</goal>
+            </goals>
+            <configuration>
+                <dataFile>${project.basedir}/target/jacoco.exec</dataFile>
+                <outputEncoding>UTF-8</outputEncoding>
+                <outputDirectory>${project.basedir}/target/</outputDirectory>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
+```
