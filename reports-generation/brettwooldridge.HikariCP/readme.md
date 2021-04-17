@@ -1,4 +1,4 @@
-# Bukkit
+# HikariCP
 
 We have added `pom.xml` files for following versions in their respective folders:
 
