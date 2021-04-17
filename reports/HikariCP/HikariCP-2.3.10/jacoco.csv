@@ -1,7 +1,7 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
 HikariCP,com.zaxxer.hikari.util,ClassLoaderUtils,51,0,8,0,12,0,6,0,2,0
 HikariCP,com.zaxxer.hikari.util,UtilityElf,24,113,5,9,6,33,6,9,1,7
-HikariCP,com.zaxxer.hikari.util,ConcurrentBag,39,325,13,43,9,74,11,32,1,14
+HikariCP,com.zaxxer.hikari.util,ConcurrentBag,39,325,12,44,9,74,10,33,1,14
 HikariCP,com.zaxxer.hikari.util,DriverDataSource,64,125,5,13,16,29,11,9,6,5
 HikariCP,com.zaxxer.hikari.util,Java8ConcurrentBag.Synchronizer,0,26,0,2,0,4,0,4,0,3
 HikariCP,com.zaxxer.hikari.util,PropertyBeanSetter,50,310,3,23,11,55,4,16,1,6
@@ -31,7 +31,7 @@ HikariCP,com.zaxxer.hikari.pool,PoolUtilities,54,265,9,35,10,74,9,25,0,12
 HikariCP,com.zaxxer.hikari.pool,GlobalPoolLock,0,38,0,2,0,12,0,7,0,6
 HikariCP,com.zaxxer.hikari.pool,PoolBagEntry,2,83,3,6,1,19,3,8,0,5
 HikariCP,com.zaxxer.hikari.pool,LeakTask,0,84,0,0,0,23,0,7,0,7
-HikariCP,com.zaxxer.hikari.pool,BaseHikariPool.new Runnable() {...},0,53,0,8,0,8,0,6,0,2
+HikariCP,com.zaxxer.hikari.pool,BaseHikariPool.new Runnable() {...},0,53,1,7,0,8,1,5,0,2
 HikariCP,com.zaxxer.hikari.pool,BaseHikariPool.new Runnable() {...},16,0,0,0,3,0,2,0,2,0
 HikariCP,com.zaxxer.hikari.pool,PoolInitializationException,5,0,0,0,2,0,1,0,1,0
 HikariCP,com.zaxxer.hikari.pool,PoolUtilities.SynchronousExecutor,14,0,0,0,6,0,2,0,2,0
