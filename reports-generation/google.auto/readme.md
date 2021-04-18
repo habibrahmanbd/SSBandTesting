@@ -31,8 +31,6 @@ Use `git checkout <VERSION_NAME>` to checkout to the particular release.
 
 ## Generating report for a new version
 
-In `pom.xml` file at the root, add the following xml code inside ```<build> <plugins> ... </plugins> </build>``` and run `mvn clean test`.
-
 It will generate reports in the `/target` folder at root directory.
 
 ```xml
@@ -42,34 +40,34 @@ It will generate reports in the `/target` folder at root directory.
     <configuration>
         <testFailureIgnore>true</testFailureIgnore>
     </configuration>
-</plugin>
-<plugin>
+    </plugin>
+    <plugin>
     <groupId>org.jacoco</groupId>
     <artifactId>jacoco-maven-plugin</artifactId>
     <version>0.8.3</version>
-
+    <configuration>
+        <destFile>${project.basedir}/../target/jacoco.exec</destFile>
+        <append>true</append>
+    </configuration>
     <executions>
         <execution>
-            <id>default-prepare-agent</id>
-            <goals>
-                <goal>prepare-agent</goal>
-            </goals>
-            <configuration>
-                <destFile>${project.basedir}/target/jacoco.exec</destFile>
-            </configuration>
+        <id>default-prepare-agent</id>
+        <goals>
+            <goal>prepare-agent</goal>
+        </goals>
         </execution>
         <execution>
-            <id>default-report</id>
-            <phase>test</phase>
-            <goals>
-                <goal>report</goal>
-            </goals>
-            <configuration>
-                <dataFile>${project.basedir}/target/jacoco.exec</dataFile>
-                <outputEncoding>UTF-8</outputEncoding>
-                <outputDirectory>${project.basedir}/target/</outputDirectory>
-            </configuration>
+        <id>default-report</id>
+        <phase>test</phase>
+        <goals>
+            <goal>report</goal>
+        </goals>
+        <configuration>
+            <dataFile>${project.basedir}/../target/jacoco.exec</dataFile>
+            <outputEncoding>UTF-8</outputEncoding>
+            <outputDirectory>${project.basedir}/../target/</outputDirectory>
+        </configuration>
         </execution>
     </executions>
-</plugin>
+    </plugin>
 ```
