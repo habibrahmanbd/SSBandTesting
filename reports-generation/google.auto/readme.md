@@ -31,6 +31,8 @@ Use `git checkout <VERSION_NAME>` to checkout to the particular release.
 
 ## Generating report for a new version
 
+Add the following xml code inside ```<build> <plugins> ... </plugins> </build>``` in the `pom.xml` file in the `value` directory and run `mvn clean test` in the `value` directory.
+
 It will generate reports in the `/target` folder at root directory.
 
 ```xml
