@@ -6,6 +6,9 @@ We have added `pom.xml` files for following versions in their respective folders
 2. auto-value-1.2
 3. auto-value-1.3
 
+These needs to placed in the in the `value` directory. The root of this project do not have a test
+runner. It manages it through the one in `value` directory. So `pom.xml` needs to be replaced in that directory and `mvn clean test` should be run inside `value` directory.
+
 ## Reports Versions
 
 Our artifacts include reports for all following versions.
