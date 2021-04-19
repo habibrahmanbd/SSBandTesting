@@ -1,259 +1,450 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-Google Guice - Core Library,com.google.inject.util,Modules.EmptyModule,0,1,0,0,0,1,0,1,0,1
-Google Guice - Core Library,com.google.inject.util,Modules.OverrideModule.new DefaultBindingScopingVisitor() {...},0,8,0,0,0,2,0,2,0,2
-Google Guice - Core Library,com.google.inject.util,Modules.OverrideModule.new Modules.ModuleWriter() {...},0,47,0,0,0,7,0,4,0,4
-Google Guice - Core Library,com.google.inject.util,Modules.OverrideModule.new Modules.ModuleWriter() {...},0,96,0,6,0,15,0,5,0,2
-Google Guice - Core Library,com.google.inject.util,Modules.OverrideModule.new Modules.ModuleWriter() {...},7,137,1,17,2,31,1,13,0,5
-Google Guice - Core Library,com.google.inject.util,Types,0,84,0,0,0,9,0,9,0,9
-Google Guice - Core Library,com.google.inject.util,Modules.RealOverriddenModuleBuilder,0,19,0,0,0,5,0,3,0,3
-Google Guice - Core Library,com.google.inject.util,Modules.CombinedModule,0,33,0,2,0,8,0,3,0,2
 Google Guice - Core Library,com.google.inject.util,Providers,0,55,0,6,0,14,0,5,0,2
 Google Guice - Core Library,com.google.inject.util,Providers.new ProviderWithDependencies() {...},12,21,0,0,1,5,1,4,1,4
 Google Guice - Core Library,com.google.inject.util,Providers.new Provider() {...},0,22,0,0,0,3,0,3,0,3
 Google Guice - Core Library,com.google.inject.util,Providers.new Provider() {...},12,9,0,0,1,2,1,2,1,2
-Google Guice - Core Library,com.google.inject.util,Modules.OverrideModule,0,129,0,6,0,31,0,6,0,3
-Google Guice - Core Library,com.google.inject.util,Modules,6,22,0,0,1,4,1,4,1,4
-Google Guice - Core Library,com.google.inject.util,Modules.ModuleWriter,0,36,0,2,0,9,0,4,0,3
-Google Guice - Core Library,com.google.inject,Key.NullAnnotationStrategy,7,20,0,0,2,5,2,4,2,4
-Google Guice - Core Library,com.google.inject,Stage,0,34,0,0,0,4,0,1,0,1
-Google Guice - Core Library,com.google.inject,Key.AnnotationInstanceStrategy,0,48,0,2,0,13,0,9,0,8
-Google Guice - Core Library,com.google.inject,ProvisionException,11,40,1,1,3,10,2,4,1,4
-Google Guice - Core Library,com.google.inject,AbstractModule,8,143,2,2,2,41,3,24,1,24
-Google Guice - Core Library,com.google.inject,CreationException,1,28,1,1,0,7,1,3,0,3
-Google Guice - Core Library,com.google.inject,TypeLiteral,28,481,6,40,2,96,6,37,0,20
-Google Guice - Core Library,com.google.inject,PrivateModule,109,62,2,2,33,14,22,8,20,8
-Google Guice - Core Library,com.google.inject,Scopes,82,38,16,4,26,11,10,4,1,3
-Google Guice - Core Library,com.google.inject,Scopes.1.new Provider() {...},19,61,1,13,2,14,2,8,1,2
-Google Guice - Core Library,com.google.inject,Scopes.new BindingScopingVisitor() {...},15,13,5,1,2,3,5,3,2,3
-Google Guice - Core Library,com.google.inject,Scopes.new BindingScopingVisitor() {...},33,0,4,0,5,0,7,0,5,0
-Google Guice - Core Library,com.google.inject,Scopes.new Scope() {...},2,9,0,0,1,2,1,2,1,2
-Google Guice - Core Library,com.google.inject,Scopes.new Scope() {...},2,5,0,0,1,2,1,2,1,2
-Google Guice - Core Library,com.google.inject,ConfigurationException,1,56,1,1,0,12,1,5,0,5
-Google Guice - Core Library,com.google.inject,Key.AnnotationTypeStrategy,5,49,0,2,1,13,1,8,1,7
-Google Guice - Core Library,com.google.inject,Key,30,325,5,11,7,76,6,37,3,32
-Google Guice - Core Library,com.google.inject,Guice,0,22,0,0,0,7,0,4,0,4
-Google Guice - Core Library,com.google.inject,OutOfScopeException,13,0,0,0,6,0,3,0,3,0
+Google Guice - Core Library,com.google.inject.util,Modules,6,24,0,0,1,5,1,4,1,4
+Google Guice - Core Library,com.google.inject.util,Node,114,0,12,0,30,0,15,0,9,0
+Google Guice - Core Library,com.google.inject.util,Modules.RealOverriddenModuleBuilder.new AbstractModule() {...},0,117,0,6,0,28,0,6,0,3
+Google Guice - Core Library,com.google.inject.util,Types,0,84,0,0,0,9,0,9,0,9
+Google Guice - Core Library,com.google.inject.util,Modules.RealOverriddenModuleBuilder,0,18,0,0,0,5,0,3,0,3
+Google Guice - Core Library,com.google.inject.util,Modules.RealOverriddenModuleBuilder.1.new Modules.ModuleWriter() {...},0,46,0,0,0,7,0,4,0,4
+Google Guice - Core Library,com.google.inject.util,Modules.RealOverriddenModuleBuilder.1.new DefaultBindingScopingVisitor() {...},0,8,0,0,0,2,0,2,0,2
+Google Guice - Core Library,com.google.inject.util,Modules.RealOverriddenModuleBuilder.1.new Modules.ModuleWriter() {...},0,48,0,4,0,8,0,4,0,2
+Google Guice - Core Library,com.google.inject.util,Modules.RealOverriddenModuleBuilder.1.new Modules.ModuleWriter() {...},7,123,1,15,2,27,1,12,0,5
+Google Guice - Core Library,com.google.inject.util,Modules.new Module() {...},0,32,0,2,0,6,0,3,0,2
+Google Guice - Core Library,com.google.inject.util,Modules.new Module() {...},0,4,0,0,0,2,0,2,0,2
+Google Guice - Core Library,com.google.inject.util,Modules.ModuleWriter,0,28,0,2,0,9,0,4,0,3
 Google Guice - Core Library,com.google.inject.matcher,Matchers.Not,2,47,2,4,0,8,2,6,0,5
-Google Guice - Core Library,com.google.inject.matcher,Matchers,0,81,1,3,0,15,1,13,0,12
 Google Guice - Core Library,com.google.inject.matcher,AbstractMatcher,0,15,0,0,0,3,0,3,0,3
 Google Guice - Core Library,com.google.inject.matcher,Matchers.Only,0,45,1,3,0,8,1,6,0,5
 Google Guice - Core Library,com.google.inject.matcher,AbstractMatcher.AndMatcher,0,71,3,7,0,10,3,7,0,5
-Google Guice - Core Library,com.google.inject.matcher,Matchers.AnnotatedWithType,0,53,1,5,0,9,1,7,0,5
 Google Guice - Core Library,com.google.inject.matcher,Matchers.IdenticalTo,0,47,1,5,0,7,1,7,0,5
-Google Guice - Core Library,com.google.inject.matcher,Matchers.InPackage,0,57,1,3,0,10,1,7,0,6
 Google Guice - Core Library,com.google.inject.matcher,Matchers.Any,0,6,0,0,0,3,0,3,0,3
 Google Guice - Core Library,com.google.inject.matcher,Matchers.AnnotatedWith,30,31,6,2,3,7,6,3,2,3
 Google Guice - Core Library,com.google.inject.matcher,AbstractMatcher.OrMatcher,0,71,2,8,0,10,2,8,0,5
 Google Guice - Core Library,com.google.inject.matcher,Matchers.InSubpackage,0,63,1,7,0,10,1,8,0,5
+Google Guice - Core Library,com.google.inject.matcher,Matchers,0,81,1,3,0,15,1,13,0,12
+Google Guice - Core Library,com.google.inject.matcher,Matchers.AnnotatedWithType,0,53,1,5,0,9,1,7,0,5
+Google Guice - Core Library,com.google.inject.matcher,Matchers.InPackage,0,57,1,3,0,10,1,7,0,6
 Google Guice - Core Library,com.google.inject.matcher,Matchers.SubclassesOf,0,47,1,3,0,8,1,6,0,5
 Google Guice - Core Library,com.google.inject.matcher,Matchers.Returns,0,47,1,3,0,8,1,6,0,5
+Google Guice - Core Library,com.google.inject,Key.NullAnnotationStrategy,9,18,0,0,3,4,3,3,3,3
+Google Guice - Core Library,com.google.inject,Stage,0,34,0,0,0,4,0,1,0,1
+Google Guice - Core Library,com.google.inject,Key.AnnotationInstanceStrategy,0,48,0,2,0,13,0,9,0,8
+Google Guice - Core Library,com.google.inject,PrivateModule,102,55,1,1,31,13,20,8,19,8
+Google Guice - Core Library,com.google.inject,Scopes.1.new Provider() {...},14,66,1,13,1,15,2,8,1,2
+Google Guice - Core Library,com.google.inject,Key.AnnotationTypeStrategy,7,47,1,1,2,12,2,7,1,7
+Google Guice - Core Library,com.google.inject,Guice,0,22,0,0,0,7,0,4,0,4
+Google Guice - Core Library,com.google.inject,OutOfScopeException,13,0,0,0,6,0,3,0,3,0
+Google Guice - Core Library,com.google.inject,ProvisionException,1,51,1,1,0,13,1,5,0,5
+Google Guice - Core Library,com.google.inject,AbstractModule,11,126,1,1,3,37,3,22,2,22
+Google Guice - Core Library,com.google.inject,CreationException,1,28,1,1,0,7,1,3,0,3
+Google Guice - Core Library,com.google.inject,TypeLiteral,28,481,6,40,2,96,6,37,0,20
+Google Guice - Core Library,com.google.inject,Scopes,38,25,9,1,13,6,5,2,0,2
+Google Guice - Core Library,com.google.inject,Scopes.new BindingScopingVisitor() {...},18,10,5,1,3,2,6,2,3,2
+Google Guice - Core Library,com.google.inject,Scopes.new Scope() {...},2,9,0,0,1,2,1,2,1,2
+Google Guice - Core Library,com.google.inject,Scopes.new Scope() {...},2,5,0,0,1,2,1,2,1,2
+Google Guice - Core Library,com.google.inject,ConfigurationException,1,56,1,1,0,12,1,5,0,5
+Google Guice - Core Library,com.google.inject,Key,30,313,5,9,7,70,6,36,3,32
 Google Guice - Core Library,com.google.inject.name,Names,0,80,0,4,0,15,0,5,0,3
 Google Guice - Core Library,com.google.inject.name,NamedImpl,2,52,1,1,1,10,1,6,0,6
-Google Guice - Core Library,com.google.inject.internal.util,Classes,20,96,2,18,4,18,3,12,1,4
-Google Guice - Core Library,com.google.inject.internal.util,Stopwatch,0,39,0,0,0,8,0,4,0,4
-Google Guice - Core Library,com.google.inject.internal.util,StackTraceElements.InMemoryStackTraceElement,25,78,5,5,3,18,6,7,1,7
-Google Guice - Core Library,com.google.inject.internal.util,LineNumbers.LineNumberReader.LineNumberAnnotationVisitor,5,7,0,0,3,3,3,1,3,1
-Google Guice - Core Library,com.google.inject.internal.util,StackTraceElements,5,205,1,17,2,50,2,16,1,8
-Google Guice - Core Library,com.google.inject.internal.util,StackTraceElements.new CacheLoader() {...},6,8,0,0,2,2,0,2,0,2
-Google Guice - Core Library,com.google.inject.internal.util,LineNumbers.LineNumberReader,5,80,0,6,1,22,1,10,1,7
-Google Guice - Core Library,com.google.inject.internal.util,SourceProvider,33,126,5,17,7,28,4,15,1,7
-Google Guice - Core Library,com.google.inject.internal.util,LineNumbers,14,151,3,13,2,24,3,10,0,5
-Google Guice - Core Library,com.google.inject.internal.util,LineNumbers.LineNumberReader.LineNumberMethodVisitor,6,52,2,6,1,10,3,6,1,4
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.ClassEmitter,108,303,12,20,16,61,17,20,6,15
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.EmitUtils.ArrayDelimiters,0,12,0,0,0,5,0,1,0,1
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.ClassNameReader,9,23,0,0,1,5,0,3,0,3
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.DuplicatesPredicate,0,15,0,0,0,3,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.EmitUtils,606,1032,71,47,151,302,59,44,10,29
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.VisibilityPredicate,3,44,1,7,0,12,1,5,0,2
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.ClassNameReader.new .ClassAdapter() {...},0,45,1,3,0,7,1,3,0,2
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.DefaultNamingPolicy,34,61,6,4,4,11,6,5,2,4
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.ReflectUtils.new PrivilegedAction() {...},5,8,1,1,0,2,1,2,0,2
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.ReflectUtils.new .ClassInfo() {...},8,19,0,0,2,3,2,3,2,3
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.CollectionUtils,0,122,0,14,0,29,0,12,0,5
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.ReflectUtils.new PrivilegedAction() {...},15,57,3,3,4,6,3,2,0,2
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.ReflectUtils.new .MethodInfo() {...},2,34,1,1,1,7,2,5,1,5
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.AbstractClassGenerator.new .Predicate() {...},0,14,0,0,0,2,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.CodeEmitter.State,14,27,0,2,5,8,5,2,5,1
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.ReflectUtils,575,433,61,25,118,82,50,25,16,16
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.MethodWrapper,9,34,2,2,1,5,2,3,0,3
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.EmitUtils.new .ProcessArrayCallback() {...},0,22,0,0,0,3,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.EmitUtils.new .ProcessArrayCallback() {...},0,33,0,0,0,5,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.EmitUtils.new .ProcessSwitchCallback() {...},73,0,2,0,9,0,4,0,3,0
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.EmitUtils.new .Transformer() {...},0,9,0,0,0,2,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.EmitUtils.new .ProcessSwitchCallback() {...},43,83,8,6,7,17,6,4,0,3
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.EmitUtils.new .ProcessArrayCallback() {...},0,21,0,0,0,3,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.EmitUtils.new .Transformer() {...},10,0,0,0,2,0,2,0,2,0
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.EmitUtils.new .ProcessSwitchCallback() {...},45,0,0,0,6,0,3,0,3,0
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.EmitUtils.new .Transformer() {...},15,0,0,0,2,0,2,0,2,0
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.DebuggingClassWriter.new PrivilegedAction() {...},112,14,3,1,18,4,2,2,0,2
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.KeyFactory.Generator,26,335,4,16,7,75,8,14,4,8
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.ClassEmitter.FieldInfo,38,57,13,9,6,13,12,2,1,2
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.CodeEmitter,500,1067,80,85,136,284,82,118,28,80
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.CodeGenerationException,22,0,0,0,4,0,2,0,2,0
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.MethodInfo,20,7,4,0,6,3,4,2,2,2
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.ClassEmitter.new .ClassInfo() {...},4,31,1,1,1,4,2,4,1,4
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.ClassEmitter.new .MethodAdapter() {...},8,7,2,0,4,1,3,1,2,1
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.ClassEmitter.new .CodeEmitter() {...},0,13,0,0,0,2,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.TypeUtils,420,485,79,55,100,105,67,54,16,25
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.KeyFactory,0,266,0,0,0,19,0,5,0,5
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.ClassInfo,8,19,2,2,3,6,3,3,1,3
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.LocalVariablesSorter,194,59,18,4,39,11,16,4,7,2
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.AbstractClassGenerator.Source,0,11,0,0,0,4,0,1,0,1
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.RejectModifierPredicate,0,17,0,2,0,4,0,3,0,2
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.KeyFactory.new .Customizer() {...},9,3,2,0,3,1,2,1,1,1
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.KeyFactory.new .Customizer() {...},5,3,0,0,2,1,1,1,1,1
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.DefaultGeneratorStrategy,0,30,0,0,0,8,0,6,0,6
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.Constants,0,82,0,0,0,27,0,1,0,1
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.Block,5,28,1,1,1,10,1,5,0,5
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.LocalVariablesSorter.State,0,7,0,0,0,2,0,1,0,1
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.Signature,16,79,3,7,2,18,3,11,0,9
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.Local,0,15,0,0,0,6,0,3,0,3
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.DebuggingClassWriter,25,39,1,1,7,10,3,4,2,4
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.AbstractClassGenerator,39,245,10,18,15,67,12,20,2,16
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.EmitUtils.new .Transformer() {...},0,19,0,0,0,2,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.EmitUtils.new .ObjectSwitchCallback() {...},0,49,0,0,0,5,0,3,0,3
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.MethodInfoTransformer,12,24,1,3,1,7,1,5,0,4
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.EmitUtils.new .EmitUtils.ParameterTyper() {...},0,27,0,2,0,5,0,3,0,2
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.EmitUtils.new .Transformer() {...},0,8,0,0,0,2,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.EmitUtils.new .ObjectSwitchCallback() {...},0,44,0,0,0,5,0,3,0,3
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.EmitUtils.new .Transformer() {...},0,16,0,0,0,2,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.cglib.core,.EmitUtils.new .ProcessSwitchCallback() {...},0,52,0,0,0,6,0,3,0,3
+Google Guice - Core Library,com.google.inject.internal.util,.CustomConcurrentHashMap.Impl.Values,8,21,0,0,3,4,2,4,2,4
+Google Guice - Core Library,com.google.inject.internal.util,.Iterables,4,48,0,0,1,11,1,4,1,4
+Google Guice - Core Library,com.google.inject.internal.util,.MapMaker.WeakValueReference,7,15,0,0,1,6,1,3,1,3
+Google Guice - Core Library,com.google.inject.internal.util,.UnmodifiableIterator,4,3,0,0,1,1,1,1,1,1
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableCollection.ArrayImmutableCollection.new .UnmodifiableIterator() {...},39,0,4,0,6,0,5,0,3,0
+Google Guice - Core Library,com.google.inject.internal.util,.MapMaker.StrongValueReference,0,14,0,0,0,6,0,4,0,4
+Google Guice - Core Library,com.google.inject.internal.util,.CustomConcurrentHashMap.SimpleInternalEntry,15,0,0,0,6,0,1,0,1,0
+Google Guice - Core Library,com.google.inject.internal.util,.ComputationException,0,4,0,0,0,2,0,1,0,1
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableCollection.new .UnmodifiableIterator() {...},6,3,0,0,2,1,2,1,2,1
+Google Guice - Core Library,com.google.inject.internal.util,.Join,172,0,10,0,45,0,18,0,13,0
+Google Guice - Core Library,com.google.inject.internal.util,.CustomConcurrentHashMap.Impl.KeyIterator,0,11,0,0,0,2,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.util,.Preconditions,231,164,32,22,49,50,28,18,5,14
+Google Guice - Core Library,com.google.inject.internal.util,.CustomConcurrentHashMap.ComputingImpl,16,136,3,15,6,40,3,8,0,2
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableMap.SingletonImmutableMap.Values,19,0,0,0,7,0,5,0,5,0
+Google Guice - Core Library,com.google.inject.internal.util,.MapMaker.NullOutputExceptionReference,10,6,0,0,3,3,3,1,3,1
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableMap.RegularImmutableMap,85,189,12,16,14,40,10,14,2,8
+Google Guice - Core Library,com.google.inject.internal.util,.MapMaker.new .MapMaker.ValueReference() {...},8,5,0,0,2,2,2,2,2,2
+Google Guice - Core Library,com.google.inject.internal.util,.Collections2,5,30,4,6,2,7,4,3,0,2
+Google Guice - Core Library,com.google.inject.internal.util,.LineNumbers,14,152,3,13,2,24,3,10,0,5
+Google Guice - Core Library,com.google.inject.internal.util,.MapMaker.StrongEntry,0,37,0,0,0,14,0,7,0,7
+Google Guice - Core Library,com.google.inject.internal.util,.Iterators,97,79,12,2,18,19,10,9,3,9
+Google Guice - Core Library,com.google.inject.internal.util,.Hashing,10,28,3,1,2,4,2,2,0,2
+Google Guice - Core Library,com.google.inject.internal.util,.MapMaker.SoftValueReference,4,18,0,0,2,5,1,3,1,3
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableCollection.SerializedForm,20,0,2,0,5,0,3,0,2,0
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableSet.ArrayImmutableSet,49,55,7,7,13,13,7,7,2,5
+Google Guice - Core Library,com.google.inject.internal.util,.CustomConcurrentHashMap.Impl.Segment,74,932,43,105,15,212,39,52,0,17
+Google Guice - Core Library,com.google.inject.internal.util,.MapMaker.StrategyImpl.FutureValueReference,64,0,4,0,19,0,7,0,5,0
+Google Guice - Core Library,com.google.inject.internal.util,.CustomConcurrentHashMap.Impl.ValueIterator,0,11,0,0,0,2,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.util,.AbstractIterator,11,56,3,6,3,17,4,7,1,5
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableMap.SingletonImmutableMap,99,76,15,5,23,18,16,8,7,7
+Google Guice - Core Library,com.google.inject.internal.util,.Iterables.IterableWithToString,3,3,0,0,1,1,1,1,1,1
+Google Guice - Core Library,com.google.inject.internal.util,.MapMaker.ComputationExceptionReference,10,6,0,0,3,3,3,1,3,1
+Google Guice - Core Library,com.google.inject.internal.util,.FinalizableWeakReference,0,8,0,0,0,3,0,1,0,1
+Google Guice - Core Library,com.google.inject.internal.util,.Join.JoinException,4,0,0,0,2,0,1,0,1,0
+Google Guice - Core Library,com.google.inject.internal.util,.CustomConcurrentHashMap.Impl.EntrySet,44,38,10,4,12,7,9,5,3,4
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableList.RegularImmutableList,146,199,25,15,25,41,21,16,5,12
+Google Guice - Core Library,com.google.inject.internal.util,.CustomConcurrentHashMap.Impl.WriteThroughEntry,4,32,1,1,1,10,1,4,0,4
+Google Guice - Core Library,com.google.inject.internal.util,.MapMaker.Strength,0,34,0,0,0,4,0,1,0,1
+Google Guice - Core Library,com.google.inject.internal.util,.MapMaker.Strength.new .MapMaker.Strength() {...},24,35,2,2,2,5,2,6,1,5
+Google Guice - Core Library,com.google.inject.internal.util,.MapMaker.Strength.new .MapMaker.Strength() {...},31,32,3,3,2,5,3,6,1,5
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableEntry,0,15,0,0,0,6,0,3,0,3
+Google Guice - Core Library,com.google.inject.internal.util,.CustomConcurrentHashMap.Impl.InternalsImpl,30,39,4,2,6,7,4,3,1,3
+Google Guice - Core Library,com.google.inject.internal.util,.MapMaker.Strength.new .MapMaker.Strength() {...},24,39,2,4,2,5,2,7,1,5
+Google Guice - Core Library,com.google.inject.internal.util,.MapMaker.StrategyImpl.Fields,31,0,0,0,10,0,2,0,2,0
+Google Guice - Core Library,com.google.inject.internal.util,.ObjectArrays,12,0,0,0,3,0,1,0,1,0
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableCollection.EmptyImmutableCollection,19,0,2,0,8,0,7,0,6,0
+Google Guice - Core Library,com.google.inject.internal.util,.Lists,68,32,4,4,11,9,5,5,3,3
+Google Guice - Core Library,com.google.inject.internal.util,.NullOutputException,0,4,0,0,0,2,0,1,0,1
+Google Guice - Core Library,com.google.inject.internal.util,.Stopwatch,0,39,0,0,0,8,0,4,0,4
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableSet.SingletonImmutableSet,57,48,8,4,17,12,11,6,5,6
+Google Guice - Core Library,com.google.inject.internal.util,.CustomConcurrentHashMap.SimpleStrategy,49,0,0,0,13,0,12,0,12,0
+Google Guice - Core Library,com.google.inject.internal.util,.FinalizableReferenceQueue.SystemLoader,11,12,1,1,6,5,1,2,0,2
+Google Guice - Core Library,com.google.inject.internal.util,.FinalizableReferenceQueue,48,98,5,3,15,20,4,5,0,5
+Google Guice - Core Library,com.google.inject.internal.util,.StackTraceElements,5,76,1,5,2,15,2,5,1,3
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableCollection.ArrayImmutableCollection,17,0,0,0,6,0,4,0,4,0
+Google Guice - Core Library,com.google.inject.internal.util,.CustomConcurrentHashMap.Impl.EntryIterator,0,10,0,0,0,2,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.util,.ToStringBuilder,12,38,1,1,1,7,1,3,0,3
+Google Guice - Core Library,com.google.inject.internal.util,.MapMaker.SoftEntry,15,27,0,0,5,10,3,5,3,5
+Google Guice - Core Library,com.google.inject.internal.util,.MapMaker.WeakEntry,0,42,0,0,0,15,0,8,0,8
+Google Guice - Core Library,com.google.inject.internal.util,.FinalizableReferenceQueue.DecoupledLoader,35,53,2,2,6,11,3,3,1,3
+Google Guice - Core Library,com.google.inject.internal.util,.Sets.SetFromMap,106,0,8,0,24,0,21,0,17,0
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableMap.SerializedForm,67,0,4,0,14,0,4,0,2,0
+Google Guice - Core Library,com.google.inject.internal.util,.MapMaker,12,178,1,9,1,35,1,19,0,15
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableSet,33,220,7,25,11,52,8,24,2,13
+Google Guice - Core Library,com.google.inject.internal.util,.MapMaker.LinkedWeakEntry,0,12,0,0,0,4,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableMap.RegularImmutableMap.KeySet,5,13,0,0,1,4,1,2,1,2
+Google Guice - Core Library,com.google.inject.internal.util,.AbstractMapEntry,45,19,8,2,7,4,8,2,3,2
+Google Guice - Core Library,com.google.inject.internal.util,.Objects,0,16,1,5,0,2,1,4,0,2
+Google Guice - Core Library,com.google.inject.internal.util,.Iterators.new .UnmodifiableIterator() {...},4,5,0,0,1,2,1,2,1,2
+Google Guice - Core Library,com.google.inject.internal.util,.MapMaker.StrategyImpl.new TimerTask() {...},0,28,1,1,0,5,1,2,0,2
+Google Guice - Core Library,com.google.inject.internal.util,.StackTraceElements.new .Function() {...},6,8,0,0,2,2,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.util,.MapMaker.StrategyImpl,72,249,1,13,19,65,3,23,2,17
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableSet.RegularImmutableSet,2,44,1,5,1,14,1,6,0,4
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableSet.TransformedImmutableSet.new .AbstractIterator() {...},0,34,0,2,0,5,0,3,0,2
+Google Guice - Core Library,com.google.inject.internal.util,.AbstractIterator.State,0,44,0,0,0,5,0,1,0,1
+Google Guice - Core Library,com.google.inject.internal.util,.SourceProvider,4,80,1,5,1,15,1,7,0,5
+Google Guice - Core Library,com.google.inject.internal.util,.MapMaker.QueueHolder,0,5,0,0,0,1,0,1,0,1
+Google Guice - Core Library,com.google.inject.internal.util,.CustomConcurrentHashMap,0,42,0,0,0,6,0,1,0,1
+Google Guice - Core Library,com.google.inject.internal.util,.Iterators.new .UnmodifiableIterator() {...},4,39,1,3,1,5,1,4,0,3
+Google Guice - Core Library,com.google.inject.internal.util,.Iterators.new .UnmodifiableIterator() {...},5,37,0,2,2,7,0,4,0,3
+Google Guice - Core Library,com.google.inject.internal.util,.Iterators.new Enumeration() {...},14,0,0,0,3,0,3,0,3,0
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableMap.Builder,2,66,1,4,1,15,1,7,0,5
+Google Guice - Core Library,com.google.inject.internal.util,.Iterators.new .UnmodifiableIterator() {...},4,22,1,3,1,5,1,4,0,3
+Google Guice - Core Library,com.google.inject.internal.util,.Iterators.new .UnmodifiableIterator() {...},0,14,0,0,0,3,0,3,0,3
+Google Guice - Core Library,com.google.inject.internal.util,.Iterators.new ListIterator() {...},28,3,0,0,9,1,9,1,9,1
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableSet.SerializedForm,0,10,0,0,0,4,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.util,.Iterators.new Iterator() {...},4,22,0,0,2,4,1,3,1,3
+Google Guice - Core Library,com.google.inject.internal.util,.Iterators.new Iterator() {...},19,39,3,5,5,8,3,5,1,3
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableMap.RegularImmutableMap.Values.new .AbstractIterator() {...},0,34,0,2,0,5,0,3,0,2
+Google Guice - Core Library,com.google.inject.internal.util,.FinalizableSoftReference,0,8,0,0,0,3,0,1,0,1
+Google Guice - Core Library,com.google.inject.internal.util,.Finalizer,24,97,2,6,6,28,2,8,0,6
+Google Guice - Core Library,com.google.inject.internal.util,.MapMaker.LinkedStrongEntry,0,12,0,0,0,4,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.util,.Maps,4,18,0,0,1,4,1,4,1,4
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableList.EmptyImmutableList,45,25,3,1,17,9,13,7,11,7
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableCollection,151,32,19,3,38,8,22,4,12,3
+Google Guice - Core Library,com.google.inject.internal.util,.CustomConcurrentHashMap.Impl,160,772,33,89,30,174,26,57,0,22
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableSet.TransformedImmutableSet,11,63,2,4,3,16,3,8,1,7
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableMap.EmptyImmutableMap,16,15,1,1,8,6,8,4,7,4
+Google Guice - Core Library,com.google.inject.internal.util,.Iterables.new .Iterables.IterableWithToString() {...},0,16,0,0,0,2,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.util,.Iterables.new .Iterables.IterableWithToString() {...},0,11,0,0,0,2,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.util,.MapMaker.LinkedSoftEntry,12,0,0,0,4,0,2,0,2,0
+Google Guice - Core Library,com.google.inject.internal.util,.Iterables.new .Function() {...},0,6,0,0,0,2,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.util,.CustomConcurrentHashMap.Impl.HashIterator,37,161,11,23,9,41,11,15,2,7
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableMap,178,117,5,8,26,25,18,12,14,9
+Google Guice - Core Library,com.google.inject.internal.util,.FinalizableReferenceQueue.DirectLoader,9,3,0,0,3,1,1,1,1,1
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableList.RegularImmutableList.new ListIterator() {...},54,38,2,2,14,7,8,4,7,3
+Google Guice - Core Library,com.google.inject.internal.util,.Strings,4,24,2,2,1,5,2,1,0,1
+Google Guice - Core Library,com.google.inject.internal.util,.Sets,28,8,4,0,6,2,4,2,2,2
+Google Guice - Core Library,com.google.inject.internal.util,.CustomConcurrentHashMap.Builder,15,66,3,9,3,21,3,9,0,6
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableList.SerializedForm,0,10,0,0,0,4,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.util,.CustomConcurrentHashMap.Impl.KeySet,17,21,2,0,4,4,4,4,3,4
+Google Guice - Core Library,com.google.inject.internal.util,.AsynchronousComputationException,4,0,0,0,2,0,1,0,1,0
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableSet.EmptyImmutableSet,24,19,3,1,10,7,9,5,7,5
+Google Guice - Core Library,com.google.inject.internal.util,.CustomConcurrentHashMap.Impl.Fields,9,25,0,0,3,8,1,2,1,2
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableList,123,230,7,21,19,43,16,21,9,14
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableMap.RegularImmutableMap.EntrySet,3,30,3,3,1,7,3,2,0,2
+Google Guice - Core Library,com.google.inject.internal.util,.FinalizablePhantomReference,8,0,0,0,3,0,1,0,1,0
+Google Guice - Core Library,com.google.inject.internal.util,.Classes,20,96,2,18,4,18,3,12,1,4
+Google Guice - Core Library,com.google.inject.internal.util,.LineNumbers.LineNumberReader,14,118,1,13,11,40,12,30,11,24
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableSet.Builder,36,57,3,3,11,14,4,5,2,4
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableMap.RegularImmutableMap.Values,7,19,0,0,2,6,2,3,2,3
+Google Guice - Core Library,com.google.inject.internal.util,.ExpirationTimer,3,6,0,0,1,1,1,1,1,1
+Google Guice - Core Library,com.google.inject.internal.util,.ImmutableList.Builder,11,46,1,3,3,11,2,4,1,3
 Google Guice - Core Library,com.google.inject.spi,InjectionPoint.InjectableMembers,4,61,2,10,1,16,2,8,0,4
-Google Guice - Core Library,com.google.inject.spi,ProvisionListener.ProvisionInvocation,0,3,0,0,0,1,0,1,0,1
 Google Guice - Core Library,com.google.inject.spi,InjectionPoint.InjectableField,0,18,0,0,0,4,0,2,0,2
-Google Guice - Core Library,com.google.inject.spi,DefaultElementVisitor,18,51,0,0,5,13,5,13,5,13
+Google Guice - Core Library,com.google.inject.spi,DefaultElementVisitor,10,47,0,0,3,12,3,12,3,12
 Google Guice - Core Library,com.google.inject.spi,MembersInjectorLookup.new MembersInjector() {...},0,34,0,2,0,5,0,4,0,3
-Google Guice - Core Library,com.google.inject.spi,InjectionPoint,32,748,10,90,8,191,10,68,1,27
 Google Guice - Core Library,com.google.inject.spi,InjectionRequest,3,44,0,0,1,11,1,6,1,6
-Google Guice - Core Library,com.google.inject.spi,Elements.new DefaultBindingTargetVisitor() {...},4,6,0,0,1,2,1,2,1,2
-Google Guice - Core Library,com.google.inject.spi,ElementSource,49,77,2,0,10,21,2,6,1,6
-Google Guice - Core Library,com.google.inject.spi,RequireExactBindingAnnotationsOption,6,15,0,0,2,5,1,3,1,3
-Google Guice - Core Library,com.google.inject.spi,Message,7,133,3,9,2,28,4,16,1,13
-Google Guice - Core Library,com.google.inject.spi,ProvisionListenerBinding,16,26,0,0,3,9,1,5,1,5
-Google Guice - Core Library,com.google.inject.spi,Dependency,2,144,1,13,1,29,1,16,0,10
-Google Guice - Core Library,com.google.inject.spi,Elements.RecordingBinder,59,660,10,36,12,144,11,52,2,38
-Google Guice - Core Library,com.google.inject.spi,Elements,12,44,0,2,3,11,3,6,3,5
-Google Guice - Core Library,com.google.inject.spi,Elements.ElementsAsModule,0,22,0,2,0,7,0,3,0,2
-Google Guice - Core Library,com.google.inject.spi,InjectionPoint.InjectableMethod,0,23,0,0,0,5,0,3,0,3
+Google Guice - Core Library,com.google.inject.spi,Elements.RecordingBinder,16,470,2,16,4,98,4,39,2,32
 Google Guice - Core Library,com.google.inject.spi,DefaultBindingTargetVisitor,28,13,0,0,7,4,7,4,7,4
-Google Guice - Core Library,com.google.inject.spi,InterceptorBinding,0,58,0,0,0,14,0,7,0,7
-Google Guice - Core Library,com.google.inject.spi,ModuleSource,11,120,0,8,3,38,3,12,3,8
-Google Guice - Core Library,com.google.inject.spi,DependencyAndSource,36,30,3,3,6,9,3,4,1,3
-Google Guice - Core Library,com.google.inject.spi,DefaultBindingScopingVisitor,3,14,0,0,1,5,1,5,1,5
-Google Guice - Core Library,com.google.inject.spi,InjectionPoint.InjectableMember,0,25,0,2,0,9,0,2,0,1
-Google Guice - Core Library,com.google.inject.spi,RequireAtInjectOnConstructorsOption,6,15,0,0,2,5,1,3,1,3
 Google Guice - Core Library,com.google.inject.spi,Elements.RecordingBinder.new AnnotatedElementBuilder() {...},1,7,0,0,1,2,1,2,1,2
 Google Guice - Core Library,com.google.inject.spi,RequireExplicitBindingsOption,6,15,0,0,2,5,1,3,1,3
-Google Guice - Core Library,com.google.inject.spi,StaticInjectionRequest,0,41,0,0,0,10,0,6,0,6
 Google Guice - Core Library,com.google.inject.spi,DisableCircularProxiesOption,6,15,0,0,2,5,1,3,1,3
-Google Guice - Core Library,com.google.inject.spi,TypeConverterBinding,0,64,0,0,0,13,0,7,0,7
-Google Guice - Core Library,com.google.inject.spi,ProviderLookup,1,61,1,1,0,15,1,9,0,9
-Google Guice - Core Library,com.google.inject.spi,MembersInjectorLookup,1,56,1,1,0,14,1,8,0,8
+Google Guice - Core Library,com.google.inject.spi,ProviderLookup,1,56,1,1,0,14,1,8,0,8
 Google Guice - Core Library,com.google.inject.spi,InjectionPoint.Signature,8,92,4,8,4,17,4,5,0,3
 Google Guice - Core Library,com.google.inject.spi,TypeListenerBinding,0,35,0,0,0,11,0,6,0,6
 Google Guice - Core Library,com.google.inject.spi,InjectionPoint.OverrideIndex,16,164,4,32,2,44,4,17,0,3
 Google Guice - Core Library,com.google.inject.spi,ScopeBinding,0,43,0,0,0,11,0,6,0,6
-Google Guice - Core Library,com.google.inject.spi,ProviderLookup.new Provider() {...},0,34,0,2,0,4,0,4,0,3
 Google Guice - Core Library,com.google.inject.spi,InjectionPoint.Position,0,34,0,0,0,4,0,1,0,1
-Google Guice - Core Library,com.google.inject.spi,ProviderLookup.new RehashableKeys() {...},8,12,1,1,1,3,1,2,0,2
-Google Guice - Core Library,com.google.inject.internal,InjectionRequestProcessor.StaticInjection,5,69,0,2,2,19,0,4,0,3
+Google Guice - Core Library,com.google.inject.spi,InjectionPoint,40,732,11,87,9,187,11,66,1,27
+Google Guice - Core Library,com.google.inject.spi,Elements.new DefaultBindingTargetVisitor() {...},4,6,0,0,1,2,1,2,1,2
+Google Guice - Core Library,com.google.inject.spi,Elements.new Module() {...},0,22,0,2,0,5,0,3,0,2
+Google Guice - Core Library,com.google.inject.spi,Message,7,127,3,9,2,26,4,15,1,12
+Google Guice - Core Library,com.google.inject.spi,Dependency,3,143,4,10,1,29,4,13,0,10
+Google Guice - Core Library,com.google.inject.spi,Elements,8,45,0,2,2,10,2,7,2,6
+Google Guice - Core Library,com.google.inject.spi,InjectionPoint.InjectableMethod,0,23,0,0,0,5,0,3,0,3
+Google Guice - Core Library,com.google.inject.spi,InterceptorBinding,0,58,0,0,0,14,0,7,0,7
+Google Guice - Core Library,com.google.inject.spi,DefaultBindingScopingVisitor,3,14,0,0,1,5,1,5,1,5
+Google Guice - Core Library,com.google.inject.spi,InjectionPoint.InjectableMember,0,25,0,2,0,9,0,2,0,1
+Google Guice - Core Library,com.google.inject.spi,StaticInjectionRequest,0,41,0,0,0,10,0,6,0,6
+Google Guice - Core Library,com.google.inject.spi,TypeConverterBinding,0,63,0,0,0,12,0,7,0,7
+Google Guice - Core Library,com.google.inject.spi,MembersInjectorLookup,1,56,1,1,0,14,1,8,0,8
+Google Guice - Core Library,com.google.inject.spi,ProviderLookup.new Provider() {...},0,34,0,2,0,4,0,4,0,3
+Google Guice - Core Library,com.google.inject.internal,InjectionRequestProcessor.StaticInjection,17,47,0,0,5,13,0,3,0,3
 Google Guice - Core Library,com.google.inject.internal,ExposureBuilder,6,53,1,1,1,18,1,7,0,7
-Google Guice - Core Library,com.google.inject.internal,Errors,189,1399,4,104,17,237,14,127,10,77
 Google Guice - Core Library,com.google.inject.internal,AbstractProcessor,0,67,0,6,0,20,0,7,0,4
-Google Guice - Core Library,com.google.inject.internal,InjectorImpl.ProviderBindingImpl.new InternalFactory() {...},0,9,0,0,0,2,0,2,0,2
-Google Guice - Core Library,com.google.inject.internal,MembersInjectorImpl.1.new ProvisionListenerStackCallback.ProvisionCallback() {...},0,28,0,0,0,3,0,2,0,2
-Google Guice - Core Library,com.google.inject.internal,ProxyFactory,20,283,2,30,3,66,3,17,1,3
-Google Guice - Core Library,com.google.inject.internal,ProviderInternalFactory,0,84,0,6,0,20,0,6,0,3
 Google Guice - Core Library,com.google.inject.internal,State,0,5,0,0,0,1,0,1,0,1
-Google Guice - Core Library,com.google.inject.internal,InterceptorStackCallback.InterceptedMethodInvocation,10,66,0,2,3,13,3,4,3,3
-Google Guice - Core Library,com.google.inject.internal,InjectorImpl,86,1213,10,134,22,276,14,106,4,44
 Google Guice - Core Library,com.google.inject.internal,Errors.new Errors.Converter() {...},0,7,0,0,0,2,0,2,0,2
 Google Guice - Core Library,com.google.inject.internal,Errors.new Errors.Converter() {...},2,28,1,3,0,5,1,3,0,2
 Google Guice - Core Library,com.google.inject.internal,Errors.new Comparator() {...},0,12,0,0,0,2,0,2,0,2
 Google Guice - Core Library,com.google.inject.internal,Errors.new Errors.Converter() {...},0,7,0,0,0,2,0,2,0,2
-Google Guice - Core Library,com.google.inject.internal,Initializer.InjectableReference,18,114,2,8,5,19,3,6,1,3
+Google Guice - Core Library,com.google.inject.internal,Initializer.InjectableReference,17,79,1,7,5,14,2,6,1,3
 Google Guice - Core Library,com.google.inject.internal,SingleMethodInjector.new InjectorImpl.MethodInvoker() {...},0,15,0,0,0,2,0,2,0,2
-Google Guice - Core Library,com.google.inject.internal,InjectionRequestProcessor,11,73,0,4,3,19,0,7,0,5
 Google Guice - Core Library,com.google.inject.internal,SingleMethodInjector.new InjectorImpl.MethodInvoker() {...},0,15,0,0,0,2,0,2,0,2
-Google Guice - Core Library,com.google.inject.internal,InterceptorStackCallback,0,100,0,8,0,18,0,8,0,4
-Google Guice - Core Library,com.google.inject.internal,UntargettedBindingProcessor.new AbstractBindingProcessor.Processor() {...},3,84,0,2,1,14,1,3,1,2
-Google Guice - Core Library,com.google.inject.internal,InjectionRequestProcessor.StaticInjection.new ContextualCallable() {...},0,40,0,6,0,6,0,5,0,2
-Google Guice - Core Library,com.google.inject.internal,UntargettedBindingImpl,21,90,4,4,6,16,5,9,1,9
+Google Guice - Core Library,com.google.inject.internal,TypeListenerBindingProcessor,0,12,0,0,0,4,0,2,0,2
 Google Guice - Core Library,com.google.inject.internal,AbstractBindingBuilder,0,180,0,10,0,44,0,18,0,13
-Google Guice - Core Library,com.google.inject.internal,ConstructorInjectorStore,0,78,0,2,0,17,0,5,0,4
-Google Guice - Core Library,com.google.inject.internal,BindingProcessor.new AbstractBindingProcessor.Processor() {...},41,306,0,6,7,47,4,10,4,7
 Google Guice - Core Library,com.google.inject.internal,InjectorImpl.JitLimitation,0,34,0,0,0,4,0,1,0,1
-Google Guice - Core Library,com.google.inject.internal,Annotations.AnnotationChecker,0,26,0,0,0,7,0,2,0,2
-Google Guice - Core Library,com.google.inject.internal,Exceptions,9,22,2,4,3,7,3,3,1,2
-Google Guice - Core Library,com.google.inject.internal,ProxyFactory.ProxyConstructor,6,54,0,0,2,13,2,3,2,3
 Google Guice - Core Library,com.google.inject.internal,ProxyFactory.MethodInterceptorsPair,0,25,0,4,0,8,0,5,0,3
-Google Guice - Core Library,com.google.inject.internal,BoundProviderFactory,10,78,0,0,3,16,1,4,1,4
-Google Guice - Core Library,com.google.inject.internal,BytecodeGen,15,161,5,15,5,40,6,11,1,6
 Google Guice - Core Library,com.google.inject.internal,ConstantBindingBuilderImpl,3,146,1,7,1,44,1,19,0,16
-Google Guice - Core Library,com.google.inject.internal,ConstructorBindingImpl,44,402,9,37,8,85,11,32,2,18
-Google Guice - Core Library,com.google.inject.internal,ProvisionListenerStackCallback.Provision,0,104,0,6,0,27,0,7,0,4
-Google Guice - Core Library,com.google.inject.internal,InjectorOptionsProcessor,5,104,5,15,0,19,5,11,0,6
-Google Guice - Core Library,com.google.inject.internal,ListenerBindingProcessor,0,20,0,0,0,6,0,3,0,3
-Google Guice - Core Library,com.google.inject.internal,ConstructorInjector.new ProvisionListenerStackCallback.ProvisionCallback() {...},0,25,0,0,0,2,0,2,0,2
-Google Guice - Core Library,com.google.inject.internal,InjectorImpl.2.new ContextualCallable() {...},0,37,0,0,0,4,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal,InjectorOptionsProcessor,3,66,3,9,0,13,3,7,0,4
 Google Guice - Core Library,com.google.inject.internal,ConstructionContext,0,91,0,8,0,25,0,13,0,9
 Google Guice - Core Library,com.google.inject.internal,ProviderMethodsModule.LogProvider,0,22,0,0,0,4,0,2,0,2
-Google Guice - Core Library,com.google.inject.internal,Scoping,2,162,3,27,1,38,3,24,0,12
 Google Guice - Core Library,com.google.inject.internal,BytecodeGen.Visibility,0,85,0,12,0,16,0,9,0,3
-Google Guice - Core Library,com.google.inject.internal,MembersInjectorImpl,10,189,1,17,4,46,2,16,1,8
 Google Guice - Core Library,com.google.inject.internal,UniqueAnnotations,0,15,0,0,0,3,0,3,0,3
-Google Guice - Core Library,com.google.inject.internal,ScopeBindingProcessor,18,40,3,3,3,11,3,2,0,2
 Google Guice - Core Library,com.google.inject.internal,SingleMethodInjector,13,97,4,6,4,28,3,6,0,4
-Google Guice - Core Library,com.google.inject.internal,Initializer,19,127,1,19,3,31,1,13,0,4
+Google Guice - Core Library,com.google.inject.internal,Initializer,19,97,1,11,3,25,1,9,0,4
 Google Guice - Core Library,com.google.inject.internal,Scoping.new Scoping() {...},2,12,0,0,1,5,1,4,1,4
 Google Guice - Core Library,com.google.inject.internal,Scoping.new Scoping() {...},3,14,0,0,1,5,1,4,1,4
 Google Guice - Core Library,com.google.inject.internal,Scoping.new Scoping() {...},4,20,0,0,1,5,1,4,1,4
 Google Guice - Core Library,com.google.inject.internal,Scoping.new Scoping() {...},4,20,0,0,1,5,1,4,1,4
 Google Guice - Core Library,com.google.inject.internal,Scoping.new Scoping() {...},3,14,0,0,1,5,1,4,1,4
 Google Guice - Core Library,com.google.inject.internal,Scoping.new Scoping() {...},0,13,0,0,0,5,0,5,0,5
+Google Guice - Core Library,com.google.inject.internal,BindingProcessor.1.new Runnable() {...},0,34,0,0,0,6,0,2,0,2
 Google Guice - Core Library,com.google.inject.internal,ProviderToInternalFactoryAdapter,4,37,0,0,1,10,1,2,1,2
 Google Guice - Core Library,com.google.inject.internal,UntargettedBindingImpl.new InternalFactory() {...},4,3,0,0,1,1,1,1,1,1
-Google Guice - Core Library,com.google.inject.internal,RehashableKeys.Keys,0,34,0,6,0,7,0,5,0,2
-Google Guice - Core Library,com.google.inject.internal,InjectorImpl.ConvertedConstantBindingImpl,81,37,8,0,16,10,11,4,7,4
-Google Guice - Core Library,com.google.inject.internal,Annotations.new InvocationHandler() {...},16,43,2,6,2,9,2,4,0,2
-Google Guice - Core Library,com.google.inject.internal,Initializables.new Initializable() {...},4,9,0,0,1,2,1,2,1,2
-Google Guice - Core Library,com.google.inject.internal,Annotations.new Function() {...},16,3,0,0,2,1,1,1,1,1
-Google Guice - Core Library,com.google.inject.internal,InternalFactoryToProviderAdapter,4,32,0,0,1,7,1,2,1,2
-Google Guice - Core Library,com.google.inject.internal,MembersInjectorImpl.new ContextualCallable() {...},0,64,0,4,0,7,0,4,0,2
+Google Guice - Core Library,com.google.inject.internal,MembersInjectorImpl.new ContextualCallable() {...},0,27,0,0,0,3,0,2,0,2
 Google Guice - Core Library,com.google.inject.internal,ConstructorInjectorStore.new FailableCache() {...},0,12,0,0,0,2,0,2,0,2
-Google Guice - Core Library,com.google.inject.internal,Annotations.new CacheLoader() {...},0,6,0,0,0,2,0,2,0,2
 Google Guice - Core Library,com.google.inject.internal,BytecodeGen.3.new PrivilegedAction() {...},0,15,0,0,0,2,0,2,0,2
-Google Guice - Core Library,com.google.inject.internal,ProvisionListenerCallbackStore.KeyBinding,1,26,2,2,0,6,2,3,0,3
-Google Guice - Core Library,com.google.inject.internal,FailableCache,0,41,0,4,0,9,0,5,0,3
+Google Guice - Core Library,com.google.inject.internal,FailableCache,0,42,0,4,0,9,0,5,0,3
 Google Guice - Core Library,com.google.inject.internal,PrivateElementProcessor,0,27,0,0,0,9,0,3,0,3
-Google Guice - Core Library,com.google.inject.internal,SingleParameterInjector,0,82,0,4,0,21,0,6,0,4
-Google Guice - Core Library,com.google.inject.internal,InternalFlags.IncludeStackTraceOption,0,34,0,0,0,4,0,1,0,1
-Google Guice - Core Library,com.google.inject.internal,AbstractBindingProcessor.Processor,0,53,0,0,0,11,0,3,0,3
-Google Guice - Core Library,com.google.inject.internal,ProviderMethod,18,158,0,14,4,37,1,18,1,11
-Google Guice - Core Library,com.google.inject.internal,TypeConverterBindingProcessor.new AbstractMatcher() {...},4,22,0,2,1,6,1,3,1,2
-Google Guice - Core Library,com.google.inject.internal,InternalInjectorCreator.ToolStageInjector,55,36,0,0,12,9,12,7,12,7
-Google Guice - Core Library,com.google.inject.internal,TypeConverterBindingProcessor.new TypeConverter() {...},27,20,0,0,5,2,1,2,1,2
-Google Guice - Core Library,com.google.inject.internal,InjectorShell.LoggerFactory,2,15,0,2,1,5,1,3,1,2
-Google Guice - Core Library,com.google.inject.internal,TypeConverterBindingProcessor.new TypeConverter() {...},12,3,0,0,4,1,2,1,2,1
-Google Guice - Core Library,com.google.inject.internal,TypeConverterBindingProcessor.new AbstractMatcher() {...},4,9,1,1,1,2,2,2,1,2
-Google Guice - Core Library,com.google.inject.internal,TypeConverterBindingProcessor.new TypeConverter() {...},7,3,0,0,2,1,2,1,2,1
-Google Guice - Core Library,com.google.inject.internal,Initializables,3,5,0,0,1,1,1,1,1,1
-Google Guice - Core Library,com.google.inject.internal,TypeConverterBindingProcessor.new TypeConverter() {...},19,3,2,0,5,1,3,1,2,1
-Google Guice - Core Library,com.google.inject.internal,InternalContext,0,122,0,6,0,29,0,11,0,8
-Google Guice - Core Library,com.google.inject.internal,InternalFactoryToInitializableAdapter,4,47,0,0,1,8,1,3,1,3
-Google Guice - Core Library,com.google.inject.internal,ExposedBindingImpl,25,19,0,0,7,5,3,3,3,3
-Google Guice - Core Library,com.google.inject.internal,BytecodeGen.new CacheLoader() {...},0,21,0,0,0,3,0,2,0,2
-Google Guice - Core Library,com.google.inject.internal,DefaultConstructionProxyFactory.new ConstructionProxy() {...},5,21,0,0,2,3,2,3,2,3
-Google Guice - Core Library,com.google.inject.internal,BytecodeGen.new DefaultNamingPolicy() {...},0,12,0,0,0,3,0,3,0,3
-Google Guice - Core Library,com.google.inject.internal,MethodAspect,0,41,0,0,0,10,0,5,0,5
-Google Guice - Core Library,com.google.inject.internal,BytecodeGen.new DefaultNamingPolicy() {...},0,12,0,0,0,3,0,3,0,3
-Google Guice - Core Library,com.google.inject.internal,Nullability,0,28,0,4,0,5,0,3,0,1
+Google Guice - Core Library,com.google.inject.internal,SingleParameterInjector,0,79,0,4,0,21,0,6,0,4
+Google Guice - Core Library,com.google.inject.internal,ProviderMethod,24,137,0,12,6,31,3,13,3,7
+Google Guice - Core Library,com.google.inject.internal,ExposedBindingImpl,27,19,0,0,7,5,3,3,3,3
+Google Guice - Core Library,com.google.inject.internal,BytecodeGen.new .Function() {...},0,21,0,0,0,3,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal,BytecodeGen.new .DefaultNamingPolicy() {...},0,12,0,0,0,3,0,3,0,3
+Google Guice - Core Library,com.google.inject.internal,BytecodeGen.new .DefaultNamingPolicy() {...},0,12,0,0,0,3,0,3,0,3
+Google Guice - Core Library,com.google.inject.internal,Nullability,0,31,0,6,0,5,0,4,0,1
 Google Guice - Core Library,com.google.inject.internal,InterceptorBindingProcessor,0,20,0,0,0,5,0,2,0,2
-Google Guice - Core Library,com.google.inject.internal,MembersInjectorStore,0,179,0,14,0,40,0,13,0,6
-Google Guice - Core Library,com.google.inject.internal,InjectorShell.Builder,3,323,3,17,0,66,3,16,0,9
-Google Guice - Core Library,com.google.inject.internal,DefaultConstructionProxyFactory.new ConstructionProxy() {...},15,20,0,0,5,4,1,4,1,4
-Google Guice - Core Library,com.google.inject.internal,State.new State() {...},50,14,0,0,14,7,14,7,14,7
-Google Guice - Core Library,com.google.inject.internal,FactoryProxy,12,56,0,0,4,14,1,3,1,3
+Google Guice - Core Library,com.google.inject.internal,FactoryProxy,14,46,0,0,4,12,1,3,1,3
 Google Guice - Core Library,com.google.inject.internal,MembersInjectorStore.new FailableCache() {...},0,12,0,0,0,2,0,2,0,2
-Google Guice - Core Library,com.google.inject.internal,AbstractBindingProcessor.Processor.new Runnable() {...},0,34,0,0,0,6,0,2,0,2
-Google Guice - Core Library,com.google.inject.internal,AbstractBindingProcessor,0,166,0,14,0,36,0,13,0,6
 Google Guice - Core Library,com.google.inject.internal,DelegatingInvocationHandler,24,16,1,1,8,5,2,3,1,3
-Google Guice - Core Library,com.google.inject.internal,TypeConverterBindingProcessor,10,149,2,2,3,33,2,8,0,8
-Google Guice - Core Library,com.google.inject.internal,ProviderInstanceBindingImpl,19,164,2,12,3,38,3,18,1,13
 Google Guice - Core Library,com.google.inject.internal,ProviderMethodsModule,8,227,3,19,0,44,2,18,0,9
-Google Guice - Core Library,com.google.inject.internal,LinkedProviderBindingImpl,55,156,8,10,12,32,8,16,2,13
-Google Guice - Core Library,com.google.inject.internal,MessageProcessor,2,46,1,3,0,11,1,5,0,4
-Google Guice - Core Library,com.google.inject.internal,EncounterImpl,0,163,0,12,0,46,0,21,0,15
-Google Guice - Core Library,com.google.inject.internal,SingleFieldInjector,6,75,0,0,2,16,0,3,0,3
-Google Guice - Core Library,com.google.inject.internal,LinkedBindingImpl,55,120,7,9,12,23,7,13,2,10
-Google Guice - Core Library,com.google.inject.internal,FailableCache.new CacheLoader() {...},0,32,0,2,0,8,0,3,0,2
-Google Guice - Core Library,com.google.inject.internal,BindingBuilder,0,267,0,4,0,70,0,19,0,17
-Google Guice - Core Library,com.google.inject.internal,PrivateElementsImpl,14,168,3,11,4,39,4,15,1,11
-Google Guice - Core Library,com.google.inject.internal,ConstructorBindingImpl.Factory,7,35,2,4,1,8,2,3,0,2
+Google Guice - Core Library,com.google.inject.internal,LinkedProviderBindingImpl,33,106,1,7,7,20,3,12,2,9
+Google Guice - Core Library,com.google.inject.internal,EncounterImpl,0,163,2,10,0,46,2,19,0,15
+Google Guice - Core Library,com.google.inject.internal,SingleFieldInjector,6,72,0,0,2,16,0,3,0,3
+Google Guice - Core Library,com.google.inject.internal,BindingBuilder,0,256,0,4,0,67,0,17,0,15
+Google Guice - Core Library,com.google.inject.internal,PrivateElementsImpl,16,168,3,11,4,39,4,15,1,11
+Google Guice - Core Library,com.google.inject.internal,ConstructorBindingImpl.Factory,7,33,2,4,1,8,2,3,0,2
 Google Guice - Core Library,com.google.inject.internal,DefaultConstructionProxyFactory,9,41,2,2,4,12,1,3,0,2
-Google Guice - Core Library,com.google.inject.internal,InjectorShell.RootModule,0,13,0,0,0,4,0,1,0,1
-Google Guice - Core Library,com.google.inject.internal,ProvisionListenerStackCallback,1,102,1,9,0,28,1,9,0,5
-Google Guice - Core Library,com.google.inject.internal,ProvisionListenerCallbackStore.new CacheLoader() {...},0,12,0,0,0,2,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal,InjectorShell.RootModule,0,28,0,0,0,8,0,2,0,2
 Google Guice - Core Library,com.google.inject.internal,BytecodeGen.SystemBridgeHolder,0,5,0,0,0,1,0,1,0,1
-Google Guice - Core Library,com.google.inject.internal,ProvidedByInternalFactory,1,102,2,4,0,23,2,6,0,5
-Google Guice - Core Library,com.google.inject.internal,ProxyFactory.IndicesCallbackFilter,1,54,2,4,0,11,2,5,0,4
-Google Guice - Core Library,com.google.inject.internal,InternalFlags,24,13,3,1,6,3,3,2,1,2
 Google Guice - Core Library,com.google.inject.internal,Errors.Converter,0,25,0,4,0,5,0,5,0,3
-Google Guice - Core Library,com.google.inject.internal,BindingImpl,33,79,1,3,9,26,5,12,4,11
+Google Guice - Core Library,com.google.inject.internal,BindingImpl,31,79,1,3,8,26,4,12,3,11
 Google Guice - Core Library,com.google.inject.internal,LookupProcessor,0,49,0,0,0,15,0,3,0,3
-Google Guice - Core Library,com.google.inject.internal,BindingProcessor,0,100,1,9,0,23,1,8,0,4
-Google Guice - Core Library,com.google.inject.internal,ConstantFactory,8,11,0,0,3,4,1,2,1,2
+Google Guice - Core Library,com.google.inject.internal,BindingProcessor,0,337,1,27,0,72,1,24,0,11
+Google Guice - Core Library,com.google.inject.internal,InjectorImpl.new Provider() {...},0,46,0,0,0,8,0,3,0,3
 Google Guice - Core Library,com.google.inject.internal,UniqueAnnotations.new UniqueAnnotations.Internal() {...},13,36,4,0,2,5,3,5,1,5
-Google Guice - Core Library,com.google.inject.internal,MoreTypes.ParameterizedTypeImpl,8,213,6,26,3,34,6,18,0,8
-Google Guice - Core Library,com.google.inject.internal,ProvisionListenerCallbackStore,2,91,2,12,0,22,2,10,0,5
-Google Guice - Core Library,com.google.inject.internal,BytecodeGen.Visibility.new BytecodeGen.Visibility() {...},0,8,0,0,0,2,0,2,0,2
-Google Guice - Core Library,com.google.inject.internal,BytecodeGen.Visibility.new BytecodeGen.Visibility() {...},0,8,0,0,0,2,0,2,0,2
-Google Guice - Core Library,com.google.inject.internal,ConstructorInjector,1,131,1,9,0,35,1,9,0,5
-Google Guice - Core Library,com.google.inject.internal,ProcessedBindingData,0,52,0,4,0,15,0,7,0,5
-Google Guice - Core Library,com.google.inject.internal,InjectorImpl.ProviderBindingImpl,35,66,8,0,7,13,6,7,2,7
-Google Guice - Core Library,com.google.inject.internal,MoreTypes,28,537,12,90,7,124,12,52,0,13
-Google Guice - Core Library,com.google.inject.internal,MoreTypes.WildcardTypeImpl,4,168,6,20,0,27,6,14,0,7
-Google Guice - Core Library,com.google.inject.internal,WeakKeySet,0,62,1,11,0,14,1,9,0,4
+Google Guice - Core Library,com.google.inject.internal,MoreTypes.ParameterizedTypeImpl,10,211,8,24,3,34,8,16,0,8
+Google Guice - Core Library,com.google.inject.internal,ConstructorInjector,1,104,1,7,0,31,1,7,0,4
+Google Guice - Core Library,com.google.inject.internal,MoreTypes,57,507,19,83,14,117,15,49,0,13
 Google Guice - Core Library,com.google.inject.internal,InjectorShell.InjectorFactory,3,11,0,0,1,5,1,3,1,3
+Google Guice - Core Library,com.google.inject.internal,InheritingState,3,216,0,14,1,54,1,25,1,18
+Google Guice - Core Library,com.google.inject.internal,ErrorsException,0,9,0,0,0,4,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal,Annotations,17,183,3,25,3,40,4,23,1,12
+Google Guice - Core Library,com.google.inject.internal,InternalInjectorCreator,23,337,2,22,4,76,2,20,0,10
+Google Guice - Core Library,com.google.inject.internal,InjectorImpl.InjectorOptions,21,12,0,0,5,5,1,1,1,1
+Google Guice - Core Library,com.google.inject.internal,BytecodeGen.BridgeClassLoader,14,40,4,6,4,12,4,5,0,4
+Google Guice - Core Library,com.google.inject.internal,InjectorImpl.new InternalFactory() {...},0,24,0,0,0,3,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal,InjectorImpl.new InternalFactory() {...},6,55,1,3,2,8,1,3,0,2
+Google Guice - Core Library,com.google.inject.internal,InjectorImpl.new ThreadLocal() {...},0,9,0,0,0,2,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal,Errors,174,1237,3,87,17,204,13,113,10,71
+Google Guice - Core Library,com.google.inject.internal,InjectorImpl.4.new ContextualCallable() {...},0,33,0,0,0,4,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal,InjectorImpl.ProviderBindingImpl.new InternalFactory() {...},0,9,0,0,0,2,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal,ProxyFactory,20,283,2,30,3,64,3,17,1,3
+Google Guice - Core Library,com.google.inject.internal,InterceptorStackCallback.InterceptedMethodInvocation,10,66,0,2,3,15,3,4,3,3
+Google Guice - Core Library,com.google.inject.internal,InjectorImpl,88,1173,10,126,22,272,14,102,4,44
+Google Guice - Core Library,com.google.inject.internal,InjectionRequestProcessor,11,72,0,4,3,19,0,7,0,5
+Google Guice - Core Library,com.google.inject.internal,InterceptorStackCallback,0,99,0,8,0,18,0,8,0,4
+Google Guice - Core Library,com.google.inject.internal,InjectionRequestProcessor.StaticInjection.new ContextualCallable() {...},0,40,0,6,0,6,0,5,0,2
+Google Guice - Core Library,com.google.inject.internal,UntargettedBindingImpl,15,86,2,4,4,15,3,9,1,8
+Google Guice - Core Library,com.google.inject.internal,ConstructorInjectorStore,0,78,0,2,0,17,0,5,0,4
+Google Guice - Core Library,com.google.inject.internal,BindingProcessor.new BindingTargetVisitor() {...},36,347,0,4,6,53,3,10,3,8
+Google Guice - Core Library,com.google.inject.internal,Annotations.AnnotationChecker,0,28,0,0,0,7,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal,Exceptions,6,22,2,4,2,7,3,2,1,1
+Google Guice - Core Library,com.google.inject.internal,ProxyFactory.ProxyConstructor,6,54,0,0,2,13,2,3,2,3
+Google Guice - Core Library,com.google.inject.internal,BoundProviderFactory,10,54,0,0,3,13,1,3,1,3
+Google Guice - Core Library,com.google.inject.internal,BytecodeGen,13,162,5,15,5,39,6,11,1,6
+Google Guice - Core Library,com.google.inject.internal,ConstructorBindingImpl,38,367,5,31,7,77,7,29,2,16
+Google Guice - Core Library,com.google.inject.internal,Scoping,2,162,3,27,1,39,3,24,0,12
+Google Guice - Core Library,com.google.inject.internal,MembersInjectorImpl,10,187,1,17,4,46,2,16,1,8
+Google Guice - Core Library,com.google.inject.internal,ScopeBindingProcessor,22,39,3,3,4,10,3,2,0,2
+Google Guice - Core Library,com.google.inject.internal,InjectorImpl.ConvertedConstantBindingImpl,83,37,8,0,16,10,11,4,7,4
+Google Guice - Core Library,com.google.inject.internal,Initializables.new Initializable() {...},4,9,0,0,1,2,1,2,1,2
+Google Guice - Core Library,com.google.inject.internal,InternalFactoryToProviderAdapter,4,35,0,0,1,7,1,2,1,2
+Google Guice - Core Library,com.google.inject.internal,TypeConverterBindingProcessor.new AbstractMatcher() {...},4,25,0,2,1,6,1,3,1,2
+Google Guice - Core Library,com.google.inject.internal,InternalInjectorCreator.ToolStageInjector,55,36,0,0,12,9,12,7,12,7
+Google Guice - Core Library,com.google.inject.internal,TypeConverterBindingProcessor.new TypeConverter() {...},27,23,0,0,5,2,1,2,1,2
+Google Guice - Core Library,com.google.inject.internal,InjectorShell.LoggerFactory,2,15,0,2,1,5,1,3,1,2
+Google Guice - Core Library,com.google.inject.internal,TypeConverterBindingProcessor.new TypeConverter() {...},12,6,0,0,4,1,2,1,2,1
+Google Guice - Core Library,com.google.inject.internal,TypeConverterBindingProcessor.new AbstractMatcher() {...},4,12,1,1,1,2,2,2,1,2
+Google Guice - Core Library,com.google.inject.internal,TypeConverterBindingProcessor.new TypeConverter() {...},7,6,0,0,2,1,2,1,2,1
+Google Guice - Core Library,com.google.inject.internal,Initializables,3,5,0,0,1,1,1,1,1,1
+Google Guice - Core Library,com.google.inject.internal,TypeConverterBindingProcessor.new TypeConverter() {...},19,6,2,0,5,1,3,1,2,1
+Google Guice - Core Library,com.google.inject.internal,InternalContext,0,37,0,2,0,12,0,5,0,4
+Google Guice - Core Library,com.google.inject.internal,DefaultConstructionProxyFactory.new ConstructionProxy() {...},5,21,0,0,2,3,2,3,2,3
+Google Guice - Core Library,com.google.inject.internal,MethodAspect,0,41,0,0,0,10,0,5,0,5
+Google Guice - Core Library,com.google.inject.internal,MembersInjectorStore,0,167,0,12,0,37,0,12,0,6
+Google Guice - Core Library,com.google.inject.internal,InjectorShell.Builder,3,302,3,17,0,62,3,16,0,9
+Google Guice - Core Library,com.google.inject.internal,DefaultConstructionProxyFactory.new ConstructionProxy() {...},15,20,0,0,5,4,1,4,1,4
+Google Guice - Core Library,com.google.inject.internal,State.new State() {...},46,12,0,0,13,6,13,6,13,6
+Google Guice - Core Library,com.google.inject.internal,TypeConverterBindingProcessor,6,138,0,0,2,30,0,7,0,7
+Google Guice - Core Library,com.google.inject.internal,ProviderInstanceBindingImpl,13,156,1,11,2,35,2,16,1,11
+Google Guice - Core Library,com.google.inject.internal,MessageProcessor,2,46,1,3,0,11,1,5,0,4
+Google Guice - Core Library,com.google.inject.internal,LinkedBindingImpl,33,106,1,7,7,19,3,12,2,9
+Google Guice - Core Library,com.google.inject.internal,FailableCache.new .Function() {...},0,32,0,2,0,8,0,3,0,2
+Google Guice - Core Library,com.google.inject.internal,ProxyFactory.IndicesCallbackFilter,1,53,2,4,0,11,2,5,0,4
+Google Guice - Core Library,com.google.inject.internal,ConstantFactory,10,11,0,0,3,4,1,2,1,2
+Google Guice - Core Library,com.google.inject.internal,BytecodeGen.Visibility.new BytecodeGen.Visibility() {...},0,8,0,0,0,2,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal,BytecodeGen.Visibility.new BytecodeGen.Visibility() {...},0,8,0,0,0,2,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal,InjectorImpl.ProviderBindingImpl,54,49,8,0,8,12,7,6,3,6
+Google Guice - Core Library,com.google.inject.internal,MoreTypes.WildcardTypeImpl,17,155,8,18,2,25,8,12,0,7
+Google Guice - Core Library,com.google.inject.internal,WeakKeySet,0,62,1,11,0,14,1,9,0,4
 Google Guice - Core Library,com.google.inject.internal,ProviderToInternalFactoryAdapter.new ContextualCallable() {...},0,22,0,0,0,3,0,2,0,2
 Google Guice - Core Library,com.google.inject.internal,Exceptions.UnhandledCheckedUserException,0,4,0,0,0,2,0,1,0,1
-Google Guice - Core Library,com.google.inject.internal,InheritingState,27,248,2,14,5,63,2,27,1,20
-Google Guice - Core Library,com.google.inject.internal,UntargettedBindingProcessor,0,15,0,0,0,3,0,2,0,2
-Google Guice - Core Library,com.google.inject.internal,InstanceBindingImpl,22,150,3,9,6,30,4,16,1,13
-Google Guice - Core Library,com.google.inject.internal,ErrorsException,0,9,0,0,0,4,0,2,0,2
-Google Guice - Core Library,com.google.inject.internal,Annotations.AnnotationChecker.new CacheLoader() {...},0,36,0,4,0,5,0,4,0,2
-Google Guice - Core Library,com.google.inject.internal,Annotations,90,337,9,33,14,65,9,32,3,17
-Google Guice - Core Library,com.google.inject.internal,InternalInjectorCreator.new ContextualCallable() {...},6,47,0,0,2,7,0,2,0,2
-Google Guice - Core Library,com.google.inject.internal,InjectorImpl.LocalContextThreadLocal,0,3,0,0,0,1,0,1,0,1
-Google Guice - Core Library,com.google.inject.internal,InternalInjectorCreator,23,337,2,22,4,76,2,20,0,10
+Google Guice - Core Library,com.google.inject.internal,InstanceBindingImpl,18,144,2,8,5,28,3,15,1,12
+Google Guice - Core Library,com.google.inject.internal,Annotations.AnnotationChecker.new .Function() {...},0,36,0,4,0,5,0,4,0,2
+Google Guice - Core Library,com.google.inject.internal,InternalInjectorCreator.new ContextualCallable() {...},6,45,0,0,2,7,0,2,0,2
 Google Guice - Core Library,com.google.inject.internal,ExposedKeyFactory,0,46,0,2,0,12,0,4,0,3
-Google Guice - Core Library,com.google.inject.internal,InjectorImpl.InjectorOptions,25,18,0,0,7,7,1,1,1,1
 Google Guice - Core Library,com.google.inject.internal,DeferredLookups,0,52,0,0,0,13,0,4,0,4
-Google Guice - Core Library,com.google.inject.internal,BytecodeGen.BridgeClassLoader,14,40,3,7,4,12,3,6,0,4
 Google Guice - Core Library,com.google.inject.internal,InjectorImpl.BindingsMultimap,17,27,2,2,4,8,2,3,1,2
-Google Guice - Core Library,com.google.inject.internal,ProviderInternalFactory.new ProvisionListenerStackCallback.ProvisionCallback() {...},0,30,0,0,0,2,0,2,0,2
 Google Guice - Core Library,com.google.inject.internal,MoreTypes.GenericArrayTypeImpl,1,40,2,2,0,9,2,6,0,6
-Google Guice - Core Library,com.google.inject.internal,InjectorImpl.new Provider() {...},0,47,0,0,0,8,0,3,0,3
-Google Guice - Core Library,com.google.inject.internal,InjectorImpl.new InternalFactory() {...},0,35,0,0,0,5,0,2,0,2
-Google Guice - Core Library,com.google.inject.internal,InjectorShell,0,85,0,0,0,22,0,6,0,6
+Google Guice - Core Library,com.google.inject.internal,InjectorShell,0,66,0,0,0,17,0,5,0,5
+Google Guice - Core Library,com.google.inject.internal.cglib.proxy,.MethodProxy,105,134,3,3,25,33,9,6,7,5
+Google Guice - Core Library,com.google.inject.internal.cglib.proxy,.NoOp,0,5,0,0,0,1,0,1,0,1
+Google Guice - Core Library,com.google.inject.internal.cglib.proxy,.MethodProxy.CreateInfo,0,25,1,1,0,9,1,1,0,1
+Google Guice - Core Library,com.google.inject.internal.cglib.proxy,.DispatcherGenerator,56,29,6,0,17,9,5,2,2,2
+Google Guice - Core Library,com.google.inject.internal.cglib.proxy,.InvocationHandlerGenerator,87,20,4,0,24,6,4,2,2,2
+Google Guice - Core Library,com.google.inject.internal.cglib.proxy,.MethodInterceptorGenerator.new .Transformer() {...},0,7,0,0,0,2,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.cglib.proxy,.MethodInterceptorGenerator.new .ObjectSwitchCallback() {...},0,31,0,0,0,7,0,3,0,3
+Google Guice - Core Library,com.google.inject.internal.cglib.proxy,.NoOp.new .NoOp() {...},0,3,0,0,0,1,0,1,0,1
+Google Guice - Core Library,com.google.inject.internal.cglib.proxy,.Enhancer.new .Transformer() {...},6,33,1,1,1,5,1,2,0,2
+Google Guice - Core Library,com.google.inject.internal.cglib.proxy,.Enhancer.new .CallbackFilter() {...},2,3,0,0,1,1,1,1,1,1
+Google Guice - Core Library,com.google.inject.internal.cglib.proxy,.Enhancer.new .ProcessSwitchCallback() {...},35,0,0,0,8,0,3,0,3,0
+Google Guice - Core Library,com.google.inject.internal.cglib.proxy,.Enhancer.new .ProcessSwitchCallback() {...},26,0,0,0,7,0,3,0,3,0
+Google Guice - Core Library,com.google.inject.internal.cglib.proxy,.Enhancer.new .CallbackGenerator.Context() {...},33,57,3,1,10,9,3,6,1,6
+Google Guice - Core Library,com.google.inject.internal.cglib.proxy,.Enhancer.new .ObjectSwitchCallback() {...},57,0,2,0,13,0,4,0,3,0
+Google Guice - Core Library,com.google.inject.internal.cglib.proxy,.CallbackInfo,80,206,14,20,10,26,14,11,2,6
+Google Guice - Core Library,com.google.inject.internal.cglib.proxy,.Enhancer,822,1015,101,64,198,228,94,40,24,27
+Google Guice - Core Library,com.google.inject.internal.cglib.proxy,.MethodInterceptorGenerator,14,489,2,12,1,114,2,13,0,8
+Google Guice - Core Library,com.google.inject.internal.cglib.proxy,.FixedValueGenerator,36,14,2,0,11,4,3,2,2,2
+Google Guice - Core Library,com.google.inject.internal.cglib.proxy,.NoOpGenerator,14,30,1,5,6,8,1,6,0,4
+Google Guice - Core Library,com.google.inject.internal.cglib.proxy,.UndeclaredThrowableException,7,0,0,0,3,0,2,0,2,0
+Google Guice - Core Library,com.google.inject.internal.cglib.proxy,.LazyLoaderGenerator,147,14,6,0,39,4,6,2,3,2
+Google Guice - Core Library,com.google.inject.internal.cglib.reflect,.FastMethod,76,27,3,1,9,6,6,3,4,3
+Google Guice - Core Library,com.google.inject.internal.cglib.reflect,.FastClassEmitter.new .ObjectSwitchCallback() {...},0,31,0,0,0,7,0,3,0,3
+Google Guice - Core Library,com.google.inject.internal.cglib.reflect,.FastClassEmitter.new .Transformer() {...},20,0,0,0,3,0,2,0,2,0
+Google Guice - Core Library,com.google.inject.internal.cglib.reflect,.FastClassEmitter.new .ProcessSwitchCallback() {...},0,76,0,4,0,14,0,5,0,3
+Google Guice - Core Library,com.google.inject.internal.cglib.reflect,.FastClassEmitter.new .Transformer() {...},0,11,0,0,0,2,0,2,0,2
+Google Guice - Core Library,com.google.inject.internal.cglib.reflect,.FastClassEmitter.GetIndexCallback,0,52,0,2,0,13,0,4,0,3
+Google Guice - Core Library,com.google.inject.internal.cglib.reflect,.FastConstructor,21,16,0,0,4,3,4,2,4,2
+Google Guice - Core Library,com.google.inject.internal.cglib.reflect,.FastClass.Generator,3,70,1,3,1,11,2,8,1,7
+Google Guice - Core Library,com.google.inject.internal.cglib.reflect,.FastClass,133,25,6,0,29,6,16,4,13,4
+Google Guice - Core Library,com.google.inject.internal.cglib.reflect,.FastMember,37,12,4,0,9,5,9,1,7,1
+Google Guice - Core Library,com.google.inject.internal.cglib.reflect,.FastClassEmitter,18,332,1,3,5,83,1,8,0,7
+Google Guice - Core Library,com.google.inject.internal.asm,.Attribute,125,0,6,0,0,0,12,0,9,0
+Google Guice - Core Library,com.google.inject.internal.asm,.ClassReader,2084,1843,279,208,0,0,203,101,11,17
+Google Guice - Core Library,com.google.inject.internal.asm,.Edge,0,3,0,0,0,0,0,1,0,1
+Google Guice - Core Library,com.google.inject.internal.asm,.Type,201,711,47,106,0,0,48,76,6,23
+Google Guice - Core Library,com.google.inject.internal.asm,.Frame,1558,24,230,2,0,0,164,2,15,1
+Google Guice - Core Library,com.google.inject.internal.asm,.MethodAdapter,143,14,0,0,0,0,23,2,23,2
+Google Guice - Core Library,com.google.inject.internal.asm,.Item,82,164,9,20,0,0,10,16,4,5
+Google Guice - Core Library,com.google.inject.internal.asm,.Handler,0,3,0,0,0,0,0,1,0,1
+Google Guice - Core Library,com.google.inject.internal.asm,.ByteVector,240,323,24,20,0,0,15,18,1,10
+Google Guice - Core Library,com.google.inject.internal.asm,.ClassAdapter,64,6,0,0,0,0,9,1,9,1
+Google Guice - Core Library,com.google.inject.internal.asm,.Label,230,190,35,15,0,0,26,10,7,4
+Google Guice - Core Library,com.google.inject.internal.asm,.FieldWriter,235,134,31,25,0,0,30,4,3,3
+Google Guice - Core Library,com.google.inject.internal.asm,.ClassWriter,846,848,84,82,0,0,75,44,16,20
+Google Guice - Core Library,com.google.inject.internal.asm,.AnnotationWriter,623,117,67,7,0,0,39,7,5,4
+Google Guice - Core Library,com.google.inject.internal.asm,.Opcodes,36,0,0,0,0,0,1,0,1,0
+Google Guice - Core Library,com.google.inject.internal.asm,.MethodWriter,3734,1599,486,242,0,0,340,86,20,24

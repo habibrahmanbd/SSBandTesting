@@ -23,7 +23,7 @@ Google Guice - Core Library,com.google.inject,CreationException,1,28,1,1,0,7,1,3
 Google Guice - Core Library,com.google.inject,TypeLiteral,28,481,6,40,2,96,6,37,0,20
 Google Guice - Core Library,com.google.inject,PrivateModule,109,62,2,2,33,14,22,8,20,8
 Google Guice - Core Library,com.google.inject,Scopes,82,38,16,4,26,11,10,4,1,3
-Google Guice - Core Library,com.google.inject,Scopes.1.new Provider() {...},19,61,1,13,2,14,2,8,1,2
+Google Guice - Core Library,com.google.inject,Scopes.1.new Provider() {...},19,61,2,12,2,14,3,7,1,2
 Google Guice - Core Library,com.google.inject,Scopes.new BindingScopingVisitor() {...},15,13,5,1,2,3,5,3,2,3
 Google Guice - Core Library,com.google.inject,Scopes.new BindingScopingVisitor() {...},33,0,4,0,5,0,7,0,5,0
 Google Guice - Core Library,com.google.inject,Scopes.new Scope() {...},2,9,0,0,1,2,1,2,1,2
@@ -71,7 +71,7 @@ Google Guice - Core Library,com.google.inject.spi,ElementSource,49,77,2,0,10,21,
 Google Guice - Core Library,com.google.inject.spi,RequireExactBindingAnnotationsOption,6,15,0,0,2,5,1,3,1,3
 Google Guice - Core Library,com.google.inject.spi,Message,7,133,3,9,2,28,4,16,1,13
 Google Guice - Core Library,com.google.inject.spi,ProvisionListenerBinding,16,26,0,0,3,9,1,5,1,5
-Google Guice - Core Library,com.google.inject.spi,Dependency,2,144,1,13,1,29,1,16,0,10
+Google Guice - Core Library,com.google.inject.spi,Dependency,2,144,2,12,1,29,2,15,0,10
 Google Guice - Core Library,com.google.inject.spi,Elements.RecordingBinder,59,660,10,36,12,144,11,52,2,38
 Google Guice - Core Library,com.google.inject.spi,Elements,12,44,0,2,3,11,3,6,3,5
 Google Guice - Core Library,com.google.inject.spi,Elements.ElementsAsModule,0,22,0,2,0,7,0,3,0,2
@@ -112,7 +112,7 @@ Google Guice - Core Library,com.google.inject.internal,Errors.new Errors.Convert
 Google Guice - Core Library,com.google.inject.internal,Errors.new Errors.Converter() {...},2,28,1,3,0,5,1,3,0,2
 Google Guice - Core Library,com.google.inject.internal,Errors.new Comparator() {...},0,12,0,0,0,2,0,2,0,2
 Google Guice - Core Library,com.google.inject.internal,Errors.new Errors.Converter() {...},0,7,0,0,0,2,0,2,0,2
-Google Guice - Core Library,com.google.inject.internal,Initializer.InjectableReference,18,114,2,8,5,19,3,6,1,3
+Google Guice - Core Library,com.google.inject.internal,Initializer.InjectableReference,11,121,1,9,3,21,2,7,1,3
 Google Guice - Core Library,com.google.inject.internal,SingleMethodInjector.new InjectorImpl.MethodInvoker() {...},0,15,0,0,0,2,0,2,0,2
 Google Guice - Core Library,com.google.inject.internal,InjectionRequestProcessor,11,73,0,4,3,19,0,7,0,5
 Google Guice - Core Library,com.google.inject.internal,SingleMethodInjector.new InjectorImpl.MethodInvoker() {...},0,15,0,0,0,2,0,2,0,2
