@@ -23,46 +23,57 @@ Use `git checkout <VERSION_NAME>` to checkout to the particular release.
 
 From r4.12-beta-1 onwards, the following needs to be added to generate the report.
 
-In the `pom.xml` file at root, add the following xml code inside ```<build> <plugins> ... </plugins> </build>```.
-
-There could be multiple such tags, make sure it is not the one inside the `<profiles>..</profiles>` tag.
+In `pom.xml` file at the root, add the following xml code inside ```<build> <plugins> ... </plugins> </build>```.
 ```xml
-<plugin>
-    <artifactId>maven-surefire-plugin</artifactId>
-    <version>2.19.1</version>
-    <configuration>
-        <testFailureIgnore>true</testFailureIgnore>
-    </configuration>
-    </plugin>
 <plugin>
     <groupId>org.jacoco</groupId>
     <artifactId>jacoco-maven-plugin</artifactId>
     <version>0.8.3</version>
-    <configuration>
-        <destFile>${project.basedir}/target/jacoco.exec</destFile>
-    </configuration>
     <executions>
         <execution>
-        <id>default-prepare-agent</id>
-        <goals>
-            <goal>prepare-agent</goal>
-        </goals>
+            <id>default-prepare-agent</id>
+            <goals>
+                <goal>prepare-agent</goal>
+            </goals>
+            <configuration>
+                <destFile>${project.basedir}/target/jacoco.exec</destFile>
+            </configuration>
         </execution>
         <execution>
-        <id>default-report</id>
-        <phase>test</phase>
-        <goals>
-            <goal>report</goal>
-        </goals>
-        <configuration>
-            <dataFile>${project.basedir}/target/jacoco.exec</dataFile>
-            <outputEncoding>UTF-8</outputEncoding>
-            <outputDirectory>${project.basedir}/target/</outputDirectory>
-        </configuration>
+            <id>default-report</id>
+            <phase>test</phase>
+            <goals>
+                <goal>report</goal>
+            </goals>
+            <configuration>
+                <dataFile>${project.basedir}/target/jacoco.exec</dataFile>
+                <outputEncoding>UTF-8</outputEncoding>
+                <outputDirectory>${project.basedir}/target/</outputDirectory>
+            </configuration>
         </execution>
     </executions>
 </plugin>
 ```
+
+Then, in the same file, inside ```<build> <plugins> ... </plugins> </build>```, for the `maven-surefire` plugin, which looks like this:
+
+```xml
+<plugin>
+    <!--
+    A plugin which uses the JUnit framework in order to start
+    our junit suite "AllTests" after the sources are compiled.
+    -->
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>2.17</version>
+    <configuration>
+        <test>org/junit/tests/AllTests.java</test>
+        <useSystemClassLoader>true</useSystemClassLoader>
+        <enableAssertions>false</enableAssertions>
+    </configuration>
+</plugin>
+```
+
+In the `<configuration>..</configuration>` add: `<testFailureIgnore>true</testFailureIgnore>`.
 
 For the earlier version (r4.11-beta-1, r4.11), it gets little complex due to major maven version changes.
 
