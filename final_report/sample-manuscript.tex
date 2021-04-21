@@ -168,19 +168,27 @@
 Writing unit tests is a common practice in industry to ensure software quality. Usually meeting a
 certain criteria of test coverage serves as a segway to product release. This is essential because software systems are used in critical areas such as health, security, finance, and space missions. In such settings, a faulty system is not acceptable. International Organization for Standardization (ISO) also mandates testing as a part of software development life cycle. Despite all efforts, the software system may still remain prone to the bugs. Which raises question on the effectiveness of testing. Is it even useful?
 
-Multiple studies tried to answer this question under different settings but there seems to be no consensus on it. These studies examined all types of bugs that were found the in the systems. Nobody studied the effectiveness of testing on subsets of the bugs found in the software systems. One important subset of bugs is known as Single Statement Bugs (SSBs). They appear in just a single statement and can be fixed by modifying that statement. The goal of our study to help practitioners understand effectiveness of testing for SSBs.
+Multiple studies tried to answer this question under different settings but there seems to be no consensus on it. These studies examined all types of bugs that were found the in the systems. Nobody studied the effectiveness of testing on subsets of the bugs found in the software systems. One important subset of bugs is known as Single Statement Bugs (SSBs). They appear in just a single statement and can be fixed by modifying that statement. Figure \ref{fig:ssb} shows an example of a single statement bug where $!=$ needs to be replaced with $==$. The goal of our study to help practitioners understand effectiveness of testing for SSBs.
 
-SSBs occur quite often \cite{ManySStuBs4JCorpus2019} and can be very critical. For example, Apple’s return bug resulted in invalid SSL/TLS connection verification, putting the sensitive data of millions at risk. The normal distribution of the ratio of SSB/all bugs for top 100 open source java projects using Maven build system on GitHub has a bell curve show in the Figure \ref{fig:density}. We can see that the mean lies around > 0.4. Which means there are more than 40\% of SSBs in those projects.
+\begin{figure}[h]
+	\begingroup
+	\fontsize{7pt}{10pt}\selectfont
+	\begin{verbatim}
+	-   if (submittedNode == null || submittedNode.get("values") != null) {
+	+   if (submittedNode == null || submittedNode.get("values") == null) {
+	\end{verbatim}
+	\endgroup
+	\caption{Example of a single statement bug before and after the fix}
+	\label{fig:ssb}
+\end{figure}
 
-Test coverage plays a leading role to detect and resolve those bugs.
-
- So, software bugs are important even if it is a single line bug.
+SSBs occur quite often \cite{ManySStuBs4JCorpus2019} and can be very critical. For example, Apple’s return bug resulted in invalid SSL/TLS connection verification, putting the sensitive data of millions at risk. The normal distribution of the ratio of SSB/all bugs for top 100 open source java projects using Maven build system on GitHub has a bell curve show in the Figure \ref{fig:density}. We can see that the mean lies around > 0.4. Which means there are more than 40\% of SSBs in those projects. Mitigating this large chunk of bugs can be useful in improving the overall quality of the software and prevent failures in production.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{img/occurrence_of_stub.png}
-	\caption{Density of Single Statement Bugs.}
-	\Description{A graph of density of single statement bugs.}
+	\caption{Distribution of SSBs in the top 100 open source Java projects on GitHub using Maven build system}
+	\Description{A graph of density of single statement bugs}
 	\label{fig:density}
 \end{figure}
 
@@ -198,18 +206,7 @@ After the experiment, we have found that there is a weak to moderate correlation
 
 \section{Background and Terminology}
 %i. Single Statement Bugs
-Single statement bugs (SSB) are the subset of bugs that appear in a single line of code and can be fixed by modifying that line. Those modifications can be the refactoring, like changing a variable name, arguments in a function, changing the return type, etc. Authors \cite{ManySStuBs4JCorpus2019} classified the single statement bugs into 16 different categories. Among them, “Change Identifier Used”, “Wrong Function Name”, and “Change Numeric Literal” are most frequent.  Figure \ref{fig:ssb} shows an example of a single statement bug.
-\begin{figure}[h]
-	\begingroup
-	\fontsize{7pt}{10pt}\selectfont
-	\begin{verbatim}
-	-   if (submittedNode == null || submittedNode.get("values") != null) {
-	+   if (submittedNode == null || submittedNode.get("values") == null) {
-	\end{verbatim}
-	\endgroup
-	\caption{Single statement bugs before and after fixing}
-	\label{fig:ssb}
-\end{figure}
+Single statement bugs (SSB) are the subset of bugs that appear in a single line of code and can be fixed by modifying that line. Those modifications can be the refactoring, like changing a variable name, arguments in a function, changing the return type, etc. Authors \cite{ManySStuBs4JCorpus2019} classified the single statement bugs into 16 different categories. Among them, “Change Identifier Used”, “Wrong Function Name”, and “Change Numeric Literal” are most frequent.
 
 
 %ii. Test Coverage
