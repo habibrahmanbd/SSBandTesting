@@ -259,7 +259,28 @@ There are several steps in our overall project methodology. Depending on the Man
 The ManySStuBs4J\cite{ManySStuBs4JCorpus2019} corpus is a collection of simple fixes to Java bugs. It has two different project types. Figure , shows an example of the dataset that we used. In the dataset snapshot Figure \ref{fig:database_snap}, we can see that it contains a bug type, project name, fix commit SHA, parent commit SHA, Bug Line number, and other necessary properties. For our project, we have used the project name, fix commit SHA, parent commit SHA, and bug line numbers from each of the data items.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\linewidth]{img/dataset_snap.png}
+%	\includegraphics[width=\linewidth]{img/dataset_snap.png}
+	\begingroup
+	\fontsize{5pt}{6pt}\selectfont
+	\begin{verbatim}
+  {
+"bugType": "CHANGE_OPERATOR",
+"fixCommitSHA1": "aa90e04b5e6eb7f6d46dde16867196329568324e",
+"fixCommitParentSHA1": "46d3a4007fe1418d53baabc16dec39275079684b",
+"bugFilePath": "... java/org/activiti/form/engine/impl/cmd/GetRuntimeFormDefinitionCmd.java",
+"fixPatch": " ... ",
+"projectName": "Activiti.Activiti",
+"bugLineNum": 184,
+"bugNodeStartChar": 8444,
+"bugNodeLength": 35,
+"fixLineNum": 184,
+"fixNodeStartChar": 8444,
+"fixNodeLength": 35,
+"sourceBeforeFix": "submittedNode.get(\"values\") != null",
+"sourceAfterFix": "submittedNode.get(\"values\") == null"
+}
+	\end{verbatim}
+	\endgroup
 	\caption{Dataset item Snap}
 	\Description{A snap of a single databest item.}
 	\label{fig:database_snap}
@@ -314,7 +335,33 @@ Section 4, explains how we used the SStuBs to collect the data from GitHub, used
 
 How is testing related to SSB?
 
-In our research question, we asked if there a correlation between test coverage and SSBs. The purpose of this question is to find out if increasing the coverage can be “actually” helpful in reducing the SSBs. The [INSERT TABLE NUMBER] shows the data collected to answer this question. The first column shows the project name, and the second column shows the average percentage test coverage, while the third column shows the percentage of SSBs in the not covered part. We are considering the bugs in the non-covered part as they provide an easy way to understand the effectiveness of coverage. A higher percentage of them indicates that coverage is effective and vice versa. In our data, we have a mixed percentage. We used this data to find the correlation coefficient (r) between the percentage of coverage and the percentage of SSBs. The r-value turned out to be 0.40, which translates into a weak to moderate positive correlation between them. It shows that high coverage helps mitigate the SSBs. This correlation is shown in \ref{fig:corr} and we found this correlation to be statistically [ADD SIGNIFICANT/INSIGNIFICANT].
+In our research question, we asked if there a correlation between test coverage and SSBs. The purpose of this question is to find out if increasing the coverage can be “actually” helpful in reducing the SSBs.
+
+\begin{table}[h]
+	\begin{tabular}{|c|c|c|}
+		\hline
+		ProjectName & Percentage & Percentage\\
+		&Coverage&Not Covered\\
+		\hline
+		alibaba.druid &41.67&58.33\\
+		alibaba.fastjson & 50&	50\\
+		AsyncHttpClient.async-http-client &40&60\\
+		brettwooldridge.HikariCP &5.88&	94.12\\
+		Bukkit.Bukkit &68&32\\
+		cucumber.cucumber-jvm &50&50\\
+		google.auto &19.23&80.769\\
+		google.closure-compiler &52.38&	47.62\\
+		google.guice&35&65\\
+		jhy.jsoup&45.45&54.55\\
+		junit-team.junit &18.75&81.25\\
+		mybatis.mybatis-3 &16.67&83.33\\
+		\hline
+	\end{tabular}
+	\caption{Percentage Coverage and Percentage of SSB in not covered part}
+	\label{tab:ppc}
+\end{table}
+
+Table \ref{tab:ppc}  shows the data collected to answer this question. The first column shows the project name, and the second column shows the average percentage test coverage, while the third column shows the percentage of SSBs in the not covered part. We are considering the bugs in the non-covered part as they provide an easy way to understand the effectiveness of coverage. A higher percentage of them indicates that coverage is effective and vice versa. In our data, we have a mixed percentage. We used this data to find the correlation coefficient (r) between the percentage of coverage and the percentage of SSBs. The r-value turned out to be 0.40, which translates into a weak to moderate positive correlation between them. It shows that high coverage helps mitigate the SSBs. This correlation is shown in \ref{fig:corr} and we found this correlation to be statistically [ADD SIGNIFICANT/INSIGNIFICANT].
 
 
 \begin{figure}[h]
@@ -336,7 +383,7 @@ Our study has a few important implications. Firstly, it is one of its kind to ex
 
 
 \section{Threats to the validity}
-In this section, we discuss some of the possible threats to the validity of our study. As described in section [ENTER THE SECTION NUMBER OF METHODOLOGY], we considered multiple versions of each project and wrote our scripts for processing and some tasks automation. This involvement of the human factor equates to the possibility of human error in the process. There could be a mismatch in the versions, and we could have made some unintentional mistakes in the code, however, throughout the process we also did manual verification to reduce this risk. The results of our study are also limited by the SStuBs(sstubs) dataset we used. While it includes a good number and range of projects from different domains, it is limited by the language type and build system. All the projects use the Maven build system and are developed in Java. The results obtained from the study might not apply to the other type system, languages, or even other build systems. 
+In this section, we discuss some of the possible threats to the validity of our study. As described in section 4, we considered multiple versions of each project and wrote our scripts for processing and some tasks automation. This involvement of the human factor equates to the possibility of human error in the process. There could be a mismatch in the versions, and we could have made some unintentional mistakes in the code, however, throughout the process we also did manual verification to reduce this risk. The results of our study are also limited by the SStuBs(sstubs) dataset we used. While it includes a good number and range of projects from different domains, it is limited by the language type and build system. All the projects use the Maven build system and are developed in Java. The results obtained from the study might not apply to the other type system, languages, or even other build systems. 
 Another important aspect to consider is that all the reports are generated manually by checking out each version one by one, resolving dependencies, and configuring Jacoco. It is not only a tedious manual process but also makes it highly susceptible to error. However, throughout the process, we did manual verification to mitigate this threat as much as possible. Another threat is that the projects included in the dataset are the top open-source Java projects. They are maintained for more than a decade by the open-source community and used by tons of organizations and developers. Through their feedback and community involvement, they have matured over the years. Since we only consider the high-density bugs areas where we have tests written and we can generate reports, they might not reflect their whole project life cycle. Lastly, since we only considered open source projects, our results might not apply to the close source projects.
 \section{Discussion, Conclusion and Future Work}
 
