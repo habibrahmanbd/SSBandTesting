@@ -5,17 +5,17 @@
 %% The original source files were:
 %%
 %% samples.dtx  (with options: `manuscript')
-%% 
+%%
 %% IMPORTANT NOTICE:
-%% 
+%%
 %% For the copyright see the source file.
-%% 
+%%
 %% Any modified versions of this file must be renamed
 %% with new filenames distinct from sample-manuscript.tex.
-%% 
+%%
 %% For distribution of the original source see the terms
 %% for copying and modification in the file samples.dtx.
-%% 
+%%
 %% This generated file may be distributed as long as the
 %% original source files, as listed above, are part of the
 %% same distribution. (The sources need not necessarily be
@@ -165,10 +165,16 @@
 
 \section{Introduction}
 %i. Problem Statement
-Software Quality is a crucial factor for most software products. Writing unit tests is a common practice in the software industry to ensure software quality. Due to the lack of test coverage, software remains prone to bugs. A single statement bug is one of the most frequent software bugs. It is very difficult to identify those bugs by just reviewing the codes.
+Writing unit tests is a common practice in industry to ensure software quality. Usually meeting a
+certain criteria of test coverage serves as a segway to product release. This is essential because software systems are used in critical areas such as health, security, finance, and space missions. In such settings, a faulty system is not acceptable. International Organization for Standardization (ISO) also mandates testing as a part of software development life cycle. Despite all efforts, the software system may still remain prone to the bugs. Which raises question on the effectiveness of testing. Is it even useful?
 
-%ii. Motivation
-Single statement bugs are equally important to other software bugs. A single statement bug can cause a serious security issue like Apple’s invalid SSL/TLS connections \cite{AppleSSL} or can cause fatal accidents like Toyota’s “Unintended Acceleration” that killed 89 people and cost 3 Billion USD \cite{Toyota89}. NASA’s Mars Climate Orbiter was unsuccessful due to a navigation error caused by failure to translate English units to metric and cost 193.1 million USD \cite{NASA1998}. So, software bugs are important even if it is a single line bug. Normal distribution of SSB/All Bugs for top 100 open source java projects on GitHub has a bell curve like the Figure \ref{fig:density}. We can see that the mean lies around > 0.4, which means usually we have a good percentage of SSB in projects (>40\%). Test coverage plays a leading role to detect and resolve those bugs. 
+Multiple studies tried to answer this question under different settings but there seems to be no consensus on it. These studies examined all types of bugs that were found the in the systems. Nobody studied the effectiveness of testing on subsets of the bugs found in the software systems. One important subset of bugs is known as Single Statement Bugs (SSBs). They appear in just a single statement and can be fixed by modifying that statement. The goal of our study to help practitioners understand effectiveness of testing for SSBs.
+
+SSBs occur quite often \cite{ManySStuBs4JCorpus2019} and can be very critical. For example, Apple’s return bug resulted in invalid SSL/TLS connection verification, putting the sensitive data of millions at risk. The normal distribution of the ratio of SSB/all bugs for top 100 open source java projects using Maven build system on GitHub has a bell curve show in the Figure \ref{fig:density}. We can see that the mean lies around > 0.4. Which means there are more than 40\% of SSBs in those projects.
+
+Test coverage plays a leading role to detect and resolve those bugs.
+
+ So, software bugs are important even if it is a single line bug.
 
 \begin{figure}[h]
 	\centering
@@ -183,7 +189,7 @@ Single statement bugs are equally important to other software bugs. A single sta
 In this project, we tried to find the correlation between test coverage and single statement bugs. We hypothesized that there is a weak to moderate relationship between single line bugs and test coverage.
 
 %iv. Summary of Methodology
-To verify our hypothesis, we have generated a test coverage report for several versions of a few top open-source java maven projects. We have then detected the number of single statement bugs present in the covered and uncovered part based on those coverage reports. Finally, we have calculated the correlation between the percentage coverage and the number of bugs in the uncovered part. We used the Mining Software Repositories (MSR) 2021 challenge dataset in our experiment. 
+To verify our hypothesis, we have generated a test coverage report for several versions of a few top open-source java maven projects. We have then detected the number of single statement bugs present in the covered and uncovered part based on those coverage reports. Finally, we have calculated the correlation between the percentage coverage and the number of bugs in the uncovered part. We used the Mining Software Repositories (MSR) 2021 challenge dataset in our experiment.
 
 %v. Explicit list of Contribution
 After the experiment, we have found that there is a weak to moderate correlation between the test coverage and single statement bugs.
@@ -235,18 +241,18 @@ Percentage test coverage and number of bugs in the uncovered part are the variab
 
 Our work overlaps with two niches of the software engineering literature. First one is related to analyzing the relation of test coverage and its effectiveness. They utilize different techniques, under different conditions to study the usefulness of test coverage. The second one is related to the usage of SSB for an empirical study or a software application.
 
-In the first kind of work, more or less, researchers aim to find the correlation between test coverage and the occurrence of bugs. To date, no consensus exists in the community on the usefulness of test coverage. Some studies tend to agree, while others disagree. For example, \cite{gren_2017}  and \cite{ericson} found a weak to no correlation between the test coverage and post-unit test defects in their separate studies and concluded that test coverage was not helpful. Both of them conducted the study on a single, but large-scale industrial project. The former one did not reveal the details of the project, while the latter one worked with Ericson. Ericson mainly deals with telecommunications and networking software around the world. One aspect of these studies which is similar to our work is that they rely on actual bugs found after unit tests and real test cases written by developers. In contrast to our case, both of them considered all types of bugs, not just the SSBs. The methodology of \cite{gren_2017} also differs from our approach, they evaluate coverage in terms of files and only consider the files with either 100\% coverage or no coverage at all. While \cite{ericson} considered the overall coverage, which is similar to our approach. Due to the small sample size and specific software niche, the results of both studies cannot be generalized for other studies. 
+In the first kind of work, more or less, researchers aim to find the correlation between test coverage and the occurrence of bugs. To date, no consensus exists in the community on the usefulness of test coverage. Some studies tend to agree, while others disagree. For example, \cite{gren_2017}  and \cite{ericson} found a weak to no correlation between the test coverage and post-unit test defects in their separate studies and concluded that test coverage was not helpful. Both of them conducted the study on a single, but large-scale industrial project. The former one did not reveal the details of the project, while the latter one worked with Ericson. Ericson mainly deals with telecommunications and networking software around the world. One aspect of these studies which is similar to our work is that they rely on actual bugs found after unit tests and real test cases written by developers. In contrast to our case, both of them considered all types of bugs, not just the SSBs. The methodology of \cite{gren_2017} also differs from our approach, they evaluate coverage in terms of files and only consider the files with either 100\% coverage or no coverage at all. While \cite{ericson} considered the overall coverage, which is similar to our approach. Due to the small sample size and specific software niche, the results of both studies cannot be generalized for other studies.
 
 On the other end of the spectrum, \cite{waterloo} found a weak to moderate correlation between the test coverage and its effectiveness, when the test suite size was controlled for. They conducted the study on five large open-source Java projects powered by the Ant build system and during the study. Contrary to our study, they used synthetic test suits and mutation testing to generate faulty programs. While they are a good approximation, they do not necessarily reflect the real scenarios and are limited by the algorithms behind those tools. Furthermore, they considered an extra variable, i.e., the test suite size, and varied it throughout the study while generating test cases. In our approach, we do not rely on any tests or bug generators. In another study, \cite{waterloo2} also considered the role of test suite size in addition to the coverage on the effectiveness of unit tests. They found that by increasing the coverage, indirectly, the test suite size is increased, which increases the effectiveness of tests. For varying, but controlled test suite sizes, they found a high to weak correlation between the coverage and test effectiveness. Similar to the aforementioned study, they also relied on self-generated test cases and considered only the Siemen suite of seven (C, C++) programs. Our technique is similar to what Bach et al. \cite{similar} have used in their study related to the impact of coverage on bug density. But we use a simpler approach since we only have SSBs. In comparison to our study, they considered all types of bugs and analyzed a single project, i.e., SAP HANA, and found a positive impact of coverage on bugs density. In general, the literature work on this topic differs from our work in one or more of the following areas:
 \begin{itemize}
-	\item A very small number of projects were considered. 
+	\item A very small number of projects were considered.
 	\item Artificially generated test cases were used.
 	\item Synthetic bugs were introduced in the system.
-	\item All types of bugs were considered. 
+	\item All types of bugs were considered.
 \end{itemize}
 
 
-Furthermore, in studies, done in collaboration with the industry, the details of the analyzed software were not released. Which is a barrier in generalizing or understanding the results from those studies. There could be additional internal factors and software engineering practices leading to those results. Lastly, our dataset differs from those used in the aforementioned studies. 
+Furthermore, in studies, done in collaboration with the industry, the details of the analyzed software were not released. Which is a barrier in generalizing or understanding the results from those studies. There could be additional internal factors and software engineering practices leading to those results. Lastly, our dataset differs from those used in the aforementioned studies.
 
 The second part of the literature, which uses SSB mainly differs from our work in terms of intended implicatications. To the best of our knowledge, at this point, the use of SSB in literature is limited to program repair. There is no study related to test coverage and its effectiveness. \cite{sequenceR} used a combination of Bugs2Fix (bugs2fix) and CodRep (coderep) single statement dataset to propose a novel learning-based program repair technique. Their dataset is also different from the one we are using. Their dataset is not intended for building projects or running tests as there is no information on the project's build system or even if they can be run or not. Those factors are important for us to be able to generate the coverage reports. Another study by Karampatsis and Sutton \cite{sstubs} also uses SSBs. In their study, they provided a new dataset on SSBs and all types of bugs in the top 100 open-source Java projects on GitHub and attempted to find the frequency of occurrence of SSBs. They found out that SSBs occur with a frequency of one bug per 1600-2500 lines of code. Even more important contribution of this paper is that the projects in their dataset use the Maven build system and can be built. If there are tests in the project, they can be executed. We use their dataset of SSB and real test cases present in those projects to conduct this study on the effectiveness of coverage on SSBs.
 
@@ -286,7 +292,7 @@ The ManySStuBs4J\cite{ManySStuBs4JCorpus2019} corpus is a collection of simple f
 	\label{fig:database_snap}
 \end{figure}
 
-Table \ref{tab:stat}, shows the dataset statistics. This dataset contains 100 Java Maven and 100 other Java projects. We have used the maven projects for our experiments. 
+Table \ref{tab:stat}, shows the dataset statistics. This dataset contains 100 Java Maven and 100 other Java projects. We have used the maven projects for our experiments.
 \begin{table}[h]
 	\begin{tabular}{|c|c|c|c|c|}
 		\hline
@@ -315,12 +321,12 @@ Besides automated scripts, we have worked on manual projects to generate the tes
 \subsection{Split ProjectWise Dataset}
 We have separated the dataset based on the project. In each of the new datasets, they contain bugs from the same project.
 \subsection{Clone Project}
-We then cloned the projects from Github depending on the project name. In the dataset, the project name contains the username or the organization name appended by the repository name in Github. 
+We then cloned the projects from Github depending on the project name. In the dataset, the project name contains the username or the organization name appended by the repository name in Github.
 \subsection{Find the Distribution of Bugs}
 For each project, we then calculate the number of bugs per year to identify the years when there is a maximum number of single statement bugs. Figures () show an example of bug frequency distribution.
 \subsection{Generate Coverage report}
 In this stage of the experiment, we have fixed the pom.xml files of the projects based on the version and run ‘mvn clean test’ to generate the coverage report.
-v. Get release versions: We checkout each version of the project from the cloned project 
+v. Get release versions: We checkout each version of the project from the cloned project
 \subsection{Fetch report for specific project version}
 We then check each project on the specific version that we got the highest bug frequency and fetch the coverage report.
 \subsection{Count bugs in covered, not covered part, and average percentage coverage}
@@ -361,7 +367,7 @@ In our research question, we asked if there a correlation between test coverage 
 	\label{tab:ppc}
 \end{table}
 
-Table \ref{tab:ppc}  shows the data collected to answer this question. The first column shows the project name, and the second column shows the average percentage test coverage, while the third column shows the percentage of SSBs in the not covered part. We are considering the bugs in the non-covered part as they provide an easy way to understand the effectiveness of coverage. A higher percentage of them indicates that coverage is effective and vice versa. In our data, we have a mixed percentage. We used this data to find the correlation coefficient (r) between the percentage of coverage and the percentage of SSBs. The r-value turned out to be 0.40, which translates into a weak to moderate positive correlation between them. It shows that high coverage helps mitigate the SSBs. This correlation is shown in \ref{fig:corr} and we found this correlation to be statistically [ADD SIGNIFICANT/INSIGNIFICANT].
+Table \ref{tab:ppc}  shows the data collected to answer this question. The first column shows the project name, and the second column shows the average percentage test coverage, while the third column shows the percentage of SSBs in the not covered part. We are considering the bugs in the non-covered part as they provide an easy way to understand the effectiveness of coverage. A higher percentage of them indicates that coverage is effective and vice versa. In our data, we have a mixed percentage. We used this data to find the correlation coefficient (r) between the percentage of coverage and the percentage of SSBs. The r-value turned out to be 0.40, which translates into a weak to moderate positive correlation between them. It shows that high coverage helps mitigate the SSBs. This correlation is shown in \ref{fig:corr}. We can see that increased covered is related to greater percentage of bugs in the not covered part and testing is useful here.
 
 
 \begin{figure}[h]
@@ -383,7 +389,7 @@ Our study has a few important implications. Firstly, it is one of its kind to ex
 
 
 \section{Threats to the validity}
-In this section, we discuss some of the possible threats to the validity of our study. As described in section 4, we considered multiple versions of each project and wrote our scripts for processing and some tasks automation. This involvement of the human factor equates to the possibility of human error in the process. There could be a mismatch in the versions, and we could have made some unintentional mistakes in the code, however, throughout the process we also did manual verification to reduce this risk. The results of our study are also limited by the SStuBs(sstubs) dataset we used. While it includes a good number and range of projects from different domains, it is limited by the language type and build system. All the projects use the Maven build system and are developed in Java. The results obtained from the study might not apply to the other type system, languages, or even other build systems. 
+In this section, we discuss some of the possible threats to the validity of our study. As described in section 4, we considered multiple versions of each project and wrote our scripts for processing and some tasks automation. This involvement of the human factor equates to the possibility of human error in the process. There could be a mismatch in the versions, and we could have made some unintentional mistakes in the code, however, throughout the process we also did manual verification to reduce this risk. The results of our study are also limited by the SStuBs(sstubs) dataset we used. While it includes a good number and range of projects from different domains, it is limited by the language type and build system. All the projects use the Maven build system and are developed in Java. The results obtained from the study might not apply to the other type system, languages, or even other build systems.
 Another important aspect to consider is that all the reports are generated manually by checking out each version one by one, resolving dependencies, and configuring Jacoco. It is not only a tedious manual process but also makes it highly susceptible to error. However, throughout the process, we did manual verification to mitigate this threat as much as possible. Another threat is that the projects included in the dataset are the top open-source Java projects. They are maintained for more than a decade by the open-source community and used by tons of organizations and developers. Through their feedback and community involvement, they have matured over the years. Since we only consider the high-density bugs areas where we have tests written and we can generate reports, they might not reflect their whole project life cycle. Lastly, since we only considered open source projects, our results might not apply to the close source projects.
 \section{Discussion, Conclusion and Future Work}
 
