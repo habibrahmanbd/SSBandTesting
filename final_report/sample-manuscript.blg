@@ -6,74 +6,85 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: sample-base.bib
-Warning--entry type for "Bornmann2019" isn't style-file defined
---line 1602 of file sample-base.bib
-Warning--entry type for "AnzarootPBM14" isn't style-file defined
---line 1619 of file sample-base.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--no key, author in AppleSSL
+Warning--no author, editor, organization, or key in AppleSSL
+Warning--to sort, need author or key in AppleSSL
+Warning--no key, author in Toyota89
+Warning--no author, editor, organization, or key in Toyota89
+Warning--to sort, need author or key in Toyota89
+Warning--no key, author in NASA1998
+Warning--no author, editor, organization, or key in NASA1998
+Warning--to sort, need author or key in NASA1998
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--no key, author in AppleSSL
+Warning--no key, author in AppleSSL
+Warning--no key, author in NASA1998
+Warning--no key, author in NASA1998
+Warning--no key, author in Toyota89
+Warning--no key, author in Toyota89
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--empty organization in Ablamowicz07
-Warning--empty organization in UMassCitations
-Warning--empty chapter and pages in Editor00
-Warning--page numbers missing in Editor00a
-Warning--empty author in 2004:ITE:1009386.1010128
-Warning--empty address in Knuth97
-Warning--articleno or eid field, but no numpages field, in Lee05
-Warning--page numbers missing in both pages and numpages fields in Lee05
-Warning--articleno or eid, but no pages or numpages field in Lee05
-Warning--unrecognized DOI value [99.9999/woot07-S422]
-Warning--articleno or eid field, but no numpages field, in rous08
-Warning--page numbers missing in both pages and numpages fields in rous08
-Warning--articleno or eid, but no pages or numpages field in rous08
-Warning--page numbers missing in both pages and numpages fields in SaeediJETC10
-Warning--unrecognized DOI value [99.9999/woot07-S422]
-Warning--empty organization in Thornburg01
-Warning--empty organization in TUGInstmem
-Warning--empty organization in TUGInstmem
-Warning--empty year in CTANacmart
-Warning--empty organization in CTANacmart
-You've used 38 entries,
+Warning--no key, author in NASA1998
+Warning--no author, editor, organization, or key in NASA1998
+Warning--empty organization in NASA1998
+Warning--empty organization in NASA1998
+Warning--no key, author in Toyota89
+Warning--no author, editor, organization, or key in Toyota89
+Warning--empty organization in Toyota89
+Warning--empty organization in Toyota89
+Warning--no key, author in AppleSSL
+Warning--no author, editor, organization, or key in AppleSSL
+Warning--empty organization in AppleSSL
+Warning--empty organization in AppleSSL
+Warning--empty publisher in similar
+Warning--empty address in similar
+Warning--no number and no volume in sequenceR
+Warning--no number and no volume in gren_2017
+Warning--page numbers missing in both pages and numpages fields in gren_2017
+Warning--empty booktitle in ManySStuBs4JCorpus2019
+Warning--empty publisher in ManySStuBs4JCorpus2019
+Warning--empty address in ManySStuBs4JCorpus2019
+You've used 11 entries,
             5959 wiz_defined-function locations,
-            1780 strings with 23228 characters,
-and the built_in function-call counts, 36082 in all, are:
-= -- 4407
-> -- 1002
-< -- 4
-+ -- 315
-- -- 386
-* -- 2480
-:= -- 3764
-add.period$ -- 203
-call.type$ -- 38
-change.case$ -- 218
-chr.to.int$ -- 36
-cite$ -- 56
-duplicate$ -- 3338
-empty$ -- 2368
-format.name$ -- 411
-if$ -- 8272
-int.to.chr$ -- 4
+            1574 strings with 19409 characters,
+and the built_in function-call counts, 12326 in all, are:
+= -- 1456
+> -- 368
+< -- 0
++ -- 131
+- -- 136
+* -- 864
+:= -- 1118
+add.period$ -- 48
+call.type$ -- 11
+change.case$ -- 68
+chr.to.int$ -- 11
+cite$ -- 58
+duplicate$ -- 1169
+empty$ -- 801
+format.name$ -- 168
+if$ -- 2956
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 70
-newline$ -- 418
-num.names$ -- 295
-pop$ -- 1054
+missing$ -- 37
+newline$ -- 158
+num.names$ -- 64
+pop$ -- 467
 preamble$ -- 1
-purify$ -- 544
+purify$ -- 167
 quote$ -- 0
-skip$ -- 1186
+skip$ -- 459
 stack$ -- 0
-substring$ -- 2830
-swap$ -- 327
-text.length$ -- 51
+substring$ -- 827
+swap$ -- 144
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 912
-warning$ -- 20
-while$ -- 290
+type$ -- 288
+warning$ -- 35
+while$ -- 60
 width$ -- 0
-write$ -- 781
-(There were 22 warnings)
+write$ -- 253
+(There were 35 warnings)
