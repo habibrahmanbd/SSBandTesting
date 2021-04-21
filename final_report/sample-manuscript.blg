@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2020)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: sample-manuscript.aux
 The style file: ACM-Reference-Format.bst
@@ -7,37 +7,10 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: sample-base.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--no key, author in AppleSSL
-Warning--no author, editor, organization, or key in AppleSSL
-Warning--to sort, need author or key in AppleSSL
-Warning--no key, author in Toyota89
-Warning--no author, editor, organization, or key in Toyota89
-Warning--to sort, need author or key in Toyota89
-Warning--no key, author in NASA1998
-Warning--no author, editor, organization, or key in NASA1998
-Warning--to sort, need author or key in NASA1998
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Warning--no key, author in AppleSSL
-Warning--no key, author in AppleSSL
-Warning--no key, author in NASA1998
-Warning--no key, author in NASA1998
-Warning--no key, author in Toyota89
-Warning--no key, author in Toyota89
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--no key, author in NASA1998
-Warning--no author, editor, organization, or key in NASA1998
-Warning--empty organization in NASA1998
-Warning--empty organization in NASA1998
-Warning--no key, author in Toyota89
-Warning--no author, editor, organization, or key in Toyota89
-Warning--empty organization in Toyota89
-Warning--empty organization in Toyota89
-Warning--no key, author in AppleSSL
-Warning--no author, editor, organization, or key in AppleSSL
-Warning--empty organization in AppleSSL
-Warning--empty organization in AppleSSL
 Warning--empty publisher in similar
 Warning--empty address in similar
 Warning--no number and no volume in sequenceR
@@ -46,45 +19,45 @@ Warning--page numbers missing in both pages and numpages fields in gren_2017
 Warning--empty booktitle in ManySStuBs4JCorpus2019
 Warning--empty publisher in ManySStuBs4JCorpus2019
 Warning--empty address in ManySStuBs4JCorpus2019
-You've used 11 entries,
+You've used 8 entries,
             5959 wiz_defined-function locations,
-            1574 strings with 19409 characters,
-and the built_in function-call counts, 12326 in all, are:
-= -- 1456
+            1559 strings with 18863 characters,
+and the built_in function-call counts, 10220 in all, are:
+= -- 1264
 > -- 368
 < -- 0
-+ -- 131
++ -- 128
 - -- 136
-* -- 864
-:= -- 1118
-add.period$ -- 48
-call.type$ -- 11
-change.case$ -- 68
-chr.to.int$ -- 11
-cite$ -- 58
-duplicate$ -- 1169
-empty$ -- 801
+* -- 708
+:= -- 1004
+add.period$ -- 39
+call.type$ -- 8
+change.case$ -- 56
+chr.to.int$ -- 8
+cite$ -- 16
+duplicate$ -- 914
+empty$ -- 615
 format.name$ -- 168
-if$ -- 2956
+if$ -- 2458
 int.to.chr$ -- 2
 int.to.str$ -- 1
 missing$ -- 37
-newline$ -- 158
+newline$ -- 125
 num.names$ -- 64
-pop$ -- 467
+pop$ -- 335
 preamble$ -- 1
-purify$ -- 167
+purify$ -- 128
 quote$ -- 0
-skip$ -- 459
+skip$ -- 366
 stack$ -- 0
-substring$ -- 827
-swap$ -- 144
+substring$ -- 680
+swap$ -- 123
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 288
-warning$ -- 35
+type$ -- 198
+warning$ -- 8
 while$ -- 60
 width$ -- 0
-write$ -- 253
-(There were 35 warnings)
+write$ -- 202
+(There were 8 warnings)
