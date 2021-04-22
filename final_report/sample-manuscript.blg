@@ -19,45 +19,45 @@ Warning--page numbers missing in both pages and numpages fields in gren_2017
 Warning--empty booktitle in ManySStuBs4JCorpus2019
 Warning--empty publisher in ManySStuBs4JCorpus2019
 Warning--empty address in ManySStuBs4JCorpus2019
-You've used 8 entries,
+You've used 10 entries,
             5959 wiz_defined-function locations,
-            1559 strings with 18863 characters,
-and the built_in function-call counts, 10220 in all, are:
-= -- 1264
-> -- 368
+            1575 strings with 19288 characters,
+and the built_in function-call counts, 12464 in all, are:
+= -- 1562
+> -- 480
 < -- 0
-+ -- 128
-- -- 136
-* -- 708
-:= -- 1004
-add.period$ -- 39
-call.type$ -- 8
-change.case$ -- 56
-chr.to.int$ -- 8
-cite$ -- 16
-duplicate$ -- 914
-empty$ -- 615
-format.name$ -- 168
-if$ -- 2458
++ -- 170
+- -- 176
+* -- 894
+:= -- 1252
+add.period$ -- 49
+call.type$ -- 10
+change.case$ -- 73
+chr.to.int$ -- 10
+cite$ -- 18
+duplicate$ -- 1077
+empty$ -- 735
+format.name$ -- 216
+if$ -- 2981
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 37
-newline$ -- 125
-num.names$ -- 64
-pop$ -- 335
+missing$ -- 40
+newline$ -- 146
+num.names$ -- 80
+pop$ -- 388
 preamble$ -- 1
-purify$ -- 128
+purify$ -- 162
 quote$ -- 0
-skip$ -- 366
+skip$ -- 423
 stack$ -- 0
-substring$ -- 680
-swap$ -- 123
+substring$ -- 821
+swap$ -- 133
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 198
+type$ -- 244
 warning$ -- 8
-while$ -- 60
+while$ -- 72
 width$ -- 0
-write$ -- 202
+write$ -- 240
 (There were 8 warnings)

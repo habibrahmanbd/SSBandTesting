@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{8}
+\begin{thebibliography}{10}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -86,6 +86,18 @@
 \showDOI{\tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Chen and Monperrus}{Chen and
+  Monperrus}{2018}]%
+        {coderep}
+\bibfield{author}{\bibinfo{person}{Zimin Chen} {and} \bibinfo{person}{Martin
+  Monperrus}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{The CodRep Machine Learning on Source Code
+  Competition}.
+\newblock
+\newblock
+\showeprint[arxiv]{1807.03200}~[cs.SE]
+
+
 \bibitem[\protect\citeauthoryear{Gren and Antinyan}{Gren and Antinyan}{2017}]%
         {gren_2017}
 \bibfield{author}{\bibinfo{person}{Lucas Gren} {and} \bibinfo{person}{Vard
@@ -162,6 +174,25 @@
 \showISBNx{9781605583389}
 \urldef\tempurl%
 \url{https://doi.org/10.1145/1572272.1572280}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Tufano, Watson, Bavota, Penta, White, and
+  Poshyvanyk}{Tufano et~al\mbox{.}}{2019}]%
+        {bugs2fix}
+\bibfield{author}{\bibinfo{person}{Michele Tufano}, \bibinfo{person}{Cody
+  Watson}, \bibinfo{person}{Gabriele Bavota}, \bibinfo{person}{Massimiliano~Di
+  Penta}, \bibinfo{person}{Martin White}, {and} \bibinfo{person}{Denys
+  Poshyvanyk}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{An Empirical Study on Learning Bug-Fixing Patches
+  in the Wild via Neural Machine Translation}.
+\newblock \bibinfo{journal}{\emph{ACM Trans. Softw. Eng. Methodol.}}
+  \bibinfo{volume}{28}, \bibinfo{number}{4}, Article \bibinfo{articleno}{19}
+  (\bibinfo{date}{Sept.} \bibinfo{year}{2019}), \bibinfo{numpages}{29}~pages.
+\newblock
+\showISSN{1049-331X}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3340544}
 \showDOI{\tempurl}
 
 

@@ -353,6 +353,7 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT
 INPUT /Users/saqib/code/masters/501-graduate-project/final_report/img/occurrence_of_stub.png
 INPUT /Users/saqib/code/masters/501-graduate-project/final_report/img/occurrence_of_stub.png
 INPUT /Users/saqib/code/masters/501-graduate-project/final_report/img/occurrence_of_stub.png
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/libertine/LinBiolinumT-tlf-t1.vf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -382,8 +383,8 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/libertine/LinLibertineT
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/libertine/LinLibertineT-tlf-ts1.vf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ts1--base.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-t1.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/inconsolata/t1-zi4r-4.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/libertine/LinLibertineTI-tlf-t1.vf
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-ts1.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/libertine/LinBiolinumT-tlf-t1.vf
@@ -405,6 +406,8 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/newtx/ntxsy.vf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/newtx/txsys.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/libertine/LinLibertineT-tlf-ot1.vf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1--base.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-t1.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/inconsolata/t1-zi4r-4.tfm
 INPUT /Users/saqib/code/masters/501-graduate-project/final_report/img/method.png
 INPUT /Users/saqib/code/masters/501-graduate-project/final_report/img/method.png
 INPUT /Users/saqib/code/masters/501-graduate-project/final_report/img/method.png
