@@ -303,10 +303,6 @@ if __name__=="__main__":
 	plt.title(str(repo_name))
 	plt.ylabel('Bug Frequency')
 	plt.xlabel('Years')
-	#plt.show()
-	plt.savefig(cur_dir+'/repos/'+repo_name+'.png')
-	#checkout_by_tags(cur_dir + '/repos/' + str(repo_name), taglist[i])
-	#run_build(cur_dir + '/repos/' + str(repo_name))
-	#run_test(cur_dir + '/repos/' + str(repo_name))
+	plt.savefig(cur_dir+'/bugs_distribution/'+repo_name+'.png')
 
-#	print_taglist_by_dates(cur_dir+'/repos/', repo_name, tag_date)
+
