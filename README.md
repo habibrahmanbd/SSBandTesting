@@ -1,9 +1,10 @@
-# CMPUT501 - Software Quality - Graduate Project Artifacts
-This repository contains the graduate project artifacts for CMPUT501 - Software Quality course instructed by Dr. Sarah Nadi.
+# How is Testing Related to Single Statement Bugs?
 
-## Graduate Students:
+This repository contains the project artifacts for the graduate project of CMPUT501 - Software Quality course instructed by Dr. Sarah Nadi.
+
+## Students
  - Saqib Ameen (saqib1)
- - [Habibur Rahman](https://habibrahman.me) 
+ - [Habibur Rahman](https://habibrahman.me) (habibur)
 
 ## Dependencies
  - Python 3
@@ -13,15 +14,15 @@ This repository contains the graduate project artifacts for CMPUT501 - Software 
  pip3 install -r requirements.txt
  ````
  These scripts have been tested with Python 3.9.1(latest).
- 
+
 ## Directory structure
 
 ```
 .
-├── dataset                                                       
+├── dataset
 │   ├── bugs.txt
 │   ├── by-project                                                # Contains Projectwise Dataset
-│   │   ├── Activiti.Activiti                                     
+│   │   ├── Activiti.Activiti
 │   │   ├── ...
 │   ├── occurrence_of_stub.png                                    # Graph of STUB Occurrence
 │   ├── ssb_ratio_chart.xls
