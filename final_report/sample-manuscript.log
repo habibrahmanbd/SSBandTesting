@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  21 APR 2021 19:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  21 APR 2021 19:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -848,7 +848,7 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 
 Class acmart Warning: A possible image without description on input line 183.
 
-<img/occurrence_of_stub.png, id=85, 366.168pt x 213.744pt>
+<img/occurrence_of_stub.png, id=89, 366.168pt x 213.744pt>
 File: img/occurrence_of_stub.png Graphic file (type png)
 <use img/occurrence_of_stub.png>
 Package pdftex.def Info: img/occurrence_of_stub.png  used on input line 189.
@@ -882,7 +882,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 289--304
 
  []
 
-<img/method.png, id=143, 791.95876pt x 475.7775pt>
+<img/method.png, id=147, 791.95876pt x 475.7775pt>
 File: img/method.png Graphic file (type png)
 <use img/method.png>
 Package pdftex.def Info: img/method.png  used on input line 309.
@@ -891,10 +891,12 @@ Package pdftex.def Info: img/method.png  used on input line 309.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (14.13814pt too wide) in paragraph at lines 341--360
+ [][] 
+ []
 
 [3.3 </Users/saqib/code/masters/501-graduate-project/final_report/img/method.png>]
-<img/correlation.png, id=154, 493.845pt x 278.03876pt>
+<img/correlation.png, id=157, 493.845pt x 278.03876pt>
 File: img/correlation.png Graphic file (type png)
 <use img/correlation.png>
 Package pdftex.def Info: img/correlation.png  used on input line 369.
@@ -903,6 +905,8 @@ Package pdftex.def Info: img/correlation.png  used on input line 369.
 
 Class acmart Warning: A possible image without description on input line 372.
 
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 9.0pt on input line 378.
 
 Underfull \hbox (badness 10000) in paragraph at lines 378--379
 
@@ -914,9 +918,12 @@ Processing 'acks' comment.
  Comment 'acks' writing to comment.cut. Straight input of comment.cut. (/Users/saqib/code/masters/501-graduate-project/final_report/comment.cut) (/Users/saqib/code/masters/501-graduate-project/final_report/sample-manuscript.bbl
 LaTeX Info: Redefining \tempurl on input line 67.
 LaTeX Info: Redefining \tempurl on input line 85.
+
+Underfull \vbox (badness 1635) has occurred while \output is active []
+
+ [4.4 </Users/saqib/code/masters/501-graduate-project/final_report/img/correlation.png>]
 LaTeX Info: Redefining \tempurl on input line 113.
 LaTeX Info: Redefining \tempurl on input line 131.
- [4.4 </Users/saqib/code/masters/501-graduate-project/final_report/img/correlation.png>]
 LaTeX Info: Redefining \tempurl on input line 159.
 LaTeX Info: Redefining \tempurl on input line 176.
 LaTeX Info: Redefining \tempurl on input line 195.
@@ -931,30 +938,30 @@ Class acmart Warning: ACM keywords are mandatory for papers over two pages.
 Class acmart Warning: CCS concepts are mandatory for papers over two pages.
 
 
-Overfull \vbox (1.152pt too high) has occurred while \output is active []
+Overfull \vbox (1.16599pt too high) has occurred while \output is active []
 
  [5.5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 826.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 826.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 827.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 827.
  (/Users/saqib/code/masters/501-graduate-project/final_report/sample-manuscript.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 826.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 826.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 827.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 827.
 Package rerunfilecheck Info: File `sample-manuscript.out' has not changed.
-(rerunfilecheck)             Checksum: 12F20DCA5FF2EB563DE45155C4467611;3424.
+(rerunfilecheck)             Checksum: E66133302556CC75D587B26F7AB82619;3675.
  ) 
 Here is how much of TeX's memory you used:
- 19405 strings out of 480608
- 296017 string characters out of 5903631
- 599955 words of memory out of 5000000
- 34413 multiletter control sequences out of 15000+600000
- 689937 words of font info for 311 fonts, out of 8000000 for 9000
+ 19422 strings out of 480608
+ 296413 string characters out of 5903631
+ 598050 words of memory out of 5000000
+ 34417 multiletter control sequences out of 15000+600000
+ 696372 words of font info for 320 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 63i,12n,100p,1907b,572s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,12n,100p,1907b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-4.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_afusau.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/newtx/LibertineMathMI.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/newtx/LibertineMathMI7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on /Users/saqib/code/masters/501-graduate-project/final_report/sample-manuscript.pdf (5 pages, 524274 bytes).
+Output written on /Users/saqib/code/masters/501-graduate-project/final_report/sample-manuscript.pdf (5 pages, 526703 bytes).
 PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
- 207 compressed objects within 3 object streams
- 44 named destinations out of 1000 (max. 500000)
- 52912 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 253 PDF objects out of 1000 (max. 8388607)
+ 211 compressed objects within 3 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 53432 words of extra memory for PDF output out of 61914 (max. 10000000)
 

@@ -197,7 +197,7 @@ SSBs occur quite often \cite{ManySStuBs4JCorpus2019} and can be very critical. F
 We intend to understand the effectiveness of testing on SSBs by the correlation between test coverage and single statement bugs. If more test coverage in a project results in less SSBs, it shows that testing is helpful and vice versa. Which leads to our research question, \emph{Is there a correlation between test coverage and single statement bugs?} We hypothesized that there is a weak to moderate relationship between SSBs and test coverage, i.e., testing is helpful to some extent.
 
 %iv. Summary of Methodology
-To verify our hypothesis, we analyze the the post-unit test bugs in the areas covered and not covered by the testing. If a part is covered by testing, it means it has beem executed it for its intended purpose and it works fine. In future, if bugs are found in the covered part, it will show that testing did not help here. To check that, we first generate the coverage report at the release time, and see if the bugs found after the release are in covered part or uncovered part. Finally, we calculate the percentage of coverage and percentage bugs in the uncovered part, to find the correlation between them. It serves as a proxy for the effectiveness of unit testing for SSBs.
+To verify our hypothesis, we analyze the the post-unit test bugs in the areas covered and not covered by the testing. If a part is covered by testing, it means it has beem executed it for its intended purpose and it works fine. In future, if bugs are found in the covered part, it will show that testing did not help here. To check that, we first generate the coverage report at the release time, and see if the bugs found after the release are in covered part or not covered part. Finally, we calculate the percentage of coverage and percentage bugs in the not covered part, to find the correlation between them. It serves as a proxy for the effectiveness of unit testing for SSBs.
 
 For our study we use the Mining Software Repositories (MSR) 2021 challenge' SSBs dataset\cite{ManySStuBs4JCorpus2019}. It contains 7824 SSBs from top 100 Maven based open source Java projects on GitHub. The important thing about this dataset is that projects can be built and their test can be executed. Which is important for us to be able to generate reports.
 
@@ -229,7 +229,7 @@ $y_{i}$ – the values of the y-variable in a sample
 $\bar{y}$ – the mean of the values of the y-variable
 
 
-Percentage test coverage and number of bugs in the uncovered part are the variable for our case.
+Percentage test coverage and number of bugs in the not covered part are the variable for our case.
 
 
 \section{Related Work}
@@ -331,17 +331,17 @@ In this final step of methodology, we calculated the correlation coefficient bet
 
 
 \section{Results}
-Section 4, explains how we used the SStuBs to collect the data from GitHub, used Jacoco to generate the coverage reports, and processed them to get the desired data. In this section, using that data, we try to answer our research question.
+Previous section explains how we used the SStuBs to collect the data from GitHub, used Jacoco to generate the coverage reports, and processed them to get the desired data. In this section, using that data, we try to answer our research question.
 
-How is testing related to SSB?
+\subsection{How is testing related to SSBs?}
 
 In our research question, we asked if there a correlation between test coverage and SSBs. The purpose of this question is to find out if increasing the coverage can be “actually” helpful in reducing the SSBs.
 
-\begin{table}[h]
+\begin{table}[H]
 	\begin{tabular}{|c|c|c|}
 		\hline
-		ProjectName & Percentage & Percentage\\
-		&Coverage&Not Covered\\
+		Project Name & Percentage & Bugs in \\
+		&Coverage& Not Covered (\%)\\
 		\hline
 		alibaba.druid &41.67&58.33\\
 		alibaba.fastjson & 50&	50\\
@@ -357,11 +357,11 @@ In our research question, we asked if there a correlation between test coverage 
 		mybatis.mybatis-3 &16.67&83.33\\
 		\hline
 	\end{tabular}
-	\caption{Percentage Coverage and Percentage of SSB in not covered part}
+	\caption{Data collected about projects on percentage coverage and percentage of SSBs in not covered part}
 	\label{tab:ppc}
 \end{table}
 
-Table \ref{tab:ppc}  shows the data collected to answer this question. The first column shows the project name, and the second column shows the average percentage test coverage, while the third column shows the percentage of SSBs in the not covered part. We are considering the bugs in the non-covered part as they provide an easy way to understand the effectiveness of coverage. A higher percentage of them indicates that coverage is effective and vice versa. In our data, we have a mixed percentage. We used this data to find the correlation coefficient (r) between the percentage of coverage and the percentage of SSBs. The r-value turned out to be 0.40, which translates into a weak to moderate positive correlation between them. It shows that high coverage helps mitigate the SSBs. This correlation is shown in \ref{fig:corr}. We can see that increased covered is related to greater percentage of bugs in the not covered part and testing is useful here.
+Table \ref{tab:ppc}  shows the data collected to answer this question. The first column shows the project name, and the second column shows the average percentage test coverage, while the third column shows the percentage of SSBs in the not covered part. We are considering the bugs in the non-covered part as they provide an easy way to understand the effectiveness of coverage. A higher percentage of them indicates that coverage is effective and vice versa. In our data, we have a mixed percentage. We used this data to find the correlation coefficient (\emph{r}) between the percentage of coverage and the percentage of SSBs. The \emph{r}-value turned out to be 0.40, which translates into a weak to moderate positive correlation between them. It shows that high coverage helps mitigate the SSBs. This correlation is shown in \ref{fig:corr}. We can see that increased covered is related to greater percentage of bugs in the not covered part and testing is useful here.
 
 
 \begin{figure}[h]
@@ -374,7 +374,7 @@ Table \ref{tab:ppc}  shows the data collected to answer this question. The first
 
 
 \fbox{\begin{minipage}{25em}
-		RQ 1 Answer. Our results suggest that there is a positive weak to moderate correlation between the unit test coverage and the number of SSBs found in the not covered parts. The coverage seems to be effective for SSBs.
+		\textbf{RQ 1 Answer.} \emph{Our results suggest that there is a positive weak to moderate correlation between the unit test coverage and the number of SSBs found in the not covered parts. The coverage seems to be effective for SSBs, to some degree.}
 	\end{minipage}}\\
 
 
@@ -384,6 +384,7 @@ Our study has a few important implications. Firstly, it is one of its kind to ex
 
 \section{Threats to the validity}
 In this section, we discuss some of the possible threats to the validity of our study. As described in section 4, we considered multiple versions of each project and wrote our scripts for processing and some tasks automation. This involvement of the human factor equates to the possibility of human error in the process. There could be a mismatch in the versions, and we could have made some unintentional mistakes in the code, however, throughout the process we also did manual verification to reduce this risk. The results of our study are also limited by the SStuBs(sstubs) dataset we used. While it includes a good number and range of projects from different domains, it is limited by the language type and build system. All the projects use the Maven build system and are developed in Java. The results obtained from the study might not apply to the other type system, languages, or even other build systems.
+
 Another important aspect to consider is that all the reports are generated manually by checking out each version one by one, resolving dependencies, and configuring Jacoco. It is not only a tedious manual process but also makes it highly susceptible to error. However, throughout the process, we did manual verification to mitigate this threat as much as possible. Another threat is that the projects included in the dataset are the top open-source Java projects. They are maintained for more than a decade by the open-source community and used by tons of organizations and developers. Through their feedback and community involvement, they have matured over the years. Since we only consider the high-density bugs areas where we have tests written and we can generate reports, they might not reflect their whole project life cycle. Lastly, since we only considered open source projects, our results might not apply to the close source projects.
 \section{Discussion, Conclusion and Future Work}
 

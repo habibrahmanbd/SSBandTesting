@@ -414,11 +414,14 @@ INPUT /Users/saqib/code/masters/501-graduate-project/final_report/img/method.png
 INPUT /Users/saqib/code/masters/501-graduate-project/final_report/img/correlation.png
 INPUT /Users/saqib/code/masters/501-graduate-project/final_report/img/correlation.png
 INPUT /Users/saqib/code/masters/501-graduate-project/final_report/img/correlation.png
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/libertine/LinLibertineTB-tlf-t1.tfm
 OUTPUT /Users/saqib/code/masters/501-graduate-project/final_report/comment.cut
 INPUT /Users/saqib/code/masters/501-graduate-project/final_report/comment.cut
 INPUT /Users/saqib/code/masters/501-graduate-project/final_report/comment.cut
 INPUT /Users/saqib/code/masters/501-graduate-project/final_report/sample-manuscript.bbl
 INPUT /Users/saqib/code/masters/501-graduate-project/final_report/sample-manuscript.bbl
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/libertine/LinLibertineTB-tlf-t1.vf
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/libertine/LinLibertineTB-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/libertine/LinLibertineTI-tlf-t1.vf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1--base.tfm
 INPUT /Users/saqib/code/masters/501-graduate-project/final_report/sample-manuscript.aux
