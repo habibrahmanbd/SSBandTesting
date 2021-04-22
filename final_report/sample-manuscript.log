@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.5)  22 APR 2021 14:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.5)  22 APR 2021 14:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1034,7 +1034,7 @@ Package pdftex.def Info: img/method.pdf  used on input line 262.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 9.0pt on input line 275.
 [3.3 <./img/method.pdf>]
-<img/freq.png, id=160, 642.4pt x 481.8pt>
+<img/freq.png, id=165, 642.4pt x 481.8pt>
 File: img/freq.png Graphic file (type png)
 <use img/freq.png>
 Package pdftex.def Info: img/freq.png  used on input line 333.
@@ -1053,7 +1053,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 376--401
 Underfull \vbox (badness 1137) has occurred while \output is active []
 
  [4.4 <./img/freq.png>]
-<img/correlation.png, id=170, 493.845pt x 278.03876pt>
+<img/correlation.png, id=175, 493.845pt x 278.03876pt>
 File: img/correlation.png Graphic file (type png)
 <use img/correlation.png>
 Package pdftex.def Info: img/correlation.png  used on input line 405.
@@ -1128,10 +1128,10 @@ bertine/LinLibertineTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/li
 bertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ne
 wtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on sample-manuscript.pdf (6 pages, 516432 bytes).
+Output written on sample-manuscript.pdf (6 pages, 530278 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 217 compressed objects within 3 object streams
+ 268 PDF objects out of 1000 (max. 8388607)
+ 220 compressed objects within 3 object streams
  44 named destinations out of 1000 (max. 500000)
  52405 words of extra memory for PDF output out of 61914 (max. 10000000)
 
