@@ -1,0 +1,16 @@
+ProjectName, Covered, Not Covered, Total (Covered + Not Covered), % of Coverage, %Covered, % Not Covered
+checkstyle.checkstyle, 0, 40, 40, 98.0, 0.0, 100.0
+AsyncHttpClient.async-http-client, 2, 3, 5, 74.33333333333333, 40.0, 60.0
+google.auto, 5, 21, 26, 85.42857142857143, 19.230769230769234, 80.76923076923077
+google.closure-compiler, 33, 30, 63, 84.11111111111111, 52.38095238095239, 47.61904761904761
+cucumber.cucumber-jvm, 1, 1, 2, 84.5, 50.0, 50.0
+alibaba.druid, 5, 7, 12, 75.0, 41.66666666666667, 58.333333333333336
+alibaba.fastjson, 9, 9, 18, 87.5, 50.0, 50.0
+google.guice, 7, 13, 20, 77.0, 35.0, 65.0
+hankcs.HanLP, 0, 4, 4, 9.0, 0.0, 100.0
+brettwooldridge.HikariCP, 2, 32, 34, 75.77777777777777, 5.88235294117647, 94.11764705882352
+xetorthio.jedis, 0, 25, 25, 13.0, 0.0, 100.0
+jhy.jsoup, 5, 6, 11, 81.83333333333333, 45.45454545454545, 54.54545454545454
+junit-team.junit, 6, 26, 32, 84.0, 18.75, 81.25
+mybatis.mybatis-3, 6, 30, 36, 70.66666666666667, 16.666666666666664, 83.33333333333334
+brianfrankcooper.YCSB, 0, 7, 7, 17.75, 0.0, 100.0
