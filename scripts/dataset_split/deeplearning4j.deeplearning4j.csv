@@ -1,0 +1,4 @@
+deeplearning4j.deeplearning4j, nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/imports/converters/ImportClassMapping.java, 43, 10d676e0b8465b7e9c0e6bf7106b2dc50aaf04a8, 30b51f8085489c1519654039ada533c98c995837
+deeplearning4j.deeplearning4j, nd4j/nd4j-tensorflow/src/main/java/org/nd4j/tensorflow/conversion/TensorflowConversion.java, 299, 000334ea2a717a2b5bf2a61f021aad85bb79d9cb, 56910ddee72b670983f2c402192c34619bd680ce
+deeplearning4j.deeplearning4j, nd4j/nd4j-tensorflow/src/main/java/org/nd4j/tensorflow/conversion/TensorflowConversion.java, 299, b370544b8f7787730ed742a4fe1d3d4ceba1926e, 0a3e78b54053867c5196a8de62e458f00f88dd48
+deeplearning4j.deeplearning4j, nd4j/nd4j-backends/nd4j-tests/src/test/java/org/nd4j/autodiff/opvalidation/ReductionOpValidation.java, 538, 7939cf384b74394f0d150ad0f1498a1c7aaefd19, d94bc7257c5ebe7751f01686706432b223fd9cc2

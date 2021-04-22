@@ -1,0 +1,6 @@
+b3log.solo, src/main/java/org/b3log/solo/model/UserExt.java, 40, 8e94cd6e2655a4e1c4efc5a41b700e24bd1f96cf, 35518019a6870e18c9bb063714754a30f6d50225
+b3log.solo, src/main/java/org/b3log/solo/processor/B3Receiver.java, 184, 2ec6801058f6813c874dcad123de212b4269e28e, 509fe3e0eb790d439ed51d6dcd5d1bf744357856
+b3log.solo, src/main/java/org/b3log/solo/processor/IndexProcessor.java, 196, 22bf5750c02efdcfe01924b3726caddb24a3e08b, 7555d2f4b4ded6a502f168cb28f80040b409cf5d
+b3log.solo, src/main/java/org/b3log/solo/plugin/list/ListHandler.java, 67, 154231365ae762604c2d11c9701d782ddcb0442d, b096747416de572f8ad4ff5a4779975347d7655a
+b3log.solo, src/main/java/org/b3log/solo/plugin/list/ListHandler.java, 67, 154231365ae762604c2d11c9701d782ddcb0442d, b096747416de572f8ad4ff5a4779975347d7655a
+b3log.solo, core/src/main/java/org/b3log/solo/processor/UpgradeProcessor.java, 95, 83eb1a48e70080edffc14ed38362ad1f582f0e8b, 7c8f30b7bf88f7d1e1ac577f59e8b77bf5be6759

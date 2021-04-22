@@ -1,0 +1,11 @@
+javaee-samples.javaee7-samples, jpa/locking-optimistic/src/test/java/org/javaee7/jpa/locking/optimistic/LockingOptimisticTest.java, 42, 83b016ec7fc76f8f293c25b6438995f135cf8723, 886096e8fc457546dd4071295b7c5cce2d722ecc
+javaee-samples.javaee7-samples, jpa/locking-optimistic/src/test/java/org/javaee7/jpa/locking/optimistic/LockingOptimisticTest.java, 42, 83b016ec7fc76f8f293c25b6438995f135cf8723, 886096e8fc457546dd4071295b7c5cce2d722ecc
+javaee-samples.javaee7-samples, batch/scheduling/src/test/java/org/javaee7/batch/samples/scheduling/ManagedScheduledBatchTest.java, 64, 886096e8fc457546dd4071295b7c5cce2d722ecc, ba0fdffa3175f00fc241825c796364ea6e46c3ad
+javaee-samples.javaee7-samples, batch/scheduling/src/test/java/org/javaee7/batch/samples/scheduling/ManagedScheduledBatchTest.java, 64, 886096e8fc457546dd4071295b7c5cce2d722ecc, ba0fdffa3175f00fc241825c796364ea6e46c3ad
+javaee-samples.javaee7-samples, batch/chunk-csv-database/src/main/java/org/javaee7/batch/chunk/csv/database/MyItemReader.java, 24, dd6c3f83e4bb27d590c628b9202496770bde87aa, f8bce7f237dd6ab5d2f941f3a5f59cc0bf9622b3
+javaee-samples.javaee7-samples, jms/temp-destination/src/main/java/org/javaee7/jms/temp/destination/JmsClient.java, 20, 1effa91f4c15b919a5c6319cad7e9b22b756ed19, f8aa98a4c6b82198f22900393cbc7b08f8ba4b54
+javaee-samples.javaee7-samples, batch/chunk-simple/src/test/java/org/javaee7/batch/chunk/simple/ChunkSimpleTest.java, 31, 5b12d7203aa6085378dec943e78b18c9d708d176, 8ec39a7c6c6edd980232f8b94a4538e232b6e63c
+javaee-samples.javaee7-samples, batch/batchlet-simple/src/test/java/org/javaee7/batch/batchlet/simple/MyBatchletTest.java, 27, 4d40f0e72736121396bd658414a39f47fa2c3d12, da1a46e19d852b2839b78d21f4e9a12ae8e809c2
+javaee-samples.javaee7-samples, jta/tx-exception/src/test/java/org/javaee7/jta/tx/exception/EmployeeBeanTest.java, 25, 2477b255ffe38f6ad5eb2bc1fa94f8db66c0fbc3, 90369ceb3e091d516aa2957e6276dbd2da1eb483
+javaee-samples.javaee7-samples, jta/user-transaction/src/test/java/org/javaee7/jta/UserTransactionTest.java, 25, 2477b255ffe38f6ad5eb2bc1fa94f8db66c0fbc3, 90369ceb3e091d516aa2957e6276dbd2da1eb483
+javaee-samples.javaee7-samples, jaxrs/jaxrs-client/src/main/java/org/javaee7/jaxrs/client/TestJAXRS2Client.java, 63, f790d5907229357f8e0aca7681de6b5ca2dd2090, bfac7f0a33d0785c9d8da85aa9fe4f57120f3316

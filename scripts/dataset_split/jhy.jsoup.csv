@@ -1,0 +1,13 @@
+jhy.jsoup, src/main/java/org/jsoup/helper/DataUtil.java, 102, 45c54996c4e8d74cf84304e767934ff584c24702, 02668f757c59f0c1a7ad8f3169faf061b4b787c1
+jhy.jsoup, src/main/java/org/jsoup/helper/HttpConnection.java, 301, 333a6469ffec02354a56d1a5eb5867dc16da58a0, f50042980dda4e8521f05d789654f43dbc2bd602
+jhy.jsoup, src/main/java/org/jsoup/helper/HttpConnection.java, 306, 333a6469ffec02354a56d1a5eb5867dc16da58a0, f50042980dda4e8521f05d789654f43dbc2bd602
+jhy.jsoup, src/main/java/org/jsoup/safety/Whitelist.java, 90, 627efb94e9ec8bcf09829fb8be5cbc4f4334fceb, bb16e0693819afb821bce6943d8cbd178266a63e
+jhy.jsoup, src/main/java/org/jsoup/safety/Whitelist.java, 133, 627efb94e9ec8bcf09829fb8be5cbc4f4334fceb, bb16e0693819afb821bce6943d8cbd178266a63e
+jhy.jsoup, src/main/java/org/jsoup/helper/HttpConnection.java, 298, 311d2e7e7123814364907b65143117efc3ddf92d, 80158d6fa7445506eaaafdeadb1f4dc291ca10a5
+jhy.jsoup, src/main/java/org/jsoup/helper/HttpConnection.java, 303, 311d2e7e7123814364907b65143117efc3ddf92d, 80158d6fa7445506eaaafdeadb1f4dc291ca10a5
+jhy.jsoup, src/main/java/org/jsoup/safety/Whitelist.java, 322, 3cb4cee19e3cb6830735a0f89d890576c7413f2c, caf61a4a0778a72ab713f72e9ef749bf373c98ac
+jhy.jsoup, src/main/java/org/jsoup/helper/DataUtil.java, 99, 398f9cf93414253c216585efdfca3b9f73f90d74, c75e9cc85d596ff08ae858da3c61d55e717607d1
+jhy.jsoup, src/main/java/org/jsoup/parser/TreeBuilderState.java, 283, 7fe868089855c33d6345e740bfdbe6f140794598, 7b47828bc2cf749edfb0f75e370f168c6b1be210
+jhy.jsoup, src/main/java/org/jsoup/select/ng/ElementSelector.java, 31, 170c25f964066982cc0ce7cb5d9084d4b0dc4227, 073d9734451738985650074bee2ab45cb395fbb7
+jhy.jsoup, src/main/java/org/jsoup/select/ng/ElementSelector.java, 31, 170c25f964066982cc0ce7cb5d9084d4b0dc4227, 073d9734451738985650074bee2ab45cb395fbb7
+jhy.jsoup, src/main/java/org/jsoup/parser/Tag.java, 89, b8b73080085bed3b2062e1a90ed940056997a0ff, ce691239d40e469b75fa22b0bb6a065202c475a7

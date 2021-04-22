@@ -34,6 +34,6 @@ if __name__=="__main__":
 		temp += clean_string(str(new_data["bugLineNum"]))+ ', '
 		temp += clean_string((new_data["fixCommitSHA1"]))+ ', '
 		temp += clean_string((new_data["fixCommitParentSHA1"]))
-		write_in_file(cur_dir+'/repos/'+str(new_data['projectName'])+'.csv', temp)
+		write_in_file(cur_dir+'/dataset_split/'+str(new_data['projectName'])+'.csv', temp)
 	f.close()
 

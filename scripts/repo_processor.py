@@ -238,7 +238,7 @@ if __name__=="__main__":
 #	print(tag_date)
 	tag_date = sorted(tag_date, key=lambda l:l[0])
 	projectName = (str(repo_link).replace('git@github.com:', '')).split('/')[0]+'.'+repo_name+'.csv'
-	project_dataset = load_csv(cur_dir+'/repos/'+projectName)
+	project_dataset = load_csv(cur_dir+'/dataset_split/'+projectName)
 
 	count_covered = 0
 	count_uncovered = 0

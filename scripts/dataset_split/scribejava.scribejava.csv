@@ -1,0 +1,15 @@
+scribejava.scribejava, scribejava-core/src/main/java/com/github/scribejava/core/builder/api/DefaultApi20.java, 128, e61590899577224e5a5d52b1435d710f6034edaf, 75afd4a28bc48ddfcecc4a2a10b1b3d951d24d05
+scribejava.scribejava, scribejava-httpclient-okhttp/src/main/java/com/github/scribejava/httpclient/okhttp/OkHttpHttpClient.java, 168, c2023397cf81452d755a5401fe95b1d47dbde48a, 5d9939034fe7bce54ba6d40f5e8e6d5d98b0fe39
+scribejava.scribejava, scribejava-httpclient-okhttp/src/main/java/com/github/scribejava/httpclient/okhttp/OkHttpHttpClient.java, 174, c2023397cf81452d755a5401fe95b1d47dbde48a, 5d9939034fe7bce54ba6d40f5e8e6d5d98b0fe39
+scribejava.scribejava, scribejava-httpclient-okhttp/src/main/java/com/github/scribejava/httpclient/okhttp/OkHttpHttpClient.java, 180, c2023397cf81452d755a5401fe95b1d47dbde48a, 5d9939034fe7bce54ba6d40f5e8e6d5d98b0fe39
+scribejava.scribejava, scribejava-httpclient-okhttp/src/test/java/com/github/scribejava/httpclient/okhttp/OAuthAsyncCompletionHandlerTest.java, 81, c2023397cf81452d755a5401fe95b1d47dbde48a, 5d9939034fe7bce54ba6d40f5e8e6d5d98b0fe39
+scribejava.scribejava, scribejava-httpclient-okhttp/src/test/java/com/github/scribejava/httpclient/okhttp/OAuthAsyncCompletionHandlerTest.java, 101, c2023397cf81452d755a5401fe95b1d47dbde48a, 5d9939034fe7bce54ba6d40f5e8e6d5d98b0fe39
+scribejava.scribejava, scribejava-httpclient-okhttp/src/test/java/com/github/scribejava/httpclient/okhttp/OAuthAsyncCompletionHandlerTest.java, 127, c2023397cf81452d755a5401fe95b1d47dbde48a, 5d9939034fe7bce54ba6d40f5e8e6d5d98b0fe39
+scribejava.scribejava, scribejava-apis/src/test/java/com/github/scribejava/apis/examples/Box20Example.java, 27, cee1ed39f39cb5fd403db3986d2412d6cab7da0c, 6e6c5502827bb2910002ff3f08fcbd4b60f27047
+scribejava.scribejava, scribejava-core/src/main/java/com/github/scribejava/core/extractors/AccessTokenExtractor.java, 12, 6df23c1262ef16b539af7b0ac18d1da7bafbc694, 8049d61fd5716fce82f5f41ac1bd0a94e1425f8b
+scribejava.scribejava, scribejava-core/src/main/java/com/github/scribejava/core/extractors/RequestTokenExtractor.java, 12, 6df23c1262ef16b539af7b0ac18d1da7bafbc694, 8049d61fd5716fce82f5f41ac1bd0a94e1425f8b
+scribejava.scribejava, scribejava-core/src/main/java/com/github/scribejava/core/services/TimestampService.java, 12, 6df23c1262ef16b539af7b0ac18d1da7bafbc694, 8049d61fd5716fce82f5f41ac1bd0a94e1425f8b
+scribejava.scribejava, scribejava-core/src/main/java/com/github/scribejava/core/services/TimestampService.java, 19, 6df23c1262ef16b539af7b0ac18d1da7bafbc694, 8049d61fd5716fce82f5f41ac1bd0a94e1425f8b
+scribejava.scribejava, scribejava-core/src/test/java/com/github/scribejava/core/services/RSASha1SignatureServiceTest.java, 12, c652becda0968455eb91a6eed511c161ae77388b, f2da2b1d16db198dde187ed6f77997d7cdcbdcdb
+scribejava.scribejava, src/main/java/org/scribe/builder/api/FacebookApi.java, 27, 0abe7f80d4de8dba25b23c848c8ed1a5683f3193, 592b1b5fdd5fafe79f4c086468ba563a86c0facb
+scribejava.scribejava, src/main/java/org/scribe/model/OAuthRequest.java, 44, 874e959e0940032af2b854bc32e6fcf7e86f8bd5, 545867ca1ded62f15be8ef88067988494a60b967

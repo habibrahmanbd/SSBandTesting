@@ -1,0 +1,11 @@
+pxb1988.dex2jar, dex-tools/src/main/java/com/googlecode/dex2jar/tools/StdApkCmd.java, 62, 259a3493240c75dbde813d01445692847f2af772, 7479653f6f237e52bee05838b36f2f47aa8bfd62
+pxb1988.dex2jar, d2j-base-cmd/src/main/java/com/googlecode/dex2jar/tools/BaseCmd.java, 229, 62cb70e220c32627812e41f90aef437f1b493a4e, c45ae97fbdfb9b4b89de28f960f9ce3e2ffeb6ce
+pxb1988.dex2jar, d2j-base-cmd/src/main/java/com/googlecode/dex2jar/tools/BaseCmd.java, 229, 62cb70e220c32627812e41f90aef437f1b493a4e, c45ae97fbdfb9b4b89de28f960f9ce3e2ffeb6ce
+pxb1988.dex2jar, dex-translator/src/main/java/com/googlecode/dex2jar/v3/AnnotationNode.java, 200, 30939851e7dc6de88c7bff192738f070c33a9c43, 2de84878c02c11ee4f75c3e6aea4588828b5e1e6
+pxb1988.dex2jar, dex-ir/src/main/java/com/googlecode/dex2jar/ir/ts/TopologicalSort.java, 94, 3bc15fdae4c207473e545c0a6c63213e0a3db113, b755ba117e7f1ce210936b022706fb22cbfa9a80
+pxb1988.dex2jar, dex-reader/src/main/java/com/googlecode/dex2jar/reader/DexCodeReader.java, 427, 0c435060cc048cfc82036dbcc96e41382d6f2d31, a6b4b788f88d5a28220f0782738f40104abca168
+pxb1988.dex2jar, dex-reader/src/main/java/com/googlecode/dex2jar/reader/DexCodeReader.java, 427, 0c435060cc048cfc82036dbcc96e41382d6f2d31, a6b4b788f88d5a28220f0782738f40104abca168
+pxb1988.dex2jar, dex-translator/src/main/java/com/googlecode/dex2jar/v3/Main.java, 109, 996282f1d3c9f4d8f02e150bebad57d3a44304f9, 3a6d8342c889419d9423a762ce88e00f3876143b
+pxb1988.dex2jar, dex-translator/src/main/java/com/googlecode/dex2jar/v3/LocalCurrect.java, 98, e78398ed32106c1c71bc47a1d5058fe3c8e5b9dd, 6c8995d048138d7555d4a03af5a4f57fd3599dce
+pxb1988.dex2jar, dex-translator/src/main/java/com/googlecode/dex2jar/v3/LocalCurrect.java, 98, e78398ed32106c1c71bc47a1d5058fe3c8e5b9dd, 6c8995d048138d7555d4a03af5a4f57fd3599dce
+pxb1988.dex2jar, src/main/java/pxb/android/dex2jar/v3/V3CodeAdapter.java, 1072, e5c2684225f66cb0696a63ed52c66fb09678dd22, e59a18a298936b68b698e935bb884d773053d356
