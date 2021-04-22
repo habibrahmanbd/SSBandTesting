@@ -1,5 +1,7 @@
 # Asynchronous Http Client
 
+Clone repo: `git clone https://github.com/AsyncHttpClient/async-http-client.git`
+
 We have added `pom.xml` files for following versions in their respective folders:
 
 1. async-http-client-project-2.0.25

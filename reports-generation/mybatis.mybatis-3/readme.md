@@ -1,5 +1,7 @@
 # MyBatis
 
+Clone repo: `git clone https://github.com/mybatis/mybatis-3.git`
+
 We have added `pom.xml` files for following versions in their respective folders:
 
 1. mybatis-3.2.4
