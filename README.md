@@ -1,6 +1,6 @@
 # How is Testing Related to Single Statement Bugs?
 
-This repository contains the project artifacts for the graduate project of CMPUT501 - Software Quality course instructed by Dr. Sarah Nadi.
+This repository contains the project artifacts for the graduate project of CMPUT501 - Software Quality course instructed by Prof. Sarah Nadi.
 
 ## Students
  - Saqib Ameen (saqib1)
