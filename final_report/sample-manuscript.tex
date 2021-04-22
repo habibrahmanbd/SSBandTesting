@@ -254,10 +254,21 @@ The second part of the literature, which uses SSB mainly differs from our work i
 
 \section{Methodology}
 
-This section describes the detailed methodology used to process the information from the dataset and curate the desired data for evaluation. It starts with the description of dataset for a better context and walks through each step describing its purpose, input, and output. Finally, it concludes with an overview of the whole process and gathered data for evluation.
+This section describes the detailed methodology used to process the information from the dataset and curate the desired data for evaluation. It starts with the description of dataset for a better context and then goes through each step describing its purpose, input, and output.
+
+Our main goal is to find out if there are more bugs or less bugs in the covered part, after unit tests were written. For this purpose, an overview of our methodology is shown in the Figure \ref{fig:method_snap}. It consists of two major steps. In the step A, we generate the coverage reports. In the second step (B), with the help of those coverage reports, we try to find the is a certain bug belongs to the covered part or not. At the end of this whole process, we have percentage coverage for each project, and percentage covered of SSBs in the covered as well as uncovered parts. We prune the resulting data for any outliers and then use Pearson's correlation to find our results.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1.0\linewidth]{img/method.pdf}
+	\caption{An overview of the complete methodology.}
+	\Description{A snap of overall methodology.}
+	\label{fig:method_snap}
+\end{figure}
+
 
 \subsection{Dataset}
-For our study, we use the ManySStuBs4J\cite{sstubs} dataset. This corpous is a collection of simple fixes to SSBs found in top open source Java projects on GitHub. It has two different varients. The first one contains top 100 open source Java projects which use Maven as a build system. They can be built, and tests in those projects can be executed. The second one contains the top 1000 open source Java projects. In this larger varient, the projects uses different build systems and they may or may not be built. For our study, a natural choice is to use the former varient due to testability. Table \ref{tab:stat}, shows the dataset statistics.
+For our study, we used the ManySStuBs4J\cite{sstubs} dataset. This corpous consists of simple fixes to SSBs found in top open source Java projects on GitHub. It has two different varients. The first one contains top 100 open source Java projects which use Maven as a build system. They can be built, and tests in those projects can be executed. The second one contains the top 1000 open source Java projects. In this larger varient, the projects uses different build systems and they may or may not be built. For our study, a natural choice is to use the former varient due to testability. Table \ref{tab:stat}, shows the dataset statistics.
 
 \begin{table}[h]
 	\begin{tabular}{|c|c|c|c|c|}
@@ -274,7 +285,7 @@ For our study, we use the ManySStuBs4J\cite{sstubs} dataset. This corpous is a c
 	\label{tab:stat}
 \end{table}
 
-Figure \ref{fig:database_snap}, shows an example of the ManySStuBs4J dataset instance. In this dataset snapshot, we can see that it contains a bug type, project name, fix commit SHA, parent commit SHA, Bug Line number, and other properties. For our project, we have used the project name, fix commit SHA, parent commit SHA, and bug line numbers from each of the data items. In the $projectName$ property, the part before period represents the organization name or user name and the part after the period represents the name of project. It comes handy while cloning the repos for processing in the later sections.
+Figure \ref{fig:database_snap}, shows an example of the ManySStuBs4J dataset instance. In this dataset snapshot, we can see that it contains a bug type, project name, fix commit SHA, parent commit SHA, Bug Line number, and other properties. For our study, we have used the project name, fix commit SHA, parent commit SHA, and bug line numbers from each of the data items. In the $projectName$ property, the part before period represents the organization name or user name and the part after the period represents the name of project. It comes handy while cloning the repos for processing in the later sections. For the sake of brevity, we omitted some partsin the snapshot, which are represented by three dots.
 
 \begin{figure}[h]
 	\centering
@@ -305,51 +316,62 @@ Figure \ref{fig:database_snap}, shows an example of the ManySStuBs4J dataset ins
 	\label{fig:database_snap}
 \end{figure}
 
+\subsection{Splitting the Dataset By Projects}
 
+The corpus of datset is quite large. While processing a single project, we should not be enumerating through the whole dataset. To ease the search, we splitted the dataset based on the project name. We processed the whole dataset to sort it by the project name and then saved data of each project in separate JSON files. In each of the new datasets, they contain bugs from the same project.
 
-Besides automated scripts, we have worked on manual projects to generate the test coverage reports for the projects. Figure \ref{fig:method_snap} shows our overall methodology.
+\subsection{Cloning Projects}
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=1.0\linewidth]{img/method.pdf}
-	\caption{Overall Methodology}
-	\Description{A snap of overall methodology.}
-	\label{fig:method_snap}
-\end{figure}
+To clone the projects, first we contstructed the repository link for each project by using the projectName property given in the dataset. Then we used those links to clone the projects from GitHub in our local machines for further processing. The whole process was automated through a Python script.
 
-\subsection{Split ProjectWise Dataset}
-We have separated the dataset based on the project. Firstly, we have sorted the dataset based on the project name and then split the JSON array into separate JSON files. In each of the new datasets, they contain bugs from the same project.
-\subsection{Clone Project}
-We cloned the projects from Github depending on the project name. We used $SSH$ repository links. We have run $git\ clone\ repo\_link$ and save those repository in our local machine. In the dataset, the project name contains the username or the organization name appended by the repository name in Github.
-\subsection{Find the Distribution of Bugs}
-For each project, we then calculate the number of bugs per year to identify the period where maximum number of single statement bugs occur. Figures \ref{fig:distribution} show an example of bug frequency distribution.
+\subsection{Finding the Distribution of Bugs}
+
+This is a crucial step. The bugs listed in the ManySStuBs4J\cite{sstubs} dataset span to multiple years. For example, in case of JUnit4, there are bugs from year 2002 till 2017. To check, if a bug was discovered in the covered portion or not, we need to get the coverage report at the release time before that bug was found. Since we target a certain coverage before each release, the release time serves as a good point to take the coverage report. But it is very difficult and time consuming to generate reports for such a long period of time for various reasons. Firstly, it is hard to resolve the dependencies to execute the test cases, and there could be a very large number of releases in such a long period. Secondly, for the very old versions, it hard to integrate Jacoco to begin with. Jacoco is the tool that we use to generate the coverage reports.
+
+To resolve this, we find the distriution of the bugs with respect to years. Then we identify the high bug density area to generate the reports for that portion. It serves as a good proxy for overall project. For example, Figure \ref{fig:distribution} shows an example of such distribution in the form of bar graph for a project in the dataset, named Jedis. It is clear from the image that it is more useful to generate the reports for the releases between 2013 and 2017 than any other portion.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.6\linewidth]{img/freq.png}
-	\caption{Frequency of SSBs in a project named "jedis"}% on GitHub using Maven build system}
+	\caption{Distribution of SSBs in project Jedis}% on GitHub using Maven build system}
 	\Description{A graph of frequency of SSBs over the years}
 	\label{fig:distribution}
 \end{figure}
 
-\subsection{Generate Coverage Report}
-Each of the projects are depended on various of software tools and packages. Some of the packages are already depreciated. So, we had manually check each of the project version to fix the dependencies and run the test on specific version for every project. Later, with the updated $pom.xml$ file, we run $"mvn\ clean\ test"$ to generate the coverage report. From the generated coverage report artifacts, we used the $jacoco.xml, index.html$ files under the report directory.
+For some projects, it was not possible to generate the reports for all the identified region for a few reasons. For some versions the dependencies could not be resolved, for a few jar files were missings, some used very old versions of Maven, and in a few cases, there were no tests. Some projects had very huge test suites, taking more than an hour to execute the tests and generate the reports. In such cases, it was not possible to generate reports for a good number of versions. Another advantage of this approach is that we end up generating coverage reports for the consecutive releases. In the consecutive releases, coverage does not change much. As a result, when we are able to take average of coverage to indicate the percentage coverage in the project.
 
-\subsection{Get Release Versions} To fetch the project version with high frequency of SSB, we analyzed all release version. We had considered a project version with it's release tag. We checkout each version of the project based on the tags. We used the common $git\ checkout\ version\_name$ command for this task.
-\subsection{Fetch Report for Project Version}
-In previous "Generate Coverage Report" stage, we generated code coverage reports manually. In this stage, we fetch those reports automatically based on the project version. In our report directory, we had stored the report with version name under the parent project name. Later on this stage, we loaded the $XML$ and $HTML$ reports in our system to count the bugs in covered part, not covered part, and average of percentage coverage.
-\subsection{Count SSBs in Covered, Not Covered Part, and Average Percentage Coverage}
-In this step, we count the number of bugs in covered and not covered part from the $jacoco.xml$ report by parsing the $XML$. In addition to that, we count the average percentage of coverage from the $index.html$ report from JACOCO. %Figure () shows the XML report snap where it indicates the bug line number and the coverage state.
-\subsection{Calculate the Correlation Coefficient}
-In this final step of methodology, we calculated the correlation coefficient between the percentage of bugs that are not covered part and the average percentage coverage. We used the Equation \ref{eq:1} for the calculation. Based on this correlation coefficient, we verified out hypothesis.
-\subsection{Experimental Setup} Our experiments were run on a Linux machine with Ubuntu 20.04 LTS OS version. For cloning Github projects, we have used bash and python3. To generate coverage reports, we had used the project depended package version of Java and other software packages.
+\subsection{Generating Coverage Reports}
 
-To parse XML and HTML report, we had used several packages like $xml.dom.minidom, bs4$. We had used $matplotlib.pyplot$ to plot necessary graphs for our experiments.
+Once we identified the versions using the bug density distribution, we manually checcked out to each version and resolved the dependencies to generate the coverage reports. Most of the projects did not include Jacoco to generate the reports. In such projects, we had to figure out the appropriate version for each release before generating the report. Each project also have different structure and test runner to execute the unit tests. That also needed to be taken in account to be able to generate the reports.
+
+We evaluated more than 50 projects from the dataset during our study. However we were able to generate reports properly for around 17 projects only.It is mainly due to failure in resolving one or more issues mentioned above. All the generated reports and files with fixes for each project are available as a part of recreation package for this study in the GitHub repo of the project artifacts.
+
+\subsection{Getting Release Number}
+
+Once we have all the reports for the projects. The next step (B) of our methodology begins, where we have to analyze if find the ratio of bugs in the covered and uncovered parts. This whole process is automated with Python and Shell scripts.
+
+For this purpose, used the separated datset of projects. For each project, we enumerated through its dataset, going through each SSB one by one. For each SSB, we identified its release version, and then used the report generated for that version to idenitify it that bug was in the covered part or not. This process is repeated for all the bugs in the dataset against that project and the results are recorded.
+
+\subsection{Fetching Report for Particular Release}
+
+At this stage, we fetch those reports based on the release version. During the manual report generation process, we saved the $xml$ file as well as the $html$ file for the Jacoco report. The former contains the the details about the covered and uncovered lines at a granular level while the latter contains the percentage coverage for the test suite.
+
+We parsed the $xml$ file using the MiniDom Python API to identify in which part the bug occurred, and then parsed the $html$ file with BeautifulSoup (an open source library for scrapping) to extract the percentage coverage for that particular version.
+
+\subsection{Identifying SSBs in Covered and Not Covered Parts}
+
+In this section, we explain how exactly we identified and counted the number of bugs in covered and not covered part from the $jacoco.xml$. The $xml$ report file contains information like missed instructions, missed branches, as well as covered instructions and covered branches. For the bugs, where the covered instructions and covered branches were zero, they corresponded to the uncovered part and vice versa.
+
+After enumerating the whole dataset, and repeating the aforementioned step for each of them, we end up with the total number of bugs in covered and not covered part. Using those numbers, we find the percentage of bugs in the uncovered part.
+
+\subsection{Calculating the Correlation Coefficient}
+
+The data collected till this stage is shown in the Table 2. We used that data to calculate the correlation coefficient between the percentage of SSBs that are not covered part and the average percentage coverage. For calculing correlation, we used the Equation \ref{eq:1}. Based on this correlation coefficient, we verified hypothesis. The results and their implications, based on the result of this step, are discussed in detail in the Section 5.
 
 \section{Results}
 Previous section explains how we used the SStuBs to collect the data from GitHub, used Jacoco to generate the coverage reports, and processed them to get the desired data. In this section, using that data, we try to answer our research question.
 
-\subsection{How is testing related to SSBs?}
+\subsection{How is Testing Related to SSBs?}
 
 In our research question, we asked if there a correlation between test coverage and SSBs. The purpose of this question is to find out if increasing the coverage can be “actually” helpful in reducing the SSBs.
 
