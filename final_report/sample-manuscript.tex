@@ -366,7 +366,9 @@ After enumerating the whole dataset, and repeating the aforementioned step for e
 
 \subsection{Calculating the Correlation Coefficient}
 
-The data collected till this stage is shown in the Table 2. We used that data to calculate the correlation coefficient between the percentage of SSBs that are not covered part and the average percentage coverage. For calculing correlation, we used the Equation \ref{eq:1}. Based on this correlation coefficient, we verified hypothesis. The results and their implications, based on the result of this step, are discussed in detail in the Section 5.
+The data collected till this stage is shown in the Table 2. It does not reflect all the data from section 4.8, rather it represents the data after removing the outliers. Outliers projects included a very small number of bugs (less than 5) and all of them were either in the covered part or the uncovered part. The reason such outliers occurred, despite identifying the high bug density releases in section 4.1, is that we could not generate reports for many versions in those parts.
+
+We used thus data to calculate the correlation coefficient between the percentage of SSBs that are not covered part and the average percentage coverage. For calculing correlation, we used the Equation \ref{eq:1}. Based on this correlation coefficient, we verified hypothesis. The results and their implications, based on the result of this step, are discussed in detail in the Section 5.
 
 \section{Results}
 Previous section explains how we used the SStuBs to collect the data from GitHub, used Jacoco to generate the coverage reports, and processed them to get the desired data. In this section, using that data, we try to answer our research question.
@@ -426,6 +428,16 @@ In this section, we discuss some of the possible threats to the validity of our 
 Another important aspect to consider is that all the reports are generated manually by checking out each version one by one, resolving dependencies, and configuring Jacoco. It is not only a tedious manual process but also makes it highly susceptible to error. However, throughout the process, we did manual verification to mitigate this threat as much as possible. Another threat is that the projects included in the dataset are the top open-source Java projects. They are maintained for more than a decade by the open-source community and used by tons of organizations and developers. Through their feedback and community involvement, they have matured over the years. Since we only consider the high-density bugs areas where we have tests written and we can generate reports, they might not reflect their whole project life cycle. Lastly, since we only considered open source projects, our results might not apply to the close source projects.
 
 \section{Conclusion and Future Work}
+
+We tried to find the effectiveness of the unit testing for the SSBs. Instead of synthetic test or faults, we relied on the real bugs found the software systems and the real tests written at the time of their releases. We used a good number of projects so that the result could be generalized for the Maven based Java projects. All the projects are open source and can be explored to understand their nature. We found that to some extent, less number of bugs were found in the covered parts as compared to the uncovered parts. Which shows that coverage should be improved in software systems to reduce the number of SSBs. For the companies, it implies that testing should prioritized since it is helpful in ensuring the software quality.
+
+Apart from the aforementioned implications, our study paved the way for potential future work. We identified a few directions which can be explored in the future to better understand the effect of coverage on the SSBs.
+1- more variables
+2- other build systems
+3- more projects
+4- closed source /industrial projects
+
+intersting to replicate ours studied
 
 %\section{Typefaces}
 %
