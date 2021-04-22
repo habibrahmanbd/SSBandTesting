@@ -213,10 +213,10 @@ def print_logfile(target_dir, data):
 
 
 def print_report_final(target_dir, data, fileName):
-	logging.info('Printing Final Covered Statistics in '+str(fileName))
+	logging.info('Printing Final Covered Statistics in results.csv')
 	print(fileName+' => '+data)
-	with open(target_dir+'/'+fileName, "w+") as f:
-		print(fileName+' => '+data, file=f)
+	with open(target_dir+'/results.csv', "a") as f:
+		print(fileName+', '+data, file=f)
 		f.close()
 
 if __name__=="__main__":
@@ -291,8 +291,8 @@ if __name__=="__main__":
 	for key, value in cov_dic.items():
 		total_coverage += value
 	cov_avg = total_coverage / len(cov_dic.items())
-	cov_str += ', Average Coverage: '+str(cov_avg)+'\n'
-	print_report_final(cur_dir+'/repos/', 'Covered: '+str(count_covered)+', Not Covered: '+str(count_uncovered)+ ', Total: '+str(count_covered + count_uncovered) + ''+str(cov_str), projectName.replace('.csv', '.res'))
+	cov_str += str(cov_avg)
+	print_report_final(cur_dir, str(count_covered)+', '+str(count_uncovered)+ ', '+str(count_covered + count_uncovered) + ', '+str(cov_str)+', '+str((count_covered/(count_covered+count_uncovered))*100.00)+', '+str(str((count_uncovered/(count_covered+count_uncovered))*100.00)), projectName.replace('.csv', ''))
 	print("---------------Result Printed to .res file with Project Name--------------------")
 	years = []
 	bugs = []
