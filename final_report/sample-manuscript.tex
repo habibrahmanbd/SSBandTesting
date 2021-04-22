@@ -215,6 +215,7 @@ Test coverage is the percentage of lines of code executed by the tests for a pro
 In statistics, correlation is the statistical relationship between two random variables or bivariate data. Correlation is measured in terms of the correlation coefficient that ranges from -1 to 1 where -1 means negative correlation, 0 means no correlation, and 1 means a positive correlation between two variables. The correlation coefficient is useful for hypothesis testing. Based on the value of the correlation coefficient, a hypothesis can be accepted or rejected. There are several methods to calculate this coefficient, Pearson correlation coefficient is one of them. It can be expressed as the equation below:
 \begin{equation}
 r_{xy} = \dfrac{\sum{(x_{i}-\bar{x})(y_{i}-\bar{y})}}{\sqrt{\sum{{(x_{i}-\bar{x})}^{2}{(y_{i}-\bar{y})}^{2}}}}
+\label{eq:1}
 \end{equation}
 Where:
 
@@ -263,7 +264,7 @@ The ManySStuBs4J\cite{ManySStuBs4JCorpus2019} corpus is a collection of simple f
 	\begingroup
 	\fontsize{7pt}{10pt}\selectfont
 	\begin{verbatim}
-  {
+{
 "bugType": "CHANGE_OPERATOR",
 "fixCommitSHA1": "aa90e04b5e6eb7f6d46dde16867196329568324e",
 "fixCommitParentSHA1": "46d3a4007fe1418d53baabc16dec39275079684b",
@@ -290,9 +291,9 @@ Table \ref{tab:stat}, shows the dataset statistics. This dataset contains 100 Ja
 \begin{table}[h]
 	\begin{tabular}{|c|c|c|c|c|}
 		\hline
-		Projects&Bug&Buggy&Bug&SStuBs\\
-		& Commits&  Statements & Statements&\\
-		& & & per Commit&\\
+		\textbf{Projects}&\textbf{Bug}&\textbf{Buggy}&\textbf{Bugs}&\textbf{SStuBs}\\
+		& \textbf{Commits}&  \textbf{stmts} & \textbf{per}&\\
+		& & & \textbf{Commit}&\\
 		\hline
 		100 Java Maven&12598		   & 25539	&	          2.03    &  		7824\\
 		100 Java&86771   	   & 153652	&	          1.77     &  		51537\\
@@ -300,35 +301,46 @@ Table \ref{tab:stat}, shows the dataset statistics. This dataset contains 100 Ja
 	\end{tabular}
 	\caption{Statistics of Dataset}
 	\label{tab:stat}
-\end{table}\\
+\end{table}
 
 Besides automated scripts, we have worked on manual projects to generate the test coverage reports for the projects. Figure \ref{fig:method_snap} shows our overall methodology.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\linewidth]{img/method.png}
+	\includegraphics[width=1.0\linewidth]{img/method.pdf}
 	\caption{Overall Methodology}
 	\Description{A snap of overall methodology.}
 	\label{fig:method_snap}
 \end{figure}
 
 \subsection{Split ProjectWise Dataset}
-We have separated the dataset based on the project. In each of the new datasets, they contain bugs from the same project.
+We have separated the dataset based on the project. Firstly, we have sorted the dataset based on the project name and then split the JSON array into separate JSON files. In each of the new datasets, they contain bugs from the same project.
 \subsection{Clone Project}
-We then cloned the projects from Github depending on the project name. In the dataset, the project name contains the username or the organization name appended by the repository name in Github.
+We cloned the projects from Github depending on the project name. We used $SSH$ repository links. We have run $git\ clone\ repo\_link$ and save those repository in our local machine. In the dataset, the project name contains the username or the organization name appended by the repository name in Github.
 \subsection{Find the Distribution of Bugs}
-For each project, we then calculate the number of bugs per year to identify the years when there is a maximum number of single statement bugs. Figures () show an example of bug frequency distribution.
-\subsection{Generate Coverage report}
-In this stage of the experiment, we have fixed the pom.xml files of the projects based on the version and run ‘mvn clean test’ to generate the coverage report.
-v. Get release versions: We checkout each version of the project from the cloned project
-\subsection{Fetch report for specific project version}
-We then check each project on the specific version that we got the highest bug frequency and fetch the coverage report.
-\subsection{Count bugs in covered, not covered part, and average percentage coverage}
-In this step, we count the number of bugs in covered and not covered part from the Jacoco.xml report. In addition to that, we count the average percentage of coverage. Figure () shows the XML report snap where it indicates the bug line number and the coverage state.
-\subsection{Calculate the correlation coefficient}
-In this final step of methodology, we calculated the correlation coefficient between the percentage of bugs that are not covered part and the average percentage coverage.
-\subsection{Experimental Setup}
+For each project, we then calculate the number of bugs per year to identify the period where maximum number of single statement bugs occur. Figures \ref{fig:distribution} show an example of bug frequency distribution.
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\linewidth]{img/freq.png}
+	\caption{Frequency of SSBs in a project named "jedis"}% on GitHub using Maven build system}
+	\Description{A graph of frequency of SSBs over the years}
+	\label{fig:distribution}
+\end{figure}
+
+\subsection{Generate Coverage Report}
+Each of the projects are depended on various of software tools and packages. Some of the packages are already depreciated. So, we had manually check each of the project version to fix the dependencies and run the test on specific version for every project. Later, with the updated $pom.xml$ file, we run $"mvn\ clean\ test"$ to generate the coverage report. From the generated coverage report artifacts, we used the $jacoco.xml, index.html$ files under the report directory.
+
+\subsection{Get Release Versions} To fetch the project version with high frequency of SSB, we analyzed all release version. We had considered a project version with it's release tag. We checkout each version of the project based on the tags. We used the common $git\ checkout\ version\_name$ command for this task.
+\subsection{Fetch Report for Project Version}
+In previous "Generate Coverage Report" stage, we generated code coverage reports manually. In this stage, we fetch those reports automatically based on the project version. In our report directory, we had stored the report with version name under the parent project name. Later on this stage, we loaded the $XML$ and $HTML$ reports in our system to count the bugs in covered part, not covered part, and average of percentage coverage.
+\subsection{Count SSBs in Covered, Not Covered Part, and Average Percentage Coverage}
+In this step, we count the number of bugs in covered and not covered part from the $jacoco.xml$ report by parsing the $XML$. In addition to that, we count the average percentage of coverage from the $index.html$ report from JACOCO. %Figure () shows the XML report snap where it indicates the bug line number and the coverage state.
+\subsection{Calculate the Correlation Coefficient}
+In this final step of methodology, we calculated the correlation coefficient between the percentage of bugs that are not covered part and the average percentage coverage. We used the Equation \ref{eq:1} for the calculation. Based on this correlation coefficient, we verified out hypothesis.
+\subsection{Experimental Setup} Our experiments were run on a Linux machine with Ubuntu 20.04 LTS OS version. For cloning Github projects, we have used bash and python3. To generate coverage reports, we had used the project depended package version of Java and other software packages.
+
+To parse XML and HTML report, we had used several packages like $xml.dom.minidom, bs4$. We had used $matplotlib.pyplot$ to plot necessary graphs for our experiments.
 
 \section{Results}
 Previous section explains how we used the SStuBs to collect the data from GitHub, used Jacoco to generate the coverage reports, and processed them to get the desired data. In this section, using that data, we try to answer our research question.
@@ -340,8 +352,8 @@ In our research question, we asked if there a correlation between test coverage 
 \begin{table}[H]
 	\begin{tabular}{|c|c|c|}
 		\hline
-		Project Name & Percentage & Bugs in \\
-		&Coverage& Not Covered (\%)\\
+		\textbf{Project Name} & \textbf{Percentage} & \textbf{Bugs in Not} \\
+		&\textbf{Coverage}& \textbf{Covered (\%)}\\
 		\hline
 		alibaba.druid &41.67&58.33\\
 		alibaba.fastjson & 50&	50\\
