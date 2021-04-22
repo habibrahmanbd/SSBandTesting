@@ -23,7 +23,10 @@ if __name__=="__main__":
 	#cur_dir = os.path.dirname(os.path.realpath(__file__))
 	#print(data[0])
 	count = 0
-	print('----------------CSV-----------------')
+	print('----------------Removing Previous Data-------------------')
+	os.system('rm -rf dataset_split/*')
+	print('Done.')
+	print('----------------Spliting into Seprate CSV-----------------')
 	#print('Len: '+str(len(data)))
 	for i in data['sstubs']:
 		new_data = i.copy()
@@ -35,5 +38,6 @@ if __name__=="__main__":
 		temp += clean_string((new_data["fixCommitSHA1"]))+ ', '
 		temp += clean_string((new_data["fixCommitParentSHA1"]))
 		write_in_file(cur_dir+'/dataset_split/'+str(new_data['projectName'])+'.csv', temp)
+	sys.stdout = sys.__stdout__
+	print('Done.')
 	f.close()
-
