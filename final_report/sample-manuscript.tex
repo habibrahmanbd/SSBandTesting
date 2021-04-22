@@ -29,7 +29,7 @@
 % \documentclass[acmlarge,screen]{acmart}
 
 %%%% Large double column format, used for TOG
-\documentclass[acmtog, authorversion]{acmart}
+\documentclass[acmtog, authorversion, screen]{acmart}
 
 %%%% Generic manuscript mode, required for submission
 %%%% and peer review
@@ -165,10 +165,9 @@
 
 \section{Introduction}
 %i. Problem Statement
-Writing unit tests is a common practice in industry to ensure software quality. Usually meeting a
-certain criteria of test coverage serves as a segway to product release. This is essential because software systems are used in critical areas such as health, security, finance, and space missions. In such settings, a faulty system is not acceptable. International Organization for Standardization (ISO) also mandates testing as a part of software development life cycle. Despite all efforts, the software system may still remain prone to the bugs. Which raises question on the effectiveness of testing. Is it even useful?
+Writing unit tests is a common practice in the industry to ensure software quality. Usually meeting certain criteria of test coverage serves as a segway to product release. This is essential because software systems are used in critical areas such as health, security, finance, and space missions. In such settings, a faulty system is not acceptable. International Organization for Standardization (ISO) also mandates testing as a part of the software development life cycle. Despite all efforts, the software system may remain prone to bugs. This raises a question on the effectiveness of testing. Is it even useful?
 
-Multiple studies tried to answer this question under different settings but there seems to be no consensus on it. These studies examined all types of bugs that were found the in the systems. Nobody studied the effectiveness of testing on subsets of the bugs found in the software systems. One important subset of bugs is known as Single Statement Bugs (SSBs). They appear in just a single statement and can be fixed by modifying that statement. Those modifications can be as simple as changing a variable name, ordering arguments in a function, changing the return type, and so on. Figure \ref{fig:ssb} shows an example of a single statement bug where $!=$ needs to be replaced with $==$.
+Multiple studies tried to answer this question under different settings but there seems to be no consensus on it. These studies examined all types of bugs that were found in the systems. Nobody studied the effectiveness of testing on subsets of the bugs found in the software systems. One important subset of bugs is known as Single Statement Bugs (SSBs). They appear in just a single statement and can be fixed by modifying that statement. Those modifications can be as simple as changing a variable name, ordering arguments in a function, changing the return type, and so on. Figure \ref{fig:ssb} shows an example of a single statement bug where $!=$ needs to be replaced with $==$.
 
 \begin{figure}[h]
 	\begingroup
@@ -182,7 +181,7 @@ Multiple studies tried to answer this question under different settings but ther
 	\label{fig:ssb}
 \end{figure}
 
-SSBs occur quite often \cite{sstubs} and can be very critical. For example, Apple’s return bug resulted in invalid SSL/TLS connection verification, putting the sensitive data of millions at risk. The normal distribution of the ratio of SSB/all bugs for top 100 open source java projects using Maven build system on GitHub has a bell curve show in the Figure \ref{fig:density}. We can see that the mean lies around > 0.4. Which means there are more than 40\% of SSBs in those projects. Mitigating this large chunk of bugs can be useful in improving the overall quality of the software and prevent failures in production. The goal of our study to help practitioners understand effectiveness of testing for SSBs.
+SSBs occur quite often \cite{sstubs} and can be very critical. For example, Apple’s return bug resulted in an invalid SSL/TLS connection verification, putting the sensitive data of millions at risk. The normal distribution of the ratio of SSB/all bugs for top 100 open source java projects using the Maven build system on GitHub has a bell curve shown in Figure \ref{fig:density}. We can see that the mean lies around > 0.4. This means there are more than 40\% of SSBs in those projects. Mitigating this large chunk of bugs can be useful in improving the overall quality of the software and prevent failures in production. The goal of our study to help practitioners understand the effectiveness of testing for SSBs.
 
 \begin{figure}[h]
 	\centering
@@ -194,15 +193,15 @@ SSBs occur quite often \cite{sstubs} and can be very critical. For example, Appl
 
 
 %iii. Research Question
-We intend to understand the effectiveness of testing on SSBs by the correlation between test coverage and single statement bugs. If more test coverage in a project results in less SSBs, it shows that testing is helpful and vice versa. Which leads to our research question, \emph{Is there a correlation between test coverage and single statement bugs?} We hypothesized that there is a weak to moderate relationship between SSBs and test coverage, i.e., testing is helpful to some extent.
+We intend to understand the effectiveness of testing on SSBs by the correlation between test coverage and single statement bugs. If more test coverage in a project results in fewer SSBs, it shows that testing is helpful and vice versa. This leads to our research question, \emph{Is there a correlation between test coverage and single statement bugs?} We hypothesized that there is a weak to moderate relationship between SSBs and test coverage, i.e., testing is helpful to some extent.
 
 %iv. Summary of Methodology
-To verify our hypothesis, we analyze the the post-unit test bugs in the areas covered and not covered by the testing. If a part is covered by testing, it means it has beem executed it for its intended purpose and it works fine. In future, if bugs are found in the covered part, it will show that testing did not help here. To check that, we first generate the coverage report at the release time, and see if the bugs found after the release are in covered part or not covered part. Finally, we calculate the percentage of coverage and percentage bugs in the not covered part, to find the correlation between them. It serves as a proxy for the effectiveness of unit testing for SSBs.
+To verify our hypothesis, we analyze the post-unit test bugs in the areas covered and not covered by the testing. If a part is covered by testing, it means it has been executed for its intended purpose and it works fine. In future, if bugs are found in the covered part, it will show that testing did not help here. To check that, we first generate the coverage report at the release time, and see if the bugs found after the release are in covered part or not covered part. Finally, we calculate the percentage of coverage and percentage bugs in the not covered part, to find the correlation between them. It serves as a proxy for the effectiveness of unit testing for SSBs.
 
-For our study we use the Mining Software Repositories (MSR) 2021 challenge' SSBs dataset\cite{sstubs}. It contains 7824 SSBs from top 100 Maven based open source Java projects on GitHub. The important thing about this dataset is that projects can be built and their test can be executed. Which is important for us to be able to generate reports.
+For our study, we use the Mining Software Repositories (MSR) 2021 challenge' SSBs dataset\cite{sstubs}. It contains 7824 SSBs from the top 100 Maven-based open source Java projects on GitHub. The important thing about this dataset is that projects can be built and their test can be executed. Which is important for us to be able to generate reports.
 
 %v. Explicit list of Contribution
-After the experiment, we have found that there is a weak to moderate correlation between the test coverage and SSBs. Which shows that testing is effective to some extent in reducing the SSBs.
+After the experiment, we have found that there is a weak to moderate correlation between the test coverage and SSBs. This shows that testing is effective to some extent in reducing the SSBs.
 
 
 
@@ -230,7 +229,7 @@ $y_{i}$ – the values of the y-variable in a sample
 $\bar{y}$ – the mean of the values of the y-variable
 
 
-Percentage test coverage and number of bugs in the not covered part are the variable for our case.
+Percentage test coverage, and number of bugs in the not covered part are the variable for our case.
 
 
 \section{Related Work}
@@ -254,9 +253,9 @@ The second part of the literature, which uses SSB mainly differs from our work i
 
 \section{Methodology}
 
-This section describes the detailed methodology used to process the information from the dataset and curate the desired data for evaluation. It starts with the description of dataset for a better context and then goes through each step describing its purpose, input, and output.
+This section describes the detailed methodology used to process the information from the dataset and curate the desired data for evaluation. It starts with the description of the dataset for a better context and then goes through each step describing its purpose, input, and output.
 
-Our main goal is to find out if there are more bugs or less bugs in the covered part, after unit tests were written. For this purpose, an overview of our methodology is shown in the Figure \ref{fig:method_snap}. It consists of two major steps. In the step A, we generate the coverage reports. In the second step (B), with the help of those coverage reports, we try to find the is a certain bug belongs to the covered part or not. At the end of this whole process, we have percentage coverage for each project, and percentage covered of SSBs in the covered as well as uncovered parts. We prune the resulting data for any outliers and then use Pearson's correlation to find our results.
+Our main goal is to find out if there are more bugs or fewer bugs in the covered part, after unit tests were written. For this purpose, an overview of our methodology is shown in Figure \ref{fig:method_snap}. It consists of two major steps. In step (A), we generate the coverage reports. In the second step (B), with the help of those coverage reports, we try to find the is a certain bug belongs to the covered part or not. At the end of this whole process, we have percentage coverage for each project, and the percentage covered of SSBs in the covered as well as uncovered parts. We prune the resulting data for any outliers and then use Pearson's correlation to find our results.
 
 \begin{figure}[h]
 	\centering
@@ -268,7 +267,7 @@ Our main goal is to find out if there are more bugs or less bugs in the covered 
 
 
 \subsection{Dataset}
-For our study, we used the ManySStuBs4J\cite{sstubs} dataset. This corpous consists of simple fixes to SSBs found in top open source Java projects on GitHub. It has two different varients. The first one contains top 100 open source Java projects which use Maven as a build system. They can be built, and tests in those projects can be executed. The second one contains the top 1000 open source Java projects. In this larger varient, the projects uses different build systems and they may or may not be built. For our study, a natural choice is to use the former varient due to testability. Table \ref{tab:stat}, shows the dataset statistics.
+For our study, we used the ManySStuBs4J\cite{sstubs} dataset. This corpus consists of simple fixes to SSBs found in top open source Java projects on GitHub. It has two different variants. The first one contains teh top 100 open source Java projects which use Maven as a build system. They can be built, and tests in those projects can be executed. The second one contains the top 1000 open source Java projects. In this larger variant, the projects use different build systems and they may or may not be built. For our study, a natural choice is to use the former variant due to testability. Table \ref{tab:stat}, shows the dataset statistics.
 
 \begin{table}[h]
 	\begin{tabular}{|c|c|c|c|c|}
@@ -284,8 +283,7 @@ For our study, we used the ManySStuBs4J\cite{sstubs} dataset. This corpous consi
 	\caption{Statistics of the ManySStuBs4J dataset.}
 	\label{tab:stat}
 \end{table}
-
-Figure \ref{fig:database_snap}, shows an example of the ManySStuBs4J dataset instance. In this dataset snapshot, we can see that it contains a bug type, project name, fix commit SHA, parent commit SHA, Bug Line number, and other properties. For our study, we have used the project name, fix commit SHA, parent commit SHA, and bug line numbers from each of the data items. In the $projectName$ property, the part before period represents the organization name or user name and the part after the period represents the name of project. It comes handy while cloning the repos for processing in the later sections. For the sake of brevity, we omitted some partsin the snapshot, which are represented by three dots.
+Figure \ref{fig:database_snap}, shows an example of the ManySStuBs4J dataset instance. In this dataset snapshot, we can see that it contains a bug type, project name, fix commit SHA, parent commit SHA, Bug Line number, and other properties. For our study, we have used the project name, fix commit SHA, parent commit SHA, and bug line numbers from each of the data items. In the $projectName$ property, the part before period represents the organization name or user name and the part after the period represents the name of project. It comes handy while cloning the repos for processing in the later sections. For the sake of brevity, we omitted some parts in the snapshot, which are represented by three dots.
 
 \begin{figure}[h]
 	\centering
@@ -318,17 +316,17 @@ Figure \ref{fig:database_snap}, shows an example of the ManySStuBs4J dataset ins
 
 \subsection{Splitting the Dataset By Projects}
 
-The corpus of datset is quite large. While processing a single project, we should not be enumerating through the whole dataset. To ease the search, we splitted the dataset based on the project name. We processed the whole dataset to sort it by the project name and then saved data of each project in separate JSON files. In each of the new datasets, they contain bugs from the same project.
+The corpus of the dataset is quite large. While processing a single project, we should not be enumerating through the whole dataset. To ease the search, we split the dataset based on the project name. We processed the whole dataset to sort it by the project name and then saved data of each project in separate JSON files. In each of the new datasets, they contain bugs from the same project.
 
 \subsection{Cloning Projects}
 
-To clone the projects, first we contstructed the repository link for each project by using the projectName property given in the dataset. Then we used those links to clone the projects from GitHub in our local machines for further processing. The whole process was automated through a Python script.
+To clone the projects, first we constructed the repository link for each project by using the $projectName$ property given in the dataset. Then we used those links to clone the projects from GitHub in our local machines for further processing. The whole process was automated through a Python script.
 
 \subsection{Finding the Distribution of Bugs}
 
-This is a crucial step. The bugs listed in the ManySStuBs4J\cite{sstubs} dataset span to multiple years. For example, in case of JUnit4, there are bugs from year 2002 till 2017. To check, if a bug was discovered in the covered portion or not, we need to get the coverage report at the release time before that bug was found. Since we target a certain coverage before each release, the release time serves as a good point to take the coverage report. But it is very difficult and time consuming to generate reports for such a long period of time for various reasons. Firstly, it is hard to resolve the dependencies to execute the test cases, and there could be a very large number of releases in such a long period. Secondly, for the very old versions, it hard to integrate Jacoco to begin with. Jacoco is the tool that we use to generate the coverage reports.
+This is a crucial step. The bugs listed in the ManySStuBs4J\cite{sstubs} dataset span multiple years. For example, in the case of JUnit4, there are bugs from the year 2002 till 2017. To check, if a bug was discovered in the covered portion or not, we need to get the coverage report at the release time before that bug was found. Since we target a certain coverage before each release, the release time serves as a good point to take the coverage report. But it is very difficult and time-consuming to generate reports for such a long time for various reasons. Firstly, it is hard to resolve the dependencies to execute the test cases, and there could be a very large number of releases in such a long period. Secondly, for the very old versions, it hard to integrate Jacoco to begin with. Jacoco is the tool that we use to generate the coverage reports.
 
-To resolve this, we find the distriution of the bugs with respect to years. Then we identify the high bug density area to generate the reports for that portion. It serves as a good proxy for overall project. For example, Figure \ref{fig:distribution} shows an example of such distribution in the form of bar graph for a project in the dataset, named Jedis. It is clear from the image that it is more useful to generate the reports for the releases between 2013 and 2017 than any other portion.
+To resolve this, we find the distribution of the bugs with respect to years. Then we identify the high bug density area to generate the reports for that portion. It serves as a good proxy for overall project. For example, Figure \ref{fig:distribution} shows an example of such distribution in the form of a bar graph for a project in the dataset, named Jedis. It is clear from the image that it is more useful to generate the reports for the releases between 2013 and 2017 than any other portion.
 
 \begin{figure}[h]
 	\centering
@@ -338,37 +336,37 @@ To resolve this, we find the distriution of the bugs with respect to years. Then
 	\label{fig:distribution}
 \end{figure}
 
-For some projects, it was not possible to generate the reports for all the identified region for a few reasons. For some versions the dependencies could not be resolved, for a few jar files were missings, some used very old versions of Maven, and in a few cases, there were no tests. Some projects had very huge test suites, taking more than an hour to execute the tests and generate the reports. In such cases, it was not possible to generate reports for a good number of versions. Another advantage of this approach is that we end up generating coverage reports for the consecutive releases. In the consecutive releases, coverage does not change much. As a result, when we are able to take average of coverage to indicate the percentage coverage in the project.
+For some projects, it was not possible to generate the reports for all the identified regions for a few reasons. For some versions the dependencies could not be resolved, for a few jar files were missing, some used very old versions of Maven, and in a few cases, there were no tests. Some projects had very huge test suites, taking more than an hour to execute the tests and generate the reports. In such cases, it was not possible to generate reports for a good number of versions. Another advantage of this approach is that we end up generating coverage reports for the consecutive releases. In consecutive releases, coverage does not change much. As a result, when we can take the average of coverage to indicate the percentage coverage in the project.
 
 \subsection{Generating Coverage Reports}
 
-Once we identified the versions using the bug density distribution, we manually checcked out to each version and resolved the dependencies to generate the coverage reports. Most of the projects did not include Jacoco to generate the reports. In such projects, we had to figure out the appropriate version for each release before generating the report. Each project also have different structure and test runner to execute the unit tests. That also needed to be taken in account to be able to generate the reports.
+Once we identified the versions using the bug density distribution, we manually checked out each version and resolved the dependencies to generate the coverage reports. Most of the projects did not include Jacoco to generate the reports. In such projects, we had to figure out the appropriate version for each release before generating the report. Each project also has a different structure and test runner to execute the unit tests. That also needed to be taken into account to be able to generate the reports.
 
-We evaluated more than 50 projects from the dataset during our study. However we were able to generate reports properly for around 17 projects only.It is mainly due to failure in resolving one or more issues mentioned above. All the generated reports and files with fixes for each project are available as a part of recreation package for this study in the GitHub repo of the project artifacts.
+We evaluated more than 50 projects from the dataset during our study. However, we were able to generate reports properly for around 17 projects only. It is mainly due to failure in resolving one or more issues mentioned above. All the generated reports and files with fixes for each project are available as a part of the recreation package for this study in the GitHub repo of the project artifacts.
 
 \subsection{Getting Release Number}
 
 Once we have all the reports for the projects. The next step (B) of our methodology begins, where we have to analyze if find the ratio of bugs in the covered and uncovered parts. This whole process is automated with Python and Shell scripts.
 
-For this purpose, used the separated datset of projects. For each project, we enumerated through its dataset, going through each SSB one by one. For each SSB, we identified its release version, and then used the report generated for that version to idenitify it that bug was in the covered part or not. This process is repeated for all the bugs in the dataset against that project and the results are recorded.
+For this purpose, we used the separated dataset of projects. For each project, we enumerated through its dataset, going through each SSB one by one. For each SSB, we identified its release version and then used the report generated for that version to identify it that bug was in the covered part or not. This process is repeated for all the bugs in the dataset against that project and the results are recorded.
 
 \subsection{Fetching Report for Particular Release}
 
-At this stage, we fetch those reports based on the release version. During the manual report generation process, we saved the $xml$ file as well as the $html$ file for the Jacoco report. The former contains the the details about the covered and uncovered lines at a granular level while the latter contains the percentage coverage for the test suite.
+At this stage, we fetch those reports based on the release version. During the manual report generation process, we saved the $xml$ file as well as the $html$ file for the Jacoco report. The former contains the details about the covered and uncovered lines at a granular level while the latter contains the percentage coverage for the test suite.
 
-We parsed the $xml$ file using the MiniDom Python API to identify in which part the bug occurred, and then parsed the $html$ file with BeautifulSoup (an open source library for scrapping) to extract the percentage coverage for that particular version.
+We parsed the $xml$ file using the MiniDom Python API to identify in which part the bug occurred and then parsed the $html$ file with BeautifulSoup (an open source library for scrapping) to extract the percentage coverage for that particular version.
 
 \subsection{Identifying SSBs in Covered and Not Covered Parts}
 
 In this section, we explain how exactly we identified and counted the number of bugs in covered and not covered part from the $jacoco.xml$. The $xml$ report file contains information like missed instructions, missed branches, as well as covered instructions and covered branches. For the bugs, where the covered instructions and covered branches were zero, they corresponded to the uncovered part and vice versa.
 
-After enumerating the whole dataset, and repeating the aforementioned step for each of them, we end up with the total number of bugs in covered and not covered part. Using those numbers, we find the percentage of bugs in the uncovered part.
+After enumerating the whole dataset, and repeating the aforementioned step for each of them, we end up with the total number of bugs in the covered and not covered part. Using those numbers, we find the percentage of bugs in the uncovered part.
 
 \subsection{Calculating the Correlation Coefficient}
 
-The data collected till this stage is shown in the Table 2. It does not reflect all the data from section 4.8, rather it represents the data after removing the outliers. Outliers projects included a very small number of bugs (less than 5) and all of them were either in the covered part or the uncovered part. The reason such outliers occurred, despite identifying the high bug density releases in section 4.1, is that we could not generate reports for many versions in those parts.
+The data collected till this stage is shown in Table 2. It does not reflect all the data from section 4.8, rather it represents the data after removing the outliers. Outliers projects included a very small number of bugs (less than 5) and all of them were either in the covered part or the uncovered part. The reason such outliers occurred, despite identifying the high bug density releases in section 4.1, is that we could not generate reports for many versions in those parts.
 
-We used thus data to calculate the correlation coefficient between the percentage of SSBs that are not covered part and the average percentage coverage. For calculing correlation, we used the Equation \ref{eq:1}. Based on this correlation coefficient, we verified hypothesis. The results and their implications, based on the result of this step, are discussed in detail in the Section 5.
+We used this data to calculate the correlation coefficient between the percentage of SSBs that are not covered part and the average percentage coverage. For calculating correlation, we used the Equation \ref{eq:1}. Based on this correlation coefficient, we verified the hypothesis. The results and their implications, based on the result of this step, are discussed in detail in Section 5.
 
 \section{Results}
 Previous section explains how we used the SStuBs to collect the data from GitHub, used Jacoco to generate the coverage reports, and processed them to get the desired data. In this section, using that data, we try to answer our research question.
@@ -376,8 +374,7 @@ Previous section explains how we used the SStuBs to collect the data from GitHub
 \subsection{How is Testing Related to SSBs?}
 
 In our research question, we asked if there a correlation between test coverage and SSBs. The purpose of this question is to find out if increasing the coverage can be “actually” helpful in reducing the SSBs.
-
-\begin{table}[H]
+\begin{table}[h]
 	\begin{tabular}{|c|c|c|}
 		\hline
 		\textbf{Project Name} & \textbf{Percentage} & \textbf{Bugs in Not} \\
@@ -400,7 +397,6 @@ In our research question, we asked if there a correlation between test coverage 
 	\caption{Data collected about projects on percentage coverage and percentage of SSBs in not covered part}
 	\label{tab:ppc}
 \end{table}
-
 Table \ref{tab:ppc}  shows the data collected to answer this question. The first column shows the project name, and the second column shows the average percentage test coverage, while the third column shows the percentage of SSBs in the not covered part. We are considering the bugs in the non-covered part as they provide an easy way to understand the effectiveness of coverage. A higher percentage of them indicates that coverage is effective and vice versa. In our data, we have a mixed percentage. We used this data to find the correlation coefficient (\emph{r}) between the percentage of coverage and the percentage of SSBs. The \emph{r}-value turned out to be 0.40, which translates into a weak to moderate positive correlation between them. It shows that high coverage helps mitigate the SSBs. This correlation is shown in \ref{fig:corr}. We can see that increased covered is related to greater percentage of bugs in the not covered part and testing is useful here.\\
 
 
@@ -429,9 +425,9 @@ Another important aspect to consider is that all the reports are generated manua
 
 \section{Conclusion and Future Work}
 
-We tried to find the effectiveness of the unit testing for the SSBs. Instead of synthetic test or faults, we relied on the real bugs found the software systems and the real tests written at the time of their releases. We used a good number of projects so that the result could be generalized for the Maven based Java projects. All the projects are open source and can be explored to understand their nature. We found that to some extent, less number of bugs were found in the covered parts as compared to the uncovered parts. Which shows that coverage should be improved in software systems to reduce the number of SSBs. For the companies, it implies that testing should prioritized since it is helpful in ensuring the software quality.
+We tried to find the effectiveness of the unit testing for the SSBs. Instead of synthetic tests or faults, we relied on the real bugs found in the software systems and the real tests written at the time of their releases. We used a good number of projects so that the result could be generalized for the Maven based Java projects. All the projects are open source and can be explored to understand their nature. We found that to some extent, fewer bugs were found in the covered parts as compared to the uncovered parts. Which shows that coverage should be improved in software systems to reduce the number of SSBs. For the companies, it implies that testing should be prioritized since it is helpful in ensuring the software quality.
 
-Apart from the aforementioned implications, our study paves the way for potential future work. We identified a few directions which can be explored in the future to better understand the effect of coverage on the SSBs. We identified in related work (Section 4) that some studies added more variables, such as test suite size, while studying the effectivness of testing. Similar approach can be taken with SSBs to see if the correlation still holds or changes. Secondly, the scope our study is limited to only one build system, i.e, Maven, and Java language. Which is mainly due to the availability of buildable and testable softwares in Maven along with the SSBs dataset. Similar study can be conducted with other build systems or even other languages. Lastly, all the projects included in our study were open source projects. It would be interesting to see the results in closed source projects.
+Apart from the aforementioned implications, our study paves the way for potential future work. We identified a few directions which can be explored in the future to better understand the effect of coverage on the SSBs. We identified in related work (Section 4) that some studies added more variables, such as test suite size, while studying the effectiveness of testing. A similar approach can be taken with SSBs to see if the correlation still holds or changes. Secondly, the scope of our study is limited to only one build system, i.e, Maven, and Java language. Which is mainly due to the availability of buildable and testable softwares in Maven along with the SSBs dataset. Similar studies can be conducted with other build systems or even other languages. Lastly, all the projects included in our study were open source projects. It would be interesting to see the results in closed source projects.
 %\section{Typefaces}
 %
 %The ``\verb|acmart|'' document class requires the use of the
