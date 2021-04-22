@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  21 APR 2021 17:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  21 APR 2021 18:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -939,15 +939,15 @@ Package rerunfilecheck Info: File `sample-manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: 12F20DCA5FF2EB563DE45155C4467611;3424.
  ) 
 Here is how much of TeX's memory you used:
- 19352 strings out of 480608
- 294777 string characters out of 5903631
- 598723 words of memory out of 5000000
+ 19351 strings out of 480608
+ 294747 string characters out of 5903631
+ 598725 words of memory out of 5000000
  34402 multiletter control sequences out of 15000+600000
- 680560 words of font info for 285 fonts, out of 8000000 for 9000
+ 680446 words of font info for 284 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  63i,12n,100p,1866b,573s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-4.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_afusau.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/newtx/LibertineMathMI.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/newtx/LibertineMathMI7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on /Users/saqib/code/masters/501-graduate-project/final_report/sample-manuscript.pdf (5 pages, 522268 bytes).
+Output written on /Users/saqib/code/masters/501-graduate-project/final_report/sample-manuscript.pdf (5 pages, 522255 bytes).
 PDF statistics:
  240 PDF objects out of 1000 (max. 8388607)
  199 compressed objects within 2 object streams
