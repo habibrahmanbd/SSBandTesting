@@ -6,14 +6,6 @@ This repository contains the project artifacts for the graduate project of CMPUT
  - Saqib Ameen (saqib1)
  - [Habibur Rahman](https://habibrahman.me) (habibur)
 
-## Dependencies
- - Python 3
- - [github3](https://github.com/sigmavirus24/github3.py)
- ````shell
- # Quick Installation steps
- pip3 install -r requirements.txt
- ````
- These scripts have been tested with Python 3.9.1(latest).
 
 ## Directory structure
 
@@ -57,16 +49,49 @@ This repository contains the project artifacts for the graduate project of CMPUT
 │   │   ├── Activiti                                              # Contains the cloned Project from Git
 |   |   ├── ...
 ```
-## Instructions
-### Step 1: Project wise Dataset Split
+
+## Generating the Results
+
+This section describes how you can generate the final results *from the already generated reports* for all the projects. All the scripts are tested with Python 3.9.1(latest). All the steps should be performed inside `scripts/` directory.
+
+
+### Step 0: Resolving Dependencies
+
+Make sure you have Python3 installed. We use some Python libraries during the automation/processing of our data. The are all listed in the `scripts/requiremens.txt` file. Run the following command the install the dependencies:
+
+ ````shell
+ pip3 install -r requirements.txt
+ ````
+
+### Step 1: Preprocessing Data
+
+It splits the dataset from a single file to project wise `.csv` files, that we use later on. It generates the `.csv` files in `scripts/dataset_split/` directory. You can omit this step if you want, since we have already have added the results folder.
+
 ```shell
 python3 json_preprocess.py
 ```
-### Step 2: Print Coverage, and Bug Result in .res file and print Projectwise Bug Distribution Graph in <repo_name>.png file
+
+### Step 2: Calculating the Results
+
+Final step is calculate the percentage of bugs in the covered and uncovered parts as well as the percentage coverage. To do this, run the following command:
+
 ```shell
-./evaluate_all.sh
+./evaluate_all.sh repo_list.txt
 ```
-### Step 3: Correlation Report Generation
+
+`repo_list.txt` contains the links for the repos against which the reports exist. This script clones them and process them further to get the results. The results are then saved in `results.csv` file. We have included it in out repo.
+
+We further process it to remove outliers, we have saved our processed `.csv` file in `scripts/results_manually_processed.csv`.
+
+### Step 3: Finding Correlation
+
+We find the correlation in Excel. For this, we use the following formula:
+
+```
+=CORREL(<RANGE_OF_PERCENTAGE_COVERAGE>,<RANGE_OF_PERCENTAGE_BUGS_IN_NOT_COVERED>)
+```
+
+For `scripts/results_manually_processed.csv`, it looks like `=CORREL(E2:E13,G2:G13)`.
 
 ## Troubleshooting
 
