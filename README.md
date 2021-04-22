@@ -94,6 +94,4 @@ We find the correlation in Excel. For this, we use the following formula:
 
 For `scripts/results_manually_processed.csv`, it looks like `=CORREL(E2:E13,G2:G13)`.
 
-## Troubleshooting
-
-## License
+## Generating the Coverage Reports for the Projects

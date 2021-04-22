@@ -1,5 +1,7 @@
 # Druid
 
+Clone repo: `git clone https://github.com/alibaba/druid.git`
+
 We have added `pom.xml` files for following versions in their respective folders:
 
 1. 1.1.10

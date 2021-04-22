@@ -1,5 +1,7 @@
 # Cucumber JVM
 
+Clone repo: `git clone https://github.com/cucumber/cucumber-jvm.git`
+
 We have added `pom.xml` files for following versions in their respective folders:
 
 1. v3.0.0

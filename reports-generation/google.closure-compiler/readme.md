@@ -1,5 +1,7 @@
 # Closure Compiler
 
+Clone repo: `git clone https://github.com/google/closure-compiler.git`
+
 We have added `pom.xml` files for following versions in their respective folders:
 
  1. v20171203

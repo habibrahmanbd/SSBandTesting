@@ -1,5 +1,7 @@
 # HikariCP
 
+Clone repo: `git clone https://github.com/brettwooldridge/HikariCP.git`
+
 We have added `pom.xml` files for following versions in their respective folders:
 
 1. HikariCP-2.3.0
