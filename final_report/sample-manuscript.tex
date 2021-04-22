@@ -178,17 +178,17 @@ Multiple studies tried to answer this question under different settings but ther
 	+   if (submittedNode == null || submittedNode.get("values") == null) {
 	\end{verbatim}
 	\endgroup
-	\caption{Example of a single statement bug before and after the fix}
+	\caption{Example of a single statement bug before and after the fix.}
 	\label{fig:ssb}
 \end{figure}
 
-SSBs occur quite often \cite{ManySStuBs4JCorpus2019} and can be very critical. For example, Apple’s return bug resulted in invalid SSL/TLS connection verification, putting the sensitive data of millions at risk. The normal distribution of the ratio of SSB/all bugs for top 100 open source java projects using Maven build system on GitHub has a bell curve show in the Figure \ref{fig:density}. We can see that the mean lies around > 0.4. Which means there are more than 40\% of SSBs in those projects. Mitigating this large chunk of bugs can be useful in improving the overall quality of the software and prevent failures in production. The goal of our study to help practitioners understand effectiveness of testing for SSBs.
+SSBs occur quite often \cite{sstubs} and can be very critical. For example, Apple’s return bug resulted in invalid SSL/TLS connection verification, putting the sensitive data of millions at risk. The normal distribution of the ratio of SSB/all bugs for top 100 open source java projects using Maven build system on GitHub has a bell curve show in the Figure \ref{fig:density}. We can see that the mean lies around > 0.4. Which means there are more than 40\% of SSBs in those projects. Mitigating this large chunk of bugs can be useful in improving the overall quality of the software and prevent failures in production. The goal of our study to help practitioners understand effectiveness of testing for SSBs.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{img/occurrence_of_stub.png}
 	\caption{Distribution of SSBs in the top 100 open source Java projects on GitHub using Maven build system}
-	\Description{A graph of density of single statement bugs}
+	\Description{A graph of density of single statement bugs.}
 	\label{fig:density}
 \end{figure}
 
@@ -199,7 +199,7 @@ We intend to understand the effectiveness of testing on SSBs by the correlation 
 %iv. Summary of Methodology
 To verify our hypothesis, we analyze the the post-unit test bugs in the areas covered and not covered by the testing. If a part is covered by testing, it means it has beem executed it for its intended purpose and it works fine. In future, if bugs are found in the covered part, it will show that testing did not help here. To check that, we first generate the coverage report at the release time, and see if the bugs found after the release are in covered part or not covered part. Finally, we calculate the percentage of coverage and percentage bugs in the not covered part, to find the correlation between them. It serves as a proxy for the effectiveness of unit testing for SSBs.
 
-For our study we use the Mining Software Repositories (MSR) 2021 challenge' SSBs dataset\cite{ManySStuBs4JCorpus2019}. It contains 7824 SSBs from top 100 Maven based open source Java projects on GitHub. The important thing about this dataset is that projects can be built and their test can be executed. Which is important for us to be able to generate reports.
+For our study we use the Mining Software Repositories (MSR) 2021 challenge' SSBs dataset\cite{sstubs}. It contains 7824 SSBs from top 100 Maven based open source Java projects on GitHub. The important thing about this dataset is that projects can be built and their test can be executed. Which is important for us to be able to generate reports.
 
 %v. Explicit list of Contribution
 After the experiment, we have found that there is a weak to moderate correlation between the test coverage and SSBs. Which shows that testing is effective to some extent in reducing the SSBs.
@@ -254,10 +254,28 @@ The second part of the literature, which uses SSB mainly differs from our work i
 
 \section{Methodology}
 
-There are several steps in our overall project methodology. Depending on the ManySStubs\cite{ManySStuBs4JCorpus2019} datasets, we started project cloning from Github and ended in result generation.
+This section describes the detailed methodology used to process the information from the dataset and curate the desired data for evaluation. It starts with the description of dataset for a better context and walks through each step describing its purpose, input, and output. Finally, it concludes with an overview of the whole process and gathered data for evluation.
 
 \subsection{Dataset}
-The ManySStuBs4J\cite{ManySStuBs4JCorpus2019} corpus is a collection of simple fixes to Java bugs. It has two different project types. Figure , shows an example of the dataset that we used. In the dataset snapshot Figure \ref{fig:database_snap}, we can see that it contains a bug type, project name, fix commit SHA, parent commit SHA, Bug Line number, and other necessary properties. For our project, we have used the project name, fix commit SHA, parent commit SHA, and bug line numbers from each of the data items.
+For our study, we use the ManySStuBs4J\cite{sstubs} dataset. This corpous is a collection of simple fixes to SSBs found in top open source Java projects on GitHub. It has two different varients. The first one contains top 100 open source Java projects which use Maven as a build system. They can be built, and tests in those projects can be executed. The second one contains the top 1000 open source Java projects. In this larger varient, the projects uses different build systems and they may or may not be built. For our study, a natural choice is to use the former varient due to testability. Table \ref{tab:stat}, shows the dataset statistics.
+
+\begin{table}[h]
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		\textbf{Projects}&\textbf{Bug}&\textbf{Buggy}&\textbf{Bugs}&\textbf{SSBs}\\
+		& \textbf{Commits}&  \textbf{stmts} & \textbf{per}&\\
+		& & & \textbf{Commit}&\\
+		\hline
+		100 Java Maven&12598		   & 25539	&	          2.03    &  		7824\\
+		1000 Java&86771   	   & 153652	&	          1.77     &  		51537\\
+		\hline
+	\end{tabular}
+	\caption{Statistics of the ManySStuBs4J dataset.}
+	\label{tab:stat}
+\end{table}
+
+Figure \ref{fig:database_snap}, shows an example of the ManySStuBs4J dataset instance. In this dataset snapshot, we can see that it contains a bug type, project name, fix commit SHA, parent commit SHA, Bug Line number, and other properties. For our project, we have used the project name, fix commit SHA, parent commit SHA, and bug line numbers from each of the data items. In the $projectName$ property, the part before period represents the organization name or user name and the part after the period represents the name of project. It comes handy while cloning the repos for processing in the later sections.
+
 \begin{figure}[h]
 	\centering
 %	\includegraphics[width=\linewidth]{img/dataset_snap.png}
@@ -282,26 +300,12 @@ The ManySStuBs4J\cite{ManySStuBs4JCorpus2019} corpus is a collection of simple f
 }
 	\end{verbatim}
 	\endgroup
-	\caption{Dataset item Snap}
-	\Description{A snap of a single databest item.}
+	\caption{A snapshot of the ManySStuBs4J dataset instance.}
+	\Description{A snapshot of the ManySStuBs4J dataset instance.}
 	\label{fig:database_snap}
 \end{figure}
 
-Table \ref{tab:stat}, shows the dataset statistics. This dataset contains 100 Java Maven and 100 other Java projects. We have used the maven projects for our experiments.
-\begin{table}[h]
-	\begin{tabular}{|c|c|c|c|c|}
-		\hline
-		\textbf{Projects}&\textbf{Bug}&\textbf{Buggy}&\textbf{Bugs}&\textbf{SStuBs}\\
-		& \textbf{Commits}&  \textbf{stmts} & \textbf{per}&\\
-		& & & \textbf{Commit}&\\
-		\hline
-		100 Java Maven&12598		   & 25539	&	          2.03    &  		7824\\
-		100 Java&86771   	   & 153652	&	          1.77     &  		51537\\
-		\hline
-	\end{tabular}
-	\caption{Statistics of Dataset}
-	\label{tab:stat}
-\end{table}
+
 
 Besides automated scripts, we have worked on manual projects to generate the test coverage reports for the projects. Figure \ref{fig:method_snap} shows our overall methodology.
 

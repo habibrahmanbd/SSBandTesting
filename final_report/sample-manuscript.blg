@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2020)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: sample-manuscript.aux
 The style file: ACM-Reference-Format.bst
@@ -16,48 +16,45 @@ Warning--empty address in similar
 Warning--no number and no volume in sequenceR
 Warning--no number and no volume in gren_2017
 Warning--page numbers missing in both pages and numpages fields in gren_2017
-Warning--empty booktitle in ManySStuBs4JCorpus2019
-Warning--empty publisher in ManySStuBs4JCorpus2019
-Warning--empty address in ManySStuBs4JCorpus2019
-You've used 10 entries,
+You've used 9 entries,
             5959 wiz_defined-function locations,
-            1575 strings with 19288 characters,
-and the built_in function-call counts, 12464 in all, are:
-= -- 1562
-> -- 480
+            1572 strings with 19176 characters,
+and the built_in function-call counts, 11453 in all, are:
+= -- 1468
+> -- 442
 < -- 0
-+ -- 170
-- -- 176
-* -- 894
-:= -- 1252
-add.period$ -- 49
-call.type$ -- 10
-change.case$ -- 73
-chr.to.int$ -- 10
-cite$ -- 18
-duplicate$ -- 1077
-empty$ -- 735
-format.name$ -- 216
-if$ -- 2981
++ -- 157
+- -- 160
+* -- 830
+:= -- 1145
+add.period$ -- 45
+call.type$ -- 9
+change.case$ -- 67
+chr.to.int$ -- 9
+cite$ -- 14
+duplicate$ -- 975
+empty$ -- 664
+format.name$ -- 196
+if$ -- 2750
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 40
-newline$ -- 146
-num.names$ -- 80
-pop$ -- 388
+missing$ -- 35
+newline$ -- 139
+num.names$ -- 72
+pop$ -- 332
 preamble$ -- 1
-purify$ -- 162
+purify$ -- 147
 quote$ -- 0
-skip$ -- 423
+skip$ -- 387
 stack$ -- 0
-substring$ -- 821
-swap$ -- 133
+substring$ -- 768
+swap$ -- 129
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 244
-warning$ -- 8
-while$ -- 72
+type$ -- 214
+warning$ -- 5
+while$ -- 64
 width$ -- 0
-write$ -- 240
-(There were 8 warnings)
+write$ -- 226
+(There were 5 warnings)

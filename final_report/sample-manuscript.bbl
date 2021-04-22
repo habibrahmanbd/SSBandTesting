@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{10}
+\begin{thebibliography}{9}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -130,16 +130,6 @@
 \urldef\tempurl%
 \url{https://doi.org/10.1145/2568225.2568271}
 \showDOI{\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Karampatsis and Sutton}{Karampatsis and
-  Sutton}{2019}]%
-        {ManySStuBs4JCorpus2019}
-\bibfield{author}{\bibinfo{person}{Rafael-Michael Karampatsis} {and}
-  \bibinfo{person}{Charles Sutton}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{{How Often Do Single-Statement Bugs Occur? The
-  ManySStuBs4J Dataset}}.
-\newblock
 
 
 \bibitem[\protect\citeauthoryear{Karampatsis and Sutton}{Karampatsis and
