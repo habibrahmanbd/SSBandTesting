@@ -3,8 +3,9 @@
 This repository contains the project artifacts for the graduate project of CMPUT501 - Software Quality course instructed by Prof. Sarah Nadi.
 
 ## Students
- - Saqib Ameen (saqib1)
  - [Habibur Rahman](https://habibrahman.me) (habibur)
+ - Saqib Ameen (saqib1)
+
 
 
 ## Directory structure
@@ -48,7 +49,7 @@ This repository contains the project artifacts for the graduate project of CMPUT
 ├── final_report                                                  # Contains the final report of project
 ```
 
-## Generating the Results
+## 📈 Generating the Results
 
 This section describes how you can generate the final results *from the already generated reports* for all the projects. All the scripts are tested with Python 3.9.1(latest). All the steps should be performed inside `scripts/` directory.
 
