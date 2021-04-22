@@ -81,7 +81,7 @@ Final step is calculate the percentage of bugs in the covered and uncovered part
 
 `repo_list.txt` contains the links for the repos against which the reports exist. This script clones them and process them further to get the results. The results are then saved in `results.csv` file. We have included it in out repo.
 
-We further process it to remove outliers, we have saved one such `.csv` file in `scripts/results_manually_processed.csv`.
+We further process it to remove outliers, we have saved our processed `.csv` file in `scripts/results_manually_processed.csv`.
 
 ### Step 3: Finding Correlation
 
