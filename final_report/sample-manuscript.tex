@@ -261,14 +261,14 @@ The ManySStuBs4J\cite{ManySStuBs4JCorpus2019} corpus is a collection of simple f
 	\centering
 %	\includegraphics[width=\linewidth]{img/dataset_snap.png}
 	\begingroup
-	\fontsize{5pt}{6pt}\selectfont
+	\fontsize{7pt}{10pt}\selectfont
 	\begin{verbatim}
   {
 "bugType": "CHANGE_OPERATOR",
 "fixCommitSHA1": "aa90e04b5e6eb7f6d46dde16867196329568324e",
 "fixCommitParentSHA1": "46d3a4007fe1418d53baabc16dec39275079684b",
-"bugFilePath": "... java/org/activiti/form/engine/impl/cmd/GetRuntimeFormDefinitionCmd.java",
-"fixPatch": " ... ",
+"bugFilePath": "/java/org/../GetRuntimeFormDefinitionCmd.java",
+"fixPatch": "...",
 "projectName": "Activiti.Activiti",
 "bugLineNum": 184,
 "bugNodeStartChar": 8444,
@@ -361,7 +361,7 @@ In our research question, we asked if there a correlation between test coverage 
 	\label{tab:ppc}
 \end{table}
 
-Table \ref{tab:ppc}  shows the data collected to answer this question. The first column shows the project name, and the second column shows the average percentage test coverage, while the third column shows the percentage of SSBs in the not covered part. We are considering the bugs in the non-covered part as they provide an easy way to understand the effectiveness of coverage. A higher percentage of them indicates that coverage is effective and vice versa. In our data, we have a mixed percentage. We used this data to find the correlation coefficient (\emph{r}) between the percentage of coverage and the percentage of SSBs. The \emph{r}-value turned out to be 0.40, which translates into a weak to moderate positive correlation between them. It shows that high coverage helps mitigate the SSBs. This correlation is shown in \ref{fig:corr}. We can see that increased covered is related to greater percentage of bugs in the not covered part and testing is useful here.
+Table \ref{tab:ppc}  shows the data collected to answer this question. The first column shows the project name, and the second column shows the average percentage test coverage, while the third column shows the percentage of SSBs in the not covered part. We are considering the bugs in the non-covered part as they provide an easy way to understand the effectiveness of coverage. A higher percentage of them indicates that coverage is effective and vice versa. In our data, we have a mixed percentage. We used this data to find the correlation coefficient (\emph{r}) between the percentage of coverage and the percentage of SSBs. The \emph{r}-value turned out to be 0.40, which translates into a weak to moderate positive correlation between them. It shows that high coverage helps mitigate the SSBs. This correlation is shown in \ref{fig:corr}. We can see that increased covered is related to greater percentage of bugs in the not covered part and testing is useful here.\\
 
 
 \begin{figure}[h]
@@ -375,7 +375,7 @@ Table \ref{tab:ppc}  shows the data collected to answer this question. The first
 
 \fbox{\begin{minipage}{25em}
 		\textbf{RQ 1 Answer.} \emph{Our results suggest that there is a positive weak to moderate correlation between the unit test coverage and the number of SSBs found in the not covered parts. The coverage seems to be effective for SSBs, to some degree.}
-	\end{minipage}}\\
+	\end{minipage}}\\\\
 
 
 
