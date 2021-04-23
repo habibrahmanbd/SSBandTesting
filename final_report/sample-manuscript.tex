@@ -29,8 +29,13 @@
 % \documentclass[acmlarge,screen]{acmart}
 
 %%%% Large double column format, used for TOG
-\documentclass[acmtog, authorversion, screen]{acmart}
+%\documentclass[acmtog, authorversion, screen]{acmart}
+\documentclass[sigconf,nonacm]{acmart}
+%\documentclass[sigconf]{acmart}
 
+%\settopmatter{printacmref=false}
+\setcopyright{none}
+%\pagenumbering{arabic}
 %%%% Generic manuscript mode, required for submission
 %%%% and peer review
 %\documentclass[manuscript,screen,review]{acmart}
@@ -161,8 +166,9 @@
 %%
 %% This command processes the author and affiliation and title
 %% information and builds the first part of the formatted document.
-\maketitle
 
+\maketitle
+\settopmatter{printfolios=true}
 \section{Introduction}
 %i. Problem Statement
 Writing unit tests is a common practice in the industry to ensure software quality. Usually meeting certain criteria of test coverage serves as a segway to product release. This is essential because software systems are used in critical areas such as health, security, finance, and space missions. In such settings, a faulty system is not acceptable. International Organization for Standardization (ISO) also mandates testing as a part of the software development life cycle. Despite all efforts, the software system may remain prone to bugs. This raises a question on the effectiveness of testing. Is it even useful?
@@ -196,7 +202,7 @@ SSBs occur quite often \cite{sstubs} and can be very critical. For example, Appl
 We intend to understand the effectiveness of testing on SSBs by the correlation between test coverage and single statement bugs. If more test coverage in a project results in fewer SSBs, it shows that testing is helpful and vice versa. This leads to our research question, \emph{Is there a correlation between test coverage and single statement bugs?} We hypothesized that there is a weak to moderate relationship between SSBs and test coverage, i.e., testing is helpful to some extent.
 
 %iv. Summary of Methodology
-To verify our hypothesis, we analyze the post-unit test bugs in the areas covered and not covered by the testing. If a part is covered by testing, it means it has been executed for its intended purpose and it works fine. In future, if more bugs are found in the covered part, it will show that testing did not help here. To check that, we first generate the coverage report at the release time, and see if the bugs found after the release are in covered part or not covered part. Finally, we calculate the percentage of coverage and percentage bugs in the not covered part, to find the correlation between them. It serves as a proxy for the effectiveness of unit testing for SSBs.
+To verify our hypothesis, we analyze the post-unit test bugs in the areas covered and not covered by the testing. If a part is covered by testing, it means it has been executed for its intended purpose and it works fine. In future, if more bugs are found in the covered part, it will show that testing did not help here. However, if that is not the scenario, it indicates the effectiveness of testing. This approach is similar to \cite{similar} as shown in Figure \ref{fig:cov_scn}. To check that, we first generate the coverage report at the release time, and see if the bugs found after the release are in covered part or not covered part. Finally, we calculate the percentage of coverage and percentage bugs in the not covered part, to find the correlation between them. It serves as a proxy for the effectiveness of unit testing for SSBs.
 
 For our study, we use the Mining Software Repositories (MSR) 2021 challenge' SSBs dataset\cite{sstubs}. It contains 7824 SSBs from the top 100 Maven-based open source Java projects on GitHub. The important thing about this dataset is that projects can be built and their test can be executed. Which is important for us to be able to generate reports.
 
@@ -206,7 +212,6 @@ After the experiment, we have found that there is a weak to moderate correlation
 
 
 \section{Background and Terminology}
-
 %ii. Test Coverage
 Test coverage is the percentage of lines of code executed by the tests for a project. We measure testing in the form of test coverage. A project that has 87\% coverage means 87 out of 100 lines of code has been executed by the test cases of that project. In this writing, the word 'coverage' refers to test coverage.
 
@@ -236,7 +241,7 @@ Percentage test coverage, and number of bugs in the not covered part are the var
 	\includegraphics[scale=0.7, angle=-90,width=0.5\linewidth]{img/cov_scn.pdf}
 	\caption{An overview of the bug distribution scenario based on coverage. \cite{similar}}
 	\Description{A snap of the bug distribution scenario based on coverage.}
-	\label{fig:method_snap}
+	\label{fig:cov_scn}
 \end{figure}
 
 
