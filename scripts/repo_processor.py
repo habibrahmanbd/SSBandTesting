@@ -303,8 +303,13 @@ if __name__=="__main__":
 	plt.title(str(repo_name))
 	plt.ylabel('Bug Frequency')
 	plt.xlabel('Years')
-	if os.path.isdir(str(cur_dir)+'/bugs_distribution/') == False:
-		os.system('mkdir bugs_distribution')
-	plt.savefig(cur_dir+'/bugs_distribution/'+repo_name+'.png')
+	img_dir = str(cur_dir)+'/bugs_distribution'
+	print(img_dir)
+	print(os.path.isdir(img_dir) == False)
+	if os.path.isdir(img_dir) == False:
+		print('False.... for Bugs_distribution')
+		Path(img_dir).mkdir(parents=True, exist_ok=True)
+		#os.system('mkdir bugs_distribution')
+	plt.savefig(img_dir+'/'+repo_name+'.png')
 
 
