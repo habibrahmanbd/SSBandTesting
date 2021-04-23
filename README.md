@@ -94,7 +94,7 @@ We find the correlation in Excel. For this, we use the following formula:
 
 For `scripts/results_manually_processed.csv`, it looks like `=CORREL(E2:E13,G2:G13)`.
 
-⚙️ ## Generating the Coverage Reports for the Projects
+## ⚙️ Generating the Coverage Reports for the Projects
 
 The `reports_generation` folder contains all the data required to generate the coverage reports. Follow the following steps to navigate through `reports_generation` folder and generate reports.
 
