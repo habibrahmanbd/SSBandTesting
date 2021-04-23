@@ -257,7 +257,7 @@ if __name__=="__main__":
 
 		next_release_time, next_release_tag, index = search_in_dictory(tag_date, int(time_commit))
 #		print(next_release_time)
-		logging.info(repo_name+" => "+next_release_tag)
+		logging.info(repo_name+" => "+str(next_release_tag))
 		if next_release_time > 0:
 			bug_file_name = row[1]
 			#print('Version: '+str(next_release_tag))
