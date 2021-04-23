@@ -24,7 +24,8 @@ if __name__=="__main__":
 	#print(data[0])
 	count = 0
 	print('----------------Removing Previous Data-------------------')
-	os.system('rm -rf dataset_split/*')
+	os.system('rm -rf dataset_split')
+	os.system('mkdir dataset_split')
 	print('Done.')
 	print('----------------Spliting into Seprate CSV-----------------')
 	#print('Len: '+str(len(data)))
