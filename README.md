@@ -150,6 +150,8 @@ To generate the coverage report for a specific version, first clone the repo, us
 
 That's it. The report will be generateed in the `/target` folder at root directory.
 
+Note: If you need to run evaluation with those newly generated reports, you need to first add them in the reports folder.
+
 ### Step 2: Generating Reports for Next Versions
 
 The readme file for each project contains the instructions on how to generate the reports for the next versions. For some projects, there are a lot of discrepencies, for others it is not very different for different versions. For example, for `alibaba.druid` project, the isntructions can ev found in `reports-generation/alibaba.druid/readme.md`.
