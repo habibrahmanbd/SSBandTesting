@@ -154,6 +154,6 @@ That's it. The report will be generateed in the `/target` folder at root directo
 
 The readme file for each project contains the instructions on how to generate the reports for the next versions. For some projects, there are a lot of discrepencies, for others it is not very different for different versions. For example, for `alibaba.druid` project, the isntructions can ev found in `reports-generation/alibaba.druid/readme.md`.
 
-## Acknowledgement
+## 🙌 Acknowledgement
 
 Thanks to Prof. Sarah for guiding us throughout the project and teaching the skills necessary to execute the idea. A shoutout to CMPUT501 TAs - Batyr and Henry as well for all the lab sessions and walkthroughs on actually using different technologies.
