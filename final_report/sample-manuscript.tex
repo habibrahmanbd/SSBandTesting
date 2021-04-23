@@ -196,7 +196,7 @@ SSBs occur quite often \cite{sstubs} and can be very critical. For example, Appl
 We intend to understand the effectiveness of testing on SSBs by the correlation between test coverage and single statement bugs. If more test coverage in a project results in fewer SSBs, it shows that testing is helpful and vice versa. This leads to our research question, \emph{Is there a correlation between test coverage and single statement bugs?} We hypothesized that there is a weak to moderate relationship between SSBs and test coverage, i.e., testing is helpful to some extent.
 
 %iv. Summary of Methodology
-To verify our hypothesis, we analyze the post-unit test bugs in the areas covered and not covered by the testing. If a part is covered by testing, it means it has been executed for its intended purpose and it works fine. In future, if bugs are found in the covered part, it will show that testing did not help here. To check that, we first generate the coverage report at the release time, and see if the bugs found after the release are in covered part or not covered part. Finally, we calculate the percentage of coverage and percentage bugs in the not covered part, to find the correlation between them. It serves as a proxy for the effectiveness of unit testing for SSBs.
+To verify our hypothesis, we analyze the post-unit test bugs in the areas covered and not covered by the testing. If a part is covered by testing, it means it has been executed for its intended purpose and it works fine. In future, if more bugs are found in the covered part, it will show that testing did not help here. To check that, we first generate the coverage report at the release time, and see if the bugs found after the release are in covered part or not covered part. Finally, we calculate the percentage of coverage and percentage bugs in the not covered part, to find the correlation between them. It serves as a proxy for the effectiveness of unit testing for SSBs.
 
 For our study, we use the Mining Software Repositories (MSR) 2021 challenge' SSBs dataset\cite{sstubs}. It contains 7824 SSBs from the top 100 Maven-based open source Java projects on GitHub. The important thing about this dataset is that projects can be built and their test can be executed. Which is important for us to be able to generate reports.
 
@@ -230,6 +230,14 @@ $\bar{y}$ – the mean of the values of the y-variable
 
 
 Percentage test coverage, and number of bugs in the not covered part are the variable for our case.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.7, angle=-90,width=0.5\linewidth]{img/cov_scn.pdf}
+	\caption{An overview of the bug distribution scenario based on coverage. \cite{similar}}
+	\Description{A snap of the bug distribution scenario based on coverage.}
+	\label{fig:method_snap}
+\end{figure}
 
 
 \section{Related Work}
