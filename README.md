@@ -14,39 +14,39 @@ This repository contains the project artifacts for the graduate project of CMPUT
 .
 ├── dataset
 │   ├── bugs.txt
-│   ├── by-project                                                # Contains Projectwise Dataset
+│   ├── by-project                                # Contains Projectwise Dataset
 │   │   ├── Activiti.Activiti
 │   │   ├── ...
-│   ├── occurrence_of_stub.png                                    # Graph of SSBs distribution
+│   ├── occurrence_of_stub.png                    # Graph of SSBs distribution
 │   ├── ssb_ratio_chart.xls
 │   ├── ssb_ratio.csv
-│   ├── sstubs.json                                               # MSR 2021 Challenge Dataset
+│   ├── sstubs.json                               # MSR 2021 Challenge Dataset
 │   └── sstubs.txt
 ├── projects.txt
 ├── README.md
-├── reports                                                       # Projectwise Coverage Report
+├── reports                                       # Projectwise Coverage Report
 │   ├── async-http-client
-│   │   ├── async-http-client-project-2.0.25                      # Project Versionwise Jacoco Report by Release Tag
+│   │   ├── async-http-client-project-2.0.25      # Project Versionwise Jacoco Report by Release Tag
 │   │   ├── ...
 │   ...
-├── reports-generation                                            # Contains Instructions on Generating Reports for Each Project
+├── reports-generation                            # Contains Instructions on Generating Reports for Each Project
 │   ├── alibaba.druid
-│   │   ├── readme.md                                             # Project specific instructions for generating report
-│   │   ├── 1.1.10                                                # Contains files which needs to be replaced in specific version
+│   │   ├── readme.md                             # Project specific instructions for generating report
+│   │   ├── 1.1.10                                # Contains files which needs to be replaced in specific version
 │   │   ├── ...
 │   ...
 ├── scripts
-│   ├── bugs_distribution                                         # Contains bugs distribution graphs for projects
-│   ├── dataset_split                                             # Contains splitted dataset csv files
-│   ├── evaluate_all.sh                                           # Main script to do all the processing/calculations
-│   ├── evaluate.sh                                               # Script for Single Project Report Generate (used by evaluate_all.sh)
-│   ├── json_preprocess.py                                        # Python Script for Split Dataset by Project
-│   ├── repo_list.txt                                             # Contains the Git Repo Link in ssh format for cloning them
-│   ├── repo_processor.py                                         # Python Script to Cloning Repo, Parsing Jacoco XML and doing calculations
+│   ├── bugs_distribution                         # Contains bugs distribution graphs for projects
+│   ├── dataset_split                             # Contains splitted dataset csv files
+│   ├── evaluate_all.sh                           # Main script to do all the processing/calculations
+│   ├── evaluate.sh                               # Script for Single Project Report Generate (used by evaluate_all.sh)
+│   ├── json_preprocess.py                        # Python Script for Split Dataset by Project
+│   ├── repo_list.txt                             # Contains the Git Repo Link in ssh format for cloning them
+│   ├── repo_processor.py                         # Python Script to Cloning Repo, Parsing Jacoco XML and doing calculations
 │   ├── repos
-│   │   ├── Activiti                                              # Contains the cloned Project from GitHub
+│   │   ├── Activiti                              # Contains the cloned Project from GitHub
 │   │   ├── ...
-├── final_report                                                  # Contains the final report of project
+├── final_report                                  # Contains the final report of project
 ```
 
 ## 📈 Generating the Results
