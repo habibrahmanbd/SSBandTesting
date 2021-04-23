@@ -150,7 +150,7 @@ To generate the coverage report for a specific version, first clone the repo, us
 
 That's it. The report will be generateed in the `/target` folder at root directory.
 
-Note: If you need to run evluation with those newly generated reports, you need to first add them in the reports folder.
+Note: If you need to run evaluation with those newly generated reports, you need to first add them in the reports folder.
 
 ### Step 2: Generating Reports for Next Versions
 
