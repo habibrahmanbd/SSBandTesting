@@ -1,0 +1,2 @@
+	-   if (submittedNode == null || submittedNode.get("values") != null) {
+	+   if (submittedNode == null || submittedNode.get("values") == null) {

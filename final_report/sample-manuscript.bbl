@@ -37,48 +37,32 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
-\bibitem[\protect\citeauthoryear{{Antinyan}, {Derehag}, {Sandberg}, and
-  {Staron}}{{Antinyan} et~al\mbox{.}}{2018}]%
+\bibitem[\protect\citeauthoryear{{Antinyan}, {Derehag}, {Sandberg}, and {Staron}}{{Antinyan} et~al\mbox{.}}{2018}]%
         {ericson}
-\bibfield{author}{\bibinfo{person}{V. {Antinyan}}, \bibinfo{person}{J.
-  {Derehag}}, \bibinfo{person}{A. {Sandberg}}, {and} \bibinfo{person}{M.
-  {Staron}}.} \bibinfo{year}{2018}\natexlab{}.
+\bibfield{author}{\bibinfo{person}{V. {Antinyan}}, \bibinfo{person}{J. {Derehag}}, \bibinfo{person}{A. {Sandberg}}, {and} \bibinfo{person}{M. {Staron}}.} \bibinfo{year}{2018}\natexlab{}.
 \newblock \showarticletitle{Mythical Unit Test Coverage}.
-\newblock \bibinfo{journal}{\emph{IEEE Software}} \bibinfo{volume}{35},
-  \bibinfo{number}{3} (\bibinfo{year}{2018}), \bibinfo{pages}{73--79}.
+\newblock \bibinfo{journal}{\emph{IEEE Software}} \bibinfo{volume}{35}, \bibinfo{number}{3} (\bibinfo{year}{2018}), \bibinfo{pages}{73--79}.
 \newblock
 \urldef\tempurl%
 \url{https://doi.org/10.1109/MS.2017.3281318}
 \showDOI{\tempurl}
 
 
-\bibitem[\protect\citeauthoryear{{Bach}, {Andrzejak}, {Pannemans}, and
-  {Lo}}{{Bach} et~al\mbox{.}}{2017}]%
+\bibitem[\protect\citeauthoryear{{Bach}, {Andrzejak}, {Pannemans}, and {Lo}}{{Bach} et~al\mbox{.}}{2017}]%
         {similar}
-\bibfield{author}{\bibinfo{person}{T. {Bach}}, \bibinfo{person}{A.
-  {Andrzejak}}, \bibinfo{person}{R. {Pannemans}}, {and} \bibinfo{person}{D.
-  {Lo}}.} \bibinfo{year}{2017}\natexlab{}.
-\newblock \showarticletitle{The Impact of Coverage on Bug Density in a Large
-  Industrial Software Project}. In \bibinfo{booktitle}{\emph{2017 ACM/IEEE
-  International Symposium on Empirical Software Engineering and Measurement
-  (ESEM)}}. \bibinfo{pages}{307--313}.
+\bibfield{author}{\bibinfo{person}{T. {Bach}}, \bibinfo{person}{A. {Andrzejak}}, \bibinfo{person}{R. {Pannemans}}, {and} \bibinfo{person}{D. {Lo}}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{The Impact of Coverage on Bug Density in a Large Industrial Software Project}. In \bibinfo{booktitle}{\emph{2017 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)}}. \bibinfo{pages}{307--313}.
 \newblock
 \urldef\tempurl%
 \url{https://doi.org/10.1109/ESEM.2017.44}
 \showDOI{\tempurl}
 
 
-\bibitem[\protect\citeauthoryear{Chen, Kommrusch, Tufano, Pouchet, Poshyvanyk,
-  and Monperrus}{Chen et~al\mbox{.}}{2020}]%
+\bibitem[\protect\citeauthoryear{Chen, Kommrusch, Tufano, Pouchet, Poshyvanyk, and Monperrus}{Chen et~al\mbox{.}}{2020}]%
         {sequenceR}
-\bibfield{author}{\bibinfo{person}{Zimin Chen}, \bibinfo{person}{Steve~James
-  Kommrusch}, \bibinfo{person}{Michele Tufano}, \bibinfo{person}{Louis-Noel
-  Pouchet}, \bibinfo{person}{Denys Poshyvanyk}, {and} \bibinfo{person}{Martin
-  Monperrus}.} \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{SEQUENCER: Sequence-to-Sequence Learning for
-  End-to-End Program Repair}.
-\newblock \bibinfo{journal}{\emph{IEEE Transactions on Software Engineering}}
-  (\bibinfo{year}{2020}), \bibinfo{pages}{1–1}.
+\bibfield{author}{\bibinfo{person}{Zimin Chen}, \bibinfo{person}{Steve~James Kommrusch}, \bibinfo{person}{Michele Tufano}, \bibinfo{person}{Louis-Noel Pouchet}, \bibinfo{person}{Denys Poshyvanyk}, {and} \bibinfo{person}{Martin Monperrus}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{SEQUENCER: Sequence-to-Sequence Learning for End-to-End Program Repair}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Software Engineering}} (\bibinfo{year}{2020}), \bibinfo{pages}{1–1}.
 \newblock
 \showISSN{2326-3881}
 \urldef\tempurl%
@@ -86,13 +70,10 @@
 \showDOI{\tempurl}
 
 
-\bibitem[\protect\citeauthoryear{Chen and Monperrus}{Chen and
-  Monperrus}{2018}]%
+\bibitem[\protect\citeauthoryear{Chen and Monperrus}{Chen and Monperrus}{2018}]%
         {coderep}
-\bibfield{author}{\bibinfo{person}{Zimin Chen} {and} \bibinfo{person}{Martin
-  Monperrus}.} \bibinfo{year}{2018}\natexlab{}.
-\newblock \bibinfo{title}{The CodRep Machine Learning on Source Code
-  Competition}.
+\bibfield{author}{\bibinfo{person}{Zimin Chen} {and} \bibinfo{person}{Martin Monperrus}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{The CodRep Machine Learning on Source Code Competition}.
 \newblock
 \newblock
 \showeprint[arxiv]{1807.03200}~[cs.SE]
@@ -100,13 +81,9 @@
 
 \bibitem[\protect\citeauthoryear{Gren and Antinyan}{Gren and Antinyan}{2017}]%
         {gren_2017}
-\bibfield{author}{\bibinfo{person}{Lucas Gren} {and} \bibinfo{person}{Vard
-  Antinyan}.} \bibinfo{year}{2017}\natexlab{}.
-\newblock \showarticletitle{On the Relation Between Unit Testing and Code
-  Quality}.
-\newblock \bibinfo{journal}{\emph{2017 43rd Euromicro Conference on Software
-  Engineering and Advanced Applications (SEAA)}} (\bibinfo{date}{Aug}
-  \bibinfo{year}{2017}).
+\bibfield{author}{\bibinfo{person}{Lucas Gren} {and} \bibinfo{person}{Vard Antinyan}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{On the Relation Between Unit Testing and Code Quality}.
+\newblock \bibinfo{journal}{\emph{2017 43rd Euromicro Conference on Software Engineering and Advanced Applications (SEAA)}} (\bibinfo{date}{Aug} \bibinfo{year}{2017}).
 \newblock
 \showISBNx{9781538621417}
 \urldef\tempurl%
@@ -114,17 +91,10 @@
 \showDOI{\tempurl}
 
 
-\bibitem[\protect\citeauthoryear{Inozemtseva and Holmes}{Inozemtseva and
-  Holmes}{2014}]%
+\bibitem[\protect\citeauthoryear{Inozemtseva and Holmes}{Inozemtseva and Holmes}{2014}]%
         {waterloo}
-\bibfield{author}{\bibinfo{person}{Laura Inozemtseva} {and}
-  \bibinfo{person}{Reid Holmes}.} \bibinfo{year}{2014}\natexlab{}.
-\newblock \showarticletitle{Coverage is Not Strongly Correlated with Test Suite
-  Effectiveness}. In \bibinfo{booktitle}{\emph{Proceedings of the 36th
-  International Conference on Software Engineering}} (Hyderabad, India)
-  \emph{(\bibinfo{series}{ICSE 2014})}. \bibinfo{publisher}{Association for
-  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
-  \bibinfo{pages}{435–445}.
+\bibfield{author}{\bibinfo{person}{Laura Inozemtseva} {and} \bibinfo{person}{Reid Holmes}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Coverage is Not Strongly Correlated with Test Suite Effectiveness}. In \bibinfo{booktitle}{\emph{Proceedings of the 36th International Conference on Software Engineering}} (Hyderabad, India) \emph{(\bibinfo{series}{ICSE 2014})}. \bibinfo{publisher}{Association for Computing Machinery}, \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{435–445}.
 \newblock
 \showISBNx{9781450327565}
 \urldef\tempurl%
@@ -132,17 +102,10 @@
 \showDOI{\tempurl}
 
 
-\bibitem[\protect\citeauthoryear{Karampatsis and Sutton}{Karampatsis and
-  Sutton}{2020}]%
+\bibitem[\protect\citeauthoryear{Karampatsis and Sutton}{Karampatsis and Sutton}{2020}]%
         {sstubs}
-\bibfield{author}{\bibinfo{person}{Rafael-Michael Karampatsis} {and}
-  \bibinfo{person}{Charles Sutton}.} \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{How Often Do Single-Statement Bugs Occur? The
-  ManySStuBs4J Dataset}. In \bibinfo{booktitle}{\emph{Proceedings of the 17th
-  International Conference on Mining Software Repositories}} (Seoul, Republic
-  of Korea) \emph{(\bibinfo{series}{MSR '20})}. \bibinfo{publisher}{Association
-  for Computing Machinery}, \bibinfo{address}{New York, NY, USA},
-  \bibinfo{pages}{573–577}.
+\bibfield{author}{\bibinfo{person}{Rafael-Michael Karampatsis} {and} \bibinfo{person}{Charles Sutton}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{How Often Do Single-Statement Bugs Occur? The ManySStuBs4J Dataset}. In \bibinfo{booktitle}{\emph{Proceedings of the 17th International Conference on Mining Software Repositories}} (Seoul, Republic of Korea) \emph{(\bibinfo{series}{MSR '20})}. \bibinfo{publisher}{Association for Computing Machinery}, \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{573–577}.
 \newblock
 \showISBNx{9781450375177}
 \urldef\tempurl%
@@ -152,14 +115,8 @@
 
 \bibitem[\protect\citeauthoryear{Namin and Andrews}{Namin and Andrews}{2009}]%
         {waterloo2}
-\bibfield{author}{\bibinfo{person}{Akbar~Siami Namin} {and}
-  \bibinfo{person}{James~H. Andrews}.} \bibinfo{year}{2009}\natexlab{}.
-\newblock \showarticletitle{The Influence of Size and Coverage on Test Suite
-  Effectiveness}. In \bibinfo{booktitle}{\emph{Proceedings of the Eighteenth
-  International Symposium on Software Testing and Analysis}} (Chicago, IL, USA)
-  \emph{(\bibinfo{series}{ISSTA '09})}. \bibinfo{publisher}{Association for
-  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
-  \bibinfo{pages}{57–68}.
+\bibfield{author}{\bibinfo{person}{Akbar~Siami Namin} {and} \bibinfo{person}{James~H. Andrews}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{The Influence of Size and Coverage on Test Suite Effectiveness}. In \bibinfo{booktitle}{\emph{Proceedings of the Eighteenth International Symposium on Software Testing and Analysis}} (Chicago, IL, USA) \emph{(\bibinfo{series}{ISSTA '09})}. \bibinfo{publisher}{Association for Computing Machinery}, \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{57–68}.
 \newblock
 \showISBNx{9781605583389}
 \urldef\tempurl%
@@ -167,18 +124,11 @@
 \showDOI{\tempurl}
 
 
-\bibitem[\protect\citeauthoryear{Tufano, Watson, Bavota, Penta, White, and
-  Poshyvanyk}{Tufano et~al\mbox{.}}{2019}]%
+\bibitem[\protect\citeauthoryear{Tufano, Watson, Bavota, Penta, White, and Poshyvanyk}{Tufano et~al\mbox{.}}{2019}]%
         {bugs2fix}
-\bibfield{author}{\bibinfo{person}{Michele Tufano}, \bibinfo{person}{Cody
-  Watson}, \bibinfo{person}{Gabriele Bavota}, \bibinfo{person}{Massimiliano~Di
-  Penta}, \bibinfo{person}{Martin White}, {and} \bibinfo{person}{Denys
-  Poshyvanyk}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{An Empirical Study on Learning Bug-Fixing Patches
-  in the Wild via Neural Machine Translation}.
-\newblock \bibinfo{journal}{\emph{ACM Trans. Softw. Eng. Methodol.}}
-  \bibinfo{volume}{28}, \bibinfo{number}{4}, Article \bibinfo{articleno}{19}
-  (\bibinfo{date}{Sept.} \bibinfo{year}{2019}), \bibinfo{numpages}{29}~pages.
+\bibfield{author}{\bibinfo{person}{Michele Tufano}, \bibinfo{person}{Cody Watson}, \bibinfo{person}{Gabriele Bavota}, \bibinfo{person}{Massimiliano~Di Penta}, \bibinfo{person}{Martin White}, {and} \bibinfo{person}{Denys Poshyvanyk}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{An Empirical Study on Learning Bug-Fixing Patches in the Wild via Neural Machine Translation}.
+\newblock \bibinfo{journal}{\emph{ACM Trans. Softw. Eng. Methodol.}} \bibinfo{volume}{28}, \bibinfo{number}{4}, Article \bibinfo{articleno}{19} (\bibinfo{date}{Sept.} \bibinfo{year}{2019}), \bibinfo{numpages}{29}~pages.
 \newblock
 \showISSN{1049-331X}
 \urldef\tempurl%
